@@ -1,8 +1,27 @@
 $sourcePath = "C:\Users\ngtoa\Documents\ObsidianNotes\content\"
 $destinationPath = "C:\Users\ngtoa\Documents\GitHub\johntechtalks\content\"
 
+Write-Host "Syncing posts from Obsidian..."
+
+if (-not (Test-Path $sourcePath)) {
+    Write-Error "Source path does not exist: $sourcePath"
+    exit 1
+}
+
+if (-not (Test-Path $destinationPath)) {
+    Write-Error "Destination path does not exist: $destinationPath"
+    exit 1
+}
+
+
 $robocopyOptions = @('/MIR', '/Z', '/W:5', '/R:3')
 $robocopyResult = robocopy $sourcePath $destinationPath @robocopyOptions
+
+
+if ($LASTEXITCODE -ge 8) {
+    Write-Error "Robocopy failed with exit code $LASTEXITCODE"
+    exit 1
+}
 
 # Check for Python command (python or python3)
 if (Get-Command 'python' -ErrorAction SilentlyContinue) {
