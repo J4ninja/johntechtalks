@@ -2,39 +2,47 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>John Tech Talks</title>
-    <link>//localhost:1313/</link>
+    <link>/</link>
     <description>Recent content on John Tech Talks</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <managingEditor>j4nguyen134@gmail.com (John Nguyen)</managingEditor>
     <webMaster>j4nguyen134@gmail.com (John Nguyen)</webMaster>
-    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Who am I ?!</title>
+      <link>/posts/who-am-i/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate><author>j4nguyen134@gmail.com (John Nguyen)</author>
+      <guid>/posts/who-am-i/</guid>
+      <description>&lt;p&gt;Who am I ?! This is the most asked question in my life. Yet no clear answer has yet been found.&lt;/p&gt;&#xA;&lt;p&gt;As a child, the answer to this question was simple. Say my name to the question of who. Aha ..! Simple and beautiful. In that answer, parents and siblings in adolescence. I thought to myself that the answer was too clear.&lt;/p&gt;</description>
+    </item>
     <item>
       <title></title>
-      <link>//localhost:1313/notes/</link>
+      <link>/notes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>j4nguyen134@gmail.com (John Nguyen)</author>
-      <guid>//localhost:1313/notes/</guid>
+      <guid>/notes/</guid>
       <description></description>
     </item>
     <item>
       <title></title>
-      <link>//localhost:1313/posts/tech-bro-with-a-gf/</link>
+      <link>/posts/tech-bro-with-a-gf/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>j4nguyen134@gmail.com (John Nguyen)</author>
-      <guid>//localhost:1313/posts/tech-bro-with-a-gf/</guid>
+      <guid>/posts/tech-bro-with-a-gf/</guid>
       <description></description>
     </item>
     <item>
       <title>About me</title>
-      <link>//localhost:1313/about/</link>
+      <link>/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>j4nguyen134@gmail.com (John Nguyen)</author>
-      <guid>//localhost:1313/about/</guid>
-      <description>&lt;p&gt;I am Bino Kochumol Varghese.&lt;/p&gt;&#xA;&lt;p&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&amp;rsquo;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.&lt;/p&gt;</description>
+      <guid>/about/</guid>
+      <description>&lt;h2 id=&#34;about-me&#34;&gt;About Me&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Texas Christian University Alumnus 2024&lt;/li&gt;&#xA;&lt;li&gt;B.S. in Computer Science and Double Minor in Mathematics and Astronomy&lt;/li&gt;&#xA;&lt;li&gt;Honors Laureate with Departmental Honors in Astronomy&lt;/li&gt;&#xA;&lt;li&gt;GPA: 3.9/4.0&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;skills&#34;&gt;Skills:&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Languages&lt;/strong&gt;: &lt;code&gt;Java&lt;/code&gt;, &lt;code&gt;Python&lt;/code&gt;, &lt;code&gt;C&lt;/code&gt;, &lt;code&gt;C++&lt;/code&gt;, &lt;code&gt;JavaScript&lt;/code&gt;, &lt;code&gt;Swift&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Frameworks&lt;/strong&gt;: &lt;code&gt;Vue.js&lt;/code&gt;, &lt;code&gt;Spring&lt;/code&gt;, &lt;code&gt;PyTorch&lt;/code&gt;, &lt;code&gt;React.js&lt;/code&gt;, &lt;code&gt;Next.js&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Databases&lt;/strong&gt;: &lt;code&gt;SQL&lt;/code&gt;, &lt;code&gt;MongoDB&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Tools&lt;/strong&gt;: &lt;code&gt;Git&lt;/code&gt;, &lt;code&gt;Docker&lt;/code&gt;, &lt;code&gt;VMWare&lt;/code&gt;, &lt;code&gt;VSCode&lt;/code&gt;, &lt;code&gt;Intellij&lt;/code&gt;, &lt;code&gt;Netbeans&lt;/code&gt;, &lt;code&gt;Eclipse&lt;/code&gt;, &lt;code&gt;Wireshark&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Operating Systems&lt;/strong&gt;: &lt;code&gt;Linux&lt;/code&gt;, &lt;code&gt;macOS&lt;/code&gt;, &lt;code&gt;Windows&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Concepts&lt;/strong&gt;: &lt;code&gt;RESTful APIs&lt;/code&gt;, &lt;code&gt;OOP&lt;/code&gt;, &lt;code&gt;Design Patterns&lt;/code&gt;, &lt;code&gt;Software Engineering&lt;/code&gt;, &lt;code&gt;Agile&lt;/code&gt;, &lt;code&gt;API-First&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;interests&#34;&gt;Interests&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Artificial Intelligence&lt;/li&gt;&#xA;&lt;li&gt;Fullstack Web Applications&lt;/li&gt;&#xA;&lt;li&gt;Embedded Systems&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;social-media&#34;&gt;Social Media&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Portfolio &lt;a href=&#34;https://www.johnnguyenportfolio.com&#34;&gt;johnnguyenportfolio.com&lt;/a&gt;  · &#xA;GitHub &lt;a href=&#34;https://github.com/j4ninja&#34;&gt;@j4ninja&lt;/a&gt;  · &#xA;LinkedIn &lt;a href=&#34;https://linkedin.com/in/john-4-nguyen&#34;&gt;@johnnguyen&lt;/a&gt;  · &lt;/p&gt;</description>
     </item>
     <item>
       <title>Collections</title>
-      <link>//localhost:1313/collections/</link>
+      <link>/collections/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>j4nguyen134@gmail.com (John Nguyen)</author>
-      <guid>//localhost:1313/collections/</guid>
+      <guid>/collections/</guid>
       <description></description>
     </item>
   </channel>
