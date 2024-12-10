@@ -4,6 +4,24 @@ $destinationPath = "C:\Users\ngtoa\Documents\GitHub\johntechtalks\content\"
 $robocopyOptions = @('/MIR', '/Z', '/W:5', '/R:3')
 $robocopyResult = robocopy $sourcePath $destinationPath @robocopyOptions
 
+# Check for Python command (python or python3)
+if (Get-Command 'python' -ErrorAction SilentlyContinue) {
+    $pythonCommand = 'python'
+} elseif (Get-Command 'python3' -ErrorAction SilentlyContinue) {
+    $pythonCommand = 'python3'
+} else {
+    Write-Error "Python is not installed or not in PATH."
+    exit 1
+}
+
+# Execute the Python script
+try {
+    & $pythonCommand images.py
+} catch {
+    Write-Error "Failed to process image links."
+    exit 1
+}
+
 Write-Host "Building the Hugo site..."
 try {
     hugo
@@ -66,3 +84,5 @@ try {
 
 # Delete the temporary branch
 git branch -D hostinger-deploy
+
+Write-Host "All done! Site synced, processed, committed, built, and deployed."
