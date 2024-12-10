@@ -1,86 +1,63 @@
-baseURL = "/"
-DefaultContentLanguage = "en"
-defaultContentLanguageInSubdir = false
-languageCode = "en-us"
-title = "John Tech Talks"
-theme = "lightbi-hugo"
-metaDataFormat = "yaml"
-pygmentsStyle = "trac"
-#pygmentsUseClasses = true
-#pygmentsCodeFences = true
-pygmentsCodefencesGuessSyntax = true
-#pygmentsUseClassic = true
-#pygmentOptions = "linenos=inline"
-#disqusShortname = "XXX"
-#googleAnalytics = "XXX"
-enableRobotsTXT = true
-enableGitInfo = false
-summaryLength  = "30"
-ignoreLogs = ['warning-goldmark-raw-html']
+baseURL = "https://www.angularcorp.com/" # Must end with splash
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+disqusShortname = "johntechtalks-com"
 
-[pagination]
-pagerSize = 6
+staticDir = ["static", "themes/Niello/static"]
 
-[Params]
-selfHosted = true
-mainSections = ["post","posts"]
-dateFormat = "02 January 2006"
-comments = false
-readingTime = false
-wordCount = false
-useHLJS = true
-socialShare = true
-delayDisqus = true
-showRelatedPosts = true
-summaryLength  = "9"
-lunrSearch = true
-gcse = false
-lastmod = false
-rss = false
-pagination = "10"
-hideAuthor = false
-description="Your can add your website description here."
-previewCardImagePlacement = "bottom"
-showPostImage = false
+theme = "Niello"
 
-[Params.Author]
-  name = "John Nguyen"
-  website = "https://www.binovarghese.com/"
-  authorInfo = "Live your life as though every moment matters, because in the end, it's not the years in your life, but the life in your years that counts."
-  authorPostImage = ""
-  email = "j4nguyen134@gmail.com"
-  facebook = "username"
-  instagram = "username"
-  linkedin = "username"
-  github = "username"
+[languages]
+	[languages.en]
+		title = "{CodeTrace} - Discover Issues, Share Solutions."
+		languageCode = "en-us"
+		LanguageName = "🇺🇸EN"
+		contentDir = "content/en"
+		weight = 1
+		[[languages.en.menus.main]]
+			name = 'Home'
+			pageRef = '/'
+			weight = 1
+		[[languages.en.menus.main]]
+			name = 'Categories'
+			pageRef = '/categories'
+			weight = 2
+		[[languages.en.menus.main]]
+			name = 'Tags'
+			pageRef = '/tags'
+			weight = 3
+		[[languages.en.menus.main]]
+			name = 'Contact'
+			pageRef = '/contact'
+			weight = 4
+	[languages.zh]
+		title = "{码途轨迹} - 发现问题，分享解决."
+        languageCode = "zh-cn"
+        LanguageName = "🇨🇳CN"
+        contentDir = "content/zh"
+        weight = 2
+		[[languages.zh.menus.main]]
+			name = '首页'
+			pageRef = '/'
+			weight = 1
+		[[languages.zh.menus.main]]
+			name = '文章分类'
+			pageRef = '/categories'
+			weight = 2
+		[[languages.zh.menus.main]]
+			name = '标签'
+			pageRef = '/tags'
+			weight = 3
+		[[languages.zh.menus.main]]
+			name = '联系我们'
+			pageRef = '/contact'
+			weight = 4
+        
+[params]
+copyright = "&#xA9; 2019 - 2024 by guangmean. All Rights Reserved."
+google_ad_client = "ca-pub-******"
+ga4 = "G-******"
+sharethis = ""
 
-[[menu.main]]
-    name = "Home"
-    url = "/"
-    weight = 1
-
-[[menu.main]]
-    name = "Notes"
-    url = "/notes/"
-    weight = 2
-
-[[menu.main]]
-    name = "Tags"
-    url = "/tags/blog/"
-    weight = 3
-
-[[menu.main]]
-    name = "Collections"
-    url = "/collections/"
-    weight = 4
-
-[[menu.main]]
-    name = "About"
-    url = "/about/"
-    weight = 5
-
-
-[sitemap]
-  changefreq = "monthly"
-  priority = 0.5
-  filename = "sitemap.xml"
+[outputs]
+  home = ["HTML", "JSON"] 
