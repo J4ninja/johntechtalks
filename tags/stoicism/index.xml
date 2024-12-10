@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Stoicism on John Tech Talks</title>
-    <link>/tags/stoicism/</link>
+    <link>//localhost:1313/tags/stoicism/</link>
     <description>Recent content in Stoicism on John Tech Talks</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <managingEditor>j4nguyen134@gmail.com (John Nguyen)</managingEditor>
     <webMaster>j4nguyen134@gmail.com (John Nguyen)</webMaster>
     <lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/stoicism/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/stoicism/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Who am I ?!</title>
-      <link>/posts/who-am-i/</link>
+      <link>//localhost:1313/posts/who-am-i/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate><author>j4nguyen134@gmail.com (John Nguyen)</author>
-      <guid>/posts/who-am-i/</guid>
+      <guid>//localhost:1313/posts/who-am-i/</guid>
       <description>&lt;p&gt;Who am I ?! This is the most asked question in my life. Yet no clear answer has yet been found.&lt;/p&gt;&#xA;&lt;p&gt;As a child, the answer to this question was simple. Say my name to the question of who. Aha ..! Simple and beautiful. In that answer, parents and siblings in adolescence. I thought to myself that the answer was too clear.&lt;/p&gt;</description>
     </item>
   </channel>
