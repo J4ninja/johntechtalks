@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on </title>
-    <link>https://localhost:1313/tags/</link>
+    <link>https://johntechtalks.com/tags/</link>
     <description>Recent content in Tags on </description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Tue, 10 Dec 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://johntechtalks.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blog</title>
-      <link>https://localhost:1313/tags/blog/</link>
+      <link>https://johntechtalks.com/tags/blog/</link>
       <pubDate>Tue, 10 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://localhost:1313/tags/blog/</guid>
+      <guid>https://johntechtalks.com/tags/blog/</guid>
       <description></description>
     </item>
     <item>
       <title>Hugo</title>
-      <link>https://localhost:1313/tags/hugo/</link>
+      <link>https://johntechtalks.com/tags/hugo/</link>
       <pubDate>Tue, 10 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://localhost:1313/tags/hugo/</guid>
+      <guid>https://johntechtalks.com/tags/hugo/</guid>
       <description></description>
     </item>
     <item>
       <title>Obsidian</title>
-      <link>https://localhost:1313/tags/obsidian/</link>
+      <link>https://johntechtalks.com/tags/obsidian/</link>
       <pubDate>Tue, 10 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://localhost:1313/tags/obsidian/</guid>
+      <guid>https://johntechtalks.com/tags/obsidian/</guid>
       <description></description>
     </item>
     <item>
       <title>Life</title>
-      <link>https://localhost:1313/tags/life/</link>
+      <link>https://johntechtalks.com/tags/life/</link>
       <pubDate>Mon, 09 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://localhost:1313/tags/life/</guid>
+      <guid>https://johntechtalks.com/tags/life/</guid>
       <description></description>
     </item>
   </channel>
