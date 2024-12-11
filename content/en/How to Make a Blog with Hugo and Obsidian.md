@@ -6,7 +6,7 @@ tags = ["hugo", "obsidian"]
 keywords = ["hugo", "obsidian"]
 description = "SEO Description Here"
 draft = false
-featuredImage = "/images/Pasted%20image%2020241211003538.png"
+featuredImage = "/images/obsidianSmallLogo.png"
 +++
 
 Who even blogs in 2024? I do. Let me give you a few reasons why I am blogging in 2024.
@@ -16,4 +16,4 @@ Who even blogs in 2024? I do. Let me give you a few reasons why I am blogging in
 3. Sharing useful information to the public
 4. Learning necessary tools such as Obsidian and Hugo 
 
-![[obsidianlogo.png]]
+![Image Description](/images/obsidianlogo.png)
