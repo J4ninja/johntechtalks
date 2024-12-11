@@ -15,4 +15,4 @@ Who even blogs in 2024? I do. Let me give you a few reasons why I am blogging in
 3. Sharing useful information to the public
 4. Learning necessary tools such as Obsidian and Hugo 
 
-![[Pasted image 20241211003538.png]]
+![Image Description](/images/Pasted%20image%2020241211003538.png)
