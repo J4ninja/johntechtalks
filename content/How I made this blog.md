@@ -14,4 +14,4 @@ Who even blogs in 2024? I do. Let me give you a few reasons why I am blogging in
 4. Learning necessary tools such as Obsidian and Hugo 
 
 
-![[obsidianlogo.png]]
+!![Image Description](/images/obsidianlogo.png)
