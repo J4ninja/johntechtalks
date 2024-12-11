@@ -1,7 +1,7 @@
 +++
 title = 'How to Make a Blog with Hugo and Obsidian'
 date = 2024-12-10T09:48:12+08:00
-categories = ["tutorials, rec"]
+categories = ["tutorials, "recommended"]
 tags = ["hugo", "obsidian"]
 keywords = ["hugo", "obsidian"]
 description = "SEO Description Here"
