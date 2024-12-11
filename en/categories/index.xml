@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on {John Tech Talks} - Discover Issues, Share Solutions.</title>
+    <link>https://johntechtalks.com/en/categories/</link>
+    <description>Recent content in Categories on {John Tech Talks} - Discover Issues, Share Solutions.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Dec 2024 09:34:12 +0800</lastBuildDate>
+    <atom:link href="https://johntechtalks.com/en/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Life</title>
+      <link>https://johntechtalks.com/en/categories/life/</link>
+      <pubDate>Wed, 11 Dec 2024 09:34:12 +0800</pubDate>
+      <guid>https://johntechtalks.com/en/categories/life/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Review</title>
+      <link>https://johntechtalks.com/en/categories/review/</link>
+      <pubDate>Wed, 11 Dec 2024 09:34:12 +0800</pubDate>
+      <guid>https://johntechtalks.com/en/categories/review/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tutorials</title>
+      <link>https://johntechtalks.com/en/categories/tutorials/</link>
+      <pubDate>Tue, 10 Dec 2024 09:48:12 +0800</pubDate>
+      <guid>https://johntechtalks.com/en/categories/tutorials/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Archives</title>
+      <link>https://johntechtalks.com/en/categories/archives/</link>
+      <pubDate>Fri, 25 Oct 2024 09:16:03 +0800</pubDate>
+      <guid>https://johntechtalks.com/en/categories/archives/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
