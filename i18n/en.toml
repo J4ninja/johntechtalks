@@ -1,6 +1,6 @@
 
 [sitename]
-other = "John Tech Talks"
+other = "{John Tech Talks}"
 
 [siteslogan]
 other = "Discover insights on the latest tech, life hacks, and personal reviews"
@@ -9,7 +9,7 @@ other = "Discover insights on the latest tech, life hacks, and personal reviews"
 other = "Tech Reviews Life Hacks AI Programming Full Stack"
 
 [siteseodescription]
-other = "Site Home SEO Description"
+other = "A personal tech blog on programming, AI, Linux, drones, printing, electric vehicles, and more."
 
 [slogan]
 other = "John Nguyen"
