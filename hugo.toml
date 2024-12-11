@@ -39,4 +39,4 @@ sharethis = ""
 
 
 [outputs]
-home = ["HTML", "JSON"]
+  home = ["HTML", "JSON"]
