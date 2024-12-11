@@ -15,12 +15,5 @@
       <guid>https://localhost:1313/home/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://localhost:1313/images/Pasted%20image%2020241209230436.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;</description>
     </item>
-    <item>
-      <title>How to Make a Blog Using Hugo and Obsidian</title>
-      <link>https://localhost:1313/how-i-made-this-blog/</link>
-      <pubDate>Fri, 25 Oct 2024 09:16:03 +0800</pubDate>
-      <guid>https://localhost:1313/how-i-made-this-blog/</guid>
-      <description></description>
-    </item>
   </channel>
 </rss>

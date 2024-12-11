@@ -1,7 +1,8 @@
 +++
 title = 'Tech Bro with a GF??'
-date = 2024-10-25T09:16:03+08:00
+date = 2024-12-09
 categories = ["life"]
+tags = ["life"]
 featuredImage = "/images/heart.png"
 +++
 
