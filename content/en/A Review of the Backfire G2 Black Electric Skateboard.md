@@ -1,7 +1,7 @@
 +++
 title = 'A Review of the Backfire G2 Black Electric Skateboard'
 date = 2024-12-11T09:34:12+08:00
-categories = ["life", "review"]
+categories = ["life", "reviews"]
 tags = ["vehicle"]
 keywords = ["skateboard", "review"]
 description = "SEO Description Here"
