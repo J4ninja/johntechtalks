@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Life on </title>
-    <link>https://localhost:1313/categories/life/</link>
+    <link>https://localhost:1313/tags/life/</link>
     <description>Recent content in Life on </description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Mon, 09 Dec 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://localhost:1313/categories/life/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://localhost:1313/tags/life/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tech Bro with a GF??</title>
       <link>https://localhost:1313/tech-bro-with-a-gf/</link>

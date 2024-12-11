@@ -5,22 +5,46 @@
     <loc>https://localhost:1313/</loc>
     <lastmod>2024-12-10T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://localhost:1313/tags/blog/</loc>
+    <lastmod>2024-12-10T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://localhost:1313/categories/</loc>
+    <lastmod>2024-12-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://localhost:1313/how-i-made-this-blog/</loc>
+    <lastmod>2024-12-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://localhost:1313/tags/hugo/</loc>
     <lastmod>2024-12-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://localhost:1313/home/</loc>
     <lastmod>2024-12-10T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://localhost:1313/tags/obsidian/</loc>
+    <lastmod>2024-12-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://localhost:1313/tags/</loc>
+    <lastmod>2024-12-10T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://localhost:1313/categories/tutorial/</loc>
     <lastmod>2024-12-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://localhost:1313/categories/tutorials/</loc>
+    <lastmod>2024-12-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://localhost:1313/tags/life/</loc>
+    <lastmod>2024-12-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://localhost:1313/categories/life/</loc>
+    <lastmod>2024-12-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://localhost:1313/tech-bro-with-a-gf/</loc>
+    <lastmod>2024-12-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://localhost:1313/categories/archives/</loc>
     <lastmod>2024-10-25T09:16:03+08:00</lastmod>
   </url><url>
     <loc>https://localhost:1313/archives/</loc>
-    <lastmod>2024-10-25T09:16:03+08:00</lastmod>
-  </url><url>
-    <loc>https://localhost:1313/categories/blog/</loc>
     <lastmod>2024-10-25T09:16:03+08:00</lastmod>
   </url><url>
     <loc>https://localhost:1313/categories/contact/</loc>
@@ -29,25 +53,8 @@
     <loc>https://localhost:1313/contact/</loc>
     <lastmod>2024-10-25T09:16:03+08:00</lastmod>
   </url><url>
-    <loc>https://localhost:1313/how-i-made-this-blog/</loc>
-    <lastmod>2024-10-25T09:16:03+08:00</lastmod>
-  </url><url>
-    <loc>https://localhost:1313/categories/hugo/</loc>
-    <lastmod>2024-10-25T09:16:03+08:00</lastmod>
-  </url><url>
-    <loc>https://localhost:1313/categories/life/</loc>
-    <lastmod>2024-10-25T09:16:03+08:00</lastmod>
-  </url><url>
-    <loc>https://localhost:1313/categories/obsidian/</loc>
-    <lastmod>2024-10-25T09:16:03+08:00</lastmod>
-  </url><url>
-    <loc>https://localhost:1313/tech-bro-with-a-gf/</loc>
-    <lastmod>2024-10-25T09:16:03+08:00</lastmod>
-  </url><url>
     <loc>https://localhost:1313/search/search/</loc>
   </url><url>
     <loc>https://localhost:1313/search/</loc>
-  </url><url>
-    <loc>https://localhost:1313/tags/</loc>
   </url>
 </urlset>
