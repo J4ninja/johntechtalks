@@ -8,7 +8,7 @@ staticDir = ["static"]
 theme = "Niello"
 
 [params]
-copyright = "&#xA9; 2024 by John Nguyen. All Rights Reserved."
+copyright = "John Tech Talks &#xA9; 2024 by John Nguyen. | All Rights Reserved."
 google_ad_client = "ca-pub-******"
 ga4 = "G-******"
 sharethis = ""
