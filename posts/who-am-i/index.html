@@ -1,21 +1,25 @@
 <!DOCTYPE html>
 <html lang="en"
-    dir="ltr"><head>
-	<meta name="generator" content="Hugo 0.139.4"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    dir="ltr"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1">
     <title>
     
-    John Tech Talks
+    Who am I ?! - John Tech Talks
     
 </title>
     
     
     
+    
+    
+    
+    
+    
     <meta name="keywords" content="Site Home SEO Keywords">
-    <meta name="description" content="Site Home SEO Description">
-    <link rel="canonical" href="http://localhost:1313/" />
+    <meta name="description" content="Who am I ?! This is the most asked question in my life. Yet no clear answer has yet been found...">
+    <link rel="canonical" href="http://localhost:1313/posts/who-am-i/" />
     <link rel="icon" href="/favicon.ico?v=1733875234" type="image/x-icon">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
 
@@ -88,7 +92,7 @@
 
 
 <li>
-    <a    aria-current="page"     class="active px-5 lg:px-10 py-3 font-light border-b-2 border-red-500 text-gray-100"     href="/"  >Home</a>
+    <a    class="px-5 lg:px-10 py-3 font-light hover:border-b-2 hover:border-red-500"     href="/"  >Home</a>
     
 </li>
 
@@ -177,6 +181,21 @@
     </div>
 
     
+    <div class="w-full flex flex-row justify-start text-gray-500 text-lg px-1 border-l-4 border-l-red-500">
+        <ul class="flex flex-row gap-x-2">
+            <li class="">
+                <a href="/" class="hover:text-gray-100">Home</a>
+            </li>
+            
+            <li>
+                &gt;&nbsp;&nbsp;<a href="/posts/who-am-i/" class="hover:text-gray-100">Who am I ?!</a>
+            </li>
+            
+        </ul>
+    </div>
+    <div class="w-full h-2 border-b border-b-gray-600/50 border-dashed font-light text-gray-300">
+    </div>
+    
 
 </header>
 
@@ -188,288 +207,42 @@
             <main class="w-full">
                 
 
-
-<div class="home-recommended-title">
-    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-        class="size-6">
-        <path stroke-linecap="round" stroke-linejoin="round"
-            d="M15.362 5.214A8.252 8.252 0 0 1 12 21 8.25 8.25 0 0 1 6.038 7.047 8.287 8.287 0 0 0 9 9.601a8.983 8.983 0 0 1 3.361-6.867 8.21 8.21 0 0 0 3 2.48Z" />
-        <path stroke-linecap="round" stroke-linejoin="round"
-            d="M12 18a3.75 3.75 0 0 0 .495-7.468 5.99 5.99 0 0 0-1.925 3.547 5.975 5.975 0 0 1-2.133-1.001A3.75 3.75 0 0 0 12 18Z" />
-    </svg>
-
-    Recommend Posts
-</div>
-
-
-<div class="relative lg:mx-0 w-full h-96 bg-gray-800 border border-gray-800 rounded-2xl overflow-hidden">
-    <div id="swiper" class="flex flex-row transition-transform duration-300 ease-in-out">
-        
-        
-    </div>
-    <div id="prevBanner"
-        class="absolute top-1/3 left-0 w-8 h-32 bg-gray-800 border-2 border-gray-600 border-l-0 backdrop-blur-2xl rounded-tr-3xl rounded-br-3xl hover:font-bold hover:cursor-pointer hover:bg-gray-400/10">
-        <a href="#" rel="nofollow"
-            class="absolute top-1/3 left-1/3 text-2xl font-medium text-gray-300 hover:text-gray-100 w-full h-full inline-block">&lt;</a>
-    </div>
-    <div id="nextBanner"
-        class="absolute top-1/3 right-0 w-8 h-32 bg-gray-800 border-2 border-gray-600 border-r-0 backdrop-blur-2xl rounded-tl-3xl rounded-bl-3xl hover:font-bold hover:cursor-pointer hover:bg-gray-400/10">
-        <a href="#" rel="nofollow"
-            class="absolute top-1/3 left-1/3 text-2xl font-medium text-gray-300 hover:text-gray-100 w-full h-full inline-block">&gt;</a>
-    </div>
-</div>
-
-<script>
-    document.addEventListener('DOMContentLoaded', function () {
-        const swiper = document.getElementById('swiper');
-        let currentIndex = 1; 
-        const totalImages = swiper.children.length; 
-        const slideWidth = swiper.offsetWidth; 
-        let interval = null; 
-
-        
-        swiper.style.transform = `translateX(-${currentIndex * slideWidth}px)`; 
-        swiper.style.transition = 'none'; 
-
-        
-        function moveToNextSlide() {
-            currentIndex++;
-            swiper.style.transition = 'transform 0.3s ease-in-out';
-            swiper.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
-
-            
-            if (currentIndex === totalImages - 1) {
-                setTimeout(function () {
-                    swiper.style.transition = 'none'; 
-                    currentIndex = 1; 
-                    swiper.style.transform = `translateX(-${slideWidth}px)`;
-                }, 300); 
-            }
-        }
-
-        
-        function moveToPreviousSlide() {
-            currentIndex--;
-            swiper.style.transition = 'transform 0.3s ease-in-out';
-            swiper.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
-
-            
-            if (currentIndex === 0) {
-                setTimeout(function () {
-                    swiper.style.transition = 'none'; 
-                    currentIndex = totalImages - 2; 
-                    swiper.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
-                }, 300); 
-            }
-        }
-
-        
-        function startAutoPlay() {
-            interval = setInterval(moveToNextSlide, 3000);
-        }
-
-        
-        function stopAutoPlay() {
-            clearInterval(interval);
-        }
-
-        
-        swiper.addEventListener('mouseenter', stopAutoPlay);
-        swiper.addEventListener('mouseleave', startAutoPlay);
-
-        
-        document.getElementById('prevBanner').addEventListener('click', function () {
-            stopAutoPlay();
-            moveToPreviousSlide();
-            startAutoPlay();
-        });
-
-        document.getElementById('nextBanner').addEventListener('click', function () {
-            stopAutoPlay();
-            moveToNextSlide();
-            startAutoPlay();
-        });
-
-        
-        startAutoPlay();
-    });
-</script>
-
-
-<div class="flex flex-col space-y-8 mt-8">
-
+<article class="single-article">
     
-
-    
-    
-    <article class="flex flex-col lg:flex-row items-center  px-1 rounded-md">
-    <div class="flex-none w-full lg:w-64 h-48 rounded-lg shadow-md bg-gray-900 shadow-gray-800">
-        
-        
-        <img src="/image/common-writing-empty.webp?v=1733875234" alt=""
-            class="w-full h-48 rounded-2xl object-cover" />
-        
-
-    </div>
-    <div class="w-full lg:p-5 overflow-auto">
-        <h3 class="pt-2 lg:pt-0 line-clamp-1 text-2xl font-medium leading-10 text-gray-400 hover:text-gray-300">
-            <a href="/first-post-copy/">
-                2nd blog
-            </a>
-        </h3>
-        <div class="flex flex-row items-center justify-start py-1 text-lg">
-            
-            <time datetime="2025-03-16" class="text-gray-600">2024-10-25 09:16
-                |
-                1 minute read</time>
-            
-        </div>
-        <div class="line-clamp-3 text-xl font-light leading-8 lg:leading-9 text-gray-500"><p>What the heck is going on</p></div>
-    </div>
-</article>
-    
-
-
-    
-
-    
-    
-
-
-    
-
-    
-    
-    <article class="flex flex-col lg:flex-row items-center  px-1 rounded-md">
-    <div class="flex-none w-full lg:w-64 h-48 rounded-lg shadow-md bg-gray-900 shadow-gray-800">
-        
-        
-        <img src="/image/common-writing-empty.webp?v=1733875234" alt=""
-            class="w-full h-48 rounded-2xl object-cover" />
-        
-
-    </div>
-    <div class="w-full lg:p-5 overflow-auto">
-        <h3 class="pt-2 lg:pt-0 line-clamp-1 text-2xl font-medium leading-10 text-gray-400 hover:text-gray-300">
-            <a href="/first-post/">
-                first blog
-            </a>
-        </h3>
-        <div class="flex flex-row items-center justify-start py-1 text-lg">
-            
-            <time datetime="2025-03-16" class="text-gray-600">2024-10-25 09:16
-                |
-                1 minute read</time>
-            
-        </div>
-        <div class="line-clamp-3 text-xl font-light leading-8 lg:leading-9 text-gray-500"><p>What the heck is going on</p></div>
-    </div>
-</article>
-    
-
-
-    
-
-    
-    
-    <article class="flex flex-col lg:flex-row items-center bg-gray-800/50 px-1 rounded-md">
-    <div class="flex-none w-full lg:w-64 h-48 rounded-lg shadow-md bg-gray-900 shadow-gray-800">
-        
-        
-        <img src="/image/common-writing-empty.webp?v=1733875234" alt=""
-            class="w-full h-48 rounded-2xl object-cover" />
-        
-
-    </div>
-    <div class="w-full lg:p-5 overflow-auto">
-        <h3 class="pt-2 lg:pt-0 line-clamp-1 text-2xl font-medium leading-10 text-gray-400 hover:text-gray-300">
-            <a href="/tech-bro-with-a-gf/">
-                Tech bro with GF?
-            </a>
-        </h3>
-        <div class="flex flex-row items-center justify-start py-1 text-lg">
-            
-            <time datetime="2025-03-16" class="text-gray-600">2024-10-25 09:16
-                |
-                1 minute read</time>
-            
-        </div>
-        <div class="line-clamp-3 text-xl font-light leading-8 lg:leading-9 text-gray-500"><h2 id="example-content">Example content</h2>
-<p><img src="/image/Pasted%20image%2020241209230436.png" alt="Image Description">
-<img src="/images/linkedinpfp.jpg" alt="Image Description"></p></div>
-    </div>
-</article>
-    
-
-
-    
-
-    
-    
-    <article class="flex flex-col lg:flex-row items-center  px-1 rounded-md">
-    <div class="flex-none w-full lg:w-64 h-48 rounded-lg shadow-md bg-gray-900 shadow-gray-800">
-        
-        
-        <img src="/image/common-writing-empty.webp?v=1733875234" alt=""
-            class="w-full h-48 rounded-2xl object-cover" />
-        
-
-    </div>
-    <div class="w-full lg:p-5 overflow-auto">
-        <h3 class="pt-2 lg:pt-0 line-clamp-1 text-2xl font-medium leading-10 text-gray-400 hover:text-gray-300">
+    <div class="group relative">
+        <h1 class="text-3xl font-medium leading-10 text-gray-400 hover:text-gray-100">
             <a href="/posts/who-am-i/">
                 Who am I ?!
             </a>
-        </h3>
-        <div class="flex flex-row items-center justify-start py-1 text-lg">
-            
-            <time datetime="2025-03-16" class="text-gray-600">2020-01-01 00:00
-                |
-                2 minute read</time>
-            
-        </div>
-        <div class="line-clamp-3 text-xl font-light leading-8 lg:leading-9 text-gray-500"><p><img src="image.png" alt="alt text">
+        </h1>
+        <time datetime="2025-03-16" class="flex items-center py-2 text-xl text-gray-600">
+            2020-01-01 00:00
+            &nbsp;&nbsp;|&nbsp;&nbsp;2 minute read
+        </time>
+
+        <div
+            class="mt-1 lg:pb-10 px-2 text-2xl leading-10 font-thin text-gray-500 overflow-hidden break-words article-body">
+            <p><img src="image.png" alt="alt text">
 Who am I ?! This is the most asked question in my life. Yet no clear answer has yet been found.</p>
 <p>As a child, the answer to this question was simple. Say my name to the question of who. Aha ..! Simple and beautiful. In that answer, parents and siblings in adolescence. I thought to myself that the answer was too clear.</p>
-<p>When I started asking myself this question at a young age when I was beginning to recognize many things, I began to feel that the answer was becoming less clear. Who am I ?! If you ask me who I am. Anyone else. Still no answer to the question. Who am I?</p></div>
-    </div>
-</article>
-    
+<p>When I started asking myself this question at a young age when I was beginning to recognize many things, I began to feel that the answer was becoming less clear. Who am I ?! If you ask me who I am. Anyone else. Still no answer to the question. Who am I?</p>
+<p>Seek, that is the way to find the answer. Knock, and it shall be opened unto you !! The investigation has begun.</p>
+<p>There is no doubt where to start. From me. I began to search the bottom of my heart in the silence. From there the search went on to the printed books. Couldn&rsquo;t figure it out from there. No suitable gurus could be found to answer this question.</p>
+<p>The search continued, and the only sound in my heart was to go ahead. The answer is nowhere to be found. So I&rsquo;m still looking around, and the answer to my question is hidden somewhere.</p>
+<p>I do not know, some questions take time to answer. The meaning of a single word question is getting bigger and bigger. Who am I ?! What is my identity ?! What are my missions ?! Can I know the light of the answers ?!</p>
+<p>Those who ask the same questions go up the steps of consciousness and seem to be enlightened and insane. What will I become at the end of this question? !! Buddha or mad !! Anyone should have a small smile left at the end. The smile of recognition.</p>
+<p>Who am I, let the question continue.</p>
+<!-- raw HTML omitted -->
 
-
-    
-
-    
-    
-    <article class="flex flex-col lg:flex-row items-center bg-gray-800/50 px-1 rounded-md">
-    <div class="flex-none w-full lg:w-64 h-48 rounded-lg shadow-md bg-gray-900 shadow-gray-800">
-        
-        
-        <img src="/image/common-writing-empty.webp?v=1733875234" alt=""
-            class="w-full h-48 rounded-2xl object-cover" />
-        
-
-    </div>
-    <div class="w-full lg:p-5 overflow-auto">
-        <h3 class="pt-2 lg:pt-0 line-clamp-1 text-2xl font-medium leading-10 text-gray-400 hover:text-gray-300">
-            <a href="/search/search/">
-                
-            </a>
-        </h3>
-        <div class="flex flex-row items-center justify-start py-1 text-lg">
-            
         </div>
-        <div class="line-clamp-3 text-xl font-light leading-8 lg:leading-9 text-gray-500"></div>
     </div>
+    <div class="text-gray-500 text-lg">
+        Page link:&nbsp;<a href="http://localhost:1313/posts/who-am-i/"
+            class="border-b border-b-gray-500 hover:text-gray-400">http://localhost:1313/posts/who-am-i/</a>
+    </div>
+    
+        
 </article>
-    
-
-
-    
-</div>
-
-
-
 
 
             </main>
@@ -570,13 +343,6 @@ Who am I ?! This is the most asked question in my life. Yet no clear answer has 
         
         
         <li class="mb-1 border-b border-b-gray-900 border-dashed font-light">
-            <a href="/categories/test/" class="hover:text-gray-300">Test <span
-                    class="ml-2 px-2 bg-gray-800 rounded-full text-gray-500">1</span></a>
-        </li>
-        
-        
-        
-        <li class="mb-1 border-b border-b-gray-900 border-dashed font-light">
             <a href="/categories/tutorial/" class="hover:text-gray-300">Tutorial <span
                     class="ml-2 px-2 bg-gray-800 rounded-full text-gray-500">1</span></a>
         </li>
@@ -599,6 +365,13 @@ Who am I ?! This is the most asked question in my life. Yet no clear answer has 
         
         <li class="mb-1 border-b border-b-gray-900 border-dashed font-light">
             <a href="/categories/john/" class="hover:text-gray-300">John <span
+                    class="ml-2 px-2 bg-gray-800 rounded-full text-gray-500">1</span></a>
+        </li>
+        
+        
+        
+        <li class="mb-1 border-b border-b-gray-900 border-dashed font-light">
+            <a href="/categories/test/" class="hover:text-gray-300">Test <span
                     class="ml-2 px-2 bg-gray-800 rounded-full text-gray-500">1</span></a>
         </li>
         

@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html lang="en"
-    dir="ltr"><head>
-	<meta name="generator" content="Hugo 0.139.4"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    dir="ltr"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1">
     <title>
     
-    John Tech Talks
+    Searches - John Tech Talks
     
 </title>
     
     
     
+    
+    
+    
     <meta name="keywords" content="Site Home SEO Keywords">
     <meta name="description" content="Site Home SEO Description">
-    <link rel="canonical" href="http://localhost:1313/" />
+    <link rel="canonical" href="http://localhost:1313/search/" />
     <link rel="icon" href="/favicon.ico?v=1733875234" type="image/x-icon">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
 
@@ -88,7 +90,7 @@
 
 
 <li>
-    <a    aria-current="page"     class="active px-5 lg:px-10 py-3 font-light border-b-2 border-red-500 text-gray-100"     href="/"  >Home</a>
+    <a    class="px-5 lg:px-10 py-3 font-light hover:border-b-2 hover:border-red-500"     href="/"  >Home</a>
     
 </li>
 
@@ -177,6 +179,21 @@
     </div>
 
     
+    <div class="w-full flex flex-row justify-start text-gray-500 text-lg px-1 border-l-4 border-l-red-500">
+        <ul class="flex flex-row gap-x-2">
+            <li class="">
+                <a href="/" class="hover:text-gray-100">Home</a>
+            </li>
+            
+            <li>
+                &gt;&nbsp;&nbsp;<a href="/search/" class="hover:text-gray-100">Searches</a>
+            </li>
+            
+        </ul>
+    </div>
+    <div class="w-full h-2 border-b border-b-gray-600/50 border-dashed font-light text-gray-300">
+    </div>
+    
 
 </header>
 
@@ -188,288 +205,161 @@
             <main class="w-full">
                 
 
+<div id="search-results"></div>
+<div class="search-loading hidden text-2xl text-green-500">Searching...</div>
 
-<div class="home-recommended-title">
-    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-        class="size-6">
-        <path stroke-linecap="round" stroke-linejoin="round"
-            d="M15.362 5.214A8.252 8.252 0 0 1 12 21 8.25 8.25 0 0 1 6.038 7.047 8.287 8.287 0 0 0 9 9.601a8.983 8.983 0 0 1 3.361-6.867 8.21 8.21 0 0 0 3 2.48Z" />
-        <path stroke-linecap="round" stroke-linejoin="round"
-            d="M12 18a3.75 3.75 0 0 0 .495-7.468 5.99 5.99 0 0 0-1.925 3.547 5.975 5.975 0 0 1-2.133-1.001A3.75 3.75 0 0 0 12 18Z" />
-    </svg>
-
-    Recommend Posts
-</div>
-
-
-<div class="relative lg:mx-0 w-full h-96 bg-gray-800 border border-gray-800 rounded-2xl overflow-hidden">
-    <div id="swiper" class="flex flex-row transition-transform duration-300 ease-in-out">
-        
-        
-    </div>
-    <div id="prevBanner"
-        class="absolute top-1/3 left-0 w-8 h-32 bg-gray-800 border-2 border-gray-600 border-l-0 backdrop-blur-2xl rounded-tr-3xl rounded-br-3xl hover:font-bold hover:cursor-pointer hover:bg-gray-400/10">
-        <a href="#" rel="nofollow"
-            class="absolute top-1/3 left-1/3 text-2xl font-medium text-gray-300 hover:text-gray-100 w-full h-full inline-block">&lt;</a>
-    </div>
-    <div id="nextBanner"
-        class="absolute top-1/3 right-0 w-8 h-32 bg-gray-800 border-2 border-gray-600 border-r-0 backdrop-blur-2xl rounded-tl-3xl rounded-bl-3xl hover:font-bold hover:cursor-pointer hover:bg-gray-400/10">
-        <a href="#" rel="nofollow"
-            class="absolute top-1/3 left-1/3 text-2xl font-medium text-gray-300 hover:text-gray-100 w-full h-full inline-block">&gt;</a>
-    </div>
-</div>
-
-<script>
-    document.addEventListener('DOMContentLoaded', function () {
-        const swiper = document.getElementById('swiper');
-        let currentIndex = 1; 
-        const totalImages = swiper.children.length; 
-        const slideWidth = swiper.offsetWidth; 
-        let interval = null; 
-
-        
-        swiper.style.transform = `translateX(-${currentIndex * slideWidth}px)`; 
-        swiper.style.transition = 'none'; 
-
-        
-        function moveToNextSlide() {
-            currentIndex++;
-            swiper.style.transition = 'transform 0.3s ease-in-out';
-            swiper.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
-
-            
-            if (currentIndex === totalImages - 1) {
-                setTimeout(function () {
-                    swiper.style.transition = 'none'; 
-                    currentIndex = 1; 
-                    swiper.style.transform = `translateX(-${slideWidth}px)`;
-                }, 300); 
-            }
-        }
-
-        
-        function moveToPreviousSlide() {
-            currentIndex--;
-            swiper.style.transition = 'transform 0.3s ease-in-out';
-            swiper.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
-
-            
-            if (currentIndex === 0) {
-                setTimeout(function () {
-                    swiper.style.transition = 'none'; 
-                    currentIndex = totalImages - 2; 
-                    swiper.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
-                }, 300); 
-            }
-        }
-
-        
-        function startAutoPlay() {
-            interval = setInterval(moveToNextSlide, 3000);
-        }
-
-        
-        function stopAutoPlay() {
-            clearInterval(interval);
-        }
-
-        
-        swiper.addEventListener('mouseenter', stopAutoPlay);
-        swiper.addEventListener('mouseleave', startAutoPlay);
-
-        
-        document.getElementById('prevBanner').addEventListener('click', function () {
-            stopAutoPlay();
-            moveToPreviousSlide();
-            startAutoPlay();
-        });
-
-        document.getElementById('nextBanner').addEventListener('click', function () {
-            stopAutoPlay();
-            moveToNextSlide();
-            startAutoPlay();
-        });
-
-        
-        startAutoPlay();
-    });
+<script id="search-result-template" type="text/x-js-template">
+  <div id="summary-${key}" class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-2 mt-3 sm:mt-6 lg:mx-0 lg:max-w-none lg:grid-cols-1 border-b border-b-gray-600/50 border-dashed pb-8">
+    <h3 class="mt-5 mb-2 sm:mt-3 line-clamp-1 text-2xl font-medium leading-8 text-gray-400 hover:text-gray-100"><a href="${link}">${title}</a></h3>
+    <div class="mt-1 pr-5 line-clamp-3 text-xl font-light leading-8 text-gray-500">${content}</div>
+  </div>
 </script>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.6.2/fuse.min.js"
+  integrity="sha512-Nqw1tH3mpavka9cQCc5zWWEZNfIPdOYyQFjlV1NvflEtQ0/XI6ZQ+H/D3YgJdqSUJlMLAPRj/oXlaHCFbFCjoQ=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js"
+  integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-<div class="flex flex-col space-y-8 mt-8">
+
+<script>
+
+  var summaryInclude = 180;
+  var fuseOptions = {
+    shouldSort: true,
+    includeMatches: true,
+    includeScore: true,
+    tokenize: true,
+    location: 0,
+    distance: 100,
+    minMatchCharLength: 1,
+    keys: [
+      { name: "title", weight: 0.45 },
+      { name: "contents", weight: 0.4 },
+      { name: "permalink", weight: 0.15 }
+    ]
+  };
+
+  
+  
+  
+
+  var inputBox = document.getElementById('search-query');
+  if (inputBox !== null) {
+    var searchQuery = param("q");
+    if (searchQuery) {
+      inputBox.value = searchQuery || "";
+      executeSearch(searchQuery, false);
+    } else {
+      document.getElementById('search-results').innerHTML = '<p class="py-5 text-xl text-red-500">Please enter a word or phrase above to search.</p>';
+    }
+  }
+
+  function executeSearch(searchQuery) {
+
+    show(document.querySelector('.search-loading'));
+
+    fetch('/en/index.json').then(function (response) {
+      if (response.status !== 200) {
+        console.log('Looks like there was a problem. Status Code: ' + response.status);
+        return;
+      }
+      
+      response.json().then(function (pages) {
+        var fuse = new Fuse(pages, fuseOptions);
+        var result = fuse.search(searchQuery);
+        if (result.length > 0) {
+          populateResults(result);
+        } else {
+          document.getElementById('search-results').innerHTML = '<p class=\"py-5 text-xl text-red-500\">No matches found</p>';
+        }
+        hide(document.querySelector('.search-loading'));
+      })
+        .catch(function (err) {
+          console.log('Fetch Error :-S', err);
+        });
+    });
+  }
+
+  function populateResults(results) {
+
+    var searchQuery = document.getElementById("search-query").value;
+    var searchResults = document.getElementById("search-results");
 
     
+    var templateDefinition = document.getElementById("search-result-template").innerHTML;
 
+    results.forEach(function (value, key) {
+
+      var contents = value.item.contents;
+      var snippet = "";
+      var snippetHighlights = [];
+
+      snippetHighlights.push(searchQuery);
+      snippet = contents.substring(0, summaryInclude * 2) + '&hellip;';
+
+      
+      var tags = ""
+      if (value.item.tags) {
+        value.item.tags.forEach(function (element) {
+          tags = tags + "<a href='/tags/" + element + "'>" + "#" + element + "</a> "
+        });
+      }
+
+      var output = render(templateDefinition, {
+        key: key,
+        title: value.item.title,
+        content: value.item.contents,
+        link: value.item.permalink,
+      });
+      searchResults.innerHTML += output;
+
+      snippetHighlights.forEach(function (snipvalue, snipkey) {
+        var instance = new Mark(document.getElementById('summary-' + key));
+        instance.mark(snipvalue);
+      });
+
+    });
+  }
+
+  function render(templateString, data) {
+    var conditionalMatches, conditionalPattern, copy;
+    conditionalPattern = /\$\{\s*isset ([a-zA-Z]*) \s*\}(.*)\$\{\s*end\s*}/g;
     
-    
-    <article class="flex flex-col lg:flex-row items-center  px-1 rounded-md">
-    <div class="flex-none w-full lg:w-64 h-48 rounded-lg shadow-md bg-gray-900 shadow-gray-800">
+    copy = templateString;
+    while ((conditionalMatches = conditionalPattern.exec(templateString)) !== null) {
+      if (data[conditionalMatches[1]]) {
         
+        copy = copy.replace(conditionalMatches[0], conditionalMatches[2]);
+      } else {
         
-        <img src="/image/common-writing-empty.webp?v=1733875234" alt=""
-            class="w-full h-48 rounded-2xl object-cover" />
-        
-
-    </div>
-    <div class="w-full lg:p-5 overflow-auto">
-        <h3 class="pt-2 lg:pt-0 line-clamp-1 text-2xl font-medium leading-10 text-gray-400 hover:text-gray-300">
-            <a href="/first-post-copy/">
-                2nd blog
-            </a>
-        </h3>
-        <div class="flex flex-row items-center justify-start py-1 text-lg">
-            
-            <time datetime="2025-03-16" class="text-gray-600">2024-10-25 09:16
-                |
-                1 minute read</time>
-            
-        </div>
-        <div class="line-clamp-3 text-xl font-light leading-8 lg:leading-9 text-gray-500"><p>What the heck is going on</p></div>
-    </div>
-</article>
+        copy = copy.replace(conditionalMatches[0], '');
+      }
+    }
+    templateString = copy;
     
+    var key, find, re;
+    for (key in data) {
+      find = '\\$\\{\\s*' + key + '\\s*\\}';
+      re = new RegExp(find, 'g');
+      templateString = templateString.replace(re, data[key]);
+    }
+    return templateString;
+  }
 
+  
+  function show(elem) {
+    elem.style.display = 'block';
+  }
+  function hide(elem) {
+    elem.style.display = 'none';
+  }
+  function param(name) {
+    return decodeURIComponent((location.search.split(name + '=')[1] || '').split('&')[0]).replace(/\+/g, ' ');
+  }
 
-    
-
-    
-    
-
-
-    
-
-    
-    
-    <article class="flex flex-col lg:flex-row items-center  px-1 rounded-md">
-    <div class="flex-none w-full lg:w-64 h-48 rounded-lg shadow-md bg-gray-900 shadow-gray-800">
-        
-        
-        <img src="/image/common-writing-empty.webp?v=1733875234" alt=""
-            class="w-full h-48 rounded-2xl object-cover" />
-        
-
-    </div>
-    <div class="w-full lg:p-5 overflow-auto">
-        <h3 class="pt-2 lg:pt-0 line-clamp-1 text-2xl font-medium leading-10 text-gray-400 hover:text-gray-300">
-            <a href="/first-post/">
-                first blog
-            </a>
-        </h3>
-        <div class="flex flex-row items-center justify-start py-1 text-lg">
-            
-            <time datetime="2025-03-16" class="text-gray-600">2024-10-25 09:16
-                |
-                1 minute read</time>
-            
-        </div>
-        <div class="line-clamp-3 text-xl font-light leading-8 lg:leading-9 text-gray-500"><p>What the heck is going on</p></div>
-    </div>
-</article>
-    
-
-
-    
-
-    
-    
-    <article class="flex flex-col lg:flex-row items-center bg-gray-800/50 px-1 rounded-md">
-    <div class="flex-none w-full lg:w-64 h-48 rounded-lg shadow-md bg-gray-900 shadow-gray-800">
-        
-        
-        <img src="/image/common-writing-empty.webp?v=1733875234" alt=""
-            class="w-full h-48 rounded-2xl object-cover" />
-        
-
-    </div>
-    <div class="w-full lg:p-5 overflow-auto">
-        <h3 class="pt-2 lg:pt-0 line-clamp-1 text-2xl font-medium leading-10 text-gray-400 hover:text-gray-300">
-            <a href="/tech-bro-with-a-gf/">
-                Tech bro with GF?
-            </a>
-        </h3>
-        <div class="flex flex-row items-center justify-start py-1 text-lg">
-            
-            <time datetime="2025-03-16" class="text-gray-600">2024-10-25 09:16
-                |
-                1 minute read</time>
-            
-        </div>
-        <div class="line-clamp-3 text-xl font-light leading-8 lg:leading-9 text-gray-500"><h2 id="example-content">Example content</h2>
-<p><img src="/image/Pasted%20image%2020241209230436.png" alt="Image Description">
-<img src="/images/linkedinpfp.jpg" alt="Image Description"></p></div>
-    </div>
-</article>
-    
-
-
-    
-
-    
-    
-    <article class="flex flex-col lg:flex-row items-center  px-1 rounded-md">
-    <div class="flex-none w-full lg:w-64 h-48 rounded-lg shadow-md bg-gray-900 shadow-gray-800">
-        
-        
-        <img src="/image/common-writing-empty.webp?v=1733875234" alt=""
-            class="w-full h-48 rounded-2xl object-cover" />
-        
-
-    </div>
-    <div class="w-full lg:p-5 overflow-auto">
-        <h3 class="pt-2 lg:pt-0 line-clamp-1 text-2xl font-medium leading-10 text-gray-400 hover:text-gray-300">
-            <a href="/posts/who-am-i/">
-                Who am I ?!
-            </a>
-        </h3>
-        <div class="flex flex-row items-center justify-start py-1 text-lg">
-            
-            <time datetime="2025-03-16" class="text-gray-600">2020-01-01 00:00
-                |
-                2 minute read</time>
-            
-        </div>
-        <div class="line-clamp-3 text-xl font-light leading-8 lg:leading-9 text-gray-500"><p><img src="image.png" alt="alt text">
-Who am I ?! This is the most asked question in my life. Yet no clear answer has yet been found.</p>
-<p>As a child, the answer to this question was simple. Say my name to the question of who. Aha ..! Simple and beautiful. In that answer, parents and siblings in adolescence. I thought to myself that the answer was too clear.</p>
-<p>When I started asking myself this question at a young age when I was beginning to recognize many things, I began to feel that the answer was becoming less clear. Who am I ?! If you ask me who I am. Anyone else. Still no answer to the question. Who am I?</p></div>
-    </div>
-</article>
-    
-
-
-    
-
-    
-    
-    <article class="flex flex-col lg:flex-row items-center bg-gray-800/50 px-1 rounded-md">
-    <div class="flex-none w-full lg:w-64 h-48 rounded-lg shadow-md bg-gray-900 shadow-gray-800">
-        
-        
-        <img src="/image/common-writing-empty.webp?v=1733875234" alt=""
-            class="w-full h-48 rounded-2xl object-cover" />
-        
-
-    </div>
-    <div class="w-full lg:p-5 overflow-auto">
-        <h3 class="pt-2 lg:pt-0 line-clamp-1 text-2xl font-medium leading-10 text-gray-400 hover:text-gray-300">
-            <a href="/search/search/">
-                
-            </a>
-        </h3>
-        <div class="flex flex-row items-center justify-start py-1 text-lg">
-            
-        </div>
-        <div class="line-clamp-3 text-xl font-light leading-8 lg:leading-9 text-gray-500"></div>
-    </div>
-</article>
-    
-
-
-    
-</div>
-
-
-
+</script>
 
 
             </main>
