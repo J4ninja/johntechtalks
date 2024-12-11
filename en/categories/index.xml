@@ -23,10 +23,17 @@
       <description></description>
     </item>
     <item>
-      <title>Tutorials, Rec</title>
-      <link>https://johntechtalks.com/en/categories/tutorials-rec/</link>
+      <title>Recommended</title>
+      <link>https://johntechtalks.com/en/categories/recommended/</link>
       <pubDate>Tue, 10 Dec 2024 09:48:12 +0800</pubDate>
-      <guid>https://johntechtalks.com/en/categories/tutorials-rec/</guid>
+      <guid>https://johntechtalks.com/en/categories/recommended/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tutorials</title>
+      <link>https://johntechtalks.com/en/categories/tutorials/</link>
+      <pubDate>Tue, 10 Dec 2024 09:48:12 +0800</pubDate>
+      <guid>https://johntechtalks.com/en/categories/tutorials/</guid>
       <description></description>
     </item>
     <item>
