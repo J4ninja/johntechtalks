@@ -1,4 +1,3 @@
 +++
 title = 'Categories'
-layout = "terms"
 +++
