@@ -1,13 +1,15 @@
 
-   [sitename]
-   other = "John Tech Talks"
+[sitename]
+other = "John Tech Talks"
 
-   [siteslogan]
-   other = "I am cool"
+[siteslogan]
+other = "Discover insights on the latest tech, life hacks, and personal"
 
-   [siteseokeywords]
-   other = "Site Home SEO Keywords"
+[siteseokeywords]
+other = "Site Home SEO Keywords"
 
-   [siteseodescription]
-   other = "Site Home SEO Description"
-   
+[siteseodescription]
+other = "Site Home SEO Description"
+
+[slogan]
+other = "John Nguyen"

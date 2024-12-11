@@ -3,9 +3,11 @@ title: Who am I ?!
 date: 2020-01-01
 tags:
   - stoicism
-image: 
+featuredImage: /images/Pasted%20image%2020241209230436.png
 Description: Who am I ?! This is the most asked question in my life. Yet no clear answer has yet been found...
 ---
+
+![alt text](image.png)
 Who am I ?! This is the most asked question in my life. Yet no clear answer has yet been found.
 
 As a child, the answer to this question was simple. Say my name to the question of who. Aha ..! Simple and beautiful. In that answer, parents and siblings in adolescence. I thought to myself that the answer was too clear. 

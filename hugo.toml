@@ -1,63 +1,35 @@
-baseURL = "https://www.angularcorp.com/" # Must end with splash
+baseURL = "https://localhost:1313/" # Must end with splash
 defaultContentLanguage = "en"
-defaultContentLanguageInSubdir = true
+defaultContentLanguageInSubdir = false
 disqusShortname = "johntechtalks-com"
 
-staticDir = ["static", "themes/Niello/static"]
+staticDir = ["static"]
 
 theme = "Niello"
 
-[languages]
-	[languages.en]
-		title = "{CodeTrace} - Discover Issues, Share Solutions."
-		languageCode = "en-us"
-		LanguageName = "🇺🇸EN"
-		contentDir = "content/en"
-		weight = 1
-		[[languages.en.menus.main]]
-			name = 'Home'
-			pageRef = '/'
-			weight = 1
-		[[languages.en.menus.main]]
-			name = 'Categories'
-			pageRef = '/categories'
-			weight = 2
-		[[languages.en.menus.main]]
-			name = 'Tags'
-			pageRef = '/tags'
-			weight = 3
-		[[languages.en.menus.main]]
-			name = 'Contact'
-			pageRef = '/contact'
-			weight = 4
-	[languages.zh]
-		title = "{码途轨迹} - 发现问题，分享解决."
-        languageCode = "zh-cn"
-        LanguageName = "🇨🇳CN"
-        contentDir = "content/zh"
-        weight = 2
-		[[languages.zh.menus.main]]
-			name = '首页'
-			pageRef = '/'
-			weight = 1
-		[[languages.zh.menus.main]]
-			name = '文章分类'
-			pageRef = '/categories'
-			weight = 2
-		[[languages.zh.menus.main]]
-			name = '标签'
-			pageRef = '/tags'
-			weight = 3
-		[[languages.zh.menus.main]]
-			name = '联系我们'
-			pageRef = '/contact'
-			weight = 4
-        
 [params]
-copyright = "&#xA9; 2019 - 2024 by guangmean. All Rights Reserved."
+copyright = "&#xA9; 2024 by John Nguyen. All Rights Reserved."
 google_ad_client = "ca-pub-******"
 ga4 = "G-******"
 sharethis = ""
 
 [outputs]
-  home = ["HTML", "JSON"] 
+home = ["HTML", "JSON"]
+
+[menus]
+  [[menus.main]]
+    name = "Home"
+    pageRef = "/"
+    weight = 1
+  [[menus.main]]
+    name = "Categories"
+    pageRef = "/categories"
+    weight = 2
+  [[menus.main]]
+    name = "Tags"
+    pageRef = "/tags"
+    weight = 3
+  [[menus.main]]
+    name = "Contact"
+    pageRef = "/contact"
+    weight = 4
