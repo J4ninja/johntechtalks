@@ -1,6 +1,6 @@
 
 [sitename]
-other = "{John Tech Talks}"
+other = "{ John Tech Talks }"
 
 [siteslogan]
 other = "Discover insights on the latest tech, life hacks, and personal reviews"
@@ -13,3 +13,6 @@ other = "A personal tech blog on programming, AI, Linux, drones, printing, elect
 
 [slogan]
 other = "John Nguyen"
+
+[recommendpost]
+other = "Recommended Posts"
