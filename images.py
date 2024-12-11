@@ -3,7 +3,7 @@ import re
 import shutil
 
 # Paths (using raw strings to handle Windows backslashes correctly)
-posts_dir = r"C:\Users\ngtoa\Documents\ObsidianNotes\content\posts"
+posts_dir = r"C:\Users\ngtoa\Documents\ObsidianNotes\content"
 attachments_dir = r"C:\Users\ngtoa\Documents\ObsidianNotes"
 static_images_dir = r"C:\Users\ngtoa\Documents\GitHub\johntechtalks\static\images"
 

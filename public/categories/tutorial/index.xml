@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tutorial on </title>
+    <link>https://localhost:1313/categories/tutorial/</link>
+    <description>Recent content in Tutorial on </description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 10 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://localhost:1313/categories/tutorial/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My Blog Post</title>
+      <link>https://localhost:1313/home/</link>
+      <pubDate>Tue, 10 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://localhost:1313/home/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://localhost:1313/images/Pasted%20image%2020241209230436.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to Make a Blog Using Hugo and Obsidian</title>
+      <link>https://localhost:1313/how-i-made-this-blog/</link>
+      <pubDate>Fri, 25 Oct 2024 09:16:03 +0800</pubDate>
+      <guid>https://localhost:1313/how-i-made-this-blog/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
