@@ -1,6 +1,6 @@
 baseURL = "https://johntechtalks.com/" # Must end with splash
 defaultContentLanguage = "en"
-defaultContentLanguageInSubdir = false
+defaultContentLanguageInSubdir = true
 disqusShortname = "johntechtalks-com"
 
 staticDir = ["static"]
@@ -13,23 +13,30 @@ google_ad_client = "ca-pub-******"
 ga4 = "G-******"
 sharethis = ""
 
+[languages]
+	[languages.en]
+		title = "{John Tech Talks} - Discover Issues, Share Solutions."
+		languageCode = "en-us"
+		LanguageName = "🇺🇸EN"
+		contentDir = "content/en"
+		weight = 1
+		[[languages.en.menus.main]]
+			name = 'Home'
+			pageRef = '/'
+			weight = 1
+		[[languages.en.menus.main]]
+			name = 'Categories'
+			pageRef = '/categories'
+			weight = 2
+		[[languages.en.menus.main]]
+			name = 'Tags'
+			pageRef = '/tags'
+			weight = 3
+		[[languages.en.menus.main]]
+			name = 'Contact'
+			pageRef = '/contact'
+			weight = 4
+
+
 [outputs]
 home = ["HTML", "JSON"]
-
-[menus]
-  [[menus.main]]
-    name = "Home"
-    pageRef = "/"
-    weight = 1
-  [[menus.main]]
-    name = "Categories"
-    pageRef = "/categories"
-    weight = 2
-  [[menus.main]]
-    name = "Tags"
-    pageRef = "/tags"
-    weight = 3
-  [[menus.main]]
-    name = "Contact"
-    pageRef = "/contact"
-    weight = 4

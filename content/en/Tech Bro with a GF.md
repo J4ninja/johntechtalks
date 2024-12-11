@@ -1,9 +1,11 @@
 +++
 title = 'Tech Bro with a GF??'
-date = 2024-12-09
+date = 2024-12-10T07:34:12+08:00
 categories = ["life"]
-tags = ["life"]
-featuredImage = "/images/heart.png"
+tags = ["review"]
+keywords = ["skateboard", "review"]
+description = "SEO Description Here"
+draft = false
 +++
 
 

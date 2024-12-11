@@ -1,5 +1,5 @@
 $sourcePath = "C:\Users\ngtoa\Documents\ObsidianNotes\content\"
-$destinationPath = "C:\Users\ngtoa\Documents\GitHub\johntechtalks\content\"
+$destinationPath = "C:\Users\ngtoa\Documents\GitHub\johntechtalks\content\en\"
 
 Write-Host "Syncing posts from Obsidian..."
 

@@ -1,9 +1,11 @@
 +++
-title = 'How to Make a Blog Using Hugo and Obsidian'
-date = 2024-12-10
+title = 'How to Make a Blog with Hugo and Obsidian'
+date = 2024-12-10T09:48:12+08:00
 categories = ["tutorials"]
-tags = ["hugo", "blog", "obsidian"]
-featuredImage = "/images/obsidianlogo.png"
+tags = ["hugo", "obsidian"]
+keywords = ["hugo", "obsidian"]
+description = "SEO Description Here"
+draft = false
 +++
 
 Who even blogs in 2024? I do. Let me give you a few reasons why I am blogging in 2024.
