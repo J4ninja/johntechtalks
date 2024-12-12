@@ -11,13 +11,13 @@ draft = false
 
 A Tech bro with a girlfriend?? That's impossible. However, at one point in time, I would like to say I broke this standard by having a girlfriend for 2 years! Now as a nerdy tech bro, I am often consumed with learning new tech stacks and building personal projects. How can a tech bro even maintain their life while keeping their girlfriend happy? Well let me tell you all about that!
 
-![[laptopheart.png]]
+![Image Description](/images/laptopheart.png)
 
 # Projects Designed with 'Her' in Mind
 
 One of the best ways to leverage your skills and let your girlfriend feel special is by designing projects for her. One cheesy example is on Valentine's Day, design a web page that will ask her to be your valentine. Spice it up with your personality, inside jokes, or any current trends. In early 2024, the toothless dragon dance was trending so I added a gif to my page. Maybe you're familiar with another field such as game design. In that case, design a little mini game for her to play!
 
-![[ValentineAskOut.gif]]
+![Image Description](/images/ValentineAskOut.gif)
 
 # Big Tech Means Big Bucks
 
@@ -27,7 +27,7 @@ If you're working in Big Tech (I'm not) then that means you must be making the b
 
 What's a gift that only a tech bro would provide? For me, I chose to 3D-print a flower vase using my company's free 3D printer. With all those flowers I ended up having to buy for her, I figured she could use a vase. I found a pre-made stl file, uploaded it to the printer, picked out a nice filament color and voila! Unfortunately, the vase had a minor water leak so she just uses it for dead flowers now :( . One of my favorite things to 3D print is figures so I also had to print her a little cinnamoroll figure. Anyway, there's countless other ideas such as a new custom (MECHANICAL) keyboard for her, robot vacuum, drone, wireless charger, headphones, etc. 
 
-![[Cinnamoroll.png]]
+![Image Description](/images/Cinnamoroll.png)
 # Remote Jobs 
 
 The best perk in the tech industry is working remote. I am able to work remote for 1-2 days a week and I can choose whenever this happens during the week. Whenever, I am not spending enough time with my girlfriend, "working" remote is the best solution. This way we get to stay in each other's presence without reducing productivity (somewhat). 
@@ -49,7 +49,7 @@ If your girlfriend is interested in what you're interested in, then tech date id
 
 # Co-op Couple's Videogames
 
-![[ittakestwo.png]]
+![Image Description](/images/ittakestwo.png)
 
 As a tech bro, you probably grew up playing games. Well if you're still into gaming, why not make your hobby a fun way to spend time with your girlfriend (and get her into gaming if she isn't)? Often I look for co-op games that we can play. If there aren't any, I play single player titles that she might enjoy watching on stream. In my case, we were both interested in the lore of Wukong so playing Black Myth Wukong was a blast to play and analyze!
 
