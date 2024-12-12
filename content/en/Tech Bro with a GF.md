@@ -2,8 +2,8 @@
 title = 'Tech Bro with a GF??'
 date = 2024-12-12T09:34:12+08:00
 categories = ["life"]
-tags = ["gifts, games, projects"]
-keywords = ["gifts", "girlfriend"]
+tags = ["gifts", "games", "projects", "3d"]
+keywords = ["gifts", "girlfriend", "tech", "3D"]
 description = "Tech Bro With a Girlfriend. How to keep her happy."
 draft = false
 +++
