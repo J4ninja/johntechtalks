@@ -25,7 +25,7 @@ I have never properly skated on a normal skateboard. My body won't let me attemp
 - 96mm * 55mm 80A
 
 ### Motors
--  400W * 2 Hobbywing Dual hub motors with replaceable sleeves
+- 400W * 2 Hobbywing Dual hub motors with replaceable sleeves
 
 ### Battery
 - Charging time: 3.5 hrs
@@ -37,7 +37,7 @@ I have never properly skated on a normal skateboard. My body won't let me attemp
 
 Since I did not have any experience properly riding a skateboard, I spent the first day just sitting on my bottom on the board and leaning my entire body whenever I wanted to turn. This turned out to be SUPER FUN. It was like riding a sled on concrete. I did this at my college campus at TCU on a Friday where the academic grounds where mostly empty so I wouldn't crash into anyone. I did run into a few people and it was funny seeing their reaction whenever I controlled the board remotely and it would move on its own like a ghost. 
 
-![Image Description](/images/sitonboard.mp4)
+![Image Description](/images/sitonboard.gif)
 
 ## Actually Standing on the Board
 
@@ -58,7 +58,7 @@ Fortunately, I did not have any major accidents. I did fall off one time and scr
 ## Remote Controller
 The original remote controller is bare bones. A cool perk was that it could control the board very far away. It is operated by pushing the accelerator to move and by pulling it back to brake. You are not able to reverse without double tapping the speed mode button. This means you can't be accelerating when you want to perform a reverse. Since turning is stiff, reversing is very useful in correcting your position without getting off the board. On other electric boards, pulling back allows you to reverse without the need to switch gears. Additionally, the remote lacks a turbo mode which unlocks the full speed potential of the board (20% more speed). After I broke my original controller, I ordered the Backfire R2 remote controller and connected it with my board. This has a built in index finger hole for a comfortable grip. It came with turbo mode button, and a separate dial for switching in between forward and reverse. The only problem was that these controllers had to be charged with a USB A to C cable (C to C did not work). I highly recommend switching to this controller. 
 
-![Image Description](/images/skatenohands.mp4)
+![Image Description](/images/skatenohands.gif)
 ## Pros
 
 - Commute on and off campus easily
@@ -84,4 +84,4 @@ The original remote controller is bare bones. A cool perk was that it could cont
 
 Overall, I found that this board was one of the best purchases I ever made! I never had to do any repairs with the board and had no need for more features when I am just computing locally on campus. It made me feel cool, saved my time, and brought lots of fun teaching others how to ride and carrying big objects while moving. I was able to ride with my best friend on campus who also had a board and that experience can't be replaced! Definitely would recommend getting into electric skateboards even if you don't know how to skate!
 
-![Image Description](/images/backfiremodel.png)
+![Image Description](/images/g2black.png)
