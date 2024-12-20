@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1">
     <title>
     
-    Projects - { John Tech Talks }
+    How to Automate Hostinger Deployments with Git Subtree and Webhooks - { John Tech Talks }
     
 </title>
     
@@ -15,9 +15,13 @@
     
     
     
-    <meta name="keywords" content="Tech Reviews Life Hacks AI Programming Full Stack">
-    <meta name="description" content="A personal tech blog on programming, AI, Linux, drones, printing, electric vehicles, and more.">
-    <link rel="canonical" href="https://johntechtalks.com/en/tags/projects/" />
+    
+    
+    
+    
+    <meta name="keywords" content="git , hostinger , webhook , subtree">
+    <meta name="description" content="How to Automate Hostinger Deployments with Git Subtree and Webhooks">
+    <link rel="canonical" href="https://johntechtalks.com/en/how-to-automate-hostinger-deployments-with-git-subtree-and-webhooks/" />
     <link rel="icon" href="/favicon.ico?v=1734720557" type="image/x-icon">
     
 <link rel="stylesheet" href="/css/app.min.b80070c428cb0fdb565420914fa58a8c0a534bf1f6aca65496a3fbdd04269510.css" integrity="sha256-uABwxCjLD9tWVCCRT6WKjApTS/H2rKZUlqP73QQmlRA=" crossorigin="anonymous">
@@ -188,7 +192,7 @@
             </li>
             
             <li>
-                &gt;&nbsp;&nbsp;<a href="/en/tags/projects/" class="hover:text-gray-100">projects</a>
+                &gt;&nbsp;&nbsp;<a href="/en/how-to-automate-hostinger-deployments-with-git-subtree-and-webhooks/" class="hover:text-gray-100">How to Automate Hostinger Deployments with Git Subtree and Webhooks</a>
             </li>
             
         </ul>
@@ -207,50 +211,137 @@
             <main class="w-full overflow-hidden">
                 
 
-
-
-
-
-<div class="list-container">
+<article class="single-article">
     
-
-    
-    
-    <article class="flex flex-col lg:flex-row items-center  px-1 rounded-md">
-    <div class="flex-none w-full lg:w-64 h-48 rounded-lg shadow-md bg-gray-900 shadow-gray-800">
-        
-        
-        <img src="/images/laptopheart.png?v=1734720557" alt="Image Description"
-            class="w-full h-48 rounded-2xl object-cover" />
-        
-
-    </div>
-    <div class="w-full lg:p-5 overflow-auto">
-        <h3 class="pt-2 lg:pt-0 line-clamp-1 text-2xl font-medium leading-10 text-gray-400 hover:text-gray-300">
-            <a href="/en/tech-bro-with-a-gf/">
-                Tech Bro with a GF??
+    <div class="group relative">
+        <h1 class="text-3xl font-medium leading-10 text-gray-400 hover:text-gray-100">
+            <a href="/en/how-to-automate-hostinger-deployments-with-git-subtree-and-webhooks/">
+                How to Automate Hostinger Deployments with Git Subtree and Webhooks
             </a>
-        </h3>
-        <div class="flex flex-row items-center justify-start py-1 text-lg">
-            
-            <time datetime="2025-03-16" class="text-gray-600">2024-12-12 09:34
-                |
-                4 minute read</time>
-            
+        </h1>
+        <time datetime="2025-03-16" class="flex items-center py-2 text-xl text-gray-600">
+            2024-12-20 12:22
+            &nbsp;&nbsp;|&nbsp;&nbsp;4 minute read
+        </time>
+
+        <div
+            class="mt-1 lg:pb-10 px-2 text-2xl leading-10 font-thin text-gray-500 overflow-hidden break-words article-body">
+            <h2 id="hostinger-automation-with-git">Hostinger Automation with Git</h2>
+<p>Hostinger is a great and cheap hosting platform for static websites. I currently use the web hosting plan to host several websites. To deploy my website changes, I export my static content (html, css, js) into a zip and unzip it in the file manager&rsquo;s public_html folder. This is a little cumbersome so I looked for a way to <strong>automate</strong> this.</p>
+<p>Fortunately this can be done easily. Hostinger has an official tutorial for deploying git repos <a href="https://support.hostinger.com/en/articles/1583302-how-to-deploy-a-git-repository">here</a>
+However, this step alone won&rsquo;t work on my web apps built with frameworks such as React, Next, and Hugo. I need another automation step.</p>
+<h2 id="git-subtree">Git Subtree</h2>
+<p>Git subtree is an interesting feature I discovered which allows you to manage a subset of your main repository as its own repository. In my framework repositories, I often have a folder of generated content that is built. This content would be zipped to the Hostinger. Using git subtree, I can take this folder, treat it like its own repo and deploy to git. I can now leave this new &ldquo;repo&rdquo; in its own branch to isolate the content from the rest of the code. Now all of my generated html and static content is in one place, ready to be deployed to Hostinger. Using the new branch, I can update the Advanced Git settings to use this new branch. In the automation script below, you will see how to isolate the generated folder into its own branch.</p>
+<h2 id="webhooks">Webhooks</h2>
+<p>Clicking on the Auto deployment option on Hostinger, I can acquire the webhook url and navigate to Github repo settings and paste the url. This way, whenever there is a change to my repo, the webhook will tell Hostinger to run a new deployment.</p>
+<h2 id="automation-script">Automation Script</h2>
+<p>Now Hostinger and my Github are connected, I just need a way to generate my build content and deploy it to Github. Below is an example script I used to automatically build my project, copy the generated content to the subtree branch and push these commits to the remote repository.</p>
+<pre tabindex="0"><code>#!/bin/bash
+
+cd folder
+
+# Run npm install with error checking
+echo &#34;Installing dependencies...&#34;
+if ! npm install; then
+    echo &#34;Error: npm install failed. Exiting.&#34;
+    exit 1
+fi
+
+# Run npm build with error checking
+echo &#34;Building project...&#34;
+if ! npm run build; then
+    echo &#34;Error: Build failed. Exiting.&#34;
+    exit 1
+fi
+
+cd ..
+
+# Copy the .htaccess file to the build output directory
+if [ -f &#34;.htaccess&#34; ]; then
+    echo &#34;Copying .htaccess to the build output directory...&#34;
+    cp .htaccess subfolder/out/
+else
+    echo &#34;Warning: .htaccess file not found. Skipping copy.&#34;
+fi
+
+echo &#34;Staging changes for Git...&#34;
+if git diff --quiet &amp;&amp; git diff --cached --quiet; then
+    echo &#34;No changes to stage.&#34;
+else
+    git add .
+fi
+
+commit_message=&#34;Auto Deploy on $(date +&#39;%Y-%m-%d %H:%M:%S&#39;)&#34;
+if git diff --cached --quiet; then
+    echo &#34;No changes to commit.&#34;
+else
+    echo &#34;Committing changes...&#34;
+    git commit -m &#34;$commit_message&#34;
+fi
+
+echo &#34;Deploying to GitHub Main...&#34;
+if ! git push origin main; then
+    echo &#34;Failed to push to main branch.&#34;
+    exit 1
+fi
+
+echo &#34;Deploying to GitHub Hostinger...&#34;
+
+if git branch --list | grep -q &#39;hostinger-deploy&#39;; then
+    git branch -D hostinger-deploy
+fi
+
+if ! git subtree split --prefix subfolder/out -b hostinger-deploy; then
+    echo &#34;Subtree split failed.&#34;
+    exit 1
+fi
+
+if ! git push origin hostinger-deploy:deploy --force; then
+    echo &#34;Failed to push to hostinger branch.&#34;
+    git branch -D hostinger-deploy
+    exit 1
+fi
+
+git branch -D hostinger-deploy
+
+echo &#34;Site Deployed!&#34;
+</code></pre><h2 id="flaws">Flaws</h2>
+<p>This script will not work if your generated content is not actually tracked by git. My .gitignore ignores my build folder since generally, you should not track generated content and just build things locally after cloning a repo. However, in order for Hostinger to see the changes, they must be tracked somewhere. Thus, we now have duplicate images and lots of generated files that are thrown into our git repo.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>Overall, I am happy with this automation as I don&rsquo;t have to zip my files, login to Hostinger, delete the old files, upload new ones, and unzip the new ones. Now I can just run my script from my terminal and my live website will have the new changes!</p>
+<p><img src="/images/hostingerlogo.png" alt="Image Description"></p>
+
         </div>
-        <div class="line-clamp-3 text-xl font-light leading-8 lg:leading-9 text-gray-500">A Tech bro with a girlfriend?? That&rsquo;s impossible. However, at one point in time, I would like to say I broke this standard by having a girlfriend for 2 years! Now as a nerdy tech bro, I am often consumed with learning new tech stacks and building personal projects. How can a tech bro even maintain their life while keeping their girlfriend happy? Well let me tell you all about that!
-</div>
+    </div>
+    <div class="text-gray-500 text-lg">
+        Page link:&nbsp;<a href="https://johntechtalks.com/en/how-to-automate-hostinger-deployments-with-git-subtree-and-webhooks/"
+            class="border-b border-b-gray-500 hover:text-gray-400">https://johntechtalks.com/en/how-to-automate-hostinger-deployments-with-git-subtree-and-webhooks/</a>
+    </div>
+    <div class="my-10 py-5 border-t border-dashed border-t-white/10 text-xl text-gray-600">
+        
+        <div id="disqus_thread"></div>
+<script>
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "johntechtalks-com" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        
     </div>
 </article>
-    
-
-
-    
-    
-</div>
-
-
-
 
 
             </main>
@@ -379,21 +470,6 @@ I am currently a Masters student at Georgia Tech!
         
         
         
-        <a href="/en/tags/obsidian/"><span
-                class="inline-block p-0 bg-gray-800 hover:bg-gray-900 border border-gray-800 text-gray-500 hover:text-gray-300 font-light mb-1 px-5 rounded-full hover:scale-105">Obsidian&nbsp;&nbsp;1</span></a>
-        
-        
-        
-        <a href="/en/tags/projects/"><span
-                class="inline-block p-0 bg-gray-800 hover:bg-gray-900 border border-gray-800 text-gray-500 hover:text-gray-300 font-light mb-1 px-5 rounded-full hover:scale-105">Projects&nbsp;&nbsp;1</span></a>
-        
-        
-        
-        <a href="/en/tags/vehicle/"><span
-                class="inline-block p-0 bg-gray-800 hover:bg-gray-900 border border-gray-800 text-gray-500 hover:text-gray-300 font-light mb-1 px-5 rounded-full hover:scale-105">Vehicle&nbsp;&nbsp;1</span></a>
-        
-        
-        
         <a href="/en/tags/webhook/"><span
                 class="inline-block p-0 bg-gray-800 hover:bg-gray-900 border border-gray-800 text-gray-500 hover:text-gray-300 font-light mb-1 px-5 rounded-full hover:scale-105">Webhook&nbsp;&nbsp;1</span></a>
         
@@ -414,8 +490,18 @@ I am currently a Masters student at Georgia Tech!
         
         
         
-        <a href="/en/tags/hugo/"><span
-                class="inline-block p-0 bg-gray-800 hover:bg-gray-900 border border-gray-800 text-gray-500 hover:text-gray-300 font-light mb-1 px-5 rounded-full hover:scale-105">Hugo&nbsp;&nbsp;1</span></a>
+        <a href="/en/tags/obsidian/"><span
+                class="inline-block p-0 bg-gray-800 hover:bg-gray-900 border border-gray-800 text-gray-500 hover:text-gray-300 font-light mb-1 px-5 rounded-full hover:scale-105">Obsidian&nbsp;&nbsp;1</span></a>
+        
+        
+        
+        <a href="/en/tags/projects/"><span
+                class="inline-block p-0 bg-gray-800 hover:bg-gray-900 border border-gray-800 text-gray-500 hover:text-gray-300 font-light mb-1 px-5 rounded-full hover:scale-105">Projects&nbsp;&nbsp;1</span></a>
+        
+        
+        
+        <a href="/en/tags/vehicle/"><span
+                class="inline-block p-0 bg-gray-800 hover:bg-gray-900 border border-gray-800 text-gray-500 hover:text-gray-300 font-light mb-1 px-5 rounded-full hover:scale-105">Vehicle&nbsp;&nbsp;1</span></a>
         
         
         
@@ -431,6 +517,11 @@ I am currently a Masters student at Georgia Tech!
         
         <a href="/en/tags/gifts/"><span
                 class="inline-block p-0 bg-gray-800 hover:bg-gray-900 border border-gray-800 text-gray-500 hover:text-gray-300 font-light mb-1 px-5 rounded-full hover:scale-105">Gifts&nbsp;&nbsp;1</span></a>
+        
+        
+        
+        <a href="/en/tags/hugo/"><span
+                class="inline-block p-0 bg-gray-800 hover:bg-gray-900 border border-gray-800 text-gray-500 hover:text-gray-300 font-light mb-1 px-5 rounded-full hover:scale-105">Hugo&nbsp;&nbsp;1</span></a>
         
         
         
