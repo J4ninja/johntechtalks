@@ -12,8 +12,10 @@ draft = false
 
 Hostinger is a great and cheap hosting platform for static websites. I currently use the web hosting plan to host several websites. To deploy my website changes, I export my static content (html, css, js) into a zip and unzip it in the file manager's public_html folder. This is a little cumbersome so I looked for a way to **automate** this.
 
-Fortunately this can be done easily. Hostinger has an official tutorial for deploying git repos [here](https://support.hostinger.com/en/articles/1583302-how-to-deploy-a-git-repository)
+Fortunately this can be done easily. Hostinger has an official tutorial for deploying git repos [here](https://support.hostinger.com/en/articles/1583302-how-to-deploy-a-git-repository).
+![Image Description](/images/hostingergitpanel.png)
 However, this step alone won't work on my web apps built with frameworks such as React, Next, and Hugo. I need another automation step.
+
 
 ## Git Subtree
 
@@ -22,6 +24,7 @@ Git subtree is an interesting feature I discovered which allows you to manage a 
 ## Webhooks
 
 Clicking on the Auto deployment option on Hostinger, I can acquire the webhook url and navigate to Github repo settings and paste the url. This way, whenever there is a change to my repo, the webhook will tell Hostinger to run a new deployment.
+![Image Description](/images/gitwebhook.png)
 
 ## Automation Script
 Now Hostinger and my Github are connected, I just need a way to generate my build content and deploy it to Github. Below is an example script I used to automatically build my project, copy the generated content to the subtree branch and push these commits to the remote repository.
@@ -46,7 +49,6 @@ if ! npm run build; then
 fi
 
 cd ..
-
 # Copy the .htaccess file to the build output directory
 if [ -f ".htaccess" ]; then
     echo "Copying .htaccess to the build output directory..."
