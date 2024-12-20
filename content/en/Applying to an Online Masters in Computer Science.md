@@ -1,10 +1,10 @@
 +++
-title = 'Applying to OMSCS at Georgia Tec'
-date = 2024-12-13T09:48:12+08:00
-categories = ["life", "education"]
-tags = ["online school", "applications"]
-keywords = ["gatech", "applying", "applications", "masters", "online", "ut austin"]
-description = "My experience in Appling to an Online Masters In Computer Science
-draft = true
+title = 'A Review of the Backfire G2 Black Electric Skateboard'
+date = 2024-12-15T03:49:12+08:00
+categories = ["life", "reviews", "recommended"]
+tags = ["vehicle", "electric"]
+keywords = ["skateboard", "review", "electric", "beginner"]
+description = "A Review of the Backfire G2 Black Electric Skateboard as a Beginner Skater"
+draft = false
 +++
 
