@@ -6,8 +6,22 @@
     <description>Recent content in Categories on {John Tech Talks} - Discover Issues, Share Solutions.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 15 Dec 2024 03:49:12 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 20 Dec 2024 12:22:12 +0800</lastBuildDate>
     <atom:link href="https://johntechtalks.com/en/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Recommended</title>
+      <link>https://johntechtalks.com/en/categories/recommended/</link>
+      <pubDate>Fri, 20 Dec 2024 12:22:12 +0800</pubDate>
+      <guid>https://johntechtalks.com/en/categories/recommended/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tutorials</title>
+      <link>https://johntechtalks.com/en/categories/tutorials/</link>
+      <pubDate>Fri, 20 Dec 2024 12:22:12 +0800</pubDate>
+      <guid>https://johntechtalks.com/en/categories/tutorials/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Life</title>
       <link>https://johntechtalks.com/en/categories/life/</link>
@@ -16,24 +30,10 @@
       <description></description>
     </item>
     <item>
-      <title>Recommended</title>
-      <link>https://johntechtalks.com/en/categories/recommended/</link>
-      <pubDate>Sun, 15 Dec 2024 03:49:12 +0800</pubDate>
-      <guid>https://johntechtalks.com/en/categories/recommended/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Reviews</title>
       <link>https://johntechtalks.com/en/categories/reviews/</link>
       <pubDate>Sun, 15 Dec 2024 03:49:12 +0800</pubDate>
       <guid>https://johntechtalks.com/en/categories/reviews/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Tutorials</title>
-      <link>https://johntechtalks.com/en/categories/tutorials/</link>
-      <pubDate>Tue, 10 Dec 2024 09:48:12 +0800</pubDate>
-      <guid>https://johntechtalks.com/en/categories/tutorials/</guid>
       <description></description>
     </item>
     <item>
