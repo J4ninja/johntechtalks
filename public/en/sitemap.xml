@@ -2,70 +2,70 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://johntechtalks.com/en/</loc>
+    <loc>http://localhost:1313/en/</loc>
     <lastmod>2024-12-15T03:49:12+08:00</lastmod>
   </url><url>
-    <loc>https://johntechtalks.com/en/a-review-of-the-backfire-g2-black-electric-skateboard/</loc>
+    <loc>http://localhost:1313/en/a-review-of-the-backfire-g2-black-electric-skateboard/</loc>
     <lastmod>2024-12-15T03:49:12+08:00</lastmod>
   </url><url>
-    <loc>https://johntechtalks.com/en/categories/</loc>
+    <loc>http://localhost:1313/en/categories/</loc>
     <lastmod>2024-12-15T03:49:12+08:00</lastmod>
   </url><url>
-    <loc>https://johntechtalks.com/en/tags/electric/</loc>
+    <loc>http://localhost:1313/en/tags/electric/</loc>
     <lastmod>2024-12-15T03:49:12+08:00</lastmod>
   </url><url>
-    <loc>https://johntechtalks.com/en/categories/life/</loc>
+    <loc>http://localhost:1313/en/categories/life/</loc>
     <lastmod>2024-12-15T03:49:12+08:00</lastmod>
   </url><url>
-    <loc>https://johntechtalks.com/en/categories/recommended/</loc>
+    <loc>http://localhost:1313/en/categories/recommended/</loc>
     <lastmod>2024-12-15T03:49:12+08:00</lastmod>
   </url><url>
-    <loc>https://johntechtalks.com/en/categories/reviews/</loc>
+    <loc>http://localhost:1313/en/categories/reviews/</loc>
     <lastmod>2024-12-15T03:49:12+08:00</lastmod>
   </url><url>
-    <loc>https://johntechtalks.com/en/tags/</loc>
+    <loc>http://localhost:1313/en/tags/</loc>
     <lastmod>2024-12-15T03:49:12+08:00</lastmod>
   </url><url>
-    <loc>https://johntechtalks.com/en/tags/vehicle/</loc>
+    <loc>http://localhost:1313/en/tags/vehicle/</loc>
     <lastmod>2024-12-15T03:49:12+08:00</lastmod>
   </url><url>
-    <loc>https://johntechtalks.com/en/tags/3d/</loc>
+    <loc>http://localhost:1313/en/tags/3d/</loc>
     <lastmod>2024-12-12T09:34:12+08:00</lastmod>
   </url><url>
-    <loc>https://johntechtalks.com/en/tags/games/</loc>
+    <loc>http://localhost:1313/en/tags/games/</loc>
     <lastmod>2024-12-12T09:34:12+08:00</lastmod>
   </url><url>
-    <loc>https://johntechtalks.com/en/tags/gifts/</loc>
+    <loc>http://localhost:1313/en/tags/gifts/</loc>
     <lastmod>2024-12-12T09:34:12+08:00</lastmod>
   </url><url>
-    <loc>https://johntechtalks.com/en/tags/projects/</loc>
+    <loc>http://localhost:1313/en/tags/projects/</loc>
     <lastmod>2024-12-12T09:34:12+08:00</lastmod>
   </url><url>
-    <loc>https://johntechtalks.com/en/tech-bro-with-a-gf/</loc>
+    <loc>http://localhost:1313/en/tech-bro-with-a-gf/</loc>
     <lastmod>2024-12-12T09:34:12+08:00</lastmod>
   </url><url>
-    <loc>https://johntechtalks.com/en/home/</loc>
+    <loc>http://localhost:1313/en/home/</loc>
     <lastmod>2024-12-11T09:34:12+08:00</lastmod>
   </url><url>
-    <loc>https://johntechtalks.com/en/contact/</loc>
+    <loc>http://localhost:1313/en/contact/</loc>
     <lastmod>2024-12-11T01:01:03+08:00</lastmod>
   </url><url>
-    <loc>https://johntechtalks.com/en/how-to-make-a-blog-with-hugo-and-obsidian/</loc>
+    <loc>http://localhost:1313/en/how-to-make-a-blog-with-hugo-and-obsidian/</loc>
     <lastmod>2024-12-10T09:48:12+08:00</lastmod>
   </url><url>
-    <loc>https://johntechtalks.com/en/tags/hugo/</loc>
+    <loc>http://localhost:1313/en/tags/hugo/</loc>
     <lastmod>2024-12-10T09:48:12+08:00</lastmod>
   </url><url>
-    <loc>https://johntechtalks.com/en/tags/obsidian/</loc>
+    <loc>http://localhost:1313/en/tags/obsidian/</loc>
     <lastmod>2024-12-10T09:48:12+08:00</lastmod>
   </url><url>
-    <loc>https://johntechtalks.com/en/categories/tutorials/</loc>
+    <loc>http://localhost:1313/en/categories/tutorials/</loc>
     <lastmod>2024-12-10T09:48:12+08:00</lastmod>
   </url><url>
-    <loc>https://johntechtalks.com/en/categories/archives/</loc>
+    <loc>http://localhost:1313/en/categories/archives/</loc>
     <lastmod>2024-10-25T09:16:03+08:00</lastmod>
   </url><url>
-    <loc>https://johntechtalks.com/en/archives/</loc>
+    <loc>http://localhost:1313/en/archives/</loc>
     <lastmod>2024-10-25T09:16:03+08:00</lastmod>
   </url>
 </urlset>

@@ -9,9 +9,16 @@ theme = "Niello"
 
 [params]
 copyright = "John Tech Talks &#xA9; 2024 by John Nguyen. | All Rights Reserved."
-google_ad_client = "ca-pub-******"
-ga4 = "G-******"
-sharethis = ""
+sharethis = "******"
+[params.google]
+	google_ad_client = "******"
+	ga4 = "******"
+[params.bannershowcase]
+	categories = ["recommended"]
+	limit = 2
+[params.email]
+	contact = "j4nguyen134@gmail.com"	
+
 
 [languages]
 	[languages.en]
