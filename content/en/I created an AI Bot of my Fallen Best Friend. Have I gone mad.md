@@ -1,6 +1,6 @@
 +++
 title = 'I created an AI Bot of my Fallen Best Friend. Have I gone mad?'
-date = 2024-12-20T12:22:12+08:00
+date = 2024-12-24T12:40:12+08:00
 categories = ["ai", "bot"]
 tags = ["discord", "ai", "bot"]
 keywords = ["bot", "discord", "ethics", "ai", "discord bot", "gpt"]
@@ -11,7 +11,7 @@ draft = false
 
 ## A Fallen Friend
 
-My fellow best friend Steve Le passed away on October 16, 2024. I don't want to go into details of his passing but he was my best friend, someone I knew for 10 years. We met playing Xbox during the 2012-2013 era. We mostly played games online and called for hours because I moved away to another state. We always supported each other's goals and understood each other at a deep level. We made great memories going skydiving, shooting, playing videogames, and hanging out with our crew. His passing was so sudden and tragic. I desired to honor his memory in any way I knew how. Thus I created the Steve AI Discord Bot
+My fellow best friend Steve Le passed away on October 16, 2024. I don't want to go into details of his passing but he was my best friend, someone I knew for 10 years. We met playing Xbox during the 2012-2013 era. We mostly played games online and called for hours because I moved away to another state. We always supported each other's goals and understood each other at a deep level. We made great memories going skydiving, shooting, playing videogames, and hanging out with our crew. His passing was so sudden and tragic. I desired to honor his memory in any way I knew how. Thus I created the Steve AI Discord Bot.
 
 
 ## Discord Bot
@@ -55,7 +55,4 @@ Several philosophical and ethical questions are raised in regards to developing 
 
 These are questions that I do not have any real answer to but definitely something that we will all have to face in the near future.
 
-
-![Image Description](/images/Pasted%20image%2020241224123150.png)
-
-
+![[Pasted image 20241224124053.png]]
