@@ -1,7 +1,7 @@
 +++
 title = 'I created an AI Bot of my Fallen Best Friend. Have I gone mad?'
 date = 2024-12-24T12:40:12+08:00
-categories = ["AI", "bot", "recommended]
+categories = ["AI", "bot", "recommended"]
 tags = ["discord", "AI", "bot"]
 keywords = ["bot", "discord", "ethics", "ai", "discord bot", "gpt"]
 description = "I created an AI Discord Bot of my Fallen Best Friend. Why I did it and was it ethical?"
