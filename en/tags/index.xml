@@ -2,108 +2,108 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on {John Tech Talks} - Discover Issues, Share Solutions.</title>
-    <link>http://localhost:1313/en/tags/</link>
+    <link>https://johntechtalks.com/en/tags/</link>
     <description>Recent content in Tags on {John Tech Talks} - Discover Issues, Share Solutions.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 24 Dec 2024 12:40:12 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://johntechtalks.com/en/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Ai</title>
-      <link>http://localhost:1313/en/tags/ai/</link>
+      <title>AI</title>
+      <link>https://johntechtalks.com/en/tags/ai/</link>
       <pubDate>Tue, 24 Dec 2024 12:40:12 +0800</pubDate>
-      <guid>http://localhost:1313/en/tags/ai/</guid>
+      <guid>https://johntechtalks.com/en/tags/ai/</guid>
       <description></description>
     </item>
     <item>
       <title>Bot</title>
-      <link>http://localhost:1313/en/tags/bot/</link>
+      <link>https://johntechtalks.com/en/tags/bot/</link>
       <pubDate>Tue, 24 Dec 2024 12:40:12 +0800</pubDate>
-      <guid>http://localhost:1313/en/tags/bot/</guid>
+      <guid>https://johntechtalks.com/en/tags/bot/</guid>
       <description></description>
     </item>
     <item>
       <title>Discord</title>
-      <link>http://localhost:1313/en/tags/discord/</link>
+      <link>https://johntechtalks.com/en/tags/discord/</link>
       <pubDate>Tue, 24 Dec 2024 12:40:12 +0800</pubDate>
-      <guid>http://localhost:1313/en/tags/discord/</guid>
+      <guid>https://johntechtalks.com/en/tags/discord/</guid>
       <description></description>
     </item>
     <item>
       <title>Git</title>
-      <link>http://localhost:1313/en/tags/git/</link>
+      <link>https://johntechtalks.com/en/tags/git/</link>
       <pubDate>Fri, 20 Dec 2024 12:22:12 +0800</pubDate>
-      <guid>http://localhost:1313/en/tags/git/</guid>
+      <guid>https://johntechtalks.com/en/tags/git/</guid>
       <description></description>
     </item>
     <item>
       <title>Hostinger</title>
-      <link>http://localhost:1313/en/tags/hostinger/</link>
+      <link>https://johntechtalks.com/en/tags/hostinger/</link>
       <pubDate>Fri, 20 Dec 2024 12:22:12 +0800</pubDate>
-      <guid>http://localhost:1313/en/tags/hostinger/</guid>
+      <guid>https://johntechtalks.com/en/tags/hostinger/</guid>
       <description></description>
     </item>
     <item>
       <title>Webhook</title>
-      <link>http://localhost:1313/en/tags/webhook/</link>
+      <link>https://johntechtalks.com/en/tags/webhook/</link>
       <pubDate>Fri, 20 Dec 2024 12:22:12 +0800</pubDate>
-      <guid>http://localhost:1313/en/tags/webhook/</guid>
+      <guid>https://johntechtalks.com/en/tags/webhook/</guid>
       <description></description>
     </item>
     <item>
       <title>Electric</title>
-      <link>http://localhost:1313/en/tags/electric/</link>
+      <link>https://johntechtalks.com/en/tags/electric/</link>
       <pubDate>Sun, 15 Dec 2024 03:49:12 +0800</pubDate>
-      <guid>http://localhost:1313/en/tags/electric/</guid>
+      <guid>https://johntechtalks.com/en/tags/electric/</guid>
       <description></description>
     </item>
     <item>
       <title>Vehicle</title>
-      <link>http://localhost:1313/en/tags/vehicle/</link>
+      <link>https://johntechtalks.com/en/tags/vehicle/</link>
       <pubDate>Sun, 15 Dec 2024 03:49:12 +0800</pubDate>
-      <guid>http://localhost:1313/en/tags/vehicle/</guid>
+      <guid>https://johntechtalks.com/en/tags/vehicle/</guid>
       <description></description>
     </item>
     <item>
       <title>3d</title>
-      <link>http://localhost:1313/en/tags/3d/</link>
+      <link>https://johntechtalks.com/en/tags/3d/</link>
       <pubDate>Thu, 12 Dec 2024 09:34:12 +0800</pubDate>
-      <guid>http://localhost:1313/en/tags/3d/</guid>
+      <guid>https://johntechtalks.com/en/tags/3d/</guid>
       <description></description>
     </item>
     <item>
       <title>Games</title>
-      <link>http://localhost:1313/en/tags/games/</link>
+      <link>https://johntechtalks.com/en/tags/games/</link>
       <pubDate>Thu, 12 Dec 2024 09:34:12 +0800</pubDate>
-      <guid>http://localhost:1313/en/tags/games/</guid>
+      <guid>https://johntechtalks.com/en/tags/games/</guid>
       <description></description>
     </item>
     <item>
       <title>Gifts</title>
-      <link>http://localhost:1313/en/tags/gifts/</link>
+      <link>https://johntechtalks.com/en/tags/gifts/</link>
       <pubDate>Thu, 12 Dec 2024 09:34:12 +0800</pubDate>
-      <guid>http://localhost:1313/en/tags/gifts/</guid>
+      <guid>https://johntechtalks.com/en/tags/gifts/</guid>
       <description></description>
     </item>
     <item>
       <title>Projects</title>
-      <link>http://localhost:1313/en/tags/projects/</link>
+      <link>https://johntechtalks.com/en/tags/projects/</link>
       <pubDate>Thu, 12 Dec 2024 09:34:12 +0800</pubDate>
-      <guid>http://localhost:1313/en/tags/projects/</guid>
+      <guid>https://johntechtalks.com/en/tags/projects/</guid>
       <description></description>
     </item>
     <item>
       <title>Hugo</title>
-      <link>http://localhost:1313/en/tags/hugo/</link>
+      <link>https://johntechtalks.com/en/tags/hugo/</link>
       <pubDate>Tue, 10 Dec 2024 09:48:12 +0800</pubDate>
-      <guid>http://localhost:1313/en/tags/hugo/</guid>
+      <guid>https://johntechtalks.com/en/tags/hugo/</guid>
       <description></description>
     </item>
     <item>
       <title>Obsidian</title>
-      <link>http://localhost:1313/en/tags/obsidian/</link>
+      <link>https://johntechtalks.com/en/tags/obsidian/</link>
       <pubDate>Tue, 10 Dec 2024 09:48:12 +0800</pubDate>
-      <guid>http://localhost:1313/en/tags/obsidian/</guid>
+      <guid>https://johntechtalks.com/en/tags/obsidian/</guid>
       <description></description>
     </item>
   </channel>

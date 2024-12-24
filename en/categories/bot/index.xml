@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Bot on {John Tech Talks} - Discover Issues, Share Solutions.</title>
-    <link>http://localhost:1313/en/categories/bot/</link>
+    <link>https://johntechtalks.com/en/categories/bot/</link>
     <description>Recent content in Bot on {John Tech Talks} - Discover Issues, Share Solutions.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 24 Dec 2024 12:40:12 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/en/categories/bot/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://johntechtalks.com/en/categories/bot/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>I created an AI Bot of my Fallen Best Friend. Have I gone mad?</title>
-      <link>http://localhost:1313/en/i-created-an-ai-bot-of-my-fallen-best-friend.-have-i-gone-mad/</link>
+      <link>https://johntechtalks.com/en/i-created-an-ai-bot-of-my-fallen-best-friend.-have-i-gone-mad/</link>
       <pubDate>Tue, 24 Dec 2024 12:40:12 +0800</pubDate>
-      <guid>http://localhost:1313/en/i-created-an-ai-bot-of-my-fallen-best-friend.-have-i-gone-mad/</guid>
+      <guid>https://johntechtalks.com/en/i-created-an-ai-bot-of-my-fallen-best-friend.-have-i-gone-mad/</guid>
       <description>&lt;h2 id=&#34;a-fallen-friend&#34;&gt;A Fallen Friend&lt;/h2&gt;&#xA;&lt;p&gt;My fellow best friend Steve Le passed away on October 16, 2024. I don&amp;rsquo;t want to go into details of his passing but he was my best friend, someone I knew for 10 years. We met playing Xbox during the 2012-2013 era. We mostly played games online and called for hours because I moved away to another state. We always supported each other&amp;rsquo;s goals and understood each other at a deep level. We made great memories going skydiving, shooting, playing videogames, and hanging out with our crew. His passing was so sudden and tragic. I desired to honor his memory in any way I knew how. Thus I created the Steve AI Discord Bot.&lt;/p&gt;</description>
     </item>
   </channel>
