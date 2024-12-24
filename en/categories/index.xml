@@ -9,10 +9,24 @@
     <lastBuildDate>Fri, 20 Dec 2024 12:22:12 +0800</lastBuildDate>
     <atom:link href="https://johntechtalks.com/en/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Ai</title>
+      <link>https://johntechtalks.com/en/categories/ai/</link>
+      <pubDate>Fri, 20 Dec 2024 12:22:12 +0800</pubDate>
+      <guid>https://johntechtalks.com/en/categories/ai/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Automation</title>
       <link>https://johntechtalks.com/en/categories/automation/</link>
       <pubDate>Fri, 20 Dec 2024 12:22:12 +0800</pubDate>
       <guid>https://johntechtalks.com/en/categories/automation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bot</title>
+      <link>https://johntechtalks.com/en/categories/bot/</link>
+      <pubDate>Fri, 20 Dec 2024 12:22:12 +0800</pubDate>
+      <guid>https://johntechtalks.com/en/categories/bot/</guid>
       <description></description>
     </item>
     <item>
