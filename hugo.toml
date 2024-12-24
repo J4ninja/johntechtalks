@@ -15,7 +15,7 @@ sharethis = "******"
 	ga4 = "******"
 [params.bannershowcase]
 	categories = ["recommended"]
-	limit = 2
+	limit = 5
 [params.email]
 	contact = "j4nguyen134@gmail.com"
 [params.ignore]

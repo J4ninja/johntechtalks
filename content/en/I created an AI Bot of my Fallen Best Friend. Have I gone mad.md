@@ -55,4 +55,4 @@ Several philosophical and ethical questions are raised in regards to developing 
 
 These are questions that I do not have any real answer to but definitely something that we will all have to face in the near future.
 
-![[Pasted image 20241224160751.png]]
+![Image Description](/images/Pasted%20image%2020241224160751.png)
