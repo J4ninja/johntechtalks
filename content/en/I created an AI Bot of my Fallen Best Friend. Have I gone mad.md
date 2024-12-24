@@ -1,8 +1,8 @@
 +++
 title = 'I created an AI Bot of my Fallen Best Friend. Have I gone mad?'
 date = 2024-12-24T12:40:12+08:00
-categories = ["ai", "bot"]
-tags = ["discord", "ai", "bot"]
+categories = ["AI", "bot", "recommended]
+tags = ["discord", "AI", "bot"]
 keywords = ["bot", "discord", "ethics", "ai", "discord bot", "gpt"]
 description = "I created an AI Discord Bot of my Fallen Best Friend. Why I did it and was it ethical?"
 draft = false
@@ -54,4 +54,5 @@ Several philosophical and ethical questions are raised in regards to developing 
 7. Does it honor the memory or is it disrespectful?
 
 These are questions that I do not have any real answer to but definitely something that we will all have to face in the near future.
-![Image Description](/images/Pasted%20image%2020241224160606.png)
+
+![[Pasted image 20241224160751.png]]
