@@ -54,5 +54,4 @@ Several philosophical and ethical questions are raised in regards to developing 
 7. Does it honor the memory or is it disrespectful?
 
 These are questions that I do not have any real answer to but definitely something that we will all have to face in the near future.
-
-![Image Description](/images/Pasted%20image%2020241224124053.png)
+![Image Description](/images/Pasted%20image%2020241224160606.png)
