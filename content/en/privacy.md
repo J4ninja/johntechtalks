@@ -2,6 +2,7 @@
 title = 'Privacy Policy'
 date = 0000-01-01T00:00:12+08:00
 description = "Privacy Policy"
+categories = ["privacy"]
 draft = false
 +++
 

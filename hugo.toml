@@ -17,7 +17,9 @@ sharethis = "******"
 	categories = ["recommended"]
 	limit = 2
 [params.email]
-	contact = "j4nguyen134@gmail.com"	
+	contact = "j4nguyen134@gmail.com"
+[params.ignore]
+	categories = ["privacy", "terms", "archives", "cookie"]
 
 
 [languages]

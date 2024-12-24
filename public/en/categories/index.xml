@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on {John Tech Talks} - Discover Issues, Share Solutions.</title>
-    <link>https://johntechtalks.com/en/categories/</link>
+    <link>http://localhost:1313/en/categories/</link>
     <description>Recent content in Categories on {John Tech Talks} - Discover Issues, Share Solutions.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 20 Dec 2024 12:22:12 +0800</lastBuildDate>
-    <atom:link href="https://johntechtalks.com/en/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/en/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Recommended</title>
-      <link>https://johntechtalks.com/en/categories/recommended/</link>
+      <link>http://localhost:1313/en/categories/recommended/</link>
       <pubDate>Fri, 20 Dec 2024 12:22:12 +0800</pubDate>
-      <guid>https://johntechtalks.com/en/categories/recommended/</guid>
+      <guid>http://localhost:1313/en/categories/recommended/</guid>
       <description></description>
     </item>
     <item>
       <title>Tutorials</title>
-      <link>https://johntechtalks.com/en/categories/tutorials/</link>
+      <link>http://localhost:1313/en/categories/tutorials/</link>
       <pubDate>Fri, 20 Dec 2024 12:22:12 +0800</pubDate>
-      <guid>https://johntechtalks.com/en/categories/tutorials/</guid>
+      <guid>http://localhost:1313/en/categories/tutorials/</guid>
       <description></description>
     </item>
     <item>
       <title>Life</title>
-      <link>https://johntechtalks.com/en/categories/life/</link>
+      <link>http://localhost:1313/en/categories/life/</link>
       <pubDate>Sun, 15 Dec 2024 03:49:12 +0800</pubDate>
-      <guid>https://johntechtalks.com/en/categories/life/</guid>
+      <guid>http://localhost:1313/en/categories/life/</guid>
       <description></description>
     </item>
     <item>
       <title>Reviews</title>
-      <link>https://johntechtalks.com/en/categories/reviews/</link>
+      <link>http://localhost:1313/en/categories/reviews/</link>
       <pubDate>Sun, 15 Dec 2024 03:49:12 +0800</pubDate>
-      <guid>https://johntechtalks.com/en/categories/reviews/</guid>
+      <guid>http://localhost:1313/en/categories/reviews/</guid>
       <description></description>
     </item>
     <item>
       <title>Archives</title>
-      <link>https://johntechtalks.com/en/categories/archives/</link>
+      <link>http://localhost:1313/en/categories/archives/</link>
       <pubDate>Fri, 25 Oct 2024 09:16:03 +0800</pubDate>
-      <guid>https://johntechtalks.com/en/categories/archives/</guid>
+      <guid>http://localhost:1313/en/categories/archives/</guid>
       <description></description>
     </item>
   </channel>
