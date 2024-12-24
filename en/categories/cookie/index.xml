@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cookie on {John Tech Talks} - Discover Issues, Share Solutions.</title>
-    <link>http://localhost:1313/en/categories/cookie/</link>
+    <link>https://johntechtalks.com/en/categories/cookie/</link>
     <description>Recent content in Cookie on {John Tech Talks} - Discover Issues, Share Solutions.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/en/categories/cookie/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://johntechtalks.com/en/categories/cookie/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cookie Policy</title>
-      <link>http://localhost:1313/en/cookie/</link>
+      <link>https://johntechtalks.com/en/cookie/</link>
       <pubDate>Sat, 01 Jan 0000 00:00:12 +0800</pubDate>
-      <guid>http://localhost:1313/en/cookie/</guid>
-      <description>&lt;h3 id=&#34;managing-cookies&#34;&gt;Managing Cookies&lt;/h3&gt;&#xA;&lt;p&gt;You can control and manage cookies through your browser settings. You can also learn more about how Google uses cookies and how to manage them by visiting &lt;a href=&#34;https://policies.google.com/technologies/cookies&#34;&gt;Google&amp;rsquo;s Cookie Policy&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h3 id=&#34;third-party-cookies&#34;&gt;Third-Party Cookies&lt;/h3&gt;&#xA;&lt;p&gt;Google AdSense and its partners may use cookies to:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Show personalized ads based on your browsing behavior.&lt;/li&gt;&#xA;&lt;li&gt;Measure the effectiveness of advertising campaigns.&lt;/li&gt;&#xA;&lt;li&gt;Provide aggregated analytics on ad performance.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;For more details, review the &lt;a href=&#34;https://policies.google.com/privacy&#34;&gt;Google Privacy Policy&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h3 id=&#34;changes-to-this-policy&#34;&gt;Changes to This Policy&lt;/h3&gt;&#xA;&lt;p&gt;We reserve the right to update this Cookie Policy at any time. Changes will be posted on this page with an updated effective date.&lt;/p&gt;</description>
+      <guid>https://johntechtalks.com/en/cookie/</guid>
+      <description>&lt;h3 id=&#34;cookies&#34;&gt;Cookies&lt;/h3&gt;&#xA;&lt;p&gt;Google AdSense and its partners may use cookies.&lt;br&gt;&#xA;For more details, review the &lt;a href=&#34;https://policies.google.com/privacy&#34;&gt;Google Privacy Policy&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
