@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hostinger on {John Tech Talks} - Discover Issues, Share Solutions.</title>
-    <link>https://johntechtalks.com/en/tags/hostinger/</link>
+    <link>http://localhost:1313/en/tags/hostinger/</link>
     <description>Recent content in Hostinger on {John Tech Talks} - Discover Issues, Share Solutions.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 20 Dec 2024 12:22:12 +0800</lastBuildDate>
-    <atom:link href="https://johntechtalks.com/en/tags/hostinger/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/en/tags/hostinger/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to Automate Hostinger Deployments with Git Subtree and Webhooks</title>
-      <link>https://johntechtalks.com/en/how-to-automate-hostinger-deployments-with-git-subtree-and-webhooks/</link>
+      <link>http://localhost:1313/en/how-to-automate-hostinger-deployments-with-git-subtree-and-webhooks/</link>
       <pubDate>Fri, 20 Dec 2024 12:22:12 +0800</pubDate>
-      <guid>https://johntechtalks.com/en/how-to-automate-hostinger-deployments-with-git-subtree-and-webhooks/</guid>
-      <description>&lt;h2 id=&#34;hostinger-automation-with-git&#34;&gt;Hostinger Automation with Git&lt;/h2&gt;&#xA;&lt;p&gt;Hostinger is a great and cheap hosting platform for static websites. I currently use the web hosting plan to host several websites. To deploy my website changes, I export my static content (html, css, js) into a zip and unzip it in the file manager&amp;rsquo;s public_html folder. This is a little cumbersome so I looked for a way to &lt;strong&gt;automate&lt;/strong&gt; this.&lt;/p&gt;&#xA;&lt;p&gt;Fortunately this can be done easily. Hostinger has an official tutorial for deploying git repos &lt;a href=&#34;https://support.hostinger.com/en/articles/1583302-how-to-deploy-a-git-repository&#34;&gt;here&lt;/a&gt;.&#xA;&lt;img src=&#34;https://johntechtalks.com/images/hostingergitpanel.png&#34; alt=&#34;Image Description&#34;&gt;&#xA;However, this step alone won&amp;rsquo;t work on my web apps built with frameworks such as React, Next, and Hugo. I need another automation step.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/en/how-to-automate-hostinger-deployments-with-git-subtree-and-webhooks/</guid>
+      <description>&lt;h2 id=&#34;hostinger-automation-with-git&#34;&gt;Hostinger Automation with Git&lt;/h2&gt;&#xA;&lt;p&gt;Hostinger is a great and cheap hosting platform for static websites. I currently use the web hosting plan to host several websites. To deploy my website changes, I export my static content (html, css, js) into a zip and unzip it in the file manager&amp;rsquo;s public_html folder. This is a little cumbersome so I looked for a way to &lt;strong&gt;automate&lt;/strong&gt; this.&lt;/p&gt;&#xA;&lt;p&gt;Fortunately this can be done easily. Hostinger has an official tutorial for deploying git repos &lt;a href=&#34;https://support.hostinger.com/en/articles/1583302-how-to-deploy-a-git-repository&#34;&gt;here&lt;/a&gt;.&#xA;&lt;img src=&#34;http://localhost:1313/images/hostingergitpanel.png&#34; alt=&#34;Image Description&#34;&gt;&#xA;However, this step alone won&amp;rsquo;t work on my web apps built with frameworks such as React, Next, and Hugo. I need another automation step.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

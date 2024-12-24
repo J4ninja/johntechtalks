@@ -2,32 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Recommended on {John Tech Talks} - Discover Issues, Share Solutions.</title>
-    <link>https://johntechtalks.com/en/categories/recommended/</link>
+    <link>http://localhost:1313/en/categories/recommended/</link>
     <description>Recent content in Recommended on {John Tech Talks} - Discover Issues, Share Solutions.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 20 Dec 2024 12:22:12 +0800</lastBuildDate>
-    <atom:link href="https://johntechtalks.com/en/categories/recommended/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 24 Dec 2024 12:40:12 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/categories/recommended/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>I created an AI Bot of my Fallen Best Friend. Have I gone mad?</title>
+      <link>http://localhost:1313/en/i-created-an-ai-bot-of-my-fallen-best-friend.-have-i-gone-mad/</link>
+      <pubDate>Tue, 24 Dec 2024 12:40:12 +0800</pubDate>
+      <guid>http://localhost:1313/en/i-created-an-ai-bot-of-my-fallen-best-friend.-have-i-gone-mad/</guid>
+      <description>&lt;h2 id=&#34;a-fallen-friend&#34;&gt;A Fallen Friend&lt;/h2&gt;&#xA;&lt;p&gt;My fellow best friend Steve Le passed away on October 16, 2024. I don&amp;rsquo;t want to go into details of his passing but he was my best friend, someone I knew for 10 years. We met playing Xbox during the 2012-2013 era. We mostly played games online and called for hours because I moved away to another state. We always supported each other&amp;rsquo;s goals and understood each other at a deep level. We made great memories going skydiving, shooting, playing videogames, and hanging out with our crew. His passing was so sudden and tragic. I desired to honor his memory in any way I knew how. Thus I created the Steve AI Discord Bot.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>How to Automate Hostinger Deployments with Git Subtree and Webhooks</title>
-      <link>https://johntechtalks.com/en/how-to-automate-hostinger-deployments-with-git-subtree-and-webhooks/</link>
+      <link>http://localhost:1313/en/how-to-automate-hostinger-deployments-with-git-subtree-and-webhooks/</link>
       <pubDate>Fri, 20 Dec 2024 12:22:12 +0800</pubDate>
-      <guid>https://johntechtalks.com/en/how-to-automate-hostinger-deployments-with-git-subtree-and-webhooks/</guid>
-      <description>&lt;h2 id=&#34;hostinger-automation-with-git&#34;&gt;Hostinger Automation with Git&lt;/h2&gt;&#xA;&lt;p&gt;Hostinger is a great and cheap hosting platform for static websites. I currently use the web hosting plan to host several websites. To deploy my website changes, I export my static content (html, css, js) into a zip and unzip it in the file manager&amp;rsquo;s public_html folder. This is a little cumbersome so I looked for a way to &lt;strong&gt;automate&lt;/strong&gt; this.&lt;/p&gt;&#xA;&lt;p&gt;Fortunately this can be done easily. Hostinger has an official tutorial for deploying git repos &lt;a href=&#34;https://support.hostinger.com/en/articles/1583302-how-to-deploy-a-git-repository&#34;&gt;here&lt;/a&gt;.&#xA;&lt;img src=&#34;https://johntechtalks.com/images/hostingergitpanel.png&#34; alt=&#34;Image Description&#34;&gt;&#xA;However, this step alone won&amp;rsquo;t work on my web apps built with frameworks such as React, Next, and Hugo. I need another automation step.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/en/how-to-automate-hostinger-deployments-with-git-subtree-and-webhooks/</guid>
+      <description>&lt;h2 id=&#34;hostinger-automation-with-git&#34;&gt;Hostinger Automation with Git&lt;/h2&gt;&#xA;&lt;p&gt;Hostinger is a great and cheap hosting platform for static websites. I currently use the web hosting plan to host several websites. To deploy my website changes, I export my static content (html, css, js) into a zip and unzip it in the file manager&amp;rsquo;s public_html folder. This is a little cumbersome so I looked for a way to &lt;strong&gt;automate&lt;/strong&gt; this.&lt;/p&gt;&#xA;&lt;p&gt;Fortunately this can be done easily. Hostinger has an official tutorial for deploying git repos &lt;a href=&#34;https://support.hostinger.com/en/articles/1583302-how-to-deploy-a-git-repository&#34;&gt;here&lt;/a&gt;.&#xA;&lt;img src=&#34;http://localhost:1313/images/hostingergitpanel.png&#34; alt=&#34;Image Description&#34;&gt;&#xA;However, this step alone won&amp;rsquo;t work on my web apps built with frameworks such as React, Next, and Hugo. I need another automation step.&lt;/p&gt;</description>
     </item>
     <item>
       <title>A Review of the Backfire G2 Black Electric Skateboard</title>
-      <link>https://johntechtalks.com/en/a-review-of-the-backfire-g2-black-electric-skateboard/</link>
+      <link>http://localhost:1313/en/a-review-of-the-backfire-g2-black-electric-skateboard/</link>
       <pubDate>Sun, 15 Dec 2024 03:49:12 +0800</pubDate>
-      <guid>https://johntechtalks.com/en/a-review-of-the-backfire-g2-black-electric-skateboard/</guid>
+      <guid>http://localhost:1313/en/a-review-of-the-backfire-g2-black-electric-skateboard/</guid>
       <description>&lt;h2 id=&#34;electric-skating-as-a-beginner-skater&#34;&gt;Electric Skating as a Beginner Skater&lt;/h2&gt;&#xA;&lt;p&gt;I have never properly skated on a normal skateboard. My body won&amp;rsquo;t let me attempt dangerous things where I am not in complete control. That&amp;rsquo;s where the electric board controller comes in. With this controller, I&amp;rsquo;ll be able to know the exact speed I am moving at and more importantly, stop when I have to. The only thing I would have to worry about is balance and turning. On the contrary, most skaters would just recommend getting a normal board so you can build confidence, but it wasn&amp;rsquo;t entirely my goal to be a real skater. I did my research and found an entry level electric board that wasn&amp;rsquo;t too pricey and didn&amp;rsquo;t have all the fancy features. I opted for the Backfire G2 Black since it was on sale and looked sleek while being aimed at beginners.&lt;/p&gt;</description>
     </item>
     <item>
       <title>How to Make a Blog with Hugo and Obsidian</title>
-      <link>https://johntechtalks.com/en/how-to-make-a-blog-with-hugo-and-obsidian/</link>
+      <link>http://localhost:1313/en/how-to-make-a-blog-with-hugo-and-obsidian/</link>
       <pubDate>Tue, 10 Dec 2024 09:48:12 +0800</pubDate>
-      <guid>https://johntechtalks.com/en/how-to-make-a-blog-with-hugo-and-obsidian/</guid>
-      <description>&lt;p&gt;Who even blogs in 2024? I do. Let me give you a few reasons why I am blogging in 2024.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Having a personal journal&lt;/li&gt;&#xA;&lt;li&gt;Learning to express my ideas through writing&lt;/li&gt;&#xA;&lt;li&gt;Sharing useful information to the public&lt;/li&gt;&#xA;&lt;li&gt;Learning necessary tools such as Obsidian and Hugo&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://johntechtalks.com/images/obsidianlogo.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;</description>
+      <guid>http://localhost:1313/en/how-to-make-a-blog-with-hugo-and-obsidian/</guid>
+      <description>&lt;p&gt;Who even blogs in 2024? I do. Let me give you a few reasons why I am blogging in 2024.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Having a personal journal&lt;/li&gt;&#xA;&lt;li&gt;Learning to express my ideas through writing&lt;/li&gt;&#xA;&lt;li&gt;Sharing useful information to the public&lt;/li&gt;&#xA;&lt;li&gt;Learning necessary tools such as Obsidian and Hugo&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/obsidianlogo.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
