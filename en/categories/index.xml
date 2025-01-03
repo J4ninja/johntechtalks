@@ -6,8 +6,29 @@
     <description>Recent content in Categories on {John Tech Talks} - Discover Issues, Share Solutions.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 24 Dec 2024 12:40:12 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 03 Jan 2025 09:36:12 +0800</lastBuildDate>
     <atom:link href="https://johntechtalks.com/en/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Education</title>
+      <link>https://johntechtalks.com/en/categories/education/</link>
+      <pubDate>Fri, 03 Jan 2025 09:36:12 +0800</pubDate>
+      <guid>https://johntechtalks.com/en/categories/education/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Recommended</title>
+      <link>https://johntechtalks.com/en/categories/recommended/</link>
+      <pubDate>Fri, 03 Jan 2025 09:36:12 +0800</pubDate>
+      <guid>https://johntechtalks.com/en/categories/recommended/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Study</title>
+      <link>https://johntechtalks.com/en/categories/study/</link>
+      <pubDate>Fri, 03 Jan 2025 09:36:12 +0800</pubDate>
+      <guid>https://johntechtalks.com/en/categories/study/</guid>
+      <description></description>
+    </item>
     <item>
       <title>AI</title>
       <link>https://johntechtalks.com/en/categories/ai/</link>
@@ -20,13 +41,6 @@
       <link>https://johntechtalks.com/en/categories/bot/</link>
       <pubDate>Tue, 24 Dec 2024 12:40:12 +0800</pubDate>
       <guid>https://johntechtalks.com/en/categories/bot/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Recommended</title>
-      <link>https://johntechtalks.com/en/categories/recommended/</link>
-      <pubDate>Tue, 24 Dec 2024 12:40:12 +0800</pubDate>
-      <guid>https://johntechtalks.com/en/categories/recommended/</guid>
       <description></description>
     </item>
     <item>
