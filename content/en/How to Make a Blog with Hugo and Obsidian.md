@@ -5,7 +5,7 @@ categories = ["tutorials", "recommended"]
 tags = ["hugo", "obsidian"]
 keywords = ["hugo", "obsidian"]
 description = "SEO Description Here"
-draft = false
+draft = true
 featuredImage = "/images/obsidianSmallLogo.png"
 +++
 
