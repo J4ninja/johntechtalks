@@ -9,10 +9,10 @@ theme = "Niello"
 
 [params]
 copyright = "John Tech Talks &#xA9; 2024 by John Nguyen. | All Rights Reserved."
-sharethis = "******"
+sharethis = "677ac2478d50b9001ab3b268"
 [params.google]
-	google_ad_client = "******"
-	ga4 = "******"
+	google_ad_client = "ca-pub-pub-4662966258960893"
+	ga4 = "G-V54VPQF9VK"
 [params.bannershowcase]
 	categories = ["recommended"]
 	limit = 5
@@ -24,7 +24,7 @@ sharethis = "******"
 
 [languages]
 	[languages.en]
-		title = "{John Tech Talks} - Discover Issues, Share Solutions."
+		title = "John Tech Talks - Discover Issues, Share Solutions."
 		languageCode = "en-us"
 		LanguageName = "🇺🇸EN"
 		contentDir = "content/en"
