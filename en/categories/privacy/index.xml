@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Privacy on {John Tech Talks} - Discover Issues, Share Solutions.</title>
+    <title>Privacy on John Tech Talks - Discover Issues, Share Solutions.</title>
     <link>https://johntechtalks.com/en/categories/privacy/</link>
-    <description>Recent content in Privacy on {John Tech Talks} - Discover Issues, Share Solutions.</description>
+    <description>Recent content in Privacy on John Tech Talks - Discover Issues, Share Solutions.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://johntechtalks.com/en/categories/privacy/index.xml" rel="self" type="application/rss+xml" />
