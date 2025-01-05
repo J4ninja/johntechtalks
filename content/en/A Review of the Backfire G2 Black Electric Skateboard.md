@@ -11,6 +11,9 @@ draft = false
 ## Electric Skating as a Beginner Skater
 
 I have never properly skated on a normal skateboard. My body won't let me attempt dangerous things where I am not in complete control. That's where the electric board controller comes in. With this controller, I'll be able to know the exact speed I am moving at and more importantly, stop when I have to. The only thing I would have to worry about is balance and turning. On the contrary, most skaters would just recommend getting a normal board so you can build confidence, but it wasn't entirely my goal to be a real skater. I did my research and found an entry level electric board that wasn't too pricey and didn't have all the fancy features. I opted for the Backfire G2 Black since it was on sale and looked sleek while being aimed at beginners.
+
+![Image Description](/images/g2black.png)
+
 ## Basic Specs
 
 ### Range 
@@ -84,4 +87,3 @@ The original remote controller is bare bones. A cool perk was that it could cont
 
 Overall, I found that this board was one of the best purchases I ever made! I never had to do any repairs with the board and had no need for more features when I am just computing locally on campus. It made me feel cool, saved my time, and brought lots of fun teaching others how to ride and carrying big objects while moving. I was able to ride with my best friend on campus who also had a board and that experience can't be replaced! Definitely would recommend getting into electric skateboards even if you don't know how to skate!
 
-![Image Description](/images/g2black.png)

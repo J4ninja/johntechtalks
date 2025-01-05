@@ -10,6 +10,9 @@ draft = false
 
 ## Hostinger Automation with Git
 
+![Image Description](/images/hostingerlogo.png)
+
+
 Hostinger is a great and cheap hosting platform for static websites. I currently use the web hosting plan to host several websites. To deploy my website changes, I export my static content (html, css, js) into a zip and unzip it in the file manager's public_html folder. This is a little cumbersome so I looked for a way to **automate** this.
 
 Fortunately this can be done easily. Hostinger has an official tutorial for deploying git repos [here](https://support.hostinger.com/en/articles/1583302-how-to-deploy-a-git-repository).
@@ -108,4 +111,3 @@ This script will not work if your generated content is not actually tracked by g
 ## Conclusion
 Overall, I am happy with this automation as I don't have to zip my files, login to Hostinger, delete the old files, upload new ones, and unzip the new ones. Now I can just run my script from my terminal and my live website will have the new changes!
 
-![Image Description](/images/hostingerlogo.png)

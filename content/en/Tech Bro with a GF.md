@@ -11,7 +11,8 @@ draft = false
 
 A Tech bro with a girlfriend?? That's impossible. However, at one point in time, I would like to say I broke this standard by having a girlfriend for 2 years! Now as a nerdy tech bro, I am often consumed with learning new tech stacks and building personal projects. How can a tech bro even maintain their life while keeping their girlfriend happy? Well let me tell you all about that!
 
-![Image Description](/images/heart.png)
+![Image Description](/images/laptopheart.png)
+
 
 ## Projects Designed with 'Her' in Mind
 
@@ -69,4 +70,3 @@ As a tech bro, you probably grew up playing games. Well if you're still into gam
 At the end of the day, being in a relationship is a lot to handle for anyone. As a tech bro, your likeliness in obtaining a girlfriend is near 0 but not impossible. But it doesn't stop at getting a girlfriend. Your partner deserves to be a priority in your life and they should feel that way. I personally struggled with sticking to my productivity routine with a relationship. Still, having a girlfriend stabilized my mental health, knowing that I have a supporter in all my big ideas. However, I often took this for granted, only focusing on my endeavors and not her. It's great to have someone interested in your life, but hopefully you are at least equally interested in her life and make an effort to do the activities that she is interested in. We should put as much effort (and more) into our relationship as we do for interview prep. Use your talents as a tech bro and optimize your relationship!
 
 
-![Image Description](/images/laptopheart.png)
