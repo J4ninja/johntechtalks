@@ -73,6 +73,8 @@ Some say having an iPad, MacBook, and iPhone makes you a rich sheep and it is ov
 
 ## Saving Extracurriculars for Senior Year?
 
+![Image Description](/images/princeken.png)
+
 I joined multiple organizations and leadership positions during my final years in undergrad. I felt this would be a great way to stay involved on campus. I felt sad seeing senior students disappear from campus to grind away at home. I wanted to leave a legacy on campus. This worked out great for me, but I could only do so with the peace of mind that I have a job offer. It is understandable to step away from clubs to focus on the interview grind. I would recommend newer students to get involved earlier on and spread it across all four years. This way, you create an early network, gain leadership experiences for resume building, and keep things exciting and not mundane from the usual lecture, homework, sleep cycle. If you're able to acquire a job offer before your last semester, I would recommend taking a bunch of elective courses and experimenting. College is a safe space to try new things without much judgement of failure like in the real world. I took bowling, golf, and tennis courses in my final semester since I wasn't into sports growing up. 
 
 ## Surround Yourself with Like-Minded People
