@@ -6,20 +6,27 @@
     <description>Recent content in Categories on John Tech Talks - Discover Issues, Share Solutions.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 03 Jan 2025 09:36:12 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 21 Jan 2025 12:40:12 +0800</lastBuildDate>
     <atom:link href="https://johntechtalks.com/en/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Recommended</title>
+      <link>https://johntechtalks.com/en/categories/recommended/</link>
+      <pubDate>Tue, 21 Jan 2025 12:40:12 +0800</pubDate>
+      <guid>https://johntechtalks.com/en/categories/recommended/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Self-Hosting</title>
+      <link>https://johntechtalks.com/en/categories/self-hosting/</link>
+      <pubDate>Tue, 21 Jan 2025 12:40:12 +0800</pubDate>
+      <guid>https://johntechtalks.com/en/categories/self-hosting/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Education</title>
       <link>https://johntechtalks.com/en/categories/education/</link>
       <pubDate>Fri, 03 Jan 2025 09:36:12 +0800</pubDate>
       <guid>https://johntechtalks.com/en/categories/education/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Recommended</title>
-      <link>https://johntechtalks.com/en/categories/recommended/</link>
-      <pubDate>Fri, 03 Jan 2025 09:36:12 +0800</pubDate>
-      <guid>https://johntechtalks.com/en/categories/recommended/</guid>
       <description></description>
     </item>
     <item>
