@@ -12,7 +12,7 @@ draft = false
 
 ## Why Self-Host?
 
-A lot of people tend to stray away from self-hosting and look for convenient deployment solutions with automated processes, Git integration, a simple user interface, etc. However, they can sometimes get hit with a surprise serverless bill from their cloud provider running over 4 digits. Self-Hosting allows you to have full control over your apps and services. It teaches you how to run things through privately, setting up things like nginx, systemd services, networking and more. It is also cost efficient since you only have to pay for the server cost. While, I enjoy not worrying about huge bills from cloud providers, I still miss having the convenience these hosting platforms provided. With some investigation, I came across Coolify.
+A lot of people tend to stray away from self-hosting and look for convenient deployment solutions with automated processes, Git integration, a simple user interface, etc. However, they can sometimes get hit with a surprise serverless bill from their cloud provider running over 4 digits. Self-Hosting allows you to have full control over your apps and services. It teaches you how to run things privately, setting up things like nginx, systemd services, networking and more. It is also cost efficient since you only have to pay for the server cost. While, I enjoy not worrying about huge bills from cloud providers, I still miss having the convenience these hosting platforms provided. With some investigation, I came across Coolify.
 
 
 ## Coolify Benefits
