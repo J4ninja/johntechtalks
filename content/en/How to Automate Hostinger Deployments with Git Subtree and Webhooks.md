@@ -1,7 +1,7 @@
 +++
 title = 'How to Automate Hostinger Deployments with Git Subtree and Webhooks'
 date = 2024-12-20T12:22:12+08:00
-categories = ["tutorials", "recommended", "automation"]
+categories = ["tutorials", "automation", "deployment"]
 tags = ["git", "hostinger", "webhook"]
 keywords = ["git", "hostinger", "webhook", "subtree", "automate"]
 description = "How to Automate Hostinger Deployments with Git Subtree and Webhooks"
