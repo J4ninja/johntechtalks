@@ -1,9 +1,9 @@
 +++
-title = 'Self Hosting Apps with Coolify'
+title = 'Self Hosting Discord Bots and Other Apps with Coolify'
 date = 2025-01-21T12:40:12+08:00
 categories = ["self-hosting", "recommended"]
-tags = ["coolify", "hosting"]
-keywords = ["self-host", "self hosting", "coolify", "docker"]
+tags = ["coolify", "hosting", "docker", "git", "raspberry pi"]
+keywords = ["self-host", "self hosting", "coolify", "docker", "raspberry pi"]
 description = "How to self host your apps using Coolify on VPS, Raspberry Pi and more."
 draft = false
 +++
