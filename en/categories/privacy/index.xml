@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Privacy on Johns Tech Logs - Discover Issues, Share Solutions.</title>
-    <link>https://johntechtalks.com/en/categories/privacy/</link>
+    <link>https://johnstechlogs.com/en/categories/privacy/</link>
     <description>Recent content in Privacy on Johns Tech Logs - Discover Issues, Share Solutions.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://johntechtalks.com/en/categories/privacy/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://johnstechlogs.com/en/categories/privacy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Privacy Policy</title>
-      <link>https://johntechtalks.com/en/privacy/</link>
+      <link>https://johnstechlogs.com/en/privacy/</link>
       <pubDate>Sat, 01 Jan 0000 00:00:12 +0800</pubDate>
-      <guid>https://johntechtalks.com/en/privacy/</guid>
+      <guid>https://johnstechlogs.com/en/privacy/</guid>
       <description>&lt;p&gt;Your privacy is important to us. This Privacy Policy explains how third-party services, such as Google AdSense, may collect and use your information when you use our website. By using our website, you agree to the terms of this Privacy Policy.&lt;/p&gt;&#xA;&lt;h3 id=&#34;information-collected-by-third-parties&#34;&gt;Information Collected by Third Parties&lt;/h3&gt;&#xA;&lt;p&gt;We do not collect any personal information directly. However, third-party services such as Google AdSense may collect the following information:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;Usage Data&lt;/strong&gt;: Information about how you interact with our website, such as your IP address, browser type, and pages visited.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Cookies and Tracking Technologies&lt;/strong&gt;: Information collected through cookies and similar technologies to display personalized advertisements.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;how-third-party-services-use-your-information&#34;&gt;How Third-Party Services Use Your Information&lt;/h3&gt;&#xA;&lt;p&gt;Third-party services like Google AdSense may use the information they collect to:&lt;/p&gt;</description>
     </item>
   </channel>
