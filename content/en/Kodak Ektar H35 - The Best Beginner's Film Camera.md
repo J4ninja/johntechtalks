@@ -8,7 +8,7 @@ description = "A Review of the Kodak Ektar H35 as a Beginner Film Photographer"
 draft = false
 +++
 
-## The Best Beginner's Film Camera
+## The Best Beginners Film Camera
 You've probably seen those vintage and grainy looking photos on social media. You can replicate that with any old filter but it doesn't feel authentic since it was digitally crafted. Film is simply thin strips that store images after being exposed to light. I was chasing the authenticity. My first experience with film cameras was using a disposable kodak camera. It was fun using a point and shoot and anticipating how it would come out after I went to get it developed. I feel that film photos really shine when people are just being themselves and having fun. Of course the disposable had no use once the roll was out. Then I came across the Kodak Ektar 35. This was a reusable film camera from Kodak. This meant I could get the same point and shoot feeling, keep the camera, and reuse it by refilling the rolls. I loved the way the body looked with its vintage aesthetic. I've received compliments about it in public. 
 
 ![Image Description](/images/KodakEktraH35.jpg)
