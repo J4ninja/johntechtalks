@@ -2,150 +2,150 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Johns Tech Logs - Discover Issues, Share Solutions.</title>
-    <link>http://localhost:1313/en/tags/</link>
+    <link>https://johntechtalks.com/en/tags/</link>
     <description>Recent content in Tags on Johns Tech Logs - Discover Issues, Share Solutions.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 28 Apr 2025 03:49:12 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://johntechtalks.com/en/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Camera</title>
-      <link>http://localhost:1313/en/tags/camera/</link>
+      <link>https://johntechtalks.com/en/tags/camera/</link>
       <pubDate>Mon, 28 Apr 2025 03:49:12 +0800</pubDate>
-      <guid>http://localhost:1313/en/tags/camera/</guid>
+      <guid>https://johntechtalks.com/en/tags/camera/</guid>
       <description></description>
     </item>
     <item>
       <title>Coolify</title>
-      <link>http://localhost:1313/en/tags/coolify/</link>
+      <link>https://johntechtalks.com/en/tags/coolify/</link>
       <pubDate>Tue, 21 Jan 2025 12:40:12 +0800</pubDate>
-      <guid>http://localhost:1313/en/tags/coolify/</guid>
+      <guid>https://johntechtalks.com/en/tags/coolify/</guid>
       <description></description>
     </item>
     <item>
       <title>Docker</title>
-      <link>http://localhost:1313/en/tags/docker/</link>
+      <link>https://johntechtalks.com/en/tags/docker/</link>
       <pubDate>Tue, 21 Jan 2025 12:40:12 +0800</pubDate>
-      <guid>http://localhost:1313/en/tags/docker/</guid>
+      <guid>https://johntechtalks.com/en/tags/docker/</guid>
       <description></description>
     </item>
     <item>
       <title>Git</title>
-      <link>http://localhost:1313/en/tags/git/</link>
+      <link>https://johntechtalks.com/en/tags/git/</link>
       <pubDate>Tue, 21 Jan 2025 12:40:12 +0800</pubDate>
-      <guid>http://localhost:1313/en/tags/git/</guid>
+      <guid>https://johntechtalks.com/en/tags/git/</guid>
       <description></description>
     </item>
     <item>
       <title>Hosting</title>
-      <link>http://localhost:1313/en/tags/hosting/</link>
+      <link>https://johntechtalks.com/en/tags/hosting/</link>
       <pubDate>Tue, 21 Jan 2025 12:40:12 +0800</pubDate>
-      <guid>http://localhost:1313/en/tags/hosting/</guid>
+      <guid>https://johntechtalks.com/en/tags/hosting/</guid>
       <description></description>
     </item>
     <item>
       <title>Raspberry Pi</title>
-      <link>http://localhost:1313/en/tags/raspberry-pi/</link>
+      <link>https://johntechtalks.com/en/tags/raspberry-pi/</link>
       <pubDate>Tue, 21 Jan 2025 12:40:12 +0800</pubDate>
-      <guid>http://localhost:1313/en/tags/raspberry-pi/</guid>
+      <guid>https://johntechtalks.com/en/tags/raspberry-pi/</guid>
       <description></description>
     </item>
     <item>
       <title>Apple</title>
-      <link>http://localhost:1313/en/tags/apple/</link>
+      <link>https://johntechtalks.com/en/tags/apple/</link>
       <pubDate>Fri, 03 Jan 2025 09:36:12 +0800</pubDate>
-      <guid>http://localhost:1313/en/tags/apple/</guid>
+      <guid>https://johntechtalks.com/en/tags/apple/</guid>
       <description></description>
     </item>
     <item>
       <title>School</title>
-      <link>http://localhost:1313/en/tags/school/</link>
+      <link>https://johntechtalks.com/en/tags/school/</link>
       <pubDate>Fri, 03 Jan 2025 09:36:12 +0800</pubDate>
-      <guid>http://localhost:1313/en/tags/school/</guid>
+      <guid>https://johntechtalks.com/en/tags/school/</guid>
       <description></description>
     </item>
     <item>
       <title>Study</title>
-      <link>http://localhost:1313/en/tags/study/</link>
+      <link>https://johntechtalks.com/en/tags/study/</link>
       <pubDate>Fri, 03 Jan 2025 09:36:12 +0800</pubDate>
-      <guid>http://localhost:1313/en/tags/study/</guid>
+      <guid>https://johntechtalks.com/en/tags/study/</guid>
       <description></description>
     </item>
     <item>
       <title>AI</title>
-      <link>http://localhost:1313/en/tags/ai/</link>
+      <link>https://johntechtalks.com/en/tags/ai/</link>
       <pubDate>Tue, 24 Dec 2024 12:40:12 +0800</pubDate>
-      <guid>http://localhost:1313/en/tags/ai/</guid>
+      <guid>https://johntechtalks.com/en/tags/ai/</guid>
       <description></description>
     </item>
     <item>
       <title>Bot</title>
-      <link>http://localhost:1313/en/tags/bot/</link>
+      <link>https://johntechtalks.com/en/tags/bot/</link>
       <pubDate>Tue, 24 Dec 2024 12:40:12 +0800</pubDate>
-      <guid>http://localhost:1313/en/tags/bot/</guid>
+      <guid>https://johntechtalks.com/en/tags/bot/</guid>
       <description></description>
     </item>
     <item>
       <title>Discord</title>
-      <link>http://localhost:1313/en/tags/discord/</link>
+      <link>https://johntechtalks.com/en/tags/discord/</link>
       <pubDate>Tue, 24 Dec 2024 12:40:12 +0800</pubDate>
-      <guid>http://localhost:1313/en/tags/discord/</guid>
+      <guid>https://johntechtalks.com/en/tags/discord/</guid>
       <description></description>
     </item>
     <item>
       <title>Hostinger</title>
-      <link>http://localhost:1313/en/tags/hostinger/</link>
+      <link>https://johntechtalks.com/en/tags/hostinger/</link>
       <pubDate>Fri, 20 Dec 2024 12:22:12 +0800</pubDate>
-      <guid>http://localhost:1313/en/tags/hostinger/</guid>
+      <guid>https://johntechtalks.com/en/tags/hostinger/</guid>
       <description></description>
     </item>
     <item>
       <title>Webhook</title>
-      <link>http://localhost:1313/en/tags/webhook/</link>
+      <link>https://johntechtalks.com/en/tags/webhook/</link>
       <pubDate>Fri, 20 Dec 2024 12:22:12 +0800</pubDate>
-      <guid>http://localhost:1313/en/tags/webhook/</guid>
+      <guid>https://johntechtalks.com/en/tags/webhook/</guid>
       <description></description>
     </item>
     <item>
       <title>Electric</title>
-      <link>http://localhost:1313/en/tags/electric/</link>
+      <link>https://johntechtalks.com/en/tags/electric/</link>
       <pubDate>Sun, 15 Dec 2024 03:49:12 +0800</pubDate>
-      <guid>http://localhost:1313/en/tags/electric/</guid>
+      <guid>https://johntechtalks.com/en/tags/electric/</guid>
       <description></description>
     </item>
     <item>
       <title>Vehicle</title>
-      <link>http://localhost:1313/en/tags/vehicle/</link>
+      <link>https://johntechtalks.com/en/tags/vehicle/</link>
       <pubDate>Sun, 15 Dec 2024 03:49:12 +0800</pubDate>
-      <guid>http://localhost:1313/en/tags/vehicle/</guid>
+      <guid>https://johntechtalks.com/en/tags/vehicle/</guid>
       <description></description>
     </item>
     <item>
       <title>3d</title>
-      <link>http://localhost:1313/en/tags/3d/</link>
+      <link>https://johntechtalks.com/en/tags/3d/</link>
       <pubDate>Thu, 12 Dec 2024 09:34:12 +0800</pubDate>
-      <guid>http://localhost:1313/en/tags/3d/</guid>
+      <guid>https://johntechtalks.com/en/tags/3d/</guid>
       <description></description>
     </item>
     <item>
       <title>Games</title>
-      <link>http://localhost:1313/en/tags/games/</link>
+      <link>https://johntechtalks.com/en/tags/games/</link>
       <pubDate>Thu, 12 Dec 2024 09:34:12 +0800</pubDate>
-      <guid>http://localhost:1313/en/tags/games/</guid>
+      <guid>https://johntechtalks.com/en/tags/games/</guid>
       <description></description>
     </item>
     <item>
       <title>Gifts</title>
-      <link>http://localhost:1313/en/tags/gifts/</link>
+      <link>https://johntechtalks.com/en/tags/gifts/</link>
       <pubDate>Thu, 12 Dec 2024 09:34:12 +0800</pubDate>
-      <guid>http://localhost:1313/en/tags/gifts/</guid>
+      <guid>https://johntechtalks.com/en/tags/gifts/</guid>
       <description></description>
     </item>
     <item>
       <title>Projects</title>
-      <link>http://localhost:1313/en/tags/projects/</link>
+      <link>https://johntechtalks.com/en/tags/projects/</link>
       <pubDate>Thu, 12 Dec 2024 09:34:12 +0800</pubDate>
-      <guid>http://localhost:1313/en/tags/projects/</guid>
+      <guid>https://johntechtalks.com/en/tags/projects/</guid>
       <description></description>
     </item>
   </channel>
