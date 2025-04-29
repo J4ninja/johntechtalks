@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Raspberry Pi on John Tech Talks - Discover Issues, Share Solutions.</title>
-    <link>https://johntechtalks.com/en/tags/raspberry-pi/</link>
-    <description>Recent content in Raspberry Pi on John Tech Talks - Discover Issues, Share Solutions.</description>
+    <title>Raspberry Pi on Johns Tech Logs - Discover Issues, Share Solutions.</title>
+    <link>http://localhost:1313/en/tags/raspberry-pi/</link>
+    <description>Recent content in Raspberry Pi on Johns Tech Logs - Discover Issues, Share Solutions.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 21 Jan 2025 12:40:12 +0800</lastBuildDate>
-    <atom:link href="https://johntechtalks.com/en/tags/raspberry-pi/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/en/tags/raspberry-pi/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Self Hosting Discord Bots and Other Apps with Coolify</title>
-      <link>https://johntechtalks.com/en/self-hosting-discord-bots-and-other-apps-with-coolify/</link>
+      <link>http://localhost:1313/en/self-hosting-discord-bots-and-other-apps-with-coolify/</link>
       <pubDate>Tue, 21 Jan 2025 12:40:12 +0800</pubDate>
-      <guid>https://johntechtalks.com/en/self-hosting-discord-bots-and-other-apps-with-coolify/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://johntechtalks.com/images/CoolifyLogo.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;why-self-host&#34;&gt;Why Self-Host?&lt;/h2&gt;&#xA;&lt;p&gt;A lot of people tend to stray away from self-hosting and look for convenient deployment solutions with automated processes, Git integration, a simple user interface, etc. However, they can sometimes get hit with a surprise serverless bill from their cloud provider running over 4 digits. Self-Hosting allows you to have full control over your apps and services. It teaches you how to run things privately, setting up things like nginx, systemd services, networking and more. It is also cost efficient since you only have to pay for the server cost. While, I enjoy not worrying about huge bills from cloud providers, I still miss having the convenience these hosting platforms provided. With some investigation, I came across Coolify.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/en/self-hosting-discord-bots-and-other-apps-with-coolify/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/CoolifyLogo.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;why-self-host&#34;&gt;Why Self-Host?&lt;/h2&gt;&#xA;&lt;p&gt;A lot of people tend to stray away from self-hosting and look for convenient deployment solutions with automated processes, Git integration, a simple user interface, etc. However, they can sometimes get hit with a surprise serverless bill from their cloud provider running over 4 digits. Self-Hosting allows you to have full control over your apps and services. It teaches you how to run things privately, setting up things like nginx, systemd services, networking and more. It is also cost efficient since you only have to pay for the server cost. While, I enjoy not worrying about huge bills from cloud providers, I still miss having the convenience these hosting platforms provided. With some investigation, I came across Coolify.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

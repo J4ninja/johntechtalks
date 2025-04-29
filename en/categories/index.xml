@@ -1,109 +1,109 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on John Tech Talks - Discover Issues, Share Solutions.</title>
-    <link>https://johntechtalks.com/en/categories/</link>
-    <description>Recent content in Categories on John Tech Talks - Discover Issues, Share Solutions.</description>
+    <title>Categories on Johns Tech Logs - Discover Issues, Share Solutions.</title>
+    <link>http://localhost:1313/en/categories/</link>
+    <description>Recent content in Categories on Johns Tech Logs - Discover Issues, Share Solutions.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 21 Jan 2025 12:40:12 +0800</lastBuildDate>
-    <atom:link href="https://johntechtalks.com/en/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/en/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Automation</title>
-      <link>https://johntechtalks.com/en/categories/automation/</link>
+      <link>http://localhost:1313/en/categories/automation/</link>
       <pubDate>Tue, 21 Jan 2025 12:40:12 +0800</pubDate>
-      <guid>https://johntechtalks.com/en/categories/automation/</guid>
+      <guid>http://localhost:1313/en/categories/automation/</guid>
       <description></description>
     </item>
     <item>
       <title>Deployment</title>
-      <link>https://johntechtalks.com/en/categories/deployment/</link>
+      <link>http://localhost:1313/en/categories/deployment/</link>
       <pubDate>Tue, 21 Jan 2025 12:40:12 +0800</pubDate>
-      <guid>https://johntechtalks.com/en/categories/deployment/</guid>
+      <guid>http://localhost:1313/en/categories/deployment/</guid>
       <description></description>
     </item>
     <item>
       <title>Self-Hosting</title>
-      <link>https://johntechtalks.com/en/categories/self-hosting/</link>
+      <link>http://localhost:1313/en/categories/self-hosting/</link>
       <pubDate>Tue, 21 Jan 2025 12:40:12 +0800</pubDate>
-      <guid>https://johntechtalks.com/en/categories/self-hosting/</guid>
+      <guid>http://localhost:1313/en/categories/self-hosting/</guid>
       <description></description>
     </item>
     <item>
       <title>Education</title>
-      <link>https://johntechtalks.com/en/categories/education/</link>
+      <link>http://localhost:1313/en/categories/education/</link>
       <pubDate>Fri, 03 Jan 2025 09:36:12 +0800</pubDate>
-      <guid>https://johntechtalks.com/en/categories/education/</guid>
+      <guid>http://localhost:1313/en/categories/education/</guid>
       <description></description>
     </item>
     <item>
       <title>Recommended</title>
-      <link>https://johntechtalks.com/en/categories/recommended/</link>
+      <link>http://localhost:1313/en/categories/recommended/</link>
       <pubDate>Fri, 03 Jan 2025 09:36:12 +0800</pubDate>
-      <guid>https://johntechtalks.com/en/categories/recommended/</guid>
+      <guid>http://localhost:1313/en/categories/recommended/</guid>
       <description></description>
     </item>
     <item>
       <title>Study</title>
-      <link>https://johntechtalks.com/en/categories/study/</link>
+      <link>http://localhost:1313/en/categories/study/</link>
       <pubDate>Fri, 03 Jan 2025 09:36:12 +0800</pubDate>
-      <guid>https://johntechtalks.com/en/categories/study/</guid>
+      <guid>http://localhost:1313/en/categories/study/</guid>
       <description></description>
     </item>
     <item>
       <title>AI</title>
-      <link>https://johntechtalks.com/en/categories/ai/</link>
+      <link>http://localhost:1313/en/categories/ai/</link>
       <pubDate>Tue, 24 Dec 2024 12:40:12 +0800</pubDate>
-      <guid>https://johntechtalks.com/en/categories/ai/</guid>
+      <guid>http://localhost:1313/en/categories/ai/</guid>
       <description></description>
     </item>
     <item>
       <title>Bot</title>
-      <link>https://johntechtalks.com/en/categories/bot/</link>
+      <link>http://localhost:1313/en/categories/bot/</link>
       <pubDate>Tue, 24 Dec 2024 12:40:12 +0800</pubDate>
-      <guid>https://johntechtalks.com/en/categories/bot/</guid>
+      <guid>http://localhost:1313/en/categories/bot/</guid>
       <description></description>
     </item>
     <item>
       <title>Tutorials</title>
-      <link>https://johntechtalks.com/en/categories/tutorials/</link>
+      <link>http://localhost:1313/en/categories/tutorials/</link>
       <pubDate>Fri, 20 Dec 2024 12:22:12 +0800</pubDate>
-      <guid>https://johntechtalks.com/en/categories/tutorials/</guid>
+      <guid>http://localhost:1313/en/categories/tutorials/</guid>
       <description></description>
     </item>
     <item>
       <title>Life</title>
-      <link>https://johntechtalks.com/en/categories/life/</link>
+      <link>http://localhost:1313/en/categories/life/</link>
       <pubDate>Sun, 15 Dec 2024 03:49:12 +0800</pubDate>
-      <guid>https://johntechtalks.com/en/categories/life/</guid>
+      <guid>http://localhost:1313/en/categories/life/</guid>
       <description></description>
     </item>
     <item>
       <title>Reviews</title>
-      <link>https://johntechtalks.com/en/categories/reviews/</link>
+      <link>http://localhost:1313/en/categories/reviews/</link>
       <pubDate>Sun, 15 Dec 2024 03:49:12 +0800</pubDate>
-      <guid>https://johntechtalks.com/en/categories/reviews/</guid>
+      <guid>http://localhost:1313/en/categories/reviews/</guid>
       <description></description>
     </item>
     <item>
       <title>Archives</title>
-      <link>https://johntechtalks.com/en/categories/archives/</link>
+      <link>http://localhost:1313/en/categories/archives/</link>
       <pubDate>Fri, 25 Oct 2024 09:16:03 +0800</pubDate>
-      <guid>https://johntechtalks.com/en/categories/archives/</guid>
+      <guid>http://localhost:1313/en/categories/archives/</guid>
       <description></description>
     </item>
     <item>
       <title>Cookie</title>
-      <link>https://johntechtalks.com/en/categories/cookie/</link>
+      <link>http://localhost:1313/en/categories/cookie/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://johntechtalks.com/en/categories/cookie/</guid>
+      <guid>http://localhost:1313/en/categories/cookie/</guid>
       <description></description>
     </item>
     <item>
       <title>Privacy</title>
-      <link>https://johntechtalks.com/en/categories/privacy/</link>
+      <link>http://localhost:1313/en/categories/privacy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://johntechtalks.com/en/categories/privacy/</guid>
+      <guid>http://localhost:1313/en/categories/privacy/</guid>
       <description></description>
     </item>
   </channel>
