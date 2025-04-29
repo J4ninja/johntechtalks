@@ -1,5 +1,5 @@
 +++
-title = 'Kodak Ektar H35 - The Best Beginner's Film Camera'
+title = 'Kodak Ektar H35 - The Best Beginners Film Camera'
 date = 2025-04-28T03:49:12+08:00
 categories = ["life", "reviews", "camera"]
 tags = ["camera"]

@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cookie on Johns Tech Logs - Discover Issues, Share Solutions.</title>
-    <link>http://localhost:1313/en/categories/cookie/</link>
+    <link>https://johntechtalks.com/en/categories/cookie/</link>
     <description>Recent content in Cookie on Johns Tech Logs - Discover Issues, Share Solutions.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/en/categories/cookie/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://johntechtalks.com/en/categories/cookie/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cookie Policy</title>
-      <link>http://localhost:1313/en/cookie/</link>
+      <link>https://johntechtalks.com/en/cookie/</link>
       <pubDate>Sat, 01 Jan 0000 00:00:12 +0800</pubDate>
-      <guid>http://localhost:1313/en/cookie/</guid>
+      <guid>https://johntechtalks.com/en/cookie/</guid>
       <description>&lt;h3 id=&#34;cookies&#34;&gt;Cookies&lt;/h3&gt;&#xA;&lt;p&gt;Google AdSense and its partners may use cookies.&lt;br&gt;&#xA;For more details, review the &lt;a href=&#34;https://policies.google.com/privacy&#34;&gt;Google Privacy Policy&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
   </channel>
