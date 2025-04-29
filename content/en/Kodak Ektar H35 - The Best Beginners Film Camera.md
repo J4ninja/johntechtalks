@@ -1,7 +1,7 @@
 +++
 title = 'Kodak Ektar H35 - The Best Beginners Film Camera'
 date = 2025-04-28T03:49:12+08:00
-categories = ["life", "reviews", "camera"]
+categories = ["life", "reviews", "camera", "recommended"]
 tags = ["camera"]
 keywords = ["film", "review", "camera", "beginner"]
 description = "A Review of the Kodak Ektar H35 as a Beginner Film Photographer"
