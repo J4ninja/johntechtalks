@@ -2,10 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/en/categories/automation/</loc>
-    <lastmod>2025-01-21T12:40:12+08:00</lastmod>
+    <loc>http://localhost:1313/en/</loc>
+    <lastmod>2025-12-20T12:22:12+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/tags/camera/</loc>
+    <lastmod>2025-04-28T03:49:12+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/categories/camera/</loc>
+    <lastmod>2025-04-28T03:49:12+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/categories/</loc>
+    <lastmod>2025-04-28T03:49:12+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/kodak-ektar-h35---the-best-beginners-film-camera/</loc>
+    <lastmod>2025-04-28T03:49:12+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/categories/life/</loc>
+    <lastmod>2025-04-28T03:49:12+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/categories/reviews/</loc>
+    <lastmod>2025-04-28T03:49:12+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/tags/</loc>
+    <lastmod>2025-04-28T03:49:12+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/categories/automation/</loc>
     <lastmod>2025-01-21T12:40:12+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/tags/coolify/</loc>
@@ -23,9 +44,6 @@
     <loc>http://localhost:1313/en/tags/hosting/</loc>
     <lastmod>2025-01-21T12:40:12+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/</loc>
-    <lastmod>2025-01-21T12:40:12+08:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/en/tags/raspberry-pi/</loc>
     <lastmod>2025-01-21T12:40:12+08:00</lastmod>
   </url><url>
@@ -33,9 +51,6 @@
     <lastmod>2025-01-21T12:40:12+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/categories/self-hosting/</loc>
-    <lastmod>2025-01-21T12:40:12+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/en/tags/</loc>
     <lastmod>2025-01-21T12:40:12+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/tags/apple/</loc>
@@ -93,12 +108,6 @@
     <lastmod>2024-12-15T03:49:12+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/tags/electric/</loc>
-    <lastmod>2024-12-15T03:49:12+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/en/categories/life/</loc>
-    <lastmod>2024-12-15T03:49:12+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/en/categories/reviews/</loc>
     <lastmod>2024-12-15T03:49:12+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/tags/vehicle/</loc>
