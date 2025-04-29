@@ -1,4 +1,4 @@
-# John Tech Talks Blog Site
+# Johns Tech Logs Blog Site
 
 ## Dependencies
 - python3

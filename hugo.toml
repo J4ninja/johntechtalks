@@ -1,4 +1,4 @@
-baseURL = "https://johntechtalks.com/" # Must end with splash
+baseURL = "https://johnstechlogs.com/" # Must end with splash
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
 disqusShortname = "johntechtalks-com"
@@ -8,7 +8,7 @@ staticDir = ["static"]
 theme = "Niello"
 
 [params]
-copyright = "John Tech Talks &#xA9; 2024 by John Nguyen. | All Rights Reserved."
+copyright = "Johns Tech Logs &#xA9; 2024 by John Nguyen. | All Rights Reserved."
 sharethis = "677ac2478d50b9001ab3b268"
 [params.google]
 	google_ad_client = "ca-pub-4662966258960893"
@@ -24,7 +24,7 @@ sharethis = "677ac2478d50b9001ab3b268"
 
 [languages]
 	[languages.en]
-		title = "John Tech Talks - Discover Issues, Share Solutions."
+		title = "Johns Tech Logs - Discover Issues, Share Solutions."
 		languageCode = "en-us"
 		LanguageName = "🇺🇸EN"
 		contentDir = "content/en"
