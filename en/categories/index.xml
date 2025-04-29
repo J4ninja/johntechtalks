@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Johns Tech Logs - Discover Issues, Share Solutions.</title>
+    <title>Categories on John&#39;s Tech Logs - Discover Issues, Share Solutions.</title>
     <link>https://johnstechlogs.com/en/categories/</link>
-    <description>Recent content in Categories on Johns Tech Logs - Discover Issues, Share Solutions.</description>
+    <description>Recent content in Categories on John&#39;s Tech Logs - Discover Issues, Share Solutions.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 28 Apr 2025 03:49:12 +0800</lastBuildDate>
@@ -20,6 +20,13 @@
       <link>https://johnstechlogs.com/en/categories/life/</link>
       <pubDate>Mon, 28 Apr 2025 03:49:12 +0800</pubDate>
       <guid>https://johnstechlogs.com/en/categories/life/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Recommended</title>
+      <link>https://johnstechlogs.com/en/categories/recommended/</link>
+      <pubDate>Mon, 28 Apr 2025 03:49:12 +0800</pubDate>
+      <guid>https://johnstechlogs.com/en/categories/recommended/</guid>
       <description></description>
     </item>
     <item>
@@ -55,13 +62,6 @@
       <link>https://johnstechlogs.com/en/categories/education/</link>
       <pubDate>Fri, 03 Jan 2025 09:36:12 +0800</pubDate>
       <guid>https://johnstechlogs.com/en/categories/education/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Recommended</title>
-      <link>https://johnstechlogs.com/en/categories/recommended/</link>
-      <pubDate>Fri, 03 Jan 2025 09:36:12 +0800</pubDate>
-      <guid>https://johnstechlogs.com/en/categories/recommended/</guid>
       <description></description>
     </item>
     <item>
