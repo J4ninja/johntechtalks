@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>John Nguyen on Johns Tech Logs</title>
-    <link>http://localhost:1313/hugo-brewm/en/en/author/author-name/</link>
-    <description>Recent Posts in John Nguyen on Johns Tech Logs</description>
+    <title>Author Name on Johns Tech Logs</title>
+    <link>http://localhost:1313/en/en/author/author-name/</link>
+    <description>Recent Posts in Author Name on Johns Tech Logs</description>
     <generator>Hugo 0.148.2</generator>
     <language>en</language>
     <managingEditor>Author Name</managingEditor>
     
       <webMaster>Author Name</webMaster>
-    <lastBuildDate>Fri, 01 Aug 2025 16:03:23 -0500</lastBuildDate>
-    <atom:link href="http://localhost:1313/hugo-brewm/en/en/author/author-name/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Aug 2025 17:29:28 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/en/author/author-name/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

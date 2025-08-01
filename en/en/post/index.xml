@@ -9,7 +9,7 @@
     <managingEditor>Author Name</managingEditor>
     
       <webMaster>Author Name</webMaster>
-    <lastBuildDate>Fri, 01 Aug 2025 16:45:20 -0500</lastBuildDate>
+    <lastBuildDate>Fri, 01 Aug 2025 17:53:58 -0500</lastBuildDate>
     <atom:link href="http://localhost:1313/en/en/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Building my First Mini ITX PC</title>
@@ -17,7 +17,7 @@
       <pubDate>Sun, 18 May 2025 00:00:00 +0000</pubDate>
       <author>Author Name</author>
       <guid>http://localhost:1313/en/en/post/building-my-first-mini-itx-pc/</guid>
-      <description>&lt;p&gt;This section demonstrates a list view layout.&#xA;The post listing style can be modified by adjusting the sitemap changeFreq parameter to values like &amp;ldquo;always&amp;rdquo;, &amp;ldquo;hourly&amp;rdquo;, &amp;ldquo;daily&amp;rdquo;, or &amp;ldquo;weekly&amp;rdquo;.&#xA;This section has been set up with the following configuration:&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;---&#xD;&#xA;title: &amp;quot;Post&amp;quot;&#xD;&#xA;translationKey: post&#xD;&#xA;sitemap:&#xD;&#xA;    changeFreq: &amp;quot;always&amp;quot;&#xD;&#xA;---&#xD;&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
+      <description></description>
       <enclosure url="/images/miniitxpc.jpg" length="0" type="image/jpeg" />
     </item>
     <item>
@@ -26,7 +26,7 @@
       <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
       <author>Author Name</author>
       <guid>http://localhost:1313/en/en/post/kodak-ektar-h35-review/</guid>
-      <description>&lt;p&gt;This section demonstrates a list view layout.&#xA;The post listing style can be modified by adjusting the sitemap changeFreq parameter to values like &amp;ldquo;always&amp;rdquo;, &amp;ldquo;hourly&amp;rdquo;, &amp;ldquo;daily&amp;rdquo;, or &amp;ldquo;weekly&amp;rdquo;.&#xA;This section has been set up with the following configuration:&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;---&#xD;&#xA;title: &amp;quot;Post&amp;quot;&#xD;&#xA;translationKey: post&#xD;&#xA;sitemap:&#xD;&#xA;    changeFreq: &amp;quot;always&amp;quot;&#xD;&#xA;---&#xD;&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
+      <description></description>
       <enclosure url="/images/KodakEktraH35.jpg" length="0" type="image/jpeg" />
     </item>
     <item>
@@ -35,7 +35,7 @@
       <pubDate>Tue, 21 Jan 2025 00:00:00 +0000</pubDate>
       <author>Author Name</author>
       <guid>http://localhost:1313/en/en/post/self-hosting-discord-bots/</guid>
-      <description>&lt;p&gt;This section demonstrates a list view layout.&#xA;The post listing style can be modified by adjusting the sitemap changeFreq parameter to values like &amp;ldquo;always&amp;rdquo;, &amp;ldquo;hourly&amp;rdquo;, &amp;ldquo;daily&amp;rdquo;, or &amp;ldquo;weekly&amp;rdquo;.&#xA;This section has been set up with the following configuration:&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;---&#xD;&#xA;title: &amp;quot;Post&amp;quot;&#xD;&#xA;translationKey: post&#xD;&#xA;sitemap:&#xD;&#xA;    changeFreq: &amp;quot;always&amp;quot;&#xD;&#xA;---&#xD;&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
+      <description></description>
       <enclosure url="/images/CoolifyLogo.png" length="0" type="image/jpeg" />
     </item>
     <item>
@@ -44,7 +44,7 @@
       <pubDate>Fri, 03 Jan 2025 00:00:00 +0000</pubDate>
       <author>Author Name</author>
       <guid>http://localhost:1313/en/en/post/tools-to-maintain-gpa/</guid>
-      <description>&lt;p&gt;This section demonstrates a list view layout.&#xA;The post listing style can be modified by adjusting the sitemap changeFreq parameter to values like &amp;ldquo;always&amp;rdquo;, &amp;ldquo;hourly&amp;rdquo;, &amp;ldquo;daily&amp;rdquo;, or &amp;ldquo;weekly&amp;rdquo;.&#xA;This section has been set up with the following configuration:&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;---&#xD;&#xA;title: &amp;quot;Post&amp;quot;&#xD;&#xA;translationKey: post&#xD;&#xA;sitemap:&#xD;&#xA;    changeFreq: &amp;quot;always&amp;quot;&#xD;&#xA;---&#xD;&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
+      <description></description>
       <enclosure url="/images/symposium.png" length="0" type="image/jpeg" />
     </item>
     <item>
@@ -53,7 +53,7 @@
       <pubDate>Tue, 24 Dec 2024 00:00:00 +0000</pubDate>
       <author>Author Name</author>
       <guid>http://localhost:1313/en/en/post/ai-discord-bot-friend/</guid>
-      <description>&lt;p&gt;This section demonstrates a list view layout.&#xA;The post listing style can be modified by adjusting the sitemap changeFreq parameter to values like &amp;ldquo;always&amp;rdquo;, &amp;ldquo;hourly&amp;rdquo;, &amp;ldquo;daily&amp;rdquo;, or &amp;ldquo;weekly&amp;rdquo;.&#xA;This section has been set up with the following configuration:&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;---&#xD;&#xA;title: &amp;quot;Post&amp;quot;&#xD;&#xA;translationKey: post&#xD;&#xA;sitemap:&#xD;&#xA;    changeFreq: &amp;quot;always&amp;quot;&#xD;&#xA;---&#xD;&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
+      <description></description>
       <enclosure url="/images/Pasted%20image%2020241224160751.png" length="0" type="image/jpeg" />
     </item>
     <item>
@@ -62,7 +62,7 @@
       <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
       <author>Author Name</author>
       <guid>http://localhost:1313/en/en/post/howtoautomatehostinger/</guid>
-      <description>&lt;p&gt;This section demonstrates a list view layout.&#xA;The post listing style can be modified by adjusting the sitemap changeFreq parameter to values like &amp;ldquo;always&amp;rdquo;, &amp;ldquo;hourly&amp;rdquo;, &amp;ldquo;daily&amp;rdquo;, or &amp;ldquo;weekly&amp;rdquo;.&#xA;This section has been set up with the following configuration:&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;---&#xD;&#xA;title: &amp;quot;Post&amp;quot;&#xD;&#xA;translationKey: post&#xD;&#xA;sitemap:&#xD;&#xA;    changeFreq: &amp;quot;always&amp;quot;&#xD;&#xA;---&#xD;&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
+      <description></description>
       <enclosure url="/images/hostingerlogo.png" length="0" type="image/jpeg" />
     </item>
     <item>
@@ -71,7 +71,7 @@
       <pubDate>Sun, 15 Dec 2024 00:00:00 +0000</pubDate>
       <author>Author Name</author>
       <guid>http://localhost:1313/en/en/post/areviewofthebackfireg2blackeletricskateboard/</guid>
-      <description>&lt;p&gt;This section demonstrates a list view layout.&#xA;The post listing style can be modified by adjusting the sitemap changeFreq parameter to values like &amp;ldquo;always&amp;rdquo;, &amp;ldquo;hourly&amp;rdquo;, &amp;ldquo;daily&amp;rdquo;, or &amp;ldquo;weekly&amp;rdquo;.&#xA;This section has been set up with the following configuration:&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;---&#xD;&#xA;title: &amp;quot;Post&amp;quot;&#xD;&#xA;translationKey: post&#xD;&#xA;sitemap:&#xD;&#xA;    changeFreq: &amp;quot;always&amp;quot;&#xD;&#xA;---&#xD;&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
+      <description></description>
       <enclosure url="/images/g2black.png" length="0" type="image/jpeg" />
     </item>
     <item>
@@ -80,7 +80,7 @@
       <pubDate>Thu, 12 Dec 2024 00:00:00 +0000</pubDate>
       <author>Author Name</author>
       <guid>http://localhost:1313/en/en/post/tech-bro-with-gf/</guid>
-      <description>&lt;p&gt;This section demonstrates a list view layout.&#xA;The post listing style can be modified by adjusting the sitemap changeFreq parameter to values like &amp;ldquo;always&amp;rdquo;, &amp;ldquo;hourly&amp;rdquo;, &amp;ldquo;daily&amp;rdquo;, or &amp;ldquo;weekly&amp;rdquo;.&#xA;This section has been set up with the following configuration:&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;---&#xD;&#xA;title: &amp;quot;Post&amp;quot;&#xD;&#xA;translationKey: post&#xD;&#xA;sitemap:&#xD;&#xA;    changeFreq: &amp;quot;always&amp;quot;&#xD;&#xA;---&#xD;&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
+      <description></description>
       <enclosure url="/images/laptopheart.png" length="0" type="image/jpeg" />
     </item>
   </channel>
