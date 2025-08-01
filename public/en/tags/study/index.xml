@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Study on John&#39;s Tech Logs - Discover Issues, Share Solutions.</title>
+    <title>Study on Johns Tech Logs</title>
     <link>https://johnstechlogs.com/en/tags/study/</link>
-    <description>Recent content in Study on John&#39;s Tech Logs - Discover Issues, Share Solutions.</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 03 Jan 2025 09:36:12 +0800</lastBuildDate>
+    <description>Recent Posts in Study on Johns Tech Logs</description>
+    <generator>Hugo 0.148.2</generator>
+    <language>en</language>
+    <managingEditor>Author Name</managingEditor>
+    
+      <webMaster>Author Name</webMaster>
+    <lastBuildDate>Fri, 01 Aug 2025 17:22:46 -0500</lastBuildDate>
     <atom:link href="https://johnstechlogs.com/en/tags/study/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Tools I Used to Maintain a 3.9 Computer Science GPA with a Double Minor and Extracurriculars</title>
-      <link>https://johnstechlogs.com/en/the-tools-i-used-to-maintain-a-3.9-gpa/</link>
-      <pubDate>Fri, 03 Jan 2025 09:36:12 +0800</pubDate>
-      <guid>https://johnstechlogs.com/en/the-tools-i-used-to-maintain-a-3.9-gpa/</guid>
-      <description>&lt;h2 id=&#34;the-stats&#34;&gt;The Stats&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Texas Christian University Alumnus&lt;/li&gt;&#xA;&lt;li&gt;Bachelor of Science in Computer Science&lt;/li&gt;&#xA;&lt;li&gt;Double Minor in Mathematics and Astronomy&lt;/li&gt;&#xA;&lt;li&gt;Honors Laurette - Departmental Honors in Astronomy&lt;/li&gt;&#xA;&lt;li&gt;Summa Cum Laude 3.9 Undergrad GPA&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;extracurriculars&#34;&gt;Extracurriculars&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Omega Delta Phi Fraternity Spring &amp;lsquo;22 - Spring &amp;lsquo;24&lt;/li&gt;&#xA;&lt;li&gt;International Christian Fellowship President Fall &amp;lsquo;23 - Spring &amp;lsquo;24&lt;/li&gt;&#xA;&lt;li&gt;International Student Association Secretary Fall &amp;lsquo;23 - Spring &amp;lsquo;24&lt;/li&gt;&#xA;&lt;li&gt;Student Support Services Comp Sci Tutor Spring &amp;lsquo;23 - Spring &amp;lsquo;24&lt;/li&gt;&#xA;&lt;li&gt;Student Support Services Ambassador Spring &amp;lsquo;24&lt;/li&gt;&#xA;&lt;li&gt;Student Engagement and Identity Mentor  Fall &amp;lsquo;23 - Spring &amp;lsquo;24&lt;/li&gt;&#xA;&lt;li&gt;Amazing Vietnam 2024 Play Actor Spring &amp;lsquo;24&lt;/li&gt;&#xA;&lt;li&gt;Honors Student all four years&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://johnstechlogs.com/images/symposium.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;</description>
+      <link>https://johnstechlogs.com/en/post/tools-to-maintain-gpa/</link>
+      <pubDate>Fri, 03 Jan 2025 00:00:00 +0000</pubDate>
+      <author>Author Name</author>
+      <guid>https://johnstechlogs.com/en/post/tools-to-maintain-gpa/</guid>
+      <description></description>
+      <enclosure url="/images/symposium.png" length="0" type="image/jpeg" />
     </item>
   </channel>
 </rss>

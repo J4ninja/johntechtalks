@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Gifts on John&#39;s Tech Logs - Discover Issues, Share Solutions.</title>
-    <link>https://johnstechlogs.com/en/tags/gifts/</link>
-    <description>Recent content in Gifts on John&#39;s Tech Logs - Discover Issues, Share Solutions.</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 12 Dec 2024 09:34:12 +0800</lastBuildDate>
-    <atom:link href="https://johnstechlogs.com/en/tags/gifts/index.xml" rel="self" type="application/rss+xml" />
+    <title>Gifts on Example</title>
+    <link>http://localhost:1313/hugo-brewm/en/tags/gifts/</link>
+    <description>Recent Posts in Gifts on Example</description>
+    <generator>Hugo 0.148.2</generator>
+    <language>en</language>
+    <managingEditor>Author Name</managingEditor>
+    
+      <webMaster>Author Name</webMaster>
+    <lastBuildDate>Fri, 01 Aug 2025 15:28:06 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/hugo-brewm/en/tags/gifts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tech Bro with a GF??</title>
-      <link>https://johnstechlogs.com/en/tech-bro-with-a-gf/</link>
+      <link>http://localhost:1313/hugo-brewm/en/en/tech-bro-with-a-gf/</link>
       <pubDate>Thu, 12 Dec 2024 09:34:12 +0800</pubDate>
-      <guid>https://johnstechlogs.com/en/tech-bro-with-a-gf/</guid>
-      <description>&lt;p&gt;A Tech bro with a girlfriend?? That&amp;rsquo;s impossible. However, at one point in time, I would like to say I broke this standard by having a girlfriend for 2 years! Now as a nerdy tech bro, I am often consumed with learning new tech stacks and building personal projects. How can a tech bro even maintain their life while keeping their girlfriend happy? Well let me tell you all about that!&lt;/p&gt;</description>
+      <author>Author Name</author>
+      <guid>http://localhost:1313/hugo-brewm/en/en/tech-bro-with-a-gf/</guid>
+      <description></description>
+      
     </item>
   </channel>
 </rss>

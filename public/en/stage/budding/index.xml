@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>budding on Johns Tech Logs</title>
+    <link>https://johnstechlogs.com/en/stage/budding/</link>
+    <description>Recent Posts in budding on Johns Tech Logs</description>
+    <generator>Hugo 0.148.2</generator>
+    <language>en</language>
+    <managingEditor>Author Name</managingEditor>
+    
+      <webMaster>Author Name</webMaster>
+    <lastBuildDate>Fri, 01 Aug 2025 17:22:46 -0500</lastBuildDate>
+    <atom:link href="https://johnstechlogs.com/en/stage/budding/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

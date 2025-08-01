@@ -1,0 +1,409 @@
+
+{
+    "nodes": [{
+                "id": "bd8a4dc3091b59b8f66d4cbf3cfa63c8",
+                "title": "Building my First Mini ITX PC",
+                "permalink": "http://localhost:1313/post/building-my-first-mini-itx-pc/",
+                "type": "post"
+            },{
+                "id": "2fe31fddbece896e09b091115c96b5c7",
+                "title": "Kodak Ektar H35 - The Best Beginners Film Camera",
+                "permalink": "http://localhost:1313/post/kodak-ektar-h35-review/",
+                "type": "post"
+            },{
+                "id": "3d9181f196761668bb6ffab27f60008b",
+                "title": "Self Hosting Discord Bots and Other Apps with Coolify",
+                "permalink": "http://localhost:1313/post/self-hosting-discord-bots/",
+                "type": "post"
+            },{
+                "id": "ca8a8e5ea6c88891cef838fecc7c77dd",
+                "title": "The Tools I Used to Maintain a 3.9 Computer Science GPA with a Double Minor and Extracurriculars",
+                "permalink": "http://localhost:1313/post/tools-to-maintain-gpa/",
+                "type": "post"
+            },{
+                "id": "8a019feb7f64185d4688855fbc3a97f7",
+                "title": "I created an AI Bot of my Fallen Best Friend. Have I gone mad?",
+                "permalink": "http://localhost:1313/post/ai-discord-bot-friend/",
+                "type": "post"
+            },{
+                "id": "5cbc618eee4ea8be436262fd28783b2b",
+                "title": "How to Automate Hostinger Deployments with Git Subtree and Webhooks",
+                "permalink": "http://localhost:1313/post/howtoautomatehostinger/",
+                "type": "post"
+            },{
+                "id": "9a03f578c60479a2377455e99b2e123f",
+                "title": "A Review of the Backfire G2 Black Electric Skateboard",
+                "permalink": "http://localhost:1313/post/areviewofthebackfireg2blackeletricskateboard/",
+                "type": "post"
+            },{
+                "id": "6105fec93ea7457f424905217664c359",
+                "title": "Tech Bro with a GF??",
+                "permalink": "http://localhost:1313/post/tech-bro-with-gf/",
+                "type": "post"
+            },
+                        {
+                            "id": "categories-ai",
+                            "title": "AI",
+                            "permalink": "http://localhost:1313/categories/ai/",
+                            "type": "categories"
+                        },
+                        {
+                            "id": "categories-automation",
+                            "title": "Automation",
+                            "permalink": "http://localhost:1313/categories/automation/",
+                            "type": "categories"
+                        },
+                        {
+                            "id": "categories-beginner",
+                            "title": "Beginner",
+                            "permalink": "http://localhost:1313/categories/beginner/",
+                            "type": "categories"
+                        },
+                        {
+                            "id": "categories-bot",
+                            "title": "Bot",
+                            "permalink": "http://localhost:1313/categories/bot/",
+                            "type": "categories"
+                        },
+                        {
+                            "id": "categories-camera",
+                            "title": "Camera",
+                            "permalink": "http://localhost:1313/categories/camera/",
+                            "type": "categories"
+                        },
+                        {
+                            "id": "categories-deployment",
+                            "title": "Deployment",
+                            "permalink": "http://localhost:1313/categories/deployment/",
+                            "type": "categories"
+                        },
+                        {
+                            "id": "categories-education",
+                            "title": "Education",
+                            "permalink": "http://localhost:1313/categories/education/",
+                            "type": "categories"
+                        },
+                        {
+                            "id": "categories-film",
+                            "title": "Film",
+                            "permalink": "http://localhost:1313/categories/film/",
+                            "type": "categories"
+                        },
+                        {
+                            "id": "categories-life",
+                            "title": "Life",
+                            "permalink": "http://localhost:1313/categories/life/",
+                            "type": "categories"
+                        },
+                        {
+                            "id": "categories-pc",
+                            "title": "PC",
+                            "permalink": "http://localhost:1313/categories/pc/",
+                            "type": "categories"
+                        },
+                        {
+                            "id": "categories-recommended",
+                            "title": "Recommended",
+                            "permalink": "http://localhost:1313/categories/recommended/",
+                            "type": "categories"
+                        },
+                        {
+                            "id": "categories-review",
+                            "title": "Review",
+                            "permalink": "http://localhost:1313/categories/review/",
+                            "type": "categories"
+                        },
+                        {
+                            "id": "categories-reviews",
+                            "title": "Reviews",
+                            "permalink": "http://localhost:1313/categories/reviews/",
+                            "type": "categories"
+                        },
+                        {
+                            "id": "categories-self-hosting",
+                            "title": "Self-Hosting",
+                            "permalink": "http://localhost:1313/categories/self-hosting/",
+                            "type": "categories"
+                        },
+                        {
+                            "id": "categories-study",
+                            "title": "Study",
+                            "permalink": "http://localhost:1313/categories/study/",
+                            "type": "categories"
+                        },
+                        {
+                            "id": "categories-tutorials",
+                            "title": "Tutorials",
+                            "permalink": "http://localhost:1313/categories/tutorials/",
+                            "type": "categories"
+                        },
+                        {
+                            "id": "tags-ai",
+                            "title": "AI",
+                            "permalink": "http://localhost:1313/tags/ai/",
+                            "type": "tags"
+                        },
+                        {
+                            "id": "tags-apple",
+                            "title": "Apple",
+                            "permalink": "http://localhost:1313/tags/apple/",
+                            "type": "tags"
+                        },
+                        {
+                            "id": "tags-bot",
+                            "title": "Bot",
+                            "permalink": "http://localhost:1313/tags/bot/",
+                            "type": "tags"
+                        },
+                        {
+                            "id": "tags-camera",
+                            "title": "Camera",
+                            "permalink": "http://localhost:1313/tags/camera/",
+                            "type": "tags"
+                        },
+                        {
+                            "id": "tags-coolify",
+                            "title": "Coolify",
+                            "permalink": "http://localhost:1313/tags/coolify/",
+                            "type": "tags"
+                        },
+                        {
+                            "id": "tags-discord",
+                            "title": "Discord",
+                            "permalink": "http://localhost:1313/tags/discord/",
+                            "type": "tags"
+                        },
+                        {
+                            "id": "tags-docker",
+                            "title": "Docker",
+                            "permalink": "http://localhost:1313/tags/docker/",
+                            "type": "tags"
+                        },
+                        {
+                            "id": "tags-electric",
+                            "title": "Electric",
+                            "permalink": "http://localhost:1313/tags/electric/",
+                            "type": "tags"
+                        },
+                        {
+                            "id": "tags-git",
+                            "title": "Git",
+                            "permalink": "http://localhost:1313/tags/git/",
+                            "type": "tags"
+                        },
+                        {
+                            "id": "tags-hosting",
+                            "title": "Hosting",
+                            "permalink": "http://localhost:1313/tags/hosting/",
+                            "type": "tags"
+                        },
+                        {
+                            "id": "tags-hostinger",
+                            "title": "Hostinger",
+                            "permalink": "http://localhost:1313/tags/hostinger/",
+                            "type": "tags"
+                        },
+                        {
+                            "id": "tags-pc",
+                            "title": "Pc",
+                            "permalink": "http://localhost:1313/tags/pc/",
+                            "type": "tags"
+                        },
+                        {
+                            "id": "tags-raspberry-pi",
+                            "title": "Raspberry Pi",
+                            "permalink": "http://localhost:1313/tags/raspberry-pi/",
+                            "type": "tags"
+                        },
+                        {
+                            "id": "tags-school",
+                            "title": "School",
+                            "permalink": "http://localhost:1313/tags/school/",
+                            "type": "tags"
+                        },
+                        {
+                            "id": "tags-study",
+                            "title": "Study",
+                            "permalink": "http://localhost:1313/tags/study/",
+                            "type": "tags"
+                        },
+                        {
+                            "id": "tags-vehicle",
+                            "title": "Vehicle",
+                            "permalink": "http://localhost:1313/tags/vehicle/",
+                            "type": "tags"
+                        },
+                        {
+                            "id": "tags-webhook",
+                            "title": "Webhook",
+                            "permalink": "http://localhost:1313/tags/webhook/",
+                            "type": "tags"
+                        },
+    ],
+    "links": [
+            
+                    {
+                        "source": "bd8a4dc3091b59b8f66d4cbf3cfa63c8",
+                        "target": "categories-pc",
+                    },
+                    {
+                        "source": "bd8a4dc3091b59b8f66d4cbf3cfa63c8",
+                        "target": "categories-reviews",
+                    },
+                    {
+                        "source": "bd8a4dc3091b59b8f66d4cbf3cfa63c8",
+                        "target": "tags-pc",
+                    },
+            
+                    {
+                        "source": "2fe31fddbece896e09b091115c96b5c7",
+                        "target": "categories-film",
+                    },
+                    {
+                        "source": "2fe31fddbece896e09b091115c96b5c7",
+                        "target": "categories-review",
+                    },
+                    {
+                        "source": "2fe31fddbece896e09b091115c96b5c7",
+                        "target": "categories-camera",
+                    },
+                    {
+                        "source": "2fe31fddbece896e09b091115c96b5c7",
+                        "target": "categories-beginner",
+                    },
+                    {
+                        "source": "2fe31fddbece896e09b091115c96b5c7",
+                        "target": "tags-camera",
+                    },
+            
+                    {
+                        "source": "3d9181f196761668bb6ffab27f60008b",
+                        "target": "categories-self-hosting",
+                    },
+                    {
+                        "source": "3d9181f196761668bb6ffab27f60008b",
+                        "target": "categories-automation",
+                    },
+                    {
+                        "source": "3d9181f196761668bb6ffab27f60008b",
+                        "target": "categories-deployment",
+                    },
+                    {
+                        "source": "3d9181f196761668bb6ffab27f60008b",
+                        "target": "tags-coolify",
+                    },
+                    {
+                        "source": "3d9181f196761668bb6ffab27f60008b",
+                        "target": "tags-hosting",
+                    },
+                    {
+                        "source": "3d9181f196761668bb6ffab27f60008b",
+                        "target": "tags-docker",
+                    },
+                    {
+                        "source": "3d9181f196761668bb6ffab27f60008b",
+                        "target": "tags-git",
+                    },
+                    {
+                        "source": "3d9181f196761668bb6ffab27f60008b",
+                        "target": "tags-raspberry-pi",
+                    },
+            
+                    {
+                        "source": "ca8a8e5ea6c88891cef838fecc7c77dd",
+                        "target": "categories-education",
+                    },
+                    {
+                        "source": "ca8a8e5ea6c88891cef838fecc7c77dd",
+                        "target": "categories-study",
+                    },
+                    {
+                        "source": "ca8a8e5ea6c88891cef838fecc7c77dd",
+                        "target": "tags-school",
+                    },
+                    {
+                        "source": "ca8a8e5ea6c88891cef838fecc7c77dd",
+                        "target": "tags-study",
+                    },
+                    {
+                        "source": "ca8a8e5ea6c88891cef838fecc7c77dd",
+                        "target": "tags-apple",
+                    },
+            
+                    {
+                        "source": "8a019feb7f64185d4688855fbc3a97f7",
+                        "target": "categories-ai",
+                    },
+                    {
+                        "source": "8a019feb7f64185d4688855fbc3a97f7",
+                        "target": "categories-bot",
+                    },
+                    {
+                        "source": "8a019feb7f64185d4688855fbc3a97f7",
+                        "target": "categories-recommended",
+                    },
+                    {
+                        "source": "8a019feb7f64185d4688855fbc3a97f7",
+                        "target": "tags-discord",
+                    },
+                    {
+                        "source": "8a019feb7f64185d4688855fbc3a97f7",
+                        "target": "tags-ai",
+                    },
+                    {
+                        "source": "8a019feb7f64185d4688855fbc3a97f7",
+                        "target": "tags-bot",
+                    },
+            
+                    {
+                        "source": "5cbc618eee4ea8be436262fd28783b2b",
+                        "target": "categories-tutorials",
+                    },
+                    {
+                        "source": "5cbc618eee4ea8be436262fd28783b2b",
+                        "target": "categories-automation",
+                    },
+                    {
+                        "source": "5cbc618eee4ea8be436262fd28783b2b",
+                        "target": "categories-deployment",
+                    },
+                    {
+                        "source": "5cbc618eee4ea8be436262fd28783b2b",
+                        "target": "tags-git",
+                    },
+                    {
+                        "source": "5cbc618eee4ea8be436262fd28783b2b",
+                        "target": "tags-hostinger",
+                    },
+                    {
+                        "source": "5cbc618eee4ea8be436262fd28783b2b",
+                        "target": "tags-webhook",
+                    },
+            
+                    {
+                        "source": "9a03f578c60479a2377455e99b2e123f",
+                        "target": "categories-life",
+                    },
+                    {
+                        "source": "9a03f578c60479a2377455e99b2e123f",
+                        "target": "categories-reviews",
+                    },
+                    {
+                        "source": "9a03f578c60479a2377455e99b2e123f",
+                        "target": "categories-recommended",
+                    },
+                    {
+                        "source": "9a03f578c60479a2377455e99b2e123f",
+                        "target": "tags-vehicle",
+                    },
+                    {
+                        "source": "9a03f578c60479a2377455e99b2e123f",
+                        "target": "tags-electric",
+                    },
+            
+                    {
+                        "source": "6105fec93ea7457f424905217664c359",
+                        "target": "categories-life",
+                    },
+    ],
+}
