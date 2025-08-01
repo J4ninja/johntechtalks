@@ -3,7 +3,8 @@ author: ["John Nguyen"]
 title: "I created an AI Bot of my Fallen Best Friend. Have I gone mad?"
 description: "I created an AI Discord Bot of my Fallen Best Friend. Why I did it and was it ethical?"
 date: "2024-12-24"
-type: "post"
+type: post
+translationKey: pagefind
 draft: false
 tags:  ["discord", "AI", "bot"]
 categories: ["AI", "bot", "recommended"]

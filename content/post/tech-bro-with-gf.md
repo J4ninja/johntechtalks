@@ -1,7 +1,7 @@
 ---
 author: ["John Nguyen"]
 date: "2024-12-12"
-type: "post"
+type: post
 title: "Tech Bro with a GF??"
 categories: ["life"]
 description: "Tech Bro With a Girlfriend. How to keep her happy."

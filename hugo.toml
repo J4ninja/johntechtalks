@@ -5,7 +5,7 @@ title = 'Johns Tech Logs'
 ## Use hugo-brewm theme
 theme = 'hugo-brewm'
 ## Enable Git information for pages, (e.g. lastMod date information)
-enableGitInfo = true
+enableGitInfo = false
 ## Convert all URLs to absolute URLs
 canonifyURLs = true
 ## Default language for content
@@ -22,6 +22,18 @@ ignoreFiles = [ '\.redacted', '\.old','\.bak', '\.tmp', '\.swp', '\.DS_Store']
 # ignoreLogs = ['err-youtube-remote']
 ## Generate a robots.txt
 enableRobotsTXT = true
+
+[[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    pageRef = "/tags"
+
+[[menu.main]]
+    identifier = "about"
+    name = "About"
+    pageRef = "/author/john-nguyen"
+
+
 
 ## Front matter field configurations
 [frontmatter]
@@ -149,10 +161,10 @@ enableRobotsTXT = true
 
     ## Giscus integration settings
     [params.giscus]
-        repo = "foxihd/hugo-brewm"
-        repoID = "R_kgDONwvqMA"
-        category = "Articles"
-        categoryID = "DIC_kwDONwvqMM4CnXDQ"
+        repo = "J4ninja/johntechtalks"
+        repoID = "R_kgDONbXGAA"
+        category = "General"
+        categoryID = "DIC_kwDONbXGAM4Ctrnb"
 
     ## Logo configuration
     [params.logo]
@@ -199,7 +211,7 @@ enableRobotsTXT = true
     ## Search configuration
     [params.search]
         ## Enable search functionality, please index your site first
-        enable = true
+        enable = false
         ## Use pagefind search when javascript enabled, currently only 'pagefind' is supported, further options to be determined
         pagefind = true
         ## fallback searchbox when javascript disabled, currently the options limited to 'mojeek', otherwise duckduckgo will be used

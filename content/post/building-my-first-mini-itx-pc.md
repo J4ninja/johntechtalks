@@ -3,7 +3,7 @@ title: 'Building my First Mini ITX PC'
 date: 2025-05-18
 draft: false
 author: ["John Nguyen"]
-type: "post"
+type: post
 tags: ["pc"]
 categories: ["PC", "reviews"]
 cover: '/images/miniitxpc.jpg'

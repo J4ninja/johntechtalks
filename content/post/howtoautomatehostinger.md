@@ -1,7 +1,7 @@
 ---
 author: "John Nguyen"
 date: "2024-12-20"
-type: "post"
+type: post
 title: "How to Automate Hostinger Deployments with Git Subtree and Webhooks"
 categories: ["tutorials", "automation", "deployment"]
 tags: ["git", "hostinger", "webhook"]
