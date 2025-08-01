@@ -1,124 +1,159 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on John&#39;s Tech Logs - Discover Issues, Share Solutions.</title>
+    <title>Categories on Johns Tech Logs</title>
     <link>https://johnstechlogs.com/en/categories/</link>
-    <description>Recent content in Categories on John&#39;s Tech Logs - Discover Issues, Share Solutions.</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 18 May 2025 03:49:12 +0800</lastBuildDate>
+    <description>Recent Posts in Categories on Johns Tech Logs</description>
+    <generator>Hugo 0.148.2</generator>
+    <language>en</language>
+    <managingEditor>Author Name</managingEditor>
+    
+      <webMaster>Author Name</webMaster>
+    <lastBuildDate>Fri, 01 Aug 2025 17:22:46 -0500</lastBuildDate>
     <atom:link href="https://johnstechlogs.com/en/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Pc</title>
+      <title>PC</title>
       <link>https://johnstechlogs.com/en/categories/pc/</link>
-      <pubDate>Sun, 18 May 2025 03:49:12 +0800</pubDate>
+      <pubDate>Sun, 18 May 2025 00:00:00 +0000</pubDate>
+      <author>Author Name</author>
       <guid>https://johnstechlogs.com/en/categories/pc/</guid>
       <description></description>
+      
     </item>
     <item>
       <title>Reviews</title>
       <link>https://johnstechlogs.com/en/categories/reviews/</link>
-      <pubDate>Sun, 18 May 2025 03:49:12 +0800</pubDate>
+      <pubDate>Sun, 18 May 2025 00:00:00 +0000</pubDate>
+      <author>Author Name</author>
       <guid>https://johnstechlogs.com/en/categories/reviews/</guid>
       <description></description>
+      
+    </item>
+    <item>
+      <title>Beginner</title>
+      <link>https://johnstechlogs.com/en/categories/beginner/</link>
+      <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
+      <author>Author Name</author>
+      <guid>https://johnstechlogs.com/en/categories/beginner/</guid>
+      <description></description>
+      
     </item>
     <item>
       <title>Camera</title>
       <link>https://johnstechlogs.com/en/categories/camera/</link>
-      <pubDate>Mon, 28 Apr 2025 03:49:12 +0800</pubDate>
+      <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
+      <author>Author Name</author>
       <guid>https://johnstechlogs.com/en/categories/camera/</guid>
       <description></description>
+      
     </item>
     <item>
-      <title>Life</title>
-      <link>https://johnstechlogs.com/en/categories/life/</link>
-      <pubDate>Mon, 28 Apr 2025 03:49:12 +0800</pubDate>
-      <guid>https://johnstechlogs.com/en/categories/life/</guid>
+      <title>Film</title>
+      <link>https://johnstechlogs.com/en/categories/film/</link>
+      <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
+      <author>Author Name</author>
+      <guid>https://johnstechlogs.com/en/categories/film/</guid>
       <description></description>
+      
     </item>
     <item>
-      <title>Recommended</title>
-      <link>https://johnstechlogs.com/en/categories/recommended/</link>
-      <pubDate>Mon, 28 Apr 2025 03:49:12 +0800</pubDate>
-      <guid>https://johnstechlogs.com/en/categories/recommended/</guid>
+      <title>Review</title>
+      <link>https://johnstechlogs.com/en/categories/review/</link>
+      <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
+      <author>Author Name</author>
+      <guid>https://johnstechlogs.com/en/categories/review/</guid>
       <description></description>
+      
     </item>
     <item>
       <title>Automation</title>
       <link>https://johnstechlogs.com/en/categories/automation/</link>
-      <pubDate>Tue, 21 Jan 2025 12:40:12 +0800</pubDate>
+      <pubDate>Tue, 21 Jan 2025 00:00:00 +0000</pubDate>
+      <author>Author Name</author>
       <guid>https://johnstechlogs.com/en/categories/automation/</guid>
       <description></description>
+      
     </item>
     <item>
       <title>Deployment</title>
       <link>https://johnstechlogs.com/en/categories/deployment/</link>
-      <pubDate>Tue, 21 Jan 2025 12:40:12 +0800</pubDate>
+      <pubDate>Tue, 21 Jan 2025 00:00:00 +0000</pubDate>
+      <author>Author Name</author>
       <guid>https://johnstechlogs.com/en/categories/deployment/</guid>
       <description></description>
+      
     </item>
     <item>
       <title>Self-Hosting</title>
       <link>https://johnstechlogs.com/en/categories/self-hosting/</link>
-      <pubDate>Tue, 21 Jan 2025 12:40:12 +0800</pubDate>
+      <pubDate>Tue, 21 Jan 2025 00:00:00 +0000</pubDate>
+      <author>Author Name</author>
       <guid>https://johnstechlogs.com/en/categories/self-hosting/</guid>
       <description></description>
+      
     </item>
     <item>
       <title>Education</title>
       <link>https://johnstechlogs.com/en/categories/education/</link>
-      <pubDate>Fri, 03 Jan 2025 09:36:12 +0800</pubDate>
+      <pubDate>Fri, 03 Jan 2025 00:00:00 +0000</pubDate>
+      <author>Author Name</author>
       <guid>https://johnstechlogs.com/en/categories/education/</guid>
       <description></description>
+      
     </item>
     <item>
       <title>Study</title>
       <link>https://johnstechlogs.com/en/categories/study/</link>
-      <pubDate>Fri, 03 Jan 2025 09:36:12 +0800</pubDate>
+      <pubDate>Fri, 03 Jan 2025 00:00:00 +0000</pubDate>
+      <author>Author Name</author>
       <guid>https://johnstechlogs.com/en/categories/study/</guid>
       <description></description>
+      
     </item>
     <item>
       <title>AI</title>
       <link>https://johnstechlogs.com/en/categories/ai/</link>
-      <pubDate>Tue, 24 Dec 2024 12:40:12 +0800</pubDate>
+      <pubDate>Tue, 24 Dec 2024 00:00:00 +0000</pubDate>
+      <author>Author Name</author>
       <guid>https://johnstechlogs.com/en/categories/ai/</guid>
       <description></description>
+      
     </item>
     <item>
       <title>Bot</title>
       <link>https://johnstechlogs.com/en/categories/bot/</link>
-      <pubDate>Tue, 24 Dec 2024 12:40:12 +0800</pubDate>
+      <pubDate>Tue, 24 Dec 2024 00:00:00 +0000</pubDate>
+      <author>Author Name</author>
       <guid>https://johnstechlogs.com/en/categories/bot/</guid>
       <description></description>
+      
+    </item>
+    <item>
+      <title>Recommended</title>
+      <link>https://johnstechlogs.com/en/categories/recommended/</link>
+      <pubDate>Tue, 24 Dec 2024 00:00:00 +0000</pubDate>
+      <author>Author Name</author>
+      <guid>https://johnstechlogs.com/en/categories/recommended/</guid>
+      <description></description>
+      
     </item>
     <item>
       <title>Tutorials</title>
       <link>https://johnstechlogs.com/en/categories/tutorials/</link>
-      <pubDate>Fri, 20 Dec 2024 12:22:12 +0800</pubDate>
+      <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
+      <author>Author Name</author>
       <guid>https://johnstechlogs.com/en/categories/tutorials/</guid>
       <description></description>
+      
     </item>
     <item>
-      <title>Archives</title>
-      <link>https://johnstechlogs.com/en/categories/archives/</link>
-      <pubDate>Fri, 25 Oct 2024 09:16:03 +0800</pubDate>
-      <guid>https://johnstechlogs.com/en/categories/archives/</guid>
+      <title>Life</title>
+      <link>https://johnstechlogs.com/en/categories/life/</link>
+      <pubDate>Sun, 15 Dec 2024 00:00:00 +0000</pubDate>
+      <author>Author Name</author>
+      <guid>https://johnstechlogs.com/en/categories/life/</guid>
       <description></description>
-    </item>
-    <item>
-      <title>Cookie</title>
-      <link>https://johnstechlogs.com/en/categories/cookie/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://johnstechlogs.com/en/categories/cookie/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Privacy</title>
-      <link>https://johnstechlogs.com/en/categories/privacy/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://johnstechlogs.com/en/categories/privacy/</guid>
-      <description></description>
+      
     </item>
   </channel>
 </rss>

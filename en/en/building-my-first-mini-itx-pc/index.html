@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head><script src="/hugo-brewm/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=hugo-brewm/livereload" data-no-instant defer></script>
+    <!-- head.html --><!-- meta.html -->
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Building my First Mini ITX PC | Example</title>
+<meta name="author" content="Author Name">
+<meta name="description" content="Building my first Mini ITX PC" >
+<meta name="keywords" content="pc,review,itx,sff">
+<link rel="canonical" href="http://localhost:1313/hugo-brewm/en/en/building-my-first-mini-itx-pc/">
+
+
+
+    
+    <!-- twitterCard -->
+    
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Building my First Mini ITX PC | Example" />
+    <meta name="twitter:description" content="Building my first Mini ITX PC" />
+        <meta name="twitter:image" content="https://repository-images.githubusercontent.com/923527728/46a32a19-69ac-45b3-91a4-c4d299fb234b" />
+    
+    <!-- openGraph -->
+    <meta property="og:title" content="Building my First Mini ITX PC | Example" />
+    <meta property="og:description" content="Building my first Mini ITX PC" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="http://localhost:1313/hugo-brewm/en/en/building-my-first-mini-itx-pc/" />
+        <meta property="og:image" content="https://repository-images.githubusercontent.com/923527728/46a32a19-69ac-45b3-91a4-c4d299fb234b" />
+    <meta property="og:site_name" content="Example" /><!-- js.html -->
+
+
+    <script src="http://localhost:1313/hugo-brewm/js/hugo-brewm.min.js" defer></script><!-- css.html -->
+
+
+    <link rel="stylesheet" href="http://localhost:1313/hugo-brewm/css/hugo-brewm.min.css">
+
+    <!-- css/inline.html -->
+    <style>
+         
+        body {max-width: 786px; margin: auto; padding: 2rem;}
+        img {max-width: 86vw;}
+    </style>
+    
+    
+</head>
+<body >
+    <!-- header.html -->
+<header class="pagewidth">
+    <div id="background-header" class="background" aria-hidden="true">
+        <div class="grain" hidden></div>
+    </div>
+    
+    <nav aria-label="Bypass">
+        <a id="to-content" href="#content" aria-label="Skip to Main Content">
+            <span>Skip to Main Content</span>
+            <kbd class="key" aria-hidden="true">c</kbd>
+            <span class="screening" aria-hidden="true"></span>
+        </a>
+    </nav>
+    
+        <a id="logo" href="http://localhost:1313/hugo-brewm/en/" aria-label="Example" aria-description="Homepage">
+                <!-- logotype.html --><svg id="logotype" xmlns="http://www.w3.org/2000/svg" version="1.1" width="196pt" aria-label="Example">
+            <text id="logotype__text" y="19.5pt" x="0">Example</text>
+        </svg>
+        </a>
+    
+    <details class="presentation" id="top-nav">
+        <summary class="on-deck">
+            <span class="t t2">Navigation</span>
+            <span class="menu-icon" role="presentation"></span>
+        </summary>
+        <nav tabindex="-1" aria-label="Top">
+            <!-- menu.html -->
+            <!-- search.html -->
+<details id="has-search" class="presentation js-details" name="on-deck">
+    <summary class="on-deck srm" accesskey="q" aria-labelledby="search-label" aria-keyshortcuts="q">
+        <span id="search-label" class="t t2 srt">Search</span>
+    </summary>
+    
+        <!-- pagefind.html -->
+    <div id="search" class="on-hull">
+        <div role="presentation" class="screening js-cgpn"></div>
+    </div>
+    <script src="http://localhost:1313/hugo-brewm/pagefind/pagefind-ui.js" type="text/javascript"></script>
+    <script>
+        let pageFindInitialized = false;
+        const initPageFind = function(event) {
+            if (!pageFindInitialized) {
+                new PagefindUI({
+                    element: "#search",
+                    showImages: false,
+                    translations: {
+                        placeholder: "Search"
+                    }
+                });
+                
+                const pFInput = document.querySelector('.pagefind-ui__search-input');
+                if (pFInput) {
+                    pFInput.setAttribute('aria-label', pFInput.getAttribute('placeholder'));
+                }
+                pageFindInitialized = true;
+                document.removeEventListener('DOMContentLoaded', initPageFind);
+            }
+        };
+        document.addEventListener('DOMContentLoaded', initPageFind);
+    </script>
+        <noscript id="has-search-fallback" class="on-hull">
+                
+    <!-- duckduckgo.html -->
+    <form id="duckduckgo" class="form on-plank"
+        name="x" action="//duckduckgo.com/"
+        role="search" aria-label="[i18n] searchDuckDuckGo">
+        <input type="hidden" value="localhost:1313" name="sites"></input>
+        <input type="hidden" value="1" name="kh"></input>
+        <input type="hidden" value="1" name="kn"></input>
+        <input type="hidden" value="1" name="kac"></input>
+        <input class="ldots form__input" type="search" placeholder="Search" name="q" role="searchbox"></input>
+        <button class="form__button" type="submit" aria-label="Search">
+            <img src="https://duckduckgo.com/assets/logo_header.v109.svg" alt="" role="presentation" aria-hidden="true">
+        </button>
+    </form>
+    <div role="presentation" class="screening js-cgpn"></div>
+        </noscript>
+    
+</details>
+
+            <!-- menu.html -->
+            <!-- i18n.html -->
+
+
+        </nav>
+        <div id="top-nav-screen" class="screening js-cpn" role="presentation" aria-hidden="true"></div>
+    </details>
+</header>
+    
+    <!-- [main] baseof.html -->
+    <main id="page">
+        <!-- main/header.html -->
+        <header class="pagewidth">
+            
+                <!-- menu.html -->
+    <menu class="srm">
+        <a id="print-button" class="hide" href="javascript:window.print()" role="button" aria-label="Print">
+            <span class="t srt" role="tooltip">Print</span>
+        </a>
+        <a id="navigatorShare" href="#share" role="button" aria-label="Share">
+            <span class="t srt" role="tooltip">Share</span>
+        </a>
+        <a id="copyPermalink"  href="javascript:navigator.clipboard.writeText(window.location.href)" role="button" aria-label="Copy URL">
+            <span id="copy" class="t srt" role="tooltip">Copy URL</span>
+            <span id="isCopying" style="display: none;">Copying...</span>
+            <span id="copyText" style="display: none;">Copy URL</span>
+        </a>
+    </menu>
+    <button id="back" class="hide" type="button" onclick="history.back();" aria-label="Go Back">
+        <span class="t srt" role="tooltip">Go Back</span>
+    </button>
+            
+                <!-- nav.html -->
+<details class="presentation" aria-expanded="true" id="has-breadcrumb" open>
+    <summary id="breadcrumb" tabindex="-1">
+        <span>Breadcrumb</span>
+    </summary>
+        <nav aria-labelledby="breadcrumb">
+            <ul role="presentation" class="breadcrumb ">
+                    <!-- breadcrumb.html -->
+        <li>
+            <a href="http://localhost:1313/hugo-brewm/en/en/" aria-current="true">Ens
+            </a>
+        </li>
+    <li>
+        <a href="" aria-current="page" tabindex="-1">Building my First Mini ITX PC
+        </a>
+    </li>
+            </ul>
+        </nav>
+</details>
+        </header>
+        <div id="top" role="presentation">
+            
+        </div>
+        
+    <article id="main-article" class="pagewidth sf"
+        role="document" aria-labelledby="title"
+            data-pagefind-ignore="all">
+        <header aria-labelledby="title">
+            
+            <!-- title.html -->
+        <hgroup data-bionRead-safe>
+            <h1 id="title"
+                >Building my First Mini ITX PC</h1>
+            <p  class="subtitle"
+                role="doc-subtitle">Building my first Mini ITX PC</p>
+        </hgroup>
+        </header>
+        <!-- audio.html -->
+        <section aria-labelledby="title" id="content" data-bionRead-safe>
+                <h2 id="building-a-pc">Building a PC</h2>
+<p>I never completely built a PC by myself. I knew building your own was cheaper than buying prebuilts. In 2020, I wanted to move away from using an external GPU dock for my laptop to a desktop. I had a lot of fun picking out the parts for my new system. When it came to building it, people always said it was like building legos and I loved legos. However, I am not the best when it comes to hardware or cable management. I had a friend come over and help me build my desktop. Unfortunately, he took over most of the process and I felt like I missed out. The build was a success and it&rsquo;s lasted me five years. Now that I have a solid income, I think it&rsquo;s time for an upgrade.
+<img src="http://localhost:1313/hugo-brewm/images/miniitxpc.jpg" alt="Image Description"></p>
+<h2 id="the-new-specs">The New Specs</h2>
+<ul>
+<li>Gigabyte b650i Aurous Ultra</li>
+<li>AMD Ryzen 7 9700x</li>
+<li>Corsair DDR5 32GB RAM</li>
+<li>WD SN7100 2 TB SSD</li>
+<li>Sapphire Pulse AMD Radeon 9070 XT</li>
+<li>Noctua LH9 Fans with Noctua Thermal Paste</li>
+<li>Corsair SF 850w Power Supply</li>
+<li>Fractal Design Terra Black Case</li>
+</ul>
+<h2 id="mini-itx">Mini ITX</h2>
+<p>I had a friend who built a pc in a mini ITX case. Mini ITX refers to a small form factor motherboard designed to fit into compact cases. This makes it easier to move the entire PC around and takes up much less space compared to a mid-tower desktop. My friend used the Fractal Terra Jade edition. This case was clean but to match with my darter themes, I picked the black edition. The design was sleek and minimal and it looked like a speaker from far away. I knew that I planned to move out in the coming years and having a portable PC creates a lot less hassle.</p>
+<h2 id="part-picking-struggle">Part Picking Struggle</h2>
+<p>Building a mini ITX PC is a whole different story than building a regular tower desktop. You have to first find compatible parts that work with your motherboard and can fit in the case. Additionally, you need to keep in mind thermals as there isn&rsquo;t a lot of room to add fans or a big cooler. This often leads to limiting your performance (CPU) options to avoid throttling. Cable management is much more tight and fortunately for me, this case doesn&rsquo;t expose how it looks. Many GPUs are much bigger than what the case can fit. I gambled on a GPU with a max length of 320mm while the case max limit is 322! This means there&rsquo;s no room for cable management if I wanted to sqeeze any there. Luckily, it managed to fit just barely. These problems wouldn&rsquo;t exist in larger case but I choose aesthetics first. I was able to pick out my initial parts following other builds in the same case.</p>
+<p><img src="http://localhost:1313/hugo-brewm/images/gpu.jpg" alt="Image Description"></p>
+<h2 id="the-build-process-struggle">The Build Process Struggle</h2>
+<p>Before starting the build, I had to flash the BIOS with a new update to recognize my PC. Once I started to actually build the PC, I ran into several problems. First, I realized that the CPU cooler I bought (ID Cooling IS-55) did not have enough RAM clearance for my RAM. This meant I needed to buy a different cooler. I went with the Noctua LH9 and this thing is a beauty. The brown and tan colors really match the overall wood aesthetic. I also made a simple mistake in buying RAM that was optimized for Intel XMP and not AMD (whoops). This was frustrating since I had to wait for all these new parts to come in to finish my build over several days. Watching youtube videos on how to adjust the case for more GPU clearance and the installation process was a big help.</p>
+<p><img src="http://localhost:1313/hugo-brewm/images/cpucooler.jpg" alt="Image Description"></p>
+<h2 id="thermals">Thermals</h2>
+<p>The main thing I was worried about was the thermals. I didn&rsquo;t have any extra intake or exhaust fans like in other builds. The Noctua LH9 might not be enough. I went ahead into the BIOS and undervolted my CPU, enabled EXPO for RAM and Virtualization. Fortunately, on a hot day my CPU idles around 60 Celsius and 70 Celsius under load and on a cool day, the high and low reduces by 10 degrees. I didn&rsquo;t do thorough testing and there&rsquo;s more tweaks that can be done to pull for performance, but I feel that I am at a safe range.</p>
+<h2 id="windows-11-installation-sucks">Windows 11 Installation Sucks</h2>
+<p>My PC actually booted into the BIOS and I felt immense relief. This was the first time I built a PC on my own and it actually turned on. The next step, installing windows 11, should have been easy, but it wasn&rsquo;t. The Windows 11 Installation media never could recognize my SSD despite it showing up in the BIOS. I tried using the ISO with Rufus instead and no luck. Only after scrolling through several forums did I find a solution. I had to use the Windows 10 ISO to recognize my SSD and then upgrade to windows 11. This worked flawlessly. This is pretty pathetic for a modern upgrade but I am glad I was able to install windows offline and fix 11&rsquo;s context menu to match Windows 10.</p>
+<h2 id="the-sexy-beast">The Sexy Beast</h2>
+<p>Coming from an RTX 2070 super to a 9070 XT is a significant upgrade. I switched to team RED (AMD) since the latest Nvidia 50 series was a generation most people thought you should skip. I saw that the 7090 XT was around the same price point but I feel that the 9070 XT was worth more for future proofing. Unfortunately, not many games have support for FSR 4 as of now but I am able to play games on ultra at 1440p which is enough for me coming from 1080p high games. In Oblivion Remastered with FSR 4, I am getting 150-180 fps on ultra. Overall, I am happy with my build and should be set for another five years with it. If I want to, I can easily upgrade the GPU if my CPU doesn&rsquo;t hold it back. The overall cost was around $2.1k, but for me, spending consciously on the things I love will always be worth it.</p>
+
+        </section>
+    </article>
+    <hr class="hide" style="margin: 1in 0;">
+    <div id="contentinfo" class="pagewidth" role="contentinfo" data-pagefind-ignore="all">
+            <!-- nav.html -->
+<details class="presentation" aria-expanded="true" id="has-share" open>
+    <summary id="share" tabindex="-1">
+        <span>Share</span>
+    </summary>
+        <nav aria-labelledby="share">
+            <ul role="presentation" class="share srm">
+                    <!-- share.html -->
+    <li id="has-mastodon">
+        <!-- mastodon.html -->
+    <form class="form" id="mastodon" action="//sharetomastodon.github.io/" target="_blank" rel="noopener noreferrer">
+        <input id="mastodonTitle" type="hidden" name="title" value="Building my First Mini ITX PC">
+        <input id="mastodonPermalink" type="hidden" name="url" value="http://localhost:1313/hugo-brewm/en/en/building-my-first-mini-itx-pc/">
+        <input id="mastodonText" type="hidden" name="text" value="Building my First Mini ITX PC http://localhost:1313/hugo-brewm/en/en/building-my-first-mini-itx-pc/" disabled>
+        <input id="mastodonInstance" type="url" class="ldots form__input" placeholder="Enter Mastodon instance (https://www.example.com)" aria-label="Mastodon instance URL">
+        <button class="form__button" type="submit" aria-label="Share on Mastodon">
+            <i class="icon mastodon sri" aria-hidden="true"></i>
+            <span class="t srt" role="tooltip">Share on Mastodon</span>
+        </button>
+    </form>
+    </li>
+    <li>
+        <a href="mailto:?subject=Building%20my%20First%20Mini%20ITX%20PC&body=http%3a%2f%2flocalhost%3a1313%2fhugo-brewm%2fen%2fen%2fbuilding-my-first-mini-itx-pc%2f" role="button" aria-label="Share on Email">
+            <i class="email sri" aria-hidden="true"></i>
+            <span class="t srt" role="tooltip">Share on Email</span>
+        </a>
+    </li>
+    <li>
+        <a href="whatsapp://send?text=Building%20my%20First%20Mini%20ITX%20PC%20http%3a%2f%2flocalhost%3a1313%2fhugo-brewm%2fen%2fen%2fbuilding-my-first-mini-itx-pc%2f" role="button" aria-label="Share on Whatsapp">
+            <i class="whatsapp sri" aria-hidden="true"></i>
+            <span class="t srt" role="tooltip">Share on Whatsapp</span>
+        </a>
+    </li>
+    <li>
+        <a rel="noopener noreferrer" target="_blank" href="https://telegram.me/share/url?text=Building%20my%20First%20Mini%20ITX%20PC&amp;url=http://localhost:1313/hugo-brewm/en/en/building-my-first-mini-itx-pc/" role="button"
+            aria-label="Share on Telegram in new tab">
+            <i class="telegram sri" aria-hidden="true"></i>
+            <span class="t srt" role="tooltip">Share on Telegram</span>
+        </a>
+    </li>
+    <li>
+        <a rel="noopener noreferrer" target="_blank" href="https://bsky.app/intent/compose?text=Building%20my%20First%20Mini%20ITX%20PC&amp;url=http://localhost:1313/hugo-brewm/en/en/building-my-first-mini-itx-pc/" role="button"
+            aria-label="Share on Bluesky in new tab">
+            <i class="bluesky sri" aria-hidden="true"></i>
+            <span class="t srt" role="tooltip">Share on Bluesky</span>
+        </a>
+    </li>
+    <li>
+        <a rel="noopener noreferrer" target="_blank" href="https://facebook.com/sharer/sharer.php?u=http://localhost:1313/hugo-brewm/en/en/building-my-first-mini-itx-pc/" role="button"
+            aria-label="Share on Facebook in new tab">
+            <i class="facebook sri" aria-hidden="true"></i>
+            <span class="t srt" role="tooltip">Share on Facebook</span>
+        </a>
+    </li>
+    <li>
+        <a rel="noopener noreferrer" target="_blank" href="https://news.ycombinator.com/submitlink?u=http://localhost:1313/hugo-brewm/en/en/building-my-first-mini-itx-pc/&amp;t=Building%20my%20First%20Mini%20ITX%20PC" role="button"
+            aria-label="Share on Hackernews in new tab">
+            <i class="hackernews sri" aria-hidden="true"></i>
+            <span class="t srt" role="tooltip">Share on Hackernews</span>
+        </a>
+    </li>
+    <li>
+        <a rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://localhost:1313/hugo-brewm/en/en/building-my-first-mini-itx-pc/&amp;title=Building%20my%20First%20Mini%20ITX%20PC&amp;summary=Building%20my%20First%20Mini%20ITX%20PC&amp;source=http://localhost:1313/hugo-brewm/en/en/building-my-first-mini-itx-pc/" role="button"
+            aria-label="Share on Linkedin in new tab">
+            <i class="linkedin sri" aria-hidden="true"></i>
+            <span class="t srt" role="tooltip">Share on Linkedin</span>
+        </a>
+    </li>
+    <li>
+        <a rel="noopener noreferrer" target="_blank" href="https://pinterest.com/pin/create/button/?url=http://localhost:1313/hugo-brewm/en/en/building-my-first-mini-itx-pc/&amp;media=http://localhost:1313/hugo-brewm/en/en/building-my-first-mini-itx-pc/&amp;description=Building%20my%20First%20Mini%20ITX%20PC" role="button"
+            aria-label="Share on Pinterest in new tab">
+            <i class="pinterest sri" aria-hidden="true"></i>
+            <span class="t srt" role="tooltip">Share on Pinterest</span>
+        </a>
+    </li>
+    <li>
+        <a rel="noopener noreferrer" target="_blank" href="https://reddit.com/submit/?url=http://localhost:1313/hugo-brewm/en/en/building-my-first-mini-itx-pc/&amp;resubmit=true&amp;title=Building%20my%20First%20Mini%20ITX%20PC" role="button"
+            aria-label="Share on Reddit in new tab">
+            <i class="reddit sri" aria-hidden="true"></i>
+            <span class="t srt" role="tooltip">Share on Reddit</span>
+        </a>
+    </li>
+    <li>
+        <a rel="noopener noreferrer" target="_blank" href="https://www.tumblr.com/widgets/share/tool?posttype=link&amp;title=Building%20my%20First%20Mini%20ITX%20PC&amp;caption=Building%20my%20First%20Mini%20ITX%20PC&amp;content=http://localhost:1313/hugo-brewm/en/en/building-my-first-mini-itx-pc/&amp;canonicalUrl=http://localhost:1313/hugo-brewm/en/en/building-my-first-mini-itx-pc/" role="button"
+            aria-label="Share on Tumblr in new tab">
+            <i class="tumblr sri" aria-hidden="true"></i>
+            <span class="t srt" role="tooltip">Share on Tumblr</span>
+        </a>
+    </li>
+    <li>
+        <a rel="noopener noreferrer" target="_blank" href="http://vk.com/share.php?title=Building%20my%20First%20Mini%20ITX%20PC&amp;url=http://localhost:1313/hugo-brewm/en/en/building-my-first-mini-itx-pc/" role="button"
+            aria-label="Share on Vk in new tab">
+            <i class="vk sri" aria-hidden="true"></i>
+            <span class="t srt" role="tooltip">Share on Vk</span>
+        </a>
+    </li>
+    <li>
+        <a rel="noopener noreferrer" target="_blank" href="https://twitter.com/intent/tweet/?text=Building%20my%20First%20Mini%20ITX%20PC&amp;url=http://localhost:1313/hugo-brewm/en/en/building-my-first-mini-itx-pc/" role="button"
+            aria-label="Share on Twitter in new tab">
+            <i class="twitter sri" aria-hidden="true"></i>
+            <span class="t srt" role="tooltip">Share on Twitter</span>
+        </a>
+    </li>
+    <li>
+        <a rel="noopener noreferrer" target="_blank" href="https://www.xing.com/app/user?op=share;url=http://localhost:1313/hugo-brewm/en/en/building-my-first-mini-itx-pc/;title=Building%20my%20First%20Mini%20ITX%20PC" role="button"
+            aria-label="Share on Xing in new tab">
+            <i class="xing sri" aria-hidden="true"></i>
+            <span class="t srt" role="tooltip">Share on Xing</span>
+        </a>
+    </li>
+            </ul>
+        </nav>
+</details>
+    </div>
+    
+        
+                    <div class="pagewidth">
+<noscript id="noGiscus">
+    <center role="alert">Giscus require Javascript and LocalStorage to be enable.</center>
+</noscript>
+<div id="noDOMGiscus" class="hide">
+    <center role="alert">Giscus require Javascript and LocalStorage to be enable.</center>
+</div>
+<script src="https://giscus.app/client.js"
+    data-repo="foxihd/hugo-brewm"
+    data-repo-id="R_kgDONwvqMA"
+    data-category="Articles"
+    data-category-id="DIC_kwDONwvqMM4CnXDQ"
+    data-mapping="pathname"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+</div>
+                
+        <!-- main/footer.html -->
+    <hr class="hide">
+    <footer id="main-footer">
+            <div id="unified-footer"><p id="license">Copyleft 2025 © Author</p>
+                    <!-- menu.html -->
+            </div>
+    </footer>
+    </main>
+    <!-- footer.html -->
+<footer id="body-footer" class="pagewidth" style="display: none;">
+    <div id="background-footer" class="background hide" role="presentation" aria-hidden="true">
+        <div class="grain" hidden></div>
+    </div>
+    <div id="focusMode"></div>
+    <!-- a11y.html --><details id="has-a11y" class="presentation js-details hide" name="on-deck" aria-haspopup="true" aria-labelledby="has-a11y-summary">
+    <summary id="has-a11y-summary" accesskey="a" aria-keyshortcuts="a">
+        <span>&nbsp;Accessibility</span>
+        <kbd class="key" aria-hidden="true">a</kbd>
+    </summary>
+    <!-- a11y console -->
+    <fieldset id="a11y" role="region" aria-label="Accessibility"
+        data-i18n-optimizeSR="Screen Reader Optimization"
+        data-i18n-optimizeSRdesc="Optimize display and resources for screen reader users who navigate with a pointer device."
+        data-i18n-colorSettings="Color Settings"
+        data-i18n-darkMode="Dark Mode"
+        data-i18n-light="Light"
+        data-i18n-dark="Dark"
+        data-i18n-contrast="Contrast"
+        data-i18n-lessContrast="Low"
+        data-i18n-moreContrast="High"
+        data-i18n-defaultContrast="Default"
+        data-i18n-colorPalette="Color Palette"
+        data-i18n-defaultColor="Default"
+        data-i18n-deuteranopia="Deuteranopia"
+        data-i18n-protanopia="Protanopia"
+        data-i18n-tritanopia="Tritanopia"
+        data-i18n-monochrome="Monochrome"
+        data-i18n-fontSize="Font Size"
+        data-i18n-baselineStretch="Baseline Stretch"        
+        data-i18n-OpenDyslexic="Use OpenDyslexic Font"
+        data-i18n-menuControls="Accessibility Menu Controls"
+        data-i18n-save="Save"
+        data-i18n-reset="Reset"
+        data-i18n-close="Close"
+        data-i18n-bionRead="BionRead Mode"
+        data-i18n-focusMode="Focus Mode"
+        data-i18n-noLocalStorage="LocalStorage is not available in your browser. Settings won&#39;t be saved.">
+    </fieldset>
+    <div class="screening js-cpn" role="presentation" aria-hidden="true"></div>
+</details>
+
+
+    <div id="useBionRead" class="sri"></div>
+    <!-- [top] bypass block -->
+    <nav aria-label="Bypass">
+        <a id="to-top" class="srm" href="#top" title="To Content Top" accesskey="c" aria-keyshortcuts="c" aria-label="To Content Top">
+            <span class="t srt">To Content Top</span>
+            <kbd class="key" aria-hidden="true">c</kbd>
+        </a>
+    </nav>
+</footer>
+    
+    <!-- [post] single.html -->
+    <div id="bionReadSnapshot" hidden></div>
+    <!-- [background] baseof.html -->
+    <div id="background-body"
+        role="presentation" aria-hidden="true">
+        <div class="grain" hidden></div>
+        <div id="dwclock" hidden>
+            <div id="min">
+                <div class="hand"></div>
+            </div>
+            <div id="hour">
+                <div class="hand"></div>
+            </div>
+        </div>
+    </div>
+</html>

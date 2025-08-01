@@ -1,165 +1,245 @@
+
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://johnstechlogs.com/en/</loc>
-    <lastmod>2025-12-20T12:22:12+08:00</lastmod>
-  </url><url>
-    <loc>https://johnstechlogs.com/en/building-my-first-mini-itx-pc/</loc>
-    <lastmod>2025-05-18T03:49:12+08:00</lastmod>
-  </url><url>
+    <lastmod>2025-05-18T00:00:00+00:00</lastmod>
+    </url>
+  <url>
+    <loc>https://johnstechlogs.com/en/author/</loc>
+    <lastmod>2025-05-18T00:00:00+00:00</lastmod>
+    </url>
+  <url>
+    <loc>https://johnstechlogs.com/en/post/building-my-first-mini-itx-pc/</loc>
+    <lastmod>2025-05-18T00:00:00+00:00</lastmod>
+    </url>
+  <url>
     <loc>https://johnstechlogs.com/en/categories/</loc>
-    <lastmod>2025-05-18T03:49:12+08:00</lastmod>
-  </url><url>
-    <loc>https://johnstechlogs.com/en/categories/pc/</loc>
-    <lastmod>2025-05-18T03:49:12+08:00</lastmod>
-  </url><url>
+    <lastmod>2025-05-18T00:00:00+00:00</lastmod>
+    </url>
+  <url>
+    <loc>https://johnstechlogs.com/en/author/john-nguyen/</loc>
+    <lastmod>2025-05-18T00:00:00+00:00</lastmod>
+    </url>
+  <url>
     <loc>https://johnstechlogs.com/en/tags/pc/</loc>
-    <lastmod>2025-05-18T03:49:12+08:00</lastmod>
-  </url><url>
+    <lastmod>2025-05-18T00:00:00+00:00</lastmod>
+    </url>
+  <url>
+    <loc>https://johnstechlogs.com/en/categories/pc/</loc>
+    <lastmod>2025-05-18T00:00:00+00:00</lastmod>
+    </url>
+  <url>
+    <loc>https://johnstechlogs.com/en/post/</loc>
+    <lastmod>2025-05-18T00:00:00+00:00</lastmod>
+    <changefreq>always</changefreq>
+    </url>
+  <url>
     <loc>https://johnstechlogs.com/en/categories/reviews/</loc>
-    <lastmod>2025-05-18T03:49:12+08:00</lastmod>
-  </url><url>
+    <lastmod>2025-05-18T00:00:00+00:00</lastmod>
+    </url>
+  <url>
     <loc>https://johnstechlogs.com/en/tags/</loc>
-    <lastmod>2025-05-18T03:49:12+08:00</lastmod>
-  </url><url>
+    <lastmod>2025-05-18T00:00:00+00:00</lastmod>
+    </url>
+  <url>
+    <loc>https://johnstechlogs.com/en/categories/beginner/</loc>
+    <lastmod>2025-02-03T00:00:00+00:00</lastmod>
+    </url>
+  <url>
     <loc>https://johnstechlogs.com/en/categories/camera/</loc>
-    <lastmod>2025-04-28T03:49:12+08:00</lastmod>
-  </url><url>
+    <lastmod>2025-02-03T00:00:00+00:00</lastmod>
+    </url>
+  <url>
     <loc>https://johnstechlogs.com/en/tags/camera/</loc>
-    <lastmod>2025-04-28T03:49:12+08:00</lastmod>
-  </url><url>
-    <loc>https://johnstechlogs.com/en/kodak-ektar-h35---the-best-beginners-film-camera/</loc>
-    <lastmod>2025-04-28T03:49:12+08:00</lastmod>
-  </url><url>
-    <loc>https://johnstechlogs.com/en/categories/life/</loc>
-    <lastmod>2025-04-28T03:49:12+08:00</lastmod>
-  </url><url>
-    <loc>https://johnstechlogs.com/en/categories/recommended/</loc>
-    <lastmod>2025-04-28T03:49:12+08:00</lastmod>
-  </url><url>
+    <lastmod>2025-02-03T00:00:00+00:00</lastmod>
+    </url>
+  <url>
+    <loc>https://johnstechlogs.com/en/categories/film/</loc>
+    <lastmod>2025-02-03T00:00:00+00:00</lastmod>
+    </url>
+  <url>
+    <loc>https://johnstechlogs.com/en/post/kodak-ektar-h35-review/</loc>
+    <lastmod>2025-02-03T00:00:00+00:00</lastmod>
+    </url>
+  <url>
+    <loc>https://johnstechlogs.com/en/categories/review/</loc>
+    <lastmod>2025-02-03T00:00:00+00:00</lastmod>
+    </url>
+  <url>
     <loc>https://johnstechlogs.com/en/categories/automation/</loc>
-    <lastmod>2025-01-21T12:40:12+08:00</lastmod>
-  </url><url>
+    <lastmod>2025-01-21T00:00:00+00:00</lastmod>
+    </url>
+  <url>
     <loc>https://johnstechlogs.com/en/tags/coolify/</loc>
-    <lastmod>2025-01-21T12:40:12+08:00</lastmod>
-  </url><url>
+    <lastmod>2025-01-21T00:00:00+00:00</lastmod>
+    </url>
+  <url>
     <loc>https://johnstechlogs.com/en/categories/deployment/</loc>
-    <lastmod>2025-01-21T12:40:12+08:00</lastmod>
-  </url><url>
+    <lastmod>2025-01-21T00:00:00+00:00</lastmod>
+    </url>
+  <url>
     <loc>https://johnstechlogs.com/en/tags/docker/</loc>
-    <lastmod>2025-01-21T12:40:12+08:00</lastmod>
-  </url><url>
+    <lastmod>2025-01-21T00:00:00+00:00</lastmod>
+    </url>
+  <url>
     <loc>https://johnstechlogs.com/en/tags/git/</loc>
-    <lastmod>2025-01-21T12:40:12+08:00</lastmod>
-  </url><url>
+    <lastmod>2025-01-21T00:00:00+00:00</lastmod>
+    </url>
+  <url>
     <loc>https://johnstechlogs.com/en/tags/hosting/</loc>
-    <lastmod>2025-01-21T12:40:12+08:00</lastmod>
-  </url><url>
+    <lastmod>2025-01-21T00:00:00+00:00</lastmod>
+    </url>
+  <url>
     <loc>https://johnstechlogs.com/en/tags/raspberry-pi/</loc>
-    <lastmod>2025-01-21T12:40:12+08:00</lastmod>
-  </url><url>
-    <loc>https://johnstechlogs.com/en/self-hosting-discord-bots-and-other-apps-with-coolify/</loc>
-    <lastmod>2025-01-21T12:40:12+08:00</lastmod>
-  </url><url>
+    <lastmod>2025-01-21T00:00:00+00:00</lastmod>
+    </url>
+  <url>
+    <loc>https://johnstechlogs.com/en/post/self-hosting-discord-bots/</loc>
+    <lastmod>2025-01-21T00:00:00+00:00</lastmod>
+    </url>
+  <url>
     <loc>https://johnstechlogs.com/en/categories/self-hosting/</loc>
-    <lastmod>2025-01-21T12:40:12+08:00</lastmod>
-  </url><url>
+    <lastmod>2025-01-21T00:00:00+00:00</lastmod>
+    </url>
+  <url>
     <loc>https://johnstechlogs.com/en/tags/apple/</loc>
-    <lastmod>2025-01-03T09:36:12+08:00</lastmod>
-  </url><url>
+    <lastmod>2025-01-03T00:00:00+00:00</lastmod>
+    </url>
+  <url>
     <loc>https://johnstechlogs.com/en/categories/education/</loc>
-    <lastmod>2025-01-03T09:36:12+08:00</lastmod>
-  </url><url>
+    <lastmod>2025-01-03T00:00:00+00:00</lastmod>
+    </url>
+  <url>
     <loc>https://johnstechlogs.com/en/tags/school/</loc>
-    <lastmod>2025-01-03T09:36:12+08:00</lastmod>
-  </url><url>
+    <lastmod>2025-01-03T00:00:00+00:00</lastmod>
+    </url>
+  <url>
     <loc>https://johnstechlogs.com/en/categories/study/</loc>
-    <lastmod>2025-01-03T09:36:12+08:00</lastmod>
-  </url><url>
+    <lastmod>2025-01-03T00:00:00+00:00</lastmod>
+    </url>
+  <url>
     <loc>https://johnstechlogs.com/en/tags/study/</loc>
-    <lastmod>2025-01-03T09:36:12+08:00</lastmod>
-  </url><url>
-    <loc>https://johnstechlogs.com/en/the-tools-i-used-to-maintain-a-3.9-gpa/</loc>
-    <lastmod>2025-01-03T09:36:12+08:00</lastmod>
-  </url><url>
+    <lastmod>2025-01-03T00:00:00+00:00</lastmod>
+    </url>
+  <url>
+    <loc>https://johnstechlogs.com/en/post/tools-to-maintain-gpa/</loc>
+    <lastmod>2025-01-03T00:00:00+00:00</lastmod>
+    </url>
+  <url>
     <loc>https://johnstechlogs.com/en/categories/ai/</loc>
-    <lastmod>2024-12-24T12:40:12+08:00</lastmod>
-  </url><url>
+    <lastmod>2024-12-24T00:00:00+00:00</lastmod>
+    </url>
+  <url>
     <loc>https://johnstechlogs.com/en/tags/ai/</loc>
-    <lastmod>2024-12-24T12:40:12+08:00</lastmod>
-  </url><url>
+    <lastmod>2024-12-24T00:00:00+00:00</lastmod>
+    </url>
+  <url>
     <loc>https://johnstechlogs.com/en/categories/bot/</loc>
-    <lastmod>2024-12-24T12:40:12+08:00</lastmod>
-  </url><url>
+    <lastmod>2024-12-24T00:00:00+00:00</lastmod>
+    </url>
+  <url>
     <loc>https://johnstechlogs.com/en/tags/bot/</loc>
-    <lastmod>2024-12-24T12:40:12+08:00</lastmod>
-  </url><url>
+    <lastmod>2024-12-24T00:00:00+00:00</lastmod>
+    </url>
+  <url>
     <loc>https://johnstechlogs.com/en/tags/discord/</loc>
-    <lastmod>2024-12-24T12:40:12+08:00</lastmod>
-  </url><url>
-    <loc>https://johnstechlogs.com/en/i-created-an-ai-bot-of-my-fallen-best-friend.-have-i-gone-mad/</loc>
-    <lastmod>2024-12-24T12:40:12+08:00</lastmod>
-  </url><url>
+    <lastmod>2024-12-24T00:00:00+00:00</lastmod>
+    </url>
+  <url>
+    <loc>https://johnstechlogs.com/en/post/ai-discord-bot-friend/</loc>
+    <lastmod>2024-12-24T00:00:00+00:00</lastmod>
+    </url>
+  <url>
+    <loc>https://johnstechlogs.com/en/categories/recommended/</loc>
+    <lastmod>2024-12-24T00:00:00+00:00</lastmod>
+    </url>
+  <url>
     <loc>https://johnstechlogs.com/en/tags/hostinger/</loc>
-    <lastmod>2024-12-20T12:22:12+08:00</lastmod>
-  </url><url>
-    <loc>https://johnstechlogs.com/en/how-to-automate-hostinger-deployments-with-git-subtree-and-webhooks/</loc>
-    <lastmod>2024-12-20T12:22:12+08:00</lastmod>
-  </url><url>
+    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
+    </url>
+  <url>
+    <loc>https://johnstechlogs.com/en/post/howtoautomatehostinger/</loc>
+    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
+    </url>
+  <url>
     <loc>https://johnstechlogs.com/en/categories/tutorials/</loc>
-    <lastmod>2024-12-20T12:22:12+08:00</lastmod>
-  </url><url>
+    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
+    </url>
+  <url>
     <loc>https://johnstechlogs.com/en/tags/webhook/</loc>
-    <lastmod>2024-12-20T12:22:12+08:00</lastmod>
-  </url><url>
-    <loc>https://johnstechlogs.com/en/a-review-of-the-backfire-g2-black-electric-skateboard/</loc>
-    <lastmod>2024-12-15T03:49:12+08:00</lastmod>
-  </url><url>
+    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
+    </url>
+  <url>
+    <loc>https://johnstechlogs.com/en/post/areviewofthebackfireg2blackeletricskateboard/</loc>
+    <lastmod>2024-12-15T00:00:00+00:00</lastmod>
+    </url>
+  <url>
     <loc>https://johnstechlogs.com/en/tags/electric/</loc>
-    <lastmod>2024-12-15T03:49:12+08:00</lastmod>
-  </url><url>
+    <lastmod>2024-12-15T00:00:00+00:00</lastmod>
+    </url>
+  <url>
+    <loc>https://johnstechlogs.com/en/categories/life/</loc>
+    <lastmod>2024-12-15T00:00:00+00:00</lastmod>
+    </url>
+  <url>
     <loc>https://johnstechlogs.com/en/tags/vehicle/</loc>
-    <lastmod>2024-12-15T03:49:12+08:00</lastmod>
-  </url><url>
-    <loc>https://johnstechlogs.com/en/search/</loc>
-    <lastmod>2024-12-13T15:00:00+08:00</lastmod>
-  </url><url>
-    <loc>https://johnstechlogs.com/en/tags/3d/</loc>
-    <lastmod>2024-12-12T09:34:12+08:00</lastmod>
-  </url><url>
-    <loc>https://johnstechlogs.com/en/tags/games/</loc>
-    <lastmod>2024-12-12T09:34:12+08:00</lastmod>
-  </url><url>
-    <loc>https://johnstechlogs.com/en/tags/gifts/</loc>
-    <lastmod>2024-12-12T09:34:12+08:00</lastmod>
-  </url><url>
-    <loc>https://johnstechlogs.com/en/tags/projects/</loc>
-    <lastmod>2024-12-12T09:34:12+08:00</lastmod>
-  </url><url>
-    <loc>https://johnstechlogs.com/en/tech-bro-with-a-gf/</loc>
-    <lastmod>2024-12-12T09:34:12+08:00</lastmod>
-  </url><url>
-    <loc>https://johnstechlogs.com/en/home/</loc>
-    <lastmod>2024-12-11T09:34:12+08:00</lastmod>
-  </url><url>
-    <loc>https://johnstechlogs.com/en/contact/</loc>
-    <lastmod>2024-12-11T01:01:03+08:00</lastmod>
-  </url><url>
-    <loc>https://johnstechlogs.com/en/archives/</loc>
-    <lastmod>2024-10-25T09:16:03+08:00</lastmod>
-  </url><url>
-    <loc>https://johnstechlogs.com/en/categories/archives/</loc>
-    <lastmod>2024-10-25T09:16:03+08:00</lastmod>
-  </url><url>
-    <loc>https://johnstechlogs.com/en/categories/cookie/</loc>
-  </url><url>
-    <loc>https://johnstechlogs.com/en/categories/privacy/</loc>
-  </url><url>
-    <loc>https://johnstechlogs.com/en/cookie/</loc>
-    <lastmod>0000-01-01T00:00:12+08:00</lastmod>
-  </url><url>
-    <loc>https://johnstechlogs.com/en/privacy/</loc>
-    <lastmod>0000-01-01T00:00:12+08:00</lastmod>
+    <lastmod>2024-12-15T00:00:00+00:00</lastmod>
+    </url>
+  <url>
+    <loc>https://johnstechlogs.com/en/post/tech-bro-with-gf/</loc>
+    <lastmod>2024-12-12T00:00:00+00:00</lastmod>
+    </url>
+  <url>
+    <loc>https://johnstechlogs.com/en/stage/budding/</loc>
+    
+    <xhtml:link rel="alternate" hreflang="en" href="https://johnstechlogs.com/en/stage/budding/_index.id/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://johnstechlogs.com/en/stage/budding/" />
+  </url>
+  <url>
+    <loc>https://johnstechlogs.com/en/stage/evergreen/</loc>
+    
+    <xhtml:link rel="alternate" hreflang="en" href="https://johnstechlogs.com/en/stage/evergreen/_index.id/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://johnstechlogs.com/en/stage/evergreen/" />
+  </url>
+  <url>
+    <loc>https://johnstechlogs.com/en/stage/evergreen/_index.id/</loc>
+    
+    <xhtml:link rel="alternate" hreflang="en" href="https://johnstechlogs.com/en/stage/evergreen/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://johnstechlogs.com/en/stage/evergreen/_index.id/" />
+  </url>
+  <url>
+    <loc>https://johnstechlogs.com/en/stage/_index.id/</loc>
+    
+    <xhtml:link rel="alternate" hreflang="en" href="https://johnstechlogs.com/en/stage/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://johnstechlogs.com/en/stage/_index.id/" />
+  </url>
+  <url>
+    <loc>https://johnstechlogs.com/en/stage/budding/_index.id/</loc>
+    
+    <xhtml:link rel="alternate" hreflang="en" href="https://johnstechlogs.com/en/stage/budding/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://johnstechlogs.com/en/stage/budding/_index.id/" />
+  </url>
+  <url>
+    <loc>https://johnstechlogs.com/en/stage/seedling/</loc>
+    
+    <xhtml:link rel="alternate" hreflang="en" href="https://johnstechlogs.com/en/stage/seedling/_index.id/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://johnstechlogs.com/en/stage/seedling/" />
+  </url>
+  <url>
+    <loc>https://johnstechlogs.com/en/stage/seedling/_index.id/</loc>
+    
+    <xhtml:link rel="alternate" hreflang="en" href="https://johnstechlogs.com/en/stage/seedling/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://johnstechlogs.com/en/stage/seedling/_index.id/" />
+  </url>
+  <url>
+    <loc>https://johnstechlogs.com/en/series/</loc>
+    
+    </url>
+  <url>
+    <loc>https://johnstechlogs.com/en/stage/</loc>
+    
+    <xhtml:link rel="alternate" hreflang="en" href="https://johnstechlogs.com/en/stage/_index.id/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://johnstechlogs.com/en/stage/" />
   </url>
 </urlset>
