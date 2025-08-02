@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Johns Tech Logs</title>
+    <link>http://localhost:1313/en/en/</link>
+    <description>Recent Posts on Johns Tech Logs</description>
+    <generator>Hugo 0.148.2</generator>
+    <language>en</language>
+    <managingEditor>Author Name</managingEditor>
+    
+      <webMaster>Author Name</webMaster>
+    <lastBuildDate>Fri, 01 Aug 2025 17:54:16 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/en/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

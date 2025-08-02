@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Camera on John&#39;s Tech Logs - Discover Issues, Share Solutions.</title>
-    <link>https://johnstechlogs.com/en/tags/camera/</link>
-    <description>Recent content in Camera on John&#39;s Tech Logs - Discover Issues, Share Solutions.</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 28 Apr 2025 03:49:12 +0800</lastBuildDate>
-    <atom:link href="https://johnstechlogs.com/en/tags/camera/index.xml" rel="self" type="application/rss+xml" />
+    <title>Camera on Johns Tech Logs</title>
+    <link>http://localhost:1313/en/tags/camera/</link>
+    <description>Recent Posts in Camera on Johns Tech Logs</description>
+    <generator>Hugo 0.148.2</generator>
+    <language>en</language>
+    <managingEditor>Author Name</managingEditor>
+    
+      <webMaster>Author Name</webMaster>
+    <lastBuildDate>Fri, 01 Aug 2025 19:05:27 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/tags/camera/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Kodak Ektar H35 - The Best Beginners Film Camera</title>
-      <link>https://johnstechlogs.com/en/kodak-ektar-h35---the-best-beginners-film-camera/</link>
-      <pubDate>Mon, 28 Apr 2025 03:49:12 +0800</pubDate>
-      <guid>https://johnstechlogs.com/en/kodak-ektar-h35---the-best-beginners-film-camera/</guid>
-      <description>&lt;h2 id=&#34;the-best-beginners-film-camera&#34;&gt;The Best Beginner&amp;rsquo;s Film Camera&lt;/h2&gt;&#xA;&lt;p&gt;You&amp;rsquo;ve probably seen those vintage and grainy looking photos on social media. You can replicate that with any old filter but it doesn&amp;rsquo;t feel authentic since it was digitally crafted. Film is simply thin strips that store images after being exposed to light. I was chasing the authenticity. My first experience with film cameras was using a disposable kodak camera. It was fun using a point and shoot and anticipating how it would come out after I went to get it developed. I feel that film photos really shine when people are just being themselves and having fun. Of course the disposable had no use once the roll was out. Then I came across the Kodak Ektar 35. This was a reusable film camera from Kodak. This meant I could get the same point and shoot feeling, keep the camera, and reuse it by refilling the rolls. I loved the way the body looked with its vintage aesthetic. I&amp;rsquo;ve received compliments about it in public.&lt;/p&gt;</description>
+      <link>http://localhost:1313/en/post/kodak-ektar-h35-review/</link>
+      <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
+      <author>Author Name</author>
+      <guid>http://localhost:1313/en/post/kodak-ektar-h35-review/</guid>
+      <description></description>
+      <enclosure url="/images/KodakEktraH35.jpg" length="0" type="image/jpeg" />
     </item>
   </channel>
 </rss>

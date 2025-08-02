@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Discord on John&#39;s Tech Logs - Discover Issues, Share Solutions.</title>
-    <link>https://johnstechlogs.com/en/tags/discord/</link>
-    <description>Recent content in Discord on John&#39;s Tech Logs - Discover Issues, Share Solutions.</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 24 Dec 2024 12:40:12 +0800</lastBuildDate>
-    <atom:link href="https://johnstechlogs.com/en/tags/discord/index.xml" rel="self" type="application/rss+xml" />
+    <title>Discord on Johns Tech Logs</title>
+    <link>http://localhost:1313/en/tags/discord/</link>
+    <description>Recent Posts in Discord on Johns Tech Logs</description>
+    <generator>Hugo 0.148.2</generator>
+    <language>en</language>
+    <managingEditor>Author Name</managingEditor>
+    
+      <webMaster>Author Name</webMaster>
+    <lastBuildDate>Fri, 01 Aug 2025 19:05:27 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/tags/discord/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>I created an AI Bot of my Fallen Best Friend. Have I gone mad?</title>
-      <link>https://johnstechlogs.com/en/i-created-an-ai-bot-of-my-fallen-best-friend.-have-i-gone-mad/</link>
-      <pubDate>Tue, 24 Dec 2024 12:40:12 +0800</pubDate>
-      <guid>https://johnstechlogs.com/en/i-created-an-ai-bot-of-my-fallen-best-friend.-have-i-gone-mad/</guid>
-      <description>&lt;h2 id=&#34;a-fallen-friend&#34;&gt;A Fallen Friend&lt;/h2&gt;&#xA;&lt;p&gt;My fellow best friend Steve Le passed away on October 16, 2024. I don&amp;rsquo;t want to go into details of his passing but he was my best friend, someone I knew for 10 years. We met playing Xbox during the 2012-2013 era. We mostly played games online and called for hours because I moved away to another state. We always supported each other&amp;rsquo;s goals and understood each other at a deep level. We made great memories going skydiving, shooting, playing videogames, and hanging out with our crew. His passing was so sudden and tragic. I desired to honor his memory in any way I knew how. Thus I created the Steve AI Discord Bot.&lt;/p&gt;</description>
+      <link>http://localhost:1313/en/post/ai-discord-bot-friend/</link>
+      <pubDate>Tue, 24 Dec 2024 00:00:00 +0000</pubDate>
+      <author>Author Name</author>
+      <guid>http://localhost:1313/en/post/ai-discord-bot-friend/</guid>
+      <description></description>
+      <enclosure url="/images/Pasted%20image%2020241224160751.png" length="0" type="image/jpeg" />
     </item>
   </channel>
 </rss>
