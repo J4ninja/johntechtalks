@@ -1,10 +1,11 @@
 ---
 type: 'slide'
 title: 'AI News'
-draft: false
+draft: true
 weight: 3
 params:
     headless: true
+translationKey: media
 ---
 
 ## Latest Artificial Intelligence News from KDNuggets
