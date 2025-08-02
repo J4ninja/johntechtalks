@@ -1,13 +1,13 @@
 ---
 type: 'slide'
 title: 'AI News'
-draft: true
+draft: false
 weight: 3
 params:
     headless: true
 translationKey: media
 ---
 
-## Latest Artificial Intelligence News from KDNuggets
+## Latest Artificial Intelligence News from OpenAI
 
-{{< rss url="https://www.kdnuggets.com/feed" >}}
+{{< rss url="https://openai.com/news/rss.xml" >}}

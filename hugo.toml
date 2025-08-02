@@ -259,3 +259,10 @@ enableRobotsTXT = true
         # schema = false
         ## JsonLD (cannot validate permalink)
         # jsonLD = false
+
+
+[mediaTypes."application/xml"]
+  suffixes = ["xml"]
+
+[security.http.mediaTypes]
+  "application/xml" = ".*"
