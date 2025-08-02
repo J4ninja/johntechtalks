@@ -28,6 +28,10 @@ enableRobotsTXT = true
     name = "Tags"
     pageRef = "/tags"
 
+[[menu.main]]
+    identifier = "categories"
+    name = "Categories"
+    pageRef = "/categories"
 
 [[menu.main]]
     identifier = "post"
