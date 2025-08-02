@@ -43,6 +43,12 @@ enableRobotsTXT = true
     name = "About"
     pageRef = "/author/john-nguyen"
 
+    [[menu.main]]
+        identifier = "portfolio"
+        name = "Portfolio"
+        pageRef = "https://www.johnnguyenportfolio.com/"
+        parent = "about"
+
 
 
 ## Front matter field configurations
