@@ -3,216 +3,216 @@
     "nodes": [{
                 "id": "bd8a4dc3091b59b8f66d4cbf3cfa63c8",
                 "title": "Building my First Mini ITX PC",
-                "permalink": "https://johnstechlogs.com/en/post/building-my-first-mini-itx-pc/",
+                "permalink": "http://localhost:1313/en/post/building-my-first-mini-itx-pc/",
                 "type": "post"
             },{
                 "id": "2fe31fddbece896e09b091115c96b5c7",
                 "title": "Kodak Ektar H35 - The Best Beginners Film Camera",
-                "permalink": "https://johnstechlogs.com/en/post/kodak-ektar-h35-review/",
+                "permalink": "http://localhost:1313/en/post/kodak-ektar-h35-review/",
                 "type": "post"
             },{
                 "id": "3d9181f196761668bb6ffab27f60008b",
                 "title": "Self Hosting Discord Bots and Other Apps with Coolify",
-                "permalink": "https://johnstechlogs.com/en/post/self-hosting-discord-bots/",
+                "permalink": "http://localhost:1313/en/post/self-hosting-discord-bots/",
                 "type": "post"
             },{
                 "id": "ca8a8e5ea6c88891cef838fecc7c77dd",
                 "title": "The Tools I Used to Maintain a 3.9 Computer Science GPA with a Double Minor and Extracurriculars",
-                "permalink": "https://johnstechlogs.com/en/post/tools-to-maintain-gpa/",
+                "permalink": "http://localhost:1313/en/post/tools-to-maintain-gpa/",
                 "type": "post"
             },{
                 "id": "8a019feb7f64185d4688855fbc3a97f7",
                 "title": "I created an AI Bot of my Fallen Best Friend. Have I gone mad?",
-                "permalink": "https://johnstechlogs.com/en/post/ai-discord-bot-friend/",
+                "permalink": "http://localhost:1313/en/post/ai-discord-bot-friend/",
                 "type": "post"
             },{
                 "id": "5cbc618eee4ea8be436262fd28783b2b",
                 "title": "How to Automate Hostinger Deployments with Git Subtree and Webhooks",
-                "permalink": "https://johnstechlogs.com/en/post/howtoautomatehostinger/",
+                "permalink": "http://localhost:1313/en/post/howtoautomatehostinger/",
                 "type": "post"
             },{
                 "id": "86841a0ff7aff094dc9ae95ce1cb69f6",
                 "title": "A Review of the Backfire G2 Black Electric Skateboard",
-                "permalink": "https://johnstechlogs.com/en/post/backfire-g2-black-review/",
+                "permalink": "http://localhost:1313/en/post/backfire-g2-black-review/",
                 "type": "post"
             },{
                 "id": "6105fec93ea7457f424905217664c359",
                 "title": "Tech Bro with a GF??",
-                "permalink": "https://johnstechlogs.com/en/post/tech-bro-with-gf/",
+                "permalink": "http://localhost:1313/en/post/tech-bro-with-gf/",
                 "type": "post"
             },
                         {
                             "id": "categories-ai",
                             "title": "AI",
-                            "permalink": "https://johnstechlogs.com/en/categories/ai/",
+                            "permalink": "http://localhost:1313/en/categories/ai/",
                             "type": "categories"
                         },
                         {
                             "id": "categories-automation",
                             "title": "Automation",
-                            "permalink": "https://johnstechlogs.com/en/categories/automation/",
+                            "permalink": "http://localhost:1313/en/categories/automation/",
                             "type": "categories"
                         },
                         {
                             "id": "categories-bot",
                             "title": "Bot",
-                            "permalink": "https://johnstechlogs.com/en/categories/bot/",
+                            "permalink": "http://localhost:1313/en/categories/bot/",
                             "type": "categories"
                         },
                         {
                             "id": "categories-camera",
                             "title": "Camera",
-                            "permalink": "https://johnstechlogs.com/en/categories/camera/",
+                            "permalink": "http://localhost:1313/en/categories/camera/",
                             "type": "categories"
                         },
                         {
                             "id": "categories-deployment",
                             "title": "Deployment",
-                            "permalink": "https://johnstechlogs.com/en/categories/deployment/",
+                            "permalink": "http://localhost:1313/en/categories/deployment/",
                             "type": "categories"
                         },
                         {
                             "id": "categories-education",
                             "title": "Education",
-                            "permalink": "https://johnstechlogs.com/en/categories/education/",
+                            "permalink": "http://localhost:1313/en/categories/education/",
                             "type": "categories"
                         },
                         {
                             "id": "categories-life",
                             "title": "Life",
-                            "permalink": "https://johnstechlogs.com/en/categories/life/",
+                            "permalink": "http://localhost:1313/en/categories/life/",
                             "type": "categories"
                         },
                         {
                             "id": "categories-pc",
                             "title": "PC",
-                            "permalink": "https://johnstechlogs.com/en/categories/pc/",
+                            "permalink": "http://localhost:1313/en/categories/pc/",
                             "type": "categories"
                         },
                         {
                             "id": "categories-reviews",
                             "title": "Reviews",
-                            "permalink": "https://johnstechlogs.com/en/categories/reviews/",
+                            "permalink": "http://localhost:1313/en/categories/reviews/",
                             "type": "categories"
                         },
                         {
                             "id": "categories-study",
                             "title": "Study",
-                            "permalink": "https://johnstechlogs.com/en/categories/study/",
+                            "permalink": "http://localhost:1313/en/categories/study/",
                             "type": "categories"
                         },
                         {
                             "id": "categories-tutorials",
                             "title": "Tutorials",
-                            "permalink": "https://johnstechlogs.com/en/categories/tutorials/",
+                            "permalink": "http://localhost:1313/en/categories/tutorials/",
                             "type": "categories"
                         },
                         {
                             "id": "tags-ai",
                             "title": "AI",
-                            "permalink": "https://johnstechlogs.com/en/tags/ai/",
+                            "permalink": "http://localhost:1313/en/tags/ai/",
                             "type": "tags"
                         },
                         {
                             "id": "tags-apple",
                             "title": "Apple",
-                            "permalink": "https://johnstechlogs.com/en/tags/apple/",
+                            "permalink": "http://localhost:1313/en/tags/apple/",
                             "type": "tags"
                         },
                         {
                             "id": "tags-bot",
                             "title": "Bot",
-                            "permalink": "https://johnstechlogs.com/en/tags/bot/",
+                            "permalink": "http://localhost:1313/en/tags/bot/",
                             "type": "tags"
                         },
                         {
                             "id": "tags-camera",
                             "title": "Camera",
-                            "permalink": "https://johnstechlogs.com/en/tags/camera/",
+                            "permalink": "http://localhost:1313/en/tags/camera/",
                             "type": "tags"
                         },
                         {
                             "id": "tags-coolify",
                             "title": "Coolify",
-                            "permalink": "https://johnstechlogs.com/en/tags/coolify/",
+                            "permalink": "http://localhost:1313/en/tags/coolify/",
                             "type": "tags"
                         },
                         {
                             "id": "tags-discord",
                             "title": "Discord",
-                            "permalink": "https://johnstechlogs.com/en/tags/discord/",
+                            "permalink": "http://localhost:1313/en/tags/discord/",
                             "type": "tags"
                         },
                         {
                             "id": "tags-docker",
                             "title": "Docker",
-                            "permalink": "https://johnstechlogs.com/en/tags/docker/",
+                            "permalink": "http://localhost:1313/en/tags/docker/",
                             "type": "tags"
                         },
                         {
                             "id": "tags-electric",
                             "title": "Electric",
-                            "permalink": "https://johnstechlogs.com/en/tags/electric/",
+                            "permalink": "http://localhost:1313/en/tags/electric/",
                             "type": "tags"
                         },
                         {
                             "id": "tags-film",
                             "title": "Film",
-                            "permalink": "https://johnstechlogs.com/en/tags/film/",
+                            "permalink": "http://localhost:1313/en/tags/film/",
                             "type": "tags"
                         },
                         {
                             "id": "tags-git",
                             "title": "Git",
-                            "permalink": "https://johnstechlogs.com/en/tags/git/",
+                            "permalink": "http://localhost:1313/en/tags/git/",
                             "type": "tags"
                         },
                         {
                             "id": "tags-hostinger",
                             "title": "Hostinger",
-                            "permalink": "https://johnstechlogs.com/en/tags/hostinger/",
+                            "permalink": "http://localhost:1313/en/tags/hostinger/",
                             "type": "tags"
                         },
                         {
                             "id": "tags-pc",
                             "title": "Pc",
-                            "permalink": "https://johnstechlogs.com/en/tags/pc/",
+                            "permalink": "http://localhost:1313/en/tags/pc/",
                             "type": "tags"
                         },
                         {
                             "id": "tags-raspberry-pi",
                             "title": "Raspberry Pi",
-                            "permalink": "https://johnstechlogs.com/en/tags/raspberry-pi/",
+                            "permalink": "http://localhost:1313/en/tags/raspberry-pi/",
                             "type": "tags"
                         },
                         {
                             "id": "tags-school",
                             "title": "School",
-                            "permalink": "https://johnstechlogs.com/en/tags/school/",
+                            "permalink": "http://localhost:1313/en/tags/school/",
                             "type": "tags"
                         },
                         {
                             "id": "tags-self-hosting",
                             "title": "Self-Hosting",
-                            "permalink": "https://johnstechlogs.com/en/tags/self-hosting/",
+                            "permalink": "http://localhost:1313/en/tags/self-hosting/",
                             "type": "tags"
                         },
                         {
                             "id": "tags-study",
                             "title": "Study",
-                            "permalink": "https://johnstechlogs.com/en/tags/study/",
+                            "permalink": "http://localhost:1313/en/tags/study/",
                             "type": "tags"
                         },
                         {
                             "id": "tags-vehicle",
                             "title": "Vehicle",
-                            "permalink": "https://johnstechlogs.com/en/tags/vehicle/",
+                            "permalink": "http://localhost:1313/en/tags/vehicle/",
                             "type": "tags"
                         },
                         {
                             "id": "tags-webhook",
                             "title": "Webhook",
-                            "permalink": "https://johnstechlogs.com/en/tags/webhook/",
+                            "permalink": "http://localhost:1313/en/tags/webhook/",
                             "type": "tags"
                         },
     ],
