@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Stage on Johns Tech Logs</title>
-    <link>https://johnstechlogs.com/en/stage/</link>
+    <link>http://localhost:1313/en/stage/</link>
     <description>Recent Posts in Stage on Johns Tech Logs</description>
     <generator>Hugo 0.148.2</generator>
     <language>en</language>
     <managingEditor>John Nguyen</managingEditor>
     
       <webMaster>John Nguyen</webMaster>
-    <lastBuildDate>Fri, 01 Aug 2025 21:03:31 -0500</lastBuildDate>
-    <atom:link href="https://johnstechlogs.com/en/stage/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Aug 2025 21:07:49 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/stage/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>budding</title>
-      <link>https://johnstechlogs.com/en/stage/budding/</link>
+      <link>http://localhost:1313/en/stage/budding/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>John Nguyen</author>
-      <guid>https://johnstechlogs.com/en/stage/budding/</guid>
+      <guid>http://localhost:1313/en/stage/budding/</guid>
       <description></description>
       
     </item>
     <item>
       <title>evergreen</title>
-      <link>https://johnstechlogs.com/en/stage/evergreen/</link>
+      <link>http://localhost:1313/en/stage/evergreen/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>John Nguyen</author>
-      <guid>https://johnstechlogs.com/en/stage/evergreen/</guid>
+      <guid>http://localhost:1313/en/stage/evergreen/</guid>
       <description></description>
       
     </item>
     <item>
       <title>seedling</title>
-      <link>https://johnstechlogs.com/en/stage/seedling/</link>
+      <link>http://localhost:1313/en/stage/seedling/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>John Nguyen</author>
-      <guid>https://johnstechlogs.com/en/stage/seedling/</guid>
+      <guid>http://localhost:1313/en/stage/seedling/</guid>
       <description></description>
       
     </item>
