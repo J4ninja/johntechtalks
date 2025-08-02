@@ -1,5 +1,35 @@
 :root {
-    /* default contrast */
+    /* default contr/* Allow single page content to span wider to the right */
+#main-article {
+    max-width: none !important;
+    width: auto !important;
+    padding-right: 2rem !important;
+}
+
+/* Fix mobile carousel/slide behavior */
+@media only screen and (max-width: 640px) {
+    /* Ensure carousel doesn't take full height on mobile */
+    aside.carousel {
+        position: relative !important;
+        height: auto !important;
+        max-height: 50vh !important;
+    }
+    
+    /* Make sure main content is visible on mobile */
+    body > main#home {
+        height: auto !important;
+        min-height: auto !important;
+        overflow-y: visible !important;
+    }
+    
+    /* Ensure slides don't block content */
+    .carousel__viewport__slide__cover img,
+    .carousel__nav + .carousel__viewport,
+    .carousel__viewport__slide__content {
+        height: auto !important;
+        max-height: 50vh !important;
+    }
+}
     --ac-light: #36c;
     --fg-light: #111;
     --bg-light: #f9f9fb; 

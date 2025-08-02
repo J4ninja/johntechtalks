@@ -9,7 +9,7 @@
     <managingEditor>Author Name</managingEditor>
     
       <webMaster>Author Name</webMaster>
-    <lastBuildDate>Fri, 01 Aug 2025 19:32:56 -0500</lastBuildDate>
+    <lastBuildDate>Fri, 01 Aug 2025 19:43:01 -0500</lastBuildDate>
     <atom:link href="https://johnstechlogs.com/en/categories/tutorials/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to Automate Hostinger Deployments with Git Subtree and Webhooks</title>
