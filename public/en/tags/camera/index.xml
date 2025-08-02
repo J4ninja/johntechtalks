@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Camera on Johns Tech Logs</title>
-    <link>http://localhost:1313/en/tags/camera/</link>
+    <link>https://johnstechlogs.com/en/tags/camera/</link>
     <description>Recent Posts in Camera on Johns Tech Logs</description>
     <generator>Hugo 0.148.2</generator>
     <language>en</language>
     <managingEditor>John Nguyen</managingEditor>
     
       <webMaster>John Nguyen</webMaster>
-    <lastBuildDate>Fri, 01 Aug 2025 21:15:39 -0500</lastBuildDate>
-    <atom:link href="http://localhost:1313/en/tags/camera/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Aug 2025 21:16:53 -0500</lastBuildDate>
+    <atom:link href="https://johnstechlogs.com/en/tags/camera/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Kodak Ektar H35 - The Best Beginners Film Camera</title>
-      <link>http://localhost:1313/en/post/kodak-ektar-h35-review/</link>
+      <link>https://johnstechlogs.com/en/post/kodak-ektar-h35-review/</link>
       <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
       <author>John Nguyen</author>
-      <guid>http://localhost:1313/en/post/kodak-ektar-h35-review/</guid>
+      <guid>https://johnstechlogs.com/en/post/kodak-ektar-h35-review/</guid>
       <description></description>
       <enclosure url="/images/KodakEktraH35.jpg" length="0" type="image/jpeg" />
     </item>
