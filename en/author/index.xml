@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Author on Johns Tech Logs</title>
-    <link>http://localhost:1313/en/author/</link>
+    <link>https://johnstechlogs.com/en/author/</link>
     <description>Recent Posts in Author on Johns Tech Logs</description>
     <generator>Hugo 0.148.2</generator>
     <language>en</language>
     <managingEditor>Author Name</managingEditor>
     
       <webMaster>Author Name</webMaster>
-    <lastBuildDate>Fri, 01 Aug 2025 19:08:57 -0500</lastBuildDate>
-    <atom:link href="http://localhost:1313/en/author/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Aug 2025 19:19:41 -0500</lastBuildDate>
+    <atom:link href="https://johnstechlogs.com/en/author/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>John Nguyen</title>
-      <link>http://localhost:1313/en/author/john-nguyen/</link>
+      <link>https://johnstechlogs.com/en/author/john-nguyen/</link>
       <pubDate>Sun, 18 May 2025 00:00:00 +0000</pubDate>
       <author>Author Name</author>
-      <guid>http://localhost:1313/en/author/john-nguyen/</guid>
+      <guid>https://johnstechlogs.com/en/author/john-nguyen/</guid>
       <description></description>
       <enclosure url="/image/logo.webp" length="0" type="image/jpeg" />
     </item>
