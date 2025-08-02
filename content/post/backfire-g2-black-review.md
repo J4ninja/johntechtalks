@@ -5,7 +5,7 @@ date: "2024-12-15"
 type: post
 draft: false
 tags: ["vehicle", "electric"]
-categories: ["life", "reviews", "recommended"]
+categories: ["life", "reviews"]
 cover: '/images/g2black.png'
 description: "A Review of the Backfire G2 Black Electric Skateboard as a Beginner Skater"
 ---

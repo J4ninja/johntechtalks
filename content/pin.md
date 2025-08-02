@@ -17,8 +17,6 @@ This is a space to share personal stories, lessons learned, and honest reviews f
 
 Thanks for stopping by—hope you find something helpful or inspiring!
 
-<br/>
-
 ## Recommended Posts
 
 {{< pin "begin" >}}
@@ -26,8 +24,6 @@ Thanks for stopping by—hope you find something helpful or inspiring!
 {{< pin img="/images/symposium.png" label="The Tools I used to Maintain a 3.9" url="https://johnstechlogs.com/en/post/tools-to-maintain-gpa/" quote="Work Smarter" >}}
 {{< pin img="/images/g2black.png" label="Backfire G2 Black Review" url="https://johnstechlogs.com/en/post/backfire-g2-black-review" quote="Zooming on an electric board" >}}
 {{< pin "end" >}}
-
-
 
 ## CS Quotes
 

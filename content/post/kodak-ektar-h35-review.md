@@ -7,8 +7,8 @@ type: post
 draft: false
 translationKey: terms
 coffee: 1
-tags: ["camera"]
-categories: ["film", "review", "camera", "beginner"]
+tags: ["camera", "film"]
+categories: ["reviews", "camera"]
 cover: '/images/KodakEktraH35.jpg'
 ---
 

@@ -7,7 +7,7 @@ type: post
 translationKey: pagefind
 draft: false
 tags:  ["discord", "AI", "bot"]
-categories: ["AI", "bot", "recommended"]
+categories: ["AI", "bot"]
 cover: '/images/Pasted%20image%2020241224160751.png'
 ---
 

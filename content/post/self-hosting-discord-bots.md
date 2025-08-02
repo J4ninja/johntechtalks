@@ -5,8 +5,8 @@ description: "How to self host your apps using Coolify on VPS, Raspberry Pi and 
 date: 2025-01-21
 type: post
 draft: false
-tags: ["coolify", "hosting", "docker", "git", "raspberry pi"]
-categories: ["self-hosting", "automation", "deployment"]
+tags: ["coolify", "self-hosting", "docker", "git", "raspberry pi"]
+categories: ["automation", "deployment"]
 cover: '/images/CoolifyLogo.png'
 ---
 
