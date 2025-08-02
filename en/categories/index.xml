@@ -6,154 +6,109 @@
     <description>Recent Posts in Categories on Johns Tech Logs</description>
     <generator>Hugo 0.148.2</generator>
     <language>en</language>
-    <managingEditor>Author Name</managingEditor>
+    <managingEditor>John Nguyen</managingEditor>
     
-      <webMaster>Author Name</webMaster>
-    <lastBuildDate>Fri, 01 Aug 2025 20:24:15 -0500</lastBuildDate>
+      <webMaster>John Nguyen</webMaster>
+    <lastBuildDate>Fri, 01 Aug 2025 21:03:31 -0500</lastBuildDate>
     <atom:link href="https://johnstechlogs.com/en/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>PC</title>
       <link>https://johnstechlogs.com/en/categories/pc/</link>
       <pubDate>Sun, 18 May 2025 00:00:00 +0000</pubDate>
-      <author>Author Name</author>
+      <author>John Nguyen</author>
       <guid>https://johnstechlogs.com/en/categories/pc/</guid>
       <description></description>
-      
+      <enclosure url="/image/PC_icon.png" length="0" type="image/jpeg" />
     </item>
     <item>
       <title>Reviews</title>
       <link>https://johnstechlogs.com/en/categories/reviews/</link>
       <pubDate>Sun, 18 May 2025 00:00:00 +0000</pubDate>
-      <author>Author Name</author>
+      <author>John Nguyen</author>
       <guid>https://johnstechlogs.com/en/categories/reviews/</guid>
       <description></description>
-      
-    </item>
-    <item>
-      <title>Beginner</title>
-      <link>https://johnstechlogs.com/en/categories/beginner/</link>
-      <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
-      <author>Author Name</author>
-      <guid>https://johnstechlogs.com/en/categories/beginner/</guid>
-      <description></description>
-      
+      <enclosure url="/image/reviews_icon.png" length="0" type="image/jpeg" />
     </item>
     <item>
       <title>Camera</title>
       <link>https://johnstechlogs.com/en/categories/camera/</link>
       <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
-      <author>Author Name</author>
+      <author>John Nguyen</author>
       <guid>https://johnstechlogs.com/en/categories/camera/</guid>
       <description></description>
-      
-    </item>
-    <item>
-      <title>Film</title>
-      <link>https://johnstechlogs.com/en/categories/film/</link>
-      <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
-      <author>Author Name</author>
-      <guid>https://johnstechlogs.com/en/categories/film/</guid>
-      <description></description>
-      
-    </item>
-    <item>
-      <title>Review</title>
-      <link>https://johnstechlogs.com/en/categories/review/</link>
-      <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
-      <author>Author Name</author>
-      <guid>https://johnstechlogs.com/en/categories/review/</guid>
-      <description></description>
-      
+      <enclosure url="/image/camera_icon.png" length="0" type="image/jpeg" />
     </item>
     <item>
       <title>Automation</title>
       <link>https://johnstechlogs.com/en/categories/automation/</link>
       <pubDate>Tue, 21 Jan 2025 00:00:00 +0000</pubDate>
-      <author>Author Name</author>
+      <author>John Nguyen</author>
       <guid>https://johnstechlogs.com/en/categories/automation/</guid>
       <description></description>
-      
+      <enclosure url="/image/automation_icon.png" length="0" type="image/jpeg" />
     </item>
     <item>
       <title>Deployment</title>
       <link>https://johnstechlogs.com/en/categories/deployment/</link>
       <pubDate>Tue, 21 Jan 2025 00:00:00 +0000</pubDate>
-      <author>Author Name</author>
+      <author>John Nguyen</author>
       <guid>https://johnstechlogs.com/en/categories/deployment/</guid>
       <description></description>
-      
-    </item>
-    <item>
-      <title>Self-Hosting</title>
-      <link>https://johnstechlogs.com/en/categories/self-hosting/</link>
-      <pubDate>Tue, 21 Jan 2025 00:00:00 +0000</pubDate>
-      <author>Author Name</author>
-      <guid>https://johnstechlogs.com/en/categories/self-hosting/</guid>
-      <description></description>
-      
+      <enclosure url="/image/deployment_icon.png" length="0" type="image/jpeg" />
     </item>
     <item>
       <title>Education</title>
       <link>https://johnstechlogs.com/en/categories/education/</link>
       <pubDate>Fri, 03 Jan 2025 00:00:00 +0000</pubDate>
-      <author>Author Name</author>
+      <author>John Nguyen</author>
       <guid>https://johnstechlogs.com/en/categories/education/</guid>
       <description></description>
-      
+      <enclosure url="/image/school_icon.png" length="0" type="image/jpeg" />
     </item>
     <item>
       <title>Study</title>
       <link>https://johnstechlogs.com/en/categories/study/</link>
       <pubDate>Fri, 03 Jan 2025 00:00:00 +0000</pubDate>
-      <author>Author Name</author>
+      <author>John Nguyen</author>
       <guid>https://johnstechlogs.com/en/categories/study/</guid>
       <description></description>
-      
+      <enclosure url="/image/study_icon.png" length="0" type="image/jpeg" />
     </item>
     <item>
       <title>AI</title>
       <link>https://johnstechlogs.com/en/categories/ai/</link>
       <pubDate>Tue, 24 Dec 2024 00:00:00 +0000</pubDate>
-      <author>Author Name</author>
+      <author>John Nguyen</author>
       <guid>https://johnstechlogs.com/en/categories/ai/</guid>
       <description></description>
-      
+      <enclosure url="/image/ai_icon.png" length="0" type="image/jpeg" />
     </item>
     <item>
       <title>Bot</title>
       <link>https://johnstechlogs.com/en/categories/bot/</link>
       <pubDate>Tue, 24 Dec 2024 00:00:00 +0000</pubDate>
-      <author>Author Name</author>
+      <author>John Nguyen</author>
       <guid>https://johnstechlogs.com/en/categories/bot/</guid>
       <description></description>
-      
-    </item>
-    <item>
-      <title>Recommended</title>
-      <link>https://johnstechlogs.com/en/categories/recommended/</link>
-      <pubDate>Tue, 24 Dec 2024 00:00:00 +0000</pubDate>
-      <author>Author Name</author>
-      <guid>https://johnstechlogs.com/en/categories/recommended/</guid>
-      <description></description>
-      
+      <enclosure url="/image/bot_icon.png" length="0" type="image/jpeg" />
     </item>
     <item>
       <title>Tutorials</title>
       <link>https://johnstechlogs.com/en/categories/tutorials/</link>
       <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
-      <author>Author Name</author>
+      <author>John Nguyen</author>
       <guid>https://johnstechlogs.com/en/categories/tutorials/</guid>
       <description></description>
-      
+      <enclosure url="/image/tutorials_icon.png" length="0" type="image/jpeg" />
     </item>
     <item>
       <title>Life</title>
       <link>https://johnstechlogs.com/en/categories/life/</link>
       <pubDate>Sun, 15 Dec 2024 00:00:00 +0000</pubDate>
-      <author>Author Name</author>
+      <author>John Nguyen</author>
       <guid>https://johnstechlogs.com/en/categories/life/</guid>
       <description></description>
-      
+      <enclosure url="/image/life_icon.png" length="0" type="image/jpeg" />
     </item>
   </channel>
 </rss>

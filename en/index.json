@@ -54,12 +54,6 @@
                             "type": "categories"
                         },
                         {
-                            "id": "categories-beginner",
-                            "title": "Beginner",
-                            "permalink": "https://johnstechlogs.com/en/categories/beginner/",
-                            "type": "categories"
-                        },
-                        {
                             "id": "categories-bot",
                             "title": "Bot",
                             "permalink": "https://johnstechlogs.com/en/categories/bot/",
@@ -84,12 +78,6 @@
                             "type": "categories"
                         },
                         {
-                            "id": "categories-film",
-                            "title": "Film",
-                            "permalink": "https://johnstechlogs.com/en/categories/film/",
-                            "type": "categories"
-                        },
-                        {
                             "id": "categories-life",
                             "title": "Life",
                             "permalink": "https://johnstechlogs.com/en/categories/life/",
@@ -102,27 +90,9 @@
                             "type": "categories"
                         },
                         {
-                            "id": "categories-recommended",
-                            "title": "Recommended",
-                            "permalink": "https://johnstechlogs.com/en/categories/recommended/",
-                            "type": "categories"
-                        },
-                        {
-                            "id": "categories-review",
-                            "title": "Review",
-                            "permalink": "https://johnstechlogs.com/en/categories/review/",
-                            "type": "categories"
-                        },
-                        {
                             "id": "categories-reviews",
                             "title": "Reviews",
                             "permalink": "https://johnstechlogs.com/en/categories/reviews/",
-                            "type": "categories"
-                        },
-                        {
-                            "id": "categories-self-hosting",
-                            "title": "Self-Hosting",
-                            "permalink": "https://johnstechlogs.com/en/categories/self-hosting/",
                             "type": "categories"
                         },
                         {
@@ -186,15 +156,15 @@
                             "type": "tags"
                         },
                         {
-                            "id": "tags-git",
-                            "title": "Git",
-                            "permalink": "https://johnstechlogs.com/en/tags/git/",
+                            "id": "tags-film",
+                            "title": "Film",
+                            "permalink": "https://johnstechlogs.com/en/tags/film/",
                             "type": "tags"
                         },
                         {
-                            "id": "tags-hosting",
-                            "title": "Hosting",
-                            "permalink": "https://johnstechlogs.com/en/tags/hosting/",
+                            "id": "tags-git",
+                            "title": "Git",
+                            "permalink": "https://johnstechlogs.com/en/tags/git/",
                             "type": "tags"
                         },
                         {
@@ -219,6 +189,12 @@
                             "id": "tags-school",
                             "title": "School",
                             "permalink": "https://johnstechlogs.com/en/tags/school/",
+                            "type": "tags"
+                        },
+                        {
+                            "id": "tags-self-hosting",
+                            "title": "Self-Hosting",
+                            "permalink": "https://johnstechlogs.com/en/tags/self-hosting/",
                             "type": "tags"
                         },
                         {
@@ -257,11 +233,7 @@
             
                     {
                         "source": "2fe31fddbece896e09b091115c96b5c7",
-                        "target": "categories-film",
-                    },
-                    {
-                        "source": "2fe31fddbece896e09b091115c96b5c7",
-                        "target": "categories-review",
+                        "target": "categories-reviews",
                     },
                     {
                         "source": "2fe31fddbece896e09b091115c96b5c7",
@@ -269,17 +241,13 @@
                     },
                     {
                         "source": "2fe31fddbece896e09b091115c96b5c7",
-                        "target": "categories-beginner",
+                        "target": "tags-camera",
                     },
                     {
                         "source": "2fe31fddbece896e09b091115c96b5c7",
-                        "target": "tags-camera",
+                        "target": "tags-film",
                     },
             
-                    {
-                        "source": "3d9181f196761668bb6ffab27f60008b",
-                        "target": "categories-self-hosting",
-                    },
                     {
                         "source": "3d9181f196761668bb6ffab27f60008b",
                         "target": "categories-automation",
@@ -294,7 +262,7 @@
                     },
                     {
                         "source": "3d9181f196761668bb6ffab27f60008b",
-                        "target": "tags-hosting",
+                        "target": "tags-self-hosting",
                     },
                     {
                         "source": "3d9181f196761668bb6ffab27f60008b",
@@ -337,10 +305,6 @@
                     {
                         "source": "8a019feb7f64185d4688855fbc3a97f7",
                         "target": "categories-bot",
-                    },
-                    {
-                        "source": "8a019feb7f64185d4688855fbc3a97f7",
-                        "target": "categories-recommended",
                     },
                     {
                         "source": "8a019feb7f64185d4688855fbc3a97f7",
@@ -387,10 +351,6 @@
                     {
                         "source": "86841a0ff7aff094dc9ae95ce1cb69f6",
                         "target": "categories-reviews",
-                    },
-                    {
-                        "source": "86841a0ff7aff094dc9ae95ce1cb69f6",
-                        "target": "categories-recommended",
                     },
                     {
                         "source": "86841a0ff7aff094dc9ae95ce1cb69f6",
