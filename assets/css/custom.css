@@ -34,6 +34,14 @@
     padding-right: 10rem !important;
 }
 
+
+@media (max-width: 600px) {
+  #main-article {
+    max-width: none !important;
+    width: auto !important;
+    padding-right: 2rem !important;
+}
+}
 /* Mobile fix: prevent nested vertical scroll and large gaps for slide carousel */
 @media (max-width: 600px) {
   .carousel, .slide-carousel {
@@ -41,5 +49,19 @@
     max-height: none !important;
     height: auto !important;
     margin-bottom: 1rem !important;
+  }
+}
+
+/* Mobile: shrink #logo and #logotype__text for site title in navbar */
+@media (max-width: 600px) {
+  #logo {
+    height: 1.6rem !important;
+    min-height: 1.6rem !important;
+    width: auto !important;
+    padding: 0.1em 0.3em !important;
+  }
+  #logo #logotype__text {
+    font-size: 1.5rem !important;
+    letter-spacing: 0.1ex !important;
   }
 }
