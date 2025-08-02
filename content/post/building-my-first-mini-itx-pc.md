@@ -8,6 +8,7 @@ tags: ["pc"]
 categories: ["PC", "reviews"]
 cover: '/images/miniitxpc.jpg'
 translationKey: 'media'
+description: 'My first time building a PC alone with a budget of $2.1k'
 ---
 
 ## Building a PC

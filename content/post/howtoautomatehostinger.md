@@ -7,6 +7,7 @@ categories: ["tutorials", "automation", "deployment"]
 tags: ["git", "hostinger", "webhook"]
 draft: false
 cover: '/images/hostingerlogo.png'
+description: 'Deploy your static site straight from the command line using Webhooks and connecting Git to Hostinger!'
 ---
 
 ## Hostinger Automation with Git

@@ -6,7 +6,7 @@
     --midtone: gray;
     --fg-dark: #f9f9fb;
     --bg-dark: #111;
-    --ac-dark: #36c;
+    --ac-dark: #8A2BE2;
     
     /* less contrast */
     --ac-light-less: var(--ac-light);
@@ -25,4 +25,11 @@
     --fg-dark-more: #fff;
     --bg-dark-more: #000;
     --ac-dark-more: var(--ac-dark);
+}
+
+/* Allow single page content to span wider to the right */
+#main-article {
+    max-width: none !important;
+    width: auto !important;
+    padding-right: 10rem !important;
 }

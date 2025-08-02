@@ -10,6 +10,14 @@ cover: '/image/logo.webp'
 - Honors Laureate with Departmental Honors in Astronomy
 - Undergrad GPA: 3.9/4.0
 
+## Hobbies
+- Gym
+- Gaming
+- Hiking
+- Archery
+- Anime 
+- Traveling
+
 ## Contact
 
 -  Portfolio: [johnnguyenportfolio.com](https://www.johnnguyenportfolio.com) &nbsp;&middot;&nbsp;

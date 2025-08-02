@@ -31,9 +31,9 @@
                 "permalink": "http://localhost:1313/en/post/howtoautomatehostinger/",
                 "type": "post"
             },{
-                "id": "9a03f578c60479a2377455e99b2e123f",
+                "id": "86841a0ff7aff094dc9ae95ce1cb69f6",
                 "title": "A Review of the Backfire G2 Black Electric Skateboard",
-                "permalink": "http://localhost:1313/en/post/areviewofthebackfireg2blackeletricskateboard/",
+                "permalink": "http://localhost:1313/en/post/backfire-g2-black-review/",
                 "type": "post"
             },{
                 "id": "6105fec93ea7457f424905217664c359",
@@ -381,23 +381,23 @@
                     },
             
                     {
-                        "source": "9a03f578c60479a2377455e99b2e123f",
+                        "source": "86841a0ff7aff094dc9ae95ce1cb69f6",
                         "target": "categories-life",
                     },
                     {
-                        "source": "9a03f578c60479a2377455e99b2e123f",
+                        "source": "86841a0ff7aff094dc9ae95ce1cb69f6",
                         "target": "categories-reviews",
                     },
                     {
-                        "source": "9a03f578c60479a2377455e99b2e123f",
+                        "source": "86841a0ff7aff094dc9ae95ce1cb69f6",
                         "target": "categories-recommended",
                     },
                     {
-                        "source": "9a03f578c60479a2377455e99b2e123f",
+                        "source": "86841a0ff7aff094dc9ae95ce1cb69f6",
                         "target": "tags-vehicle",
                     },
                     {
-                        "source": "9a03f578c60479a2377455e99b2e123f",
+                        "source": "86841a0ff7aff094dc9ae95ce1cb69f6",
                         "target": "tags-electric",
                     },
             
