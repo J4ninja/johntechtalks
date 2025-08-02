@@ -10,4 +10,4 @@ translationKey: media
 
 ## Latest Artificial Intelligence News from OpenAI
 
-{{< rss url="https://openai.com/news/rss.xml" >}}
+{{< rss url="https://openai.com/news/rss.xml" limit="5" >}}
