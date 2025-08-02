@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tutorials on Johns Tech Logs</title>
-    <link>http://localhost:1313/en/categories/tutorials/</link>
+    <link>https://johnstechlogs.com/en/categories/tutorials/</link>
     <description>Recent Posts in Tutorials on Johns Tech Logs</description>
     <generator>Hugo 0.148.2</generator>
     <language>en</language>
     <managingEditor>John Nguyen</managingEditor>
     
       <webMaster>John Nguyen</webMaster>
-    <lastBuildDate>Fri, 01 Aug 2025 21:07:49 -0500</lastBuildDate>
-    <atom:link href="http://localhost:1313/en/categories/tutorials/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Aug 2025 21:08:20 -0500</lastBuildDate>
+    <atom:link href="https://johnstechlogs.com/en/categories/tutorials/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to Automate Hostinger Deployments with Git Subtree and Webhooks</title>
-      <link>http://localhost:1313/en/post/howtoautomatehostinger/</link>
+      <link>https://johnstechlogs.com/en/post/howtoautomatehostinger/</link>
       <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
       <author>John Nguyen</author>
-      <guid>http://localhost:1313/en/post/howtoautomatehostinger/</guid>
+      <guid>https://johnstechlogs.com/en/post/howtoautomatehostinger/</guid>
       <description></description>
       <enclosure url="/images/hostingerlogo.png" length="0" type="image/jpeg" />
     </item>
