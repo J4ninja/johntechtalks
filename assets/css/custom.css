@@ -65,3 +65,20 @@
     letter-spacing: 0.1ex !important;
   }
 }
+
+/* Carousel nav buttons: purple on hover */
+.carousel__nav .rounded.invert a {
+  background: #4B0082 !important;
+  color: #fff !important;
+  border: 2px solid #4B0082 !important;
+  box-shadow: none !important;
+  transition: background 0.2s, color 0.2s, border 0.2s;
+}
+
+.carousel__nav .rounded.invert a:hover,
+.carousel__nav .rounded.invert a:focus {
+  background: #fff !important;
+  color: #000 !important;
+  border: 2px solid #000 !important;
+  box-shadow: 0 0 0 2px #0001 !important;
+}

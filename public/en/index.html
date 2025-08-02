@@ -37,7 +37,7 @@
             defer></script><!-- css.html -->
 
 
-        <link rel="stylesheet" href="https://johnstechlogs.com/css/hugo-brewm.min.css" integrity="sha256-2mNWqnofkwfXgZ0oGrO1KR4JsBTjfOzcYG8/OHrPWOU=" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://johnstechlogs.com/css/hugo-brewm.min.css" integrity="sha256-7ckF/WzfHKilfG2KnLCzFf6qGrc2o1cT/TidKKrs9xY=" crossorigin="anonymous">
 
     <!-- css/inline.html -->
     <style>
@@ -131,6 +131,25 @@
     
         <!-- carousel.html -->
         <aside class="carousel">
+                <nav class="carousel__nav" aria-label="slides">
+                    <ul class="rounded invert" role="presentation">
+                            <li>
+                                <a href="#slide-1" role="button" aria-controls="slide-1">
+                                    <span>Welcome</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#slide-2" role="button" aria-controls="slide-2">
+                                    <span>AI News</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#slide-3" role="button" aria-controls="slide-3">
+                                    <span>Portfolio</span>
+                                </a>
+                            </li>
+                    </ul>
+                </nav>
 
             <div class="carousel__viewport">
                     <section id="slide-1" class="carousel__viewport__slide"
@@ -183,12 +202,6 @@
 
                             </div>
                         </div>
-                            <nav class="carousel__nav">
-                                    
-                                        <a href="#slide-2" rel="next" role="button" aria-controls="slide-2">
-                                            <span>AI News</span>
-                                        </a>
-                            </nav>
                     </section>
                     <section id="slide-2" class="carousel__viewport__slide"
                         aria-labelledby="slide-2__heading">
@@ -262,12 +275,21 @@
 
                             </div>
                         </div>
-                            <nav class="carousel__nav">
-                                    
-                                        <a href="#slide-1" rel="prev" role="button" aria-controls="slide-1">
-                                            <span>Welcome</span>
-                                        </a>
-                            </nav>
+                    </section>
+                    <section id="slide-3" class="carousel__viewport__slide"
+                        aria-labelledby="slide-3__heading">
+                        <div class="carousel__viewport__slide__content ">
+                                <h1 id="slide-3__heading" class="section-title">Portfolio</h1>
+                            <div>
+                                    <h2 id="projects">Projects</h2>
+<p>Check out some of latest projects on my official portfolio!</p>
+<p><a href="https://www.johnnguyenportfolio.com">johnnguyenportfolio.com</a></p>
+<ol>
+<li><a href="https://www.johnnguyenportfolio.com/classifai">ClassifAI</a>: An Artificial Intelligence tool to transcribe and analyze audio/video for teachers.</li>
+</ol>
+
+                            </div>
+                        </div>
                     </section>
             </div>
         </aside>
