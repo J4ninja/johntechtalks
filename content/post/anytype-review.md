@@ -45,6 +45,12 @@ For finance, I wanted to track my predicable monthly spending. I created a table
 
 ![Finance Tracker](/images/financetracker.png)
 
+
+## Graph View
+If you enjoy seeing how things all connect together, Anytype has a graph view. Here is the view on my courses so far.
+
+![Graph View](/images/anytypegraph.png)
+
 ## Conclusion
 These were just a few examples of how I am taking notes. My needs of having offline support, seemless syncing, and aesthetically pleasing UI have been met. The app is beautifully designed with many cutting-edge features. I look forward to future updates and its 1.0.0 release!
 
