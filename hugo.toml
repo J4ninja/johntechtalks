@@ -43,6 +43,33 @@ enableRobotsTXT = true
     name = "About"
     pageRef = "/author/john-nguyen"
 
+
+[[menu.footer]]
+    identifier = "github"       # Unique identifier for the menu item
+    name = "GitHub"             # Display name/tooltip
+    url = "https://github.com/j4ninja" # Link URL
+    pre = "github"              # Icon
+
+
+[[menu.footer]]
+    identifier = "instagram"       # Unique identifier for the menu item
+    name = "Instagram"             # Display name/tooltip
+    url = "https://www.facebook.com/profile.php?id=100065121758952" # Link URL
+    pre = "instagram"              # Icon
+
+[[menu.footer]]
+    identifier = "facebook"       # Unique identifier for the menu item
+    name = "Facebook"             # Display name/tooltip
+    url = "https://www.instagram.com/j4.nguyen/" # Link URL
+    pre = "facebook"              # Icon
+
+[[menu.footer]]
+    identifier = "linkedin"       # Unique identifier for the menu item
+    name = "LinkedIn"             # Display name/tooltip
+    url = "https://linkedin.com/in/john-4-nguyen" # Link URL
+    pre = "linkedin"              # Icon
+
+
 ## Front matter field configurations
 [frontmatter]
     ## Publication date fields
@@ -202,7 +229,7 @@ enableRobotsTXT = true
     ## Post display settings
     [params.posts]
         ## Enable text justification
-        justifying = false
+        justifying = true
         ## Disable paragraph indentation
         noIndent = false
         ## Use sans-serif fonts as default

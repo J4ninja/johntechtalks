@@ -3,11 +3,50 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://johnstechlogs.com/en/</loc>
-    <lastmod>2025-05-18T00:00:00+00:00</lastmod>
+    <lastmod>2025-08-02T00:00:00+00:00</lastmod>
     </url>
   <url>
     <loc>https://johnstechlogs.com/en/author/</loc>
-    <lastmod>2025-05-18T00:00:00+00:00</lastmod>
+    <lastmod>2025-08-02T00:00:00+00:00</lastmod>
+    </url>
+  <url>
+    <loc>https://johnstechlogs.com/en/categories/</loc>
+    <lastmod>2025-08-02T00:00:00+00:00</lastmod>
+    </url>
+  <url>
+    <loc>https://johnstechlogs.com/en/author/john-nguyen/</loc>
+    <lastmod>2025-08-02T00:00:00+00:00</lastmod>
+    </url>
+  <url>
+    <loc>https://johnstechlogs.com/en/tags/journaling/</loc>
+    <lastmod>2025-08-02T00:00:00+00:00</lastmod>
+    </url>
+  <url>
+    <loc>https://johnstechlogs.com/en/tags/notes/</loc>
+    <lastmod>2025-08-02T00:00:00+00:00</lastmod>
+    </url>
+  <url>
+    <loc>https://johnstechlogs.com/en/post/</loc>
+    <lastmod>2025-08-02T00:00:00+00:00</lastmod>
+    <changefreq>always</changefreq>
+    </url>
+  <url>
+    <loc>https://johnstechlogs.com/en/categories/reviews/</loc>
+    <lastmod>2025-08-02T00:00:00+00:00</lastmod>
+    </url>
+  <url>
+    <loc>https://johnstechlogs.com/en/tags/</loc>
+    <lastmod>2025-08-02T00:00:00+00:00</lastmod>
+    </url>
+  <url>
+    <loc>https://johnstechlogs.com/en/post/anytype-review/</loc>
+    <lastmod>2025-08-02T00:00:00+00:00</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://johnstechlogs.com/en/post/ai-discord-bot-friend/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://johnstechlogs.com/en/post/anytype-review/" />
+  </url>
+  <url>
+    <loc>https://johnstechlogs.com/en/categories/tools/</loc>
+    <lastmod>2025-08-02T00:00:00+00:00</lastmod>
     </url>
   <url>
     <loc>https://johnstechlogs.com/en/post/building-my-first-mini-itx-pc/</loc>
@@ -16,32 +55,11 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://johnstechlogs.com/en/post/building-my-first-mini-itx-pc/" />
   </url>
   <url>
-    <loc>https://johnstechlogs.com/en/categories/</loc>
-    <lastmod>2025-05-18T00:00:00+00:00</lastmod>
-    </url>
-  <url>
-    <loc>https://johnstechlogs.com/en/author/john-nguyen/</loc>
-    <lastmod>2025-05-18T00:00:00+00:00</lastmod>
-    </url>
-  <url>
     <loc>https://johnstechlogs.com/en/tags/pc/</loc>
     <lastmod>2025-05-18T00:00:00+00:00</lastmod>
     </url>
   <url>
     <loc>https://johnstechlogs.com/en/categories/pc/</loc>
-    <lastmod>2025-05-18T00:00:00+00:00</lastmod>
-    </url>
-  <url>
-    <loc>https://johnstechlogs.com/en/post/</loc>
-    <lastmod>2025-05-18T00:00:00+00:00</lastmod>
-    <changefreq>always</changefreq>
-    </url>
-  <url>
-    <loc>https://johnstechlogs.com/en/categories/reviews/</loc>
-    <lastmod>2025-05-18T00:00:00+00:00</lastmod>
-    </url>
-  <url>
-    <loc>https://johnstechlogs.com/en/tags/</loc>
     <lastmod>2025-05-18T00:00:00+00:00</lastmod>
     </url>
   <url>
@@ -139,7 +157,9 @@
   <url>
     <loc>https://johnstechlogs.com/en/post/ai-discord-bot-friend/</loc>
     <lastmod>2024-12-24T00:00:00+00:00</lastmod>
-    </url>
+    <xhtml:link rel="alternate" hreflang="en" href="https://johnstechlogs.com/en/post/anytype-review/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://johnstechlogs.com/en/post/ai-discord-bot-friend/" />
+  </url>
   <url>
     <loc>https://johnstechlogs.com/en/tags/hostinger/</loc>
     <lastmod>2024-12-20T00:00:00+00:00</lastmod>
