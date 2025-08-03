@@ -9,7 +9,7 @@
     <managingEditor>John Nguyen</managingEditor>
     
       <webMaster>John Nguyen</webMaster>
-    <lastBuildDate>Sat, 02 Aug 2025 21:10:00 -0500</lastBuildDate>
+    <lastBuildDate>Sat, 02 Aug 2025 21:14:19 -0500</lastBuildDate>
     <atom:link href="https://johnstechlogs.com/en/categories/tutorials/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to Automate Hostinger Deployments with Git Subtree and Webhooks</title>
