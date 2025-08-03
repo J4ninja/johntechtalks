@@ -98,7 +98,7 @@ enableRobotsTXT = true
         ## Starting line number
         lineNoStart = 1
         ## Show line numbers
-        lineNos = false
+        lineNos = true
         ## Put line numbers in table
         lineNumbersInTable = true
         ## Use classes for styling
@@ -159,7 +159,7 @@ enableRobotsTXT = true
     ## Enable coffee metric
     coffeeStat = false
     ## Default social card image, recommended resolution: 1200 x 630px
-    # images = "example.com/img/social-share.jpg" 
+    # images = "/image/johns_tech_logs_preview.png"
     ## Do not block AI user agent for robot.txt
     AllowAIRobots = false
     ## or BearMode--Minimize clutter for small site; Disable breadcrumbs menu, share button, related posts, colophon and redaction history.
