@@ -9,8 +9,26 @@
     <managingEditor>John Nguyen</managingEditor>
     
       <webMaster>John Nguyen</webMaster>
-    <lastBuildDate>Fri, 01 Aug 2025 22:28:33 -0500</lastBuildDate>
+    <lastBuildDate>Sat, 02 Aug 2025 21:10:00 -0500</lastBuildDate>
     <atom:link href="https://johnstechlogs.com/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Journaling</title>
+      <link>https://johnstechlogs.com/en/tags/journaling/</link>
+      <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
+      <author>John Nguyen</author>
+      <guid>https://johnstechlogs.com/en/tags/journaling/</guid>
+      <description></description>
+      
+    </item>
+    <item>
+      <title>Notes</title>
+      <link>https://johnstechlogs.com/en/tags/notes/</link>
+      <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
+      <author>John Nguyen</author>
+      <guid>https://johnstechlogs.com/en/tags/notes/</guid>
+      <description></description>
+      
+    </item>
     <item>
       <title>Pc</title>
       <link>https://johnstechlogs.com/en/tags/pc/</link>

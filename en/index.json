@@ -1,6 +1,11 @@
 
 {
     "nodes": [{
+                "id": "bb891053bef3625861569d1ee8e8c06c",
+                "title": "The Child of Notion and Obsidian - AnyType",
+                "permalink": "https://johnstechlogs.com/en/post/anytype-review/",
+                "type": "post"
+            },{
                 "id": "bd8a4dc3091b59b8f66d4cbf3cfa63c8",
                 "title": "Building my First Mini ITX PC",
                 "permalink": "https://johnstechlogs.com/en/post/building-my-first-mini-itx-pc/",
@@ -102,6 +107,12 @@
                             "type": "categories"
                         },
                         {
+                            "id": "categories-tools",
+                            "title": "Tools",
+                            "permalink": "https://johnstechlogs.com/en/categories/tools/",
+                            "type": "categories"
+                        },
+                        {
                             "id": "categories-tutorials",
                             "title": "Tutorials",
                             "permalink": "https://johnstechlogs.com/en/categories/tutorials/",
@@ -174,6 +185,18 @@
                             "type": "tags"
                         },
                         {
+                            "id": "tags-journaling",
+                            "title": "Journaling",
+                            "permalink": "https://johnstechlogs.com/en/tags/journaling/",
+                            "type": "tags"
+                        },
+                        {
+                            "id": "tags-notes",
+                            "title": "Notes",
+                            "permalink": "https://johnstechlogs.com/en/tags/notes/",
+                            "type": "tags"
+                        },
+                        {
                             "id": "tags-pc",
                             "title": "Pc",
                             "permalink": "https://johnstechlogs.com/en/tags/pc/",
@@ -217,6 +240,23 @@
                         },
     ],
     "links": [
+            
+                    {
+                        "source": "bb891053bef3625861569d1ee8e8c06c",
+                        "target": "categories-tools",
+                    },
+                    {
+                        "source": "bb891053bef3625861569d1ee8e8c06c",
+                        "target": "categories-reviews",
+                    },
+                    {
+                        "source": "bb891053bef3625861569d1ee8e8c06c",
+                        "target": "tags-notes",
+                    },
+                    {
+                        "source": "bb891053bef3625861569d1ee8e8c06c",
+                        "target": "tags-journaling",
+                    },
             
                     {
                         "source": "bd8a4dc3091b59b8f66d4cbf3cfa63c8",

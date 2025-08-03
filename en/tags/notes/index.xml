@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Notes on John&#39;s Tech Logs</title>
+    <link>https://johnstechlogs.com/en/tags/notes/</link>
+    <description>Recent Posts in Notes on John&#39;s Tech Logs</description>
+    <generator>Hugo 0.148.2</generator>
+    <language>en</language>
+    <managingEditor>John Nguyen</managingEditor>
+    
+      <webMaster>John Nguyen</webMaster>
+    <lastBuildDate>Sat, 02 Aug 2025 21:10:00 -0500</lastBuildDate>
+    <atom:link href="https://johnstechlogs.com/en/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Child of Notion and Obsidian - AnyType</title>
+      <link>https://johnstechlogs.com/en/post/anytype-review/</link>
+      <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
+      <author>John Nguyen</author>
+      <guid>https://johnstechlogs.com/en/post/anytype-review/</guid>
+      <description></description>
+      <enclosure url="/images/anytypeicon.png" length="0" type="image/jpeg" />
+    </item>
+  </channel>
+</rss>

@@ -9,8 +9,26 @@
     <managingEditor>John Nguyen</managingEditor>
     
       <webMaster>John Nguyen</webMaster>
-    <lastBuildDate>Fri, 01 Aug 2025 22:28:33 -0500</lastBuildDate>
+    <lastBuildDate>Sat, 02 Aug 2025 21:10:00 -0500</lastBuildDate>
     <atom:link href="https://johnstechlogs.com/en/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reviews</title>
+      <link>https://johnstechlogs.com/en/categories/reviews/</link>
+      <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
+      <author>John Nguyen</author>
+      <guid>https://johnstechlogs.com/en/categories/reviews/</guid>
+      <description></description>
+      <enclosure url="/image/reviews_icon.png" length="0" type="image/jpeg" />
+    </item>
+    <item>
+      <title>Tools</title>
+      <link>https://johnstechlogs.com/en/categories/tools/</link>
+      <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
+      <author>John Nguyen</author>
+      <guid>https://johnstechlogs.com/en/categories/tools/</guid>
+      <description></description>
+      
+    </item>
     <item>
       <title>PC</title>
       <link>https://johnstechlogs.com/en/categories/pc/</link>
@@ -19,15 +37,6 @@
       <guid>https://johnstechlogs.com/en/categories/pc/</guid>
       <description></description>
       <enclosure url="/image/PC_icon.png" length="0" type="image/jpeg" />
-    </item>
-    <item>
-      <title>Reviews</title>
-      <link>https://johnstechlogs.com/en/categories/reviews/</link>
-      <pubDate>Sun, 18 May 2025 00:00:00 +0000</pubDate>
-      <author>John Nguyen</author>
-      <guid>https://johnstechlogs.com/en/categories/reviews/</guid>
-      <description></description>
-      <enclosure url="/image/reviews_icon.png" length="0" type="image/jpeg" />
     </item>
     <item>
       <title>Camera</title>
