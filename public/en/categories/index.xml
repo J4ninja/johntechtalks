@@ -9,8 +9,17 @@
     <managingEditor>John Nguyen</managingEditor>
     
       <webMaster>John Nguyen</webMaster>
-    <lastBuildDate>Sat, 02 Aug 2025 22:44:44 -0500</lastBuildDate>
+    <lastBuildDate>Sun, 14 Dec 2025 13:45:01 -0600</lastBuildDate>
     <atom:link href="https://johnstechlogs.com/en/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tutorials</title>
+      <link>https://johnstechlogs.com/en/categories/tutorials/</link>
+      <pubDate>Thu, 04 Sep 2025 00:00:00 +0000</pubDate>
+      <author>John Nguyen</author>
+      <guid>https://johnstechlogs.com/en/categories/tutorials/</guid>
+      <description></description>
+      <enclosure url="/image/tutorials_icon.png" length="0" type="image/jpeg" />
+    </item>
     <item>
       <title>Reviews</title>
       <link>https://johnstechlogs.com/en/categories/reviews/</link>
@@ -100,15 +109,6 @@
       <guid>https://johnstechlogs.com/en/categories/bot/</guid>
       <description></description>
       <enclosure url="/image/bot_icon.png" length="0" type="image/jpeg" />
-    </item>
-    <item>
-      <title>Tutorials</title>
-      <link>https://johnstechlogs.com/en/categories/tutorials/</link>
-      <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
-      <author>John Nguyen</author>
-      <guid>https://johnstechlogs.com/en/categories/tutorials/</guid>
-      <description></description>
-      <enclosure url="/image/tutorials_icon.png" length="0" type="image/jpeg" />
     </item>
     <item>
       <title>Life</title>
