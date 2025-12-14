@@ -1,6 +1,11 @@
 
 {
     "nodes": [{
+                "id": "a55ab32584530abfb22b62456c2ee5c5",
+                "title": "Disabling Ad tracking in Meta and Google Apps",
+                "permalink": "https://johnstechlogs.com/en/post/disable-ad-tracking/",
+                "type": "post"
+            },{
                 "id": "bb891053bef3625861569d1ee8e8c06c",
                 "title": "The Child of Notion and Obsidian - AnyType",
                 "permalink": "https://johnstechlogs.com/en/post/anytype-review/",
@@ -203,6 +208,12 @@
                             "type": "tags"
                         },
                         {
+                            "id": "tags-privacy",
+                            "title": "Privacy",
+                            "permalink": "https://johnstechlogs.com/en/tags/privacy/",
+                            "type": "tags"
+                        },
+                        {
                             "id": "tags-raspberry-pi",
                             "title": "Raspberry Pi",
                             "permalink": "https://johnstechlogs.com/en/tags/raspberry-pi/",
@@ -240,6 +251,15 @@
                         },
     ],
     "links": [
+            
+                    {
+                        "source": "a55ab32584530abfb22b62456c2ee5c5",
+                        "target": "categories-tutorials",
+                    },
+                    {
+                        "source": "a55ab32584530abfb22b62456c2ee5c5",
+                        "target": "tags-privacy",
+                    },
             
                     {
                         "source": "bb891053bef3625861569d1ee8e8c06c",

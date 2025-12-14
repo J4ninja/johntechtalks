@@ -9,8 +9,17 @@
     <managingEditor>John Nguyen</managingEditor>
     
       <webMaster>John Nguyen</webMaster>
-    <lastBuildDate>Sat, 02 Aug 2025 22:44:44 -0500</lastBuildDate>
+    <lastBuildDate>Sun, 14 Dec 2025 13:45:01 -0600</lastBuildDate>
     <atom:link href="https://johnstechlogs.com/en/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Disabling Ad tracking in Meta and Google Apps</title>
+      <link>https://johnstechlogs.com/en/post/disable-ad-tracking/</link>
+      <pubDate>Thu, 04 Sep 2025 00:00:00 +0000</pubDate>
+      <author>John Nguyen</author>
+      <guid>https://johnstechlogs.com/en/post/disable-ad-tracking/</guid>
+      <description></description>
+      <enclosure url="/images/metaprivacy.png" length="0" type="image/jpeg" />
+    </item>
     <item>
       <title>The Child of Notion and Obsidian - AnyType</title>
       <link>https://johnstechlogs.com/en/post/anytype-review/</link>
