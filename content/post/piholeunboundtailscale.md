@@ -239,8 +239,13 @@ This can be done on your Network admin portal. If you set the static IP manually
 10. Turn on the connection and you should be connected through VPN to your Pi-hole!
 
 # Further Steps and Resources
+Occasionally, login to your pi and perform an apt update. Then restart your pi, unbound and tailscale services. 
+1. pihole -up
+2. sudo apt update
+3. sudo systemctl restart unbound
+4. sudo tailscale update
+
 You will likely want to modify the block and allow list on your Pi-hole. Checkout this github containing updated block lists you can add to your pi-hole.
 
 https://github.com/hagezi/dns-blocklists?tab=readme-ov-file#proplus
 
-Occasionally, login to your pi and perform an apt update. Then restart your pi, unbound and tailscale services.
