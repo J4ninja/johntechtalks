@@ -534,9 +534,15 @@ private-address: 2001:db8::/32
 </li>
 </ol>
 <h1 id="further-steps-and-resources">Further Steps and Resources</h1>
+<p>Occasionally, login to your pi and perform an apt update. Then restart your pi, unbound and tailscale services.</p>
+<ol>
+<li>pihole -up</li>
+<li>sudo apt update</li>
+<li>sudo systemctl restart unbound</li>
+<li>sudo tailscale update</li>
+</ol>
 <p>You will likely want to modify the block and allow list on your Pi-hole. Checkout this github containing updated block lists you can add to your pi-hole.</p>
 <p><a href="https://github.com/hagezi/dns-blocklists?tab=readme-ov-file#proplus">https://github.com/hagezi/dns-blocklists?tab=readme-ov-file#proplus</a></p>
-<p>Occasionally, login to your pi and perform an apt update. Then restart your pi, unbound and tailscale services.</p>
 
         </section>
             <footer>
@@ -569,7 +575,7 @@ private-address: 2001:db8::/32
             <div id="qr" role="img" aria-label="QR code"></div>
             <div class="verbose">
                 <div class="has-aria-label-top" aria-label="Blocking Ads Anywhere using Pi Hole, Unbound, and Tailscale"><span>https://johnstechlogs.com/en/post/piholeunboundtailscale/</span></div>
-                <div><span>This page is built on: </span><time datetime="2025-12-17T00:47:14-06:00">2025-12-17 00:47</time></div>
+                <div><span>This page is built on: </span><time datetime="2025-12-17T00:50:50-06:00">2025-12-17 00:50</time></div>
                 <div><span>This page is accessed on: </span><time id="time-stamp"></time></div>
             </div>
         </div>
