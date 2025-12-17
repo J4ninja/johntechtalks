@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <!-- head.html --><!-- meta.html -->
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blocking Ads Anywhere using Pi Hole, Unbound, and Tailscale | John&#39;s Tech Logs</title>
+<meta name="author" content="[John Nguyen]">
+<meta name="description" content="A tutorial on installing Pi Hole to block ads with a local recursive DNS server with unbound and permitting remote access through tailscale." >
+<meta name="keywords" content="privacy,raspberry pi,self-hosting">
+<link rel="canonical" href="https://johnstechlogs.com/en/post/piholeunboundtailscale/">
+<link rel="alternate" hreflang="en" href="https://johnstechlogs.com/en/post/disable-ad-tracking/" title=""><link rel="alternate" hreflang="en" href="https://johnstechlogs.com/en/post/anytype-review/" title=""><link rel="alternate" hreflang="en" href="https://johnstechlogs.com/en/post/ai-discord-bot-friend/" title="">
+
+
+    
+    <!-- twitterCard -->
+    
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Blocking Ads Anywhere using Pi Hole, Unbound, and Tailscale | John&#39;s Tech Logs" />
+    <meta name="twitter:description" content="A tutorial on installing Pi Hole to block ads with a local recursive DNS server with unbound and permitting remote access through tailscale." />
+        <meta name="twitter:image" content="/images/squarepihole.png" />
+    
+    <!-- openGraph -->
+    <meta property="og:title" content="Blocking Ads Anywhere using Pi Hole, Unbound, and Tailscale | John&#39;s Tech Logs" />
+    <meta property="og:description" content="A tutorial on installing Pi Hole to block ads with a local recursive DNS server with unbound and permitting remote access through tailscale." />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://johnstechlogs.com/en/post/piholeunboundtailscale/" />
+        <meta property="og:image" content="/images/squarepihole.png" />
+    <meta property="og:site_name" content="John&#39;s Tech Logs" /><!-- js.html -->
+
+<script src="https://johnstechlogs.com/js/hugo-brewm.min.js"
+            integrity="sha384-A3Hx6la9n0zKJIlAhZtB6r&#43;d5kHOkK6z9bVOv2kntDdY1JB2ap8T0du8poDQVgUM" crossorigin="anonymous"
+            defer></script><!-- css.html -->
+
+
+        <link rel="stylesheet" href="https://johnstechlogs.com/css/hugo-brewm.min.css" integrity="sha256-7ckF/WzfHKilfG2KnLCzFf6qGrc2o1cT/TidKKrs9xY=" crossorigin="anonymous">
+
+    <!-- css/inline.html -->
+    <style>
+         
+        body {max-width: 786px; margin: auto; padding: 2rem;}
+        img {max-width: 86vw;}
+            article p {text-align: justify;}
+    </style>
+    
+        
+    <!-- css/verbatim.html -->
+            <link href="https://johnstechlogs.com/css/verbatim.min.css" rel="stylesheet" type="text/css" integrity="sha256-4sKWwN6b3w4gsR2axG8fqIGMCFurcWNUx2f6ChBKxVU=" crossorigin="anonymous">
+    
+</head>
+<body  id="post" >
+    <!-- header.html -->
+<header class="pagewidth">
+    <div id="background-header" class="background" aria-hidden="true">
+        <div class="grain" hidden></div>
+    </div>
+    
+    <nav aria-label="Bypass">
+        <a id="to-content" href="#content" aria-label="Skip to Main Content">
+            <span>Skip to Main Content</span>
+            <kbd class="key" aria-hidden="true">c</kbd>
+            <span class="screening" aria-hidden="true"></span>
+        </a>
+    </nav>
+    
+        <a id="logo" href="https://johnstechlogs.com/en/" aria-label="John&#39;s Tech Logs" aria-description="Homepage">
+                <!-- logotype.html --><svg id="logotype" xmlns="http://www.w3.org/2000/svg" version="1.1" width="448pt" aria-label="John&#39;s Tech Logs">
+            <text id="logotype__text" y="19.5pt" x="0">John&#39;s Tech Logs</text>
+        </svg>
+        </a>
+    
+    <details class="presentation" id="top-nav">
+        <summary class="on-deck">
+            <span class="t t2">Navigation</span>
+            <span class="menu-icon" role="presentation"></span>
+        </summary>
+        <nav tabindex="-1" aria-label="Top">
+            <!-- menu.html -->
+    <details id="has-main-menu" class="presentation" open>
+        <summary  class="hide"  aria-label="Main Menu">
+            <span>Main Menu</span>
+        </summary>
+            
+            <nav id="main-menu" aria-label="Main Menu">
+                <ul class="l1   has-childfree " role="presentation" tabindex="-1" >
+                    
+    
+        <li role="presentation" >
+    <a   class=on-deck href=https://johnstechlogs.com/en/author/john-nguyen/>
+        
+            <span>
+                About</span>
+    </a>
+        </li>
+        <li role="presentation" >
+    <a   class=on-deck href=https://johnstechlogs.com/en/categories/>
+        
+            <span>
+                Categories</span>
+    </a>
+        </li>
+        <li role="presentation" >
+    <a   aria-current=true class=on-deck href=https://johnstechlogs.com/en/post/>
+        
+            <span>
+                Posts</span>
+    </a>
+        </li>
+        <li role="presentation" >
+    <a   class=on-deck href=https://johnstechlogs.com/en/tags/>
+        
+            <span>
+                Tags</span>
+    </a>
+        </li>
+                </ul>
+            </nav>
+    </details>
+            
+            <!-- menu.html -->
+            <!-- i18n.html -->
+
+
+        </nav>
+        <div id="top-nav-screen" class="screening js-cpn" role="presentation" aria-hidden="true"></div>
+    </details>
+</header>
+    
+    <!-- [main] baseof.html -->
+    <main id="page">
+        <!-- main/header.html -->
+        <header class="pagewidth">
+            
+                <!-- menu.html -->
+    <menu class="srm">
+        <a id="print-button" class="hide" href="javascript:window.print()" role="button" aria-label="Print">
+            <span class="t srt" role="tooltip">Print</span>
+        </a>
+        <a id="navigatorShare" href="#share" role="button" aria-label="Share">
+            <span class="t srt" role="tooltip">Share</span>
+        </a>
+        <a id="copyPermalink" class="hide" href="javascript:navigator.clipboard.writeText(window.location.href)" role="button" aria-label="Copy URL">
+            <span id="copy" class="t srt" role="tooltip">Copy URL</span>
+            <span id="isCopying" style="display: none;">Copying...</span>
+            <span id="copyText" style="display: none;">Copy URL</span>
+        </a>
+    </menu>
+    <button id="back" class="hide" type="button" onclick="history.back();" aria-label="Go Back">
+        <span class="t srt" role="tooltip">Go Back</span>
+    </button>
+            
+                <!-- nav.html -->
+<details class="presentation" aria-expanded="true" id="has-breadcrumb" open>
+    <summary id="breadcrumb" tabindex="-1">
+        <span>Breadcrumb</span>
+    </summary>
+        <nav aria-labelledby="breadcrumb">
+            <ul role="presentation" class="breadcrumb ">
+                    <!-- breadcrumb.html -->
+        <li id="is-translated">
+            
+    <!-- l10n.html -->
+    <details id="has-l10n" class="presentation">
+        <summary aria-label="Language Selections" aria-description="Current Language is ">
+            <span>EN</span>
+        </summary>
+        <nav aria-label="Language Selections">
+            <ul class="on-plank" role="presentation">
+                <li>
+                    <a href="https://johnstechlogs.com/en/post/disable-ad-tracking/" aria-label="Switch Language to " aria-description="Disabling Ad tracking in Meta and Google Apps"
+                        style="--flag: url(https://raw.githubusercontent.com/lipis/flag-icons/c95b262e5ee2366cad4c5aecc4a5ad86220c9ab9/flags/4x3/.svg)">
+                        Disabling Ad tracking in Meta and Google Apps
+                    </a>
+                </li>
+                <li>
+                    <a href="https://johnstechlogs.com/en/post/anytype-review/" aria-label="Switch Language to " aria-description="The Child of Notion and Obsidian - AnyType"
+                        style="--flag: url(https://raw.githubusercontent.com/lipis/flag-icons/c95b262e5ee2366cad4c5aecc4a5ad86220c9ab9/flags/4x3/.svg)">
+                        The Child of Notion and Obsidian - AnyType
+                    </a>
+                </li>
+                <li>
+                    <a href="https://johnstechlogs.com/en/post/ai-discord-bot-friend/" aria-label="Switch Language to " aria-description="I created an AI Bot of my Fallen Best Friend. Have I gone mad?"
+                        style="--flag: url(https://raw.githubusercontent.com/lipis/flag-icons/c95b262e5ee2366cad4c5aecc4a5ad86220c9ab9/flags/4x3/.svg)">
+                        I created an AI Bot of my Fallen Best Friend. Have I gone mad?
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </details>
+        </li>
+        <li>
+            <a href="https://johnstechlogs.com/en/post/" aria-current="true">Post
+            </a>
+        </li>
+    <li>
+        <a href="" aria-current="page" tabindex="-1">Blocking Ads Anywhere using Pi Hole, Unbound, and Tailscale
+        </a>
+    </li>
+            </ul>
+        </nav>
+</details>
+        </header>
+        <div id="top" role="presentation">
+            
+        </div>
+        
+    <article id="main-article" class="pagewidth rm"
+        role="document" aria-labelledby="title"
+            data-pagefind-body>
+        <header aria-labelledby="title">
+            
+            <!-- title.html -->
+        <hgroup data-bionRead-safe>
+            <h1 id="title"
+                    data-pagefind-meta="title"
+                >Blocking Ads Anywhere using Pi Hole, Unbound, and Tailscale</h1>
+            <p  class="subtitle"
+                role="doc-subtitle">A tutorial on installing Pi Hole to block ads with a local recursive DNS server with unbound and permitting remote access through tailscale.</p>
+        </hgroup>
+            <div id="doc-author" class="textsw author">
+                            
+                            <a href="https://johnstechlogs.com/en/author/john-nguyen/">John Nguyen</a>
+            </div>
+            <!-- timestamp.html-->
+    <div >
+        <time class="doc-publish-date" datetime="2025-09-18T00:00:00&#43;00:00" data-time-label="Published on">September 18, 2025</time>
+    </div>
+        </header>
+        <!-- audio.html -->
+        <section aria-labelledby="title" id="content" data-bionRead-safe>
+                <p><img src="https://johnstechlogs.com/images/piholeunboundlogo.png" alt="alt text"></p>
+<h1 id="pi-hole">Pi Hole</h1>
+<p>Pi-hole is a service that blocks ads at the network level. This even blocks ads in non-traditional ways including mobile apps and smart TVs. With Pi-hole, you protect your network from unwanted content without needing to install an individual ad blocker on each of your browsers and devices. Pi-hole doesn&rsquo;t have to just block ads, it can block tracking, metrics, telemetry, phishing, scams, malware, cryptojacking and whatever else you specify!</p>
+<p><img src="https://johnstechlogs.com/images/pihole.png" alt="alt text"></p>
+<h1 id="unbound-a-fast-private-dns-resolver">Unbound, a fast private DNS resolver</h1>
+<p>Unbound is a recursive, caching DNS resolver. Caching lets Unbound resolve domains faster than cloud nameservers like google and Cloudfare. Using Unbound also increases online privacy by keeping DNS traffic local, eliminating your worry about cloud providers selling your DNS data.</p>
+<h1 id="tailscale">Tailscale</h1>
+<p>Tailscale is a self-hosted VPN service. Using tailscale allows us to connect our devices anywhere to our home network and make use of our Pi-hole adblocking capabilities. This means even if we are away from home, on a different network or cellular data, we can continue to block ads without interruption!</p>
+<h1 id="the-benefits-combination">The Benefits Combination</h1>
+<p>With Pi-hole equipped with protective block lists, I can block as many ads and data tracking domains on all my devices with DNS set to my Pi. Unbound keeps my DNS traffic local and fast and Tailscale lets me use this protection over VPN from anywhere.</p>
+<h1 id="limitations">Limitations</h1>
+<p>Pi-hole can&rsquo;t block every ad. If ads are served on the same domain or http, like most providers (Youtube) do, then there won&rsquo;t be an effect. You will still need to combine another Ad blocker extension. Block lists can break websites if they are too restrictive, and you will have to manually allow the domain or update the block lists. If your home network or Pi goes down, then you won&rsquo;t be able to connect to this setup via tailscale. If your Pi goes offline but the network is still on, then you may need to change the DNS server to the cloud instead of the Pi-hole to restore internet functionality.</p>
+<h1 id="installing-pi-hole">Installing Pi-hole</h1>
+<p>As a pre-requisite, you will need a Raspberry Pi device that is imaged with a Linux operating system. For my setup, I have Ubuntu server installed on my Pi with no GUI, and I do everything over SSH on my Windows machine. The other pre-requisite is your Raspberry Pi will need a static internet protocol (IP) address.</p>
+<h2 id="setting-a-static-ip">Setting a static IP</h2>
+<p>The easiest way to do this is if you have network admin access, where you can manually set the static IP of your Pi or reserve the IP on DCHP. You can still do this without interfacing with your network portal as I did. The only drawback is that we will later have to manually set each device&rsquo;s DNS server to point to our Pi&rsquo;s IP instead of automating it through the admin portal. Here I will show you how to setup a static IP on Ubuntu.</p>
+<h3 id="setting-a-static-ip-on-ubuntu">Setting a static IP on Ubuntu</h3>
+<ol>
+<li>
+<p>sudo vi /etc/netplan/99-disable-network-config.cfg</p>
+</li>
+<li>
+<p>Write in the file:</p>
+<pre tabindex="0"><code>network: {config: disabled}
+</code></pre></li>
+<li>
+<p>cp /etc/netplan/99-disable-network-config.cfg /etc/cloud/cloud.cfg.d/</p>
+</li>
+<li>
+<p>sudo vi /etc/netplan/01-static-ip.yaml</p>
+</li>
+<li>
+<p>Write in the file (set the address section to desired static ip). Note YAML spacing matters</p>
+<pre tabindex="0"><code>network:
+version: 2
+renderer: networkd
+wifis:
+    wlan0:
+    dhcp4: no
+    addresses:
+        - 192.168.1.60/24
+    routes:
+        - to: default
+        via: 192.168.1.1
+    nameservers:
+        addresses:
+        - 192.168.1.1
+        - 1.1.1.1
+    access-points:
+        &#34;YourWifiSSID&#34;:
+        password: &#34;YourWifiPassword&#34;
+</code></pre></li>
+<li>
+<p>sudo netplan try (this temporarily lets you try the new settings and reverts if you don&rsquo;t click enter)</p>
+</li>
+<li>
+<p>sudo netplan apply</p>
+</li>
+<li>
+<p>sudo chmod 600 /etc/netplan/01-static-ip.yaml</p>
+</li>
+<li>
+<p>Delete any other files under /etc/netplan that we didn&rsquo;t create</p>
+</li>
+</ol>
+<h2 id="pi-hole-install-script">Pi-hole install script</h2>
+<ol>
+<li>
+<p>ssh or open a terminal on your Pi</p>
+</li>
+<li>
+<p>update your packages</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo apt update -y
+</span></span></code></pre></td></tr></table>
+</div>
+</div></li>
+<li>
+<p>Run the official install script from pi-hole in your terminal</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">curl -sSL https://install.pi-hole.net <span class="p">|</span> bash
+</span></span></code></pre></td></tr></table>
+</div>
+</div></li>
+<li>
+<p>This opens a GUI in your terminal. Assuming you setup the static IP, click Continue</p>
+</li>
+<li>
+<p>Select a DNS provider. I suggest Google or Cloudfare. (Unbound will override this later)</p>
+</li>
+<li>
+<p>Select &lsquo;Yes&rsquo; to add StevenBlack&rsquo;s Unified Hosts list (This gives you starting block list)</p>
+</li>
+<li>
+<p>Select no for query logging.</p>
+</li>
+<li>
+<p>A link to the admin portal and a default password will be listed. Click the link to open it in a browser.</p>
+</li>
+<li>
+<p>(Optional) Change your admin password</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo pihole setpassword
+</span></span></code></pre></td></tr></table>
+</div>
+</div></li>
+</ol>
+<h2 id="setting-dhcp-server-to-your-pi-hole">Setting DHCP server to your Pi-hole</h2>
+<p>This can be done on your Network admin portal. If you set the static IP manually on the Pi, then you&rsquo;ll want to change the Wifi settings DNS to point that static IP you set for every device. Below I show you how to do this on Windows.</p>
+<h3 id="windows-manually-set-dhcp-server">Windows Manually set DHCP server</h3>
+<ol>
+<li>Open Control Panel</li>
+<li>Select Network and Internet -&gt; Network and Sharing Center</li>
+<li>Select your Wifi Network</li>
+<li>Open Properties</li>
+<li>Select Internet Protocol Version 4</li>
+<li>Manually set the DNS Server to your static IP</li>
+<li>Apply and unselect Internet Protocol Version 6</li>
+</ol>
+<h1 id="installing-unbound">Installing Unbound</h1>
+<ol>
+<li>
+<p>Install unbound package</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo apt install -y unbound
+</span></span></code></pre></td></tr></table>
+</div>
+</div></li>
+<li>
+<p>Get DNS root hints</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo curl -o /var/lib/unbound/root.hints https://www.internic.net/domain/named.root
+</span></span></code></pre></td></tr></table>
+</div>
+</div></li>
+<li>
+<p>Create a configuration file</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo vi /etc/unbound/unbound.conf.d/pi-hole.conf
+</span></span></code></pre></td></tr></table>
+</div>
+</div></li>
+<li>
+<p>On another window copy the following and paste into the pi-hole.conf</p>
+<pre tabindex="0"><code># If no logfile is specified, syslog is used
+# logfile: &#34;/var/log/unbound/unbound.log&#34;
+verbosity: 0
+
+interface: 127.0.0.1
+port: 5335
+do-ip4: yes
+do-udp: yes
+do-tcp: yes
+
+# May be set to no if you don&#39;t have IPv6 connectivity
+do-ip6: yes
+
+# You want to leave this to no unless you have *native* IPv6. With 6to4 and
+# Terredo tunnels your web browser should favor IPv4 for the same reasons
+prefer-ip6: no
+
+# Use this only when you downloaded the list of primary root servers!
+# If you use the default dns-root-data package, unbound will find it automatically
+#root-hints: &#34;/var/lib/unbound/root.hints&#34;
+
+# Trust glue only if it is within the server&#39;s authority
+harden-glue: yes
+
+# Require DNSSEC data for trust-anchored zones, if such data is absent, the zone becomes BOGUS
+harden-dnssec-stripped: yes
+
+# Don&#39;t use Capitalization randomization as it known to cause DNSSEC issues sometimes
+# see https://discourse.pi-hole.net/t/unbound-stubby-or-dnscrypt-proxy/9378 for further details
+use-caps-for-id: no
+
+# Reduce EDNS reassembly buffer size.
+# IP fragmentation is unreliable on the Internet today, and can cause
+# transmission failures when large DNS messages are sent via UDP. Even
+# when fragmentation does work, it may not be secure; it is theoretically
+# possible to spoof parts of a fragmented DNS message, without easy
+# detection at the receiving end. Recently, there was an excellent study
+# &gt;&gt;&gt; Defragmenting DNS - Determining the optimal maximum UDP response size for DNS &lt;&lt;&lt;
+# by Axel Koolhaas, and Tjeerd Slokker (https://indico.dns-oarc.net/event/36/contributions/776/)
+# in collaboration with NLnet Labs explored DNS using real world data from the
+# the RIPE Atlas probes and the researchers suggested different values for
+# IPv4 and IPv6 and in different scenarios. They advise that servers should
+# be configured to limit DNS messages sent over UDP to a size that will not
+# trigger fragmentation on typical network links. DNS servers can switch
+# from UDP to TCP when a DNS response is too big to fit in this limited
+# buffer size. This value has also been suggested in DNS Flag Day 2020.
+edns-buffer-size: 1232
+
+# Perform prefetching of close to expired message cache entries
+# This only applies to domains that have been frequently queried
+prefetch: yes
+
+num-threads: 2
+
+# Ensure kernel buffer is large enough to not lose messages in traffic spikes
+so-rcvbuf: 1m
+
+# Ensure privacy of local IP ranges
+private-address: 192.168.0.0/16
+private-address: 169.254.0.0/16
+private-address: 172.16.0.0/12
+private-address: 10.0.0.0/8
+private-address: fd00::/8
+private-address: fe80::/10
+
+# Ensure no reverse queries to non-public IP ranges (RFC6303 4.2)
+private-address: 192.0.2.0/24
+private-address: 198.51.100.0/24
+private-address: 203.0.113.0/24
+private-address: 255.255.255.255/32
+private-address: 2001:db8::/32
+</code></pre></li>
+<li>
+<p>Go to the Pi-hole admin portal -&gt; Settings -&gt; DNS -&gt; Upstream DNS Servers</p>
+</li>
+<li>
+<p>Uncheck any public upstreams</p>
+</li>
+<li>
+<p>Add a custom upstream</p>
+<pre tabindex="0"><code>127.0.0.1#5335
+</code></pre></li>
+<li>
+<p>Save</p>
+</li>
+</ol>
+<h1 id="installing-tailscale">Installing Tailscale</h1>
+<ol>
+<li>
+<p>Install tailscale on your Pi</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">curl -fsSL https://tailscale.com/install.sh <span class="p">|</span> sh
+</span></span></code></pre></td></tr></table>
+</div>
+</div></li>
+<li>
+<p>Spawn up the service</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo tailscale up
+</span></span></code></pre></td></tr></table>
+</div>
+</div></li>
+<li>
+<p>Create an account</p>
+</li>
+<li>
+<p>On the Web UI, copy the address listed for your pi-hole</p>
+</li>
+<li>
+<p>Click on the DNS setting and paste the address under Global DNS nameserver.</p>
+</li>
+<li>
+<p>Select Override DNS Servers</p>
+</li>
+<li>
+<p>Go back to the Machine tab, click the three dots next to your Pi and disable key expiry</p>
+</li>
+<li>
+<p>On your other devices (laptop/tablet/PC/phone), install tailscale application (App store or Web download)</p>
+</li>
+<li>
+<p>Login to the same account</p>
+</li>
+<li>
+<p>Turn on the connection and you should be connected through VPN to your Pi-hole!</p>
+</li>
+</ol>
+<h1 id="further-steps-and-resources">Further Steps and Resources</h1>
+<p>You will likely want to modify the block and allow list on your Pi-hole. Checkout this github containing updated block lists you can add to your pi-hole.</p>
+<p><a href="https://github.com/hagezi/dns-blocklists?tab=readme-ov-file#proplus">https://github.com/hagezi/dns-blocklists?tab=readme-ov-file#proplus</a></p>
+<p>Occasionally, login to your pi and perform an apt update. Then restart your pi, unbound and tailscale services.</p>
+
+        </section>
+            <footer>
+                
+    <nav id="keywords" aria-label="Tags">
+        <span>Tags:&nbsp;</span>
+        
+        <!-- terms.html -->
+    <ul class="delimiter" role="presentation">
+            <li><a href="https://johnstechlogs.com/en/tags/privacy/" >Privacy</a></li>
+            <li><a href="https://johnstechlogs.com/en/tags/raspberry-pi/" >Raspberry Pi</a></li>
+            <li><a href="https://johnstechlogs.com/en/tags/self-hosting/" >Self-Hosting</a></li>
+    </ul>
+    </nav>
+            </footer>
+    </article>
+    <hr class="hide" style="margin: 1in 0;">
+    <div id="contentinfo" class="pagewidth" role="contentinfo" data-pagefind-ignore="all">
+                <!-- related.html -->
+    <nav id="related" aria-label="You might also like">
+        <strong class="section-title">You might also like</strong><ol>
+                    <li><a href="https://johnstechlogs.com/en/post/self-hosting-discord-bots/">Self Hosting Discord Bots and Other Apps with Coolify</a></li>
+                    <li><a href="https://johnstechlogs.com/en/post/disable-ad-tracking/">Disabling Ad tracking in Meta and Google Apps</a></li>
+                </ol>
+    </nav>
+                <!-- colophon.html -->
+    <div id="colophon" style="display: none;" aria-live="polite">
+        <strong class="section-title">Colophon</strong>
+        <div>
+            <div id="qr" role="img" aria-label="QR code"></div>
+            <div class="verbose">
+                <div class="has-aria-label-top" aria-label="Blocking Ads Anywhere using Pi Hole, Unbound, and Tailscale"><span>https://johnstechlogs.com/en/post/piholeunboundtailscale/</span></div>
+                <div><span>This page is built on: </span><time datetime="2025-12-17T00:47:14-06:00">2025-12-17 00:47</time></div>
+                <div><span>This page is accessed on: </span><time id="time-stamp"></time></div>
+            </div>
+        </div>
+    </div>
+                <!-- history.html -->
+            
+            <!-- nav.html -->
+<details class="presentation" aria-expanded="true" id="has-share" open>
+    <summary id="share" tabindex="-1">
+        <span>Share</span>
+    </summary>
+        <nav aria-labelledby="share">
+            <ul role="presentation" class="share srm">
+                    <!-- share.html -->
+    <li id="has-mastodon">
+        <!-- mastodon.html -->
+    <form class="form" id="mastodon" action="//sharetomastodon.github.io/" target="_blank" rel="noopener noreferrer">
+        <input id="mastodonTitle" type="hidden" name="title" value="Blocking Ads Anywhere using Pi Hole, Unbound, and Tailscale">
+        <input id="mastodonPermalink" type="hidden" name="url" value="https://johnstechlogs.com/en/post/piholeunboundtailscale/">
+        <input id="mastodonText" type="hidden" name="text" value="Blocking Ads Anywhere using Pi Hole, Unbound, and Tailscale https://johnstechlogs.com/en/post/piholeunboundtailscale/" disabled>
+        <input id="mastodonInstance" type="url" class="ldots form__input" placeholder="Enter Mastodon instance (https://www.example.com)" aria-label="Mastodon instance URL">
+        <button class="form__button" type="submit" aria-label="Share on Mastodon">
+            <i class="icon mastodon sri" aria-hidden="true"></i>
+            <span class="t srt" role="tooltip">Share on Mastodon</span>
+        </button>
+    </form>
+    </li>
+    <li>
+        <a href="mailto:?subject=Blocking%20Ads%20Anywhere%20using%20Pi%20Hole%2c%20Unbound%2c%20and%20Tailscale&body=https%3a%2f%2fjohnstechlogs.com%2fen%2fpost%2fpiholeunboundtailscale%2f" role="button" aria-label="Share on Email">
+            <i class="email sri" aria-hidden="true"></i>
+            <span class="t srt" role="tooltip">Share on Email</span>
+        </a>
+    </li>
+    <li>
+        <a href="whatsapp://send?text=Blocking%20Ads%20Anywhere%20using%20Pi%20Hole%2c%20Unbound%2c%20and%20Tailscale%20https%3a%2f%2fjohnstechlogs.com%2fen%2fpost%2fpiholeunboundtailscale%2f" role="button" aria-label="Share on Whatsapp">
+            <i class="whatsapp sri" aria-hidden="true"></i>
+            <span class="t srt" role="tooltip">Share on Whatsapp</span>
+        </a>
+    </li>
+    <li>
+        <a rel="noopener noreferrer" target="_blank" href="https://telegram.me/share/url?text=Blocking%20Ads%20Anywhere%20using%20Pi%20Hole,%20Unbound,%20and%20Tailscale&amp;url=https://johnstechlogs.com/en/post/piholeunboundtailscale/" role="button"
+            aria-label="Share on Telegram in new tab">
+            <i class="telegram sri" aria-hidden="true"></i>
+            <span class="t srt" role="tooltip">Share on Telegram</span>
+        </a>
+    </li>
+    <li>
+        <a rel="noopener noreferrer" target="_blank" href="https://bsky.app/intent/compose?text=Blocking%20Ads%20Anywhere%20using%20Pi%20Hole,%20Unbound,%20and%20Tailscale&amp;url=https://johnstechlogs.com/en/post/piholeunboundtailscale/" role="button"
+            aria-label="Share on Bluesky in new tab">
+            <i class="bluesky sri" aria-hidden="true"></i>
+            <span class="t srt" role="tooltip">Share on Bluesky</span>
+        </a>
+    </li>
+    <li>
+        <a rel="noopener noreferrer" target="_blank" href="https://facebook.com/sharer/sharer.php?u=https://johnstechlogs.com/en/post/piholeunboundtailscale/" role="button"
+            aria-label="Share on Facebook in new tab">
+            <i class="facebook sri" aria-hidden="true"></i>
+            <span class="t srt" role="tooltip">Share on Facebook</span>
+        </a>
+    </li>
+    <li>
+        <a rel="noopener noreferrer" target="_blank" href="https://news.ycombinator.com/submitlink?u=https://johnstechlogs.com/en/post/piholeunboundtailscale/&amp;t=Blocking%20Ads%20Anywhere%20using%20Pi%20Hole,%20Unbound,%20and%20Tailscale" role="button"
+            aria-label="Share on Hackernews in new tab">
+            <i class="hackernews sri" aria-hidden="true"></i>
+            <span class="t srt" role="tooltip">Share on Hackernews</span>
+        </a>
+    </li>
+    <li>
+        <a rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://johnstechlogs.com/en/post/piholeunboundtailscale/&amp;title=Blocking%20Ads%20Anywhere%20using%20Pi%20Hole,%20Unbound,%20and%20Tailscale&amp;summary=Blocking%20Ads%20Anywhere%20using%20Pi%20Hole,%20Unbound,%20and%20Tailscale&amp;source=https://johnstechlogs.com/en/post/piholeunboundtailscale/" role="button"
+            aria-label="Share on Linkedin in new tab">
+            <i class="linkedin sri" aria-hidden="true"></i>
+            <span class="t srt" role="tooltip">Share on Linkedin</span>
+        </a>
+    </li>
+    <li>
+        <a rel="noopener noreferrer" target="_blank" href="https://pinterest.com/pin/create/button/?url=https://johnstechlogs.com/en/post/piholeunboundtailscale/&amp;media=https://johnstechlogs.com/en/post/piholeunboundtailscale/&amp;description=Blocking%20Ads%20Anywhere%20using%20Pi%20Hole,%20Unbound,%20and%20Tailscale" role="button"
+            aria-label="Share on Pinterest in new tab">
+            <i class="pinterest sri" aria-hidden="true"></i>
+            <span class="t srt" role="tooltip">Share on Pinterest</span>
+        </a>
+    </li>
+    <li>
+        <a rel="noopener noreferrer" target="_blank" href="https://reddit.com/submit/?url=https://johnstechlogs.com/en/post/piholeunboundtailscale/&amp;resubmit=true&amp;title=Blocking%20Ads%20Anywhere%20using%20Pi%20Hole,%20Unbound,%20and%20Tailscale" role="button"
+            aria-label="Share on Reddit in new tab">
+            <i class="reddit sri" aria-hidden="true"></i>
+            <span class="t srt" role="tooltip">Share on Reddit</span>
+        </a>
+    </li>
+    <li>
+        <a rel="noopener noreferrer" target="_blank" href="https://www.tumblr.com/widgets/share/tool?posttype=link&amp;title=Blocking%20Ads%20Anywhere%20using%20Pi%20Hole,%20Unbound,%20and%20Tailscale&amp;caption=Blocking%20Ads%20Anywhere%20using%20Pi%20Hole,%20Unbound,%20and%20Tailscale&amp;content=https://johnstechlogs.com/en/post/piholeunboundtailscale/&amp;canonicalUrl=https://johnstechlogs.com/en/post/piholeunboundtailscale/" role="button"
+            aria-label="Share on Tumblr in new tab">
+            <i class="tumblr sri" aria-hidden="true"></i>
+            <span class="t srt" role="tooltip">Share on Tumblr</span>
+        </a>
+    </li>
+    <li>
+        <a rel="noopener noreferrer" target="_blank" href="http://vk.com/share.php?title=Blocking%20Ads%20Anywhere%20using%20Pi%20Hole,%20Unbound,%20and%20Tailscale&amp;url=https://johnstechlogs.com/en/post/piholeunboundtailscale/" role="button"
+            aria-label="Share on Vk in new tab">
+            <i class="vk sri" aria-hidden="true"></i>
+            <span class="t srt" role="tooltip">Share on Vk</span>
+        </a>
+    </li>
+    <li>
+        <a rel="noopener noreferrer" target="_blank" href="https://twitter.com/intent/tweet/?text=Blocking%20Ads%20Anywhere%20using%20Pi%20Hole,%20Unbound,%20and%20Tailscale&amp;url=https://johnstechlogs.com/en/post/piholeunboundtailscale/" role="button"
+            aria-label="Share on Twitter in new tab">
+            <i class="twitter sri" aria-hidden="true"></i>
+            <span class="t srt" role="tooltip">Share on Twitter</span>
+        </a>
+    </li>
+    <li>
+        <a rel="noopener noreferrer" target="_blank" href="https://www.xing.com/app/user?op=share;url=https://johnstechlogs.com/en/post/piholeunboundtailscale/;title=Blocking%20Ads%20Anywhere%20using%20Pi%20Hole,%20Unbound,%20and%20Tailscale" role="button"
+            aria-label="Share on Xing in new tab">
+            <i class="xing sri" aria-hidden="true"></i>
+            <span class="t srt" role="tooltip">Share on Xing</span>
+        </a>
+    </li>
+            </ul>
+        </nav>
+</details>
+    </div>
+    
+        
+                    <div class="pagewidth">
+<noscript id="noGiscus">
+    <center role="alert">Giscus require Javascript and LocalStorage to be enable.</center>
+</noscript>
+<div id="noDOMGiscus" class="hide">
+    <center role="alert">Giscus require Javascript and LocalStorage to be enable.</center>
+</div>
+<script src="https://giscus.app/client.js"
+    data-repo="J4ninja/johntechtalks"
+    data-repo-id="R_kgDONbXGAA"
+    data-category="General"
+    data-category-id="DIC_kwDONbXGAM4Ctrnb"
+    data-mapping="pathname"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+</div>
+                
+        <!-- main/footer.html -->
+    <hr class="hide">
+    <footer id="main-footer"><div class="column column--multicols pagewidth" style="--multicols: 2"><div id="main-footer-primary">
+                        
+                    </div>
+                <div id="main-footer-secondary"  class="column" style="--col: 10rem">
+                        <div>
+                            <p><strong>Contact</strong></p>
+<ul>
+<li><a href="https://www.johnnguyenportfolio.com">Portfolio</a></li>
+<li><a href="mailto:j4nguyen134@gmail.com">Gmail</a></li>
+<li><a href="https://github.com/j4ninja">GitHub</a></li>
+<li><a href="https://linkedin.com/in/john-4-nguyen">LinkedIn</a></li>
+</ul>
+
+                        </div>
+                        <div>
+                            <p><strong>Nav</strong></p>
+<ul>
+<li><a href="https://johnstechlogs.com/en/author/john-nguyen">About</a></li>
+<li><a href="https://johnstechlogs.com/en/tags">Tags</a></li>
+<li><a href="https://johnstechlogs.com/en/categories">Categories</a></li>
+<li><a href="https://johnstechlogs.com/en/post">Posts</a></li>
+</ul>
+
+                        </div>
+                </div>
+            </div>
+            <div id="unified-footer"><p id="license">JohnsTechLogs©</p>
+                    <!-- menu.html -->
+    <nav id="menu-footer" class="has-aria-label-top" aria-label="Let&#39;s keep in touch!">
+        <ul role="presentation">
+            <li><a href="https://www.instagram.com/j4.nguyen/" aria-label="Facebook">        
+                    <i class="icon">facebook</i>
+                    <span class="t" role="tooltip">Facebook</span>
+                </a>
+            </li>
+            <li><a href="https://github.com/j4ninja" aria-label="GitHub">        
+                    <i class="icon">github</i>
+                    <span class="t" role="tooltip">GitHub</span>
+                </a>
+            </li>
+            <li><a href="https://www.facebook.com/profile.php?id=100065121758952" aria-label="Instagram">        
+                    <i class="icon">instagram</i>
+                    <span class="t" role="tooltip">Instagram</span>
+                </a>
+            </li>
+            <li><a href="https://linkedin.com/in/john-4-nguyen" aria-label="LinkedIn">        
+                    <i class="icon">linkedin</i>
+                    <span class="t" role="tooltip">LinkedIn</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+            </div>
+    </footer>
+    </main>
+    <!-- footer.html -->
+<footer id="body-footer" class="pagewidth" style="display: none;">
+    <div id="background-footer" class="background hide" role="presentation" aria-hidden="true">
+        <div class="grain" hidden></div>
+    </div>
+    <div id="focusMode"></div>
+    <!-- a11y.html --><details id="has-a11y" class="presentation js-details hide" name="on-deck" aria-haspopup="true" aria-labelledby="has-a11y-summary">
+    <summary id="has-a11y-summary" accesskey="a" aria-keyshortcuts="a">
+        <span>&nbsp;Accessibility</span>
+        <kbd class="key" aria-hidden="true">a</kbd>
+    </summary>
+    <!-- a11y console -->
+    <fieldset id="a11y" role="region" aria-label="Accessibility"
+        data-i18n-optimizeSR="Screen Reader Optimization"
+        data-i18n-optimizeSRdesc="Optimize display and resources for screen reader users who navigate with a pointer device."
+        data-i18n-colorSettings="Color Settings"
+        data-i18n-darkMode="Dark Mode"
+        data-i18n-light="Light"
+        data-i18n-dark="Dark"
+        data-i18n-contrast="Contrast"
+        data-i18n-lessContrast="Low"
+        data-i18n-moreContrast="High"
+        data-i18n-defaultContrast="Default"
+        data-i18n-colorPalette="Color Palette"
+        data-i18n-defaultColor="Default"
+        data-i18n-deuteranopia="Deuteranopia"
+        data-i18n-protanopia="Protanopia"
+        data-i18n-tritanopia="Tritanopia"
+        data-i18n-monochrome="Monochrome"
+        data-i18n-fontSize="Font Size"
+        data-i18n-baselineStretch="Baseline Stretch"        
+        data-i18n-OpenDyslexic="Use OpenDyslexic Font"
+        data-i18n-menuControls="Accessibility Menu Controls"
+        data-i18n-save="Save"
+        data-i18n-reset="Reset"
+        data-i18n-close="Close"
+        data-i18n-bionRead="BionRead Mode"
+        data-i18n-focusMode="Focus Mode"
+        data-i18n-noLocalStorage="LocalStorage is not available in your browser. Settings won&#39;t be saved.">
+    </fieldset>
+    <div class="screening js-cpn" role="presentation" aria-hidden="true"></div>
+</details>
+
+
+    <div id="useBionRead" class="sri"></div>
+    <!-- [top] bypass block -->
+    <nav aria-label="Bypass">
+        <a id="to-top" class="srm" href="#top" title="To Content Top" accesskey="c" aria-keyshortcuts="c" aria-label="To Content Top">
+            <span class="t srt">To Content Top</span>
+            <kbd class="key" aria-hidden="true">c</kbd>
+        </a>
+    </nav>
+</footer>
+    
+    <!-- [post] single.html -->
+    <div id="bionReadSnapshot" hidden></div>
+    <!-- [background] baseof.html -->
+    <div id="background-body"
+        role="presentation" aria-hidden="true">
+        <div class="grain" hidden></div>
+        <div id="dwclock" hidden>
+            <div id="min">
+                <div class="hand"></div>
+            </div>
+            <div id="hour">
+                <div class="hand"></div>
+            </div>
+        </div>
+    </div>
+</html>

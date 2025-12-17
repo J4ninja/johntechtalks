@@ -1,6 +1,11 @@
 
 {
     "nodes": [{
+                "id": "b3c7e3248e9f712a9ee2b47931b9563d",
+                "title": "Blocking Ads Anywhere using Pi Hole, Unbound, and Tailscale",
+                "permalink": "https://johnstechlogs.com/en/post/piholeunboundtailscale/",
+                "type": "post"
+            },{
                 "id": "a55ab32584530abfb22b62456c2ee5c5",
                 "title": "Disabling Ad tracking in Meta and Google Apps",
                 "permalink": "https://johnstechlogs.com/en/post/disable-ad-tracking/",
@@ -251,6 +256,23 @@
                         },
     ],
     "links": [
+            
+                    {
+                        "source": "b3c7e3248e9f712a9ee2b47931b9563d",
+                        "target": "categories-tutorials",
+                    },
+                    {
+                        "source": "b3c7e3248e9f712a9ee2b47931b9563d",
+                        "target": "tags-privacy",
+                    },
+                    {
+                        "source": "b3c7e3248e9f712a9ee2b47931b9563d",
+                        "target": "tags-raspberry-pi",
+                    },
+                    {
+                        "source": "b3c7e3248e9f712a9ee2b47931b9563d",
+                        "target": "tags-self-hosting",
+                    },
             
                     {
                         "source": "a55ab32584530abfb22b62456c2ee5c5",
