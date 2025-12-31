@@ -367,6 +367,10 @@
                     },
                     {
                         "source": "b3c7e3248e9f712a9ee2b47931b9563d",
+                        "target": "categories-tools",
+                    },
+                    {
+                        "source": "b3c7e3248e9f712a9ee2b47931b9563d",
                         "target": "tags-privacy",
                     },
                     {
@@ -381,10 +385,6 @@
                     {
                         "source": "a55ab32584530abfb22b62456c2ee5c5",
                         "target": "categories-tutorials",
-                    },
-                    {
-                        "source": "a55ab32584530abfb22b62456c2ee5c5",
-                        "target": "categories-tools",
                     },
                     {
                         "source": "a55ab32584530abfb22b62456c2ee5c5",
