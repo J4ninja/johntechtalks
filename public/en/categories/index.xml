@@ -2,120 +2,120 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on John&#39;s Tech Logs</title>
-    <link>https://johnstechlogs.com/en/categories/</link>
+    <link>http://localhost:1313/en/categories/</link>
     <description>Recent Posts in Categories on John&#39;s Tech Logs</description>
     <generator>Hugo 0.148.2</generator>
     <language>en</language>
     <managingEditor>John Nguyen</managingEditor>
     
       <webMaster>John Nguyen</webMaster>
-    <lastBuildDate>Wed, 17 Dec 2025 00:55:30 -0600</lastBuildDate>
-    <atom:link href="https://johnstechlogs.com/en/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 31 Dec 2025 11:05:07 -0600</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tutorials</title>
-      <link>https://johnstechlogs.com/en/categories/tutorials/</link>
+      <link>http://localhost:1313/en/categories/tutorials/</link>
       <pubDate>Thu, 18 Sep 2025 00:00:00 +0000</pubDate>
       <author>John Nguyen</author>
-      <guid>https://johnstechlogs.com/en/categories/tutorials/</guid>
+      <guid>http://localhost:1313/en/categories/tutorials/</guid>
       <description></description>
       <enclosure url="/image/tutorials_icon.png" length="0" type="image/jpeg" />
     </item>
     <item>
       <title>Reviews</title>
-      <link>https://johnstechlogs.com/en/categories/reviews/</link>
+      <link>http://localhost:1313/en/categories/reviews/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
       <author>John Nguyen</author>
-      <guid>https://johnstechlogs.com/en/categories/reviews/</guid>
+      <guid>http://localhost:1313/en/categories/reviews/</guid>
       <description></description>
       <enclosure url="/image/reviews_icon.png" length="0" type="image/jpeg" />
     </item>
     <item>
       <title>Tools</title>
-      <link>https://johnstechlogs.com/en/categories/tools/</link>
+      <link>http://localhost:1313/en/categories/tools/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
       <author>John Nguyen</author>
-      <guid>https://johnstechlogs.com/en/categories/tools/</guid>
+      <guid>http://localhost:1313/en/categories/tools/</guid>
       <description></description>
       <enclosure url="/image/tool_icon.png" length="0" type="image/jpeg" />
     </item>
     <item>
       <title>PC</title>
-      <link>https://johnstechlogs.com/en/categories/pc/</link>
+      <link>http://localhost:1313/en/categories/pc/</link>
       <pubDate>Sun, 18 May 2025 00:00:00 +0000</pubDate>
       <author>John Nguyen</author>
-      <guid>https://johnstechlogs.com/en/categories/pc/</guid>
+      <guid>http://localhost:1313/en/categories/pc/</guid>
       <description></description>
       <enclosure url="/image/PC_icon.png" length="0" type="image/jpeg" />
     </item>
     <item>
       <title>Camera</title>
-      <link>https://johnstechlogs.com/en/categories/camera/</link>
+      <link>http://localhost:1313/en/categories/camera/</link>
       <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
       <author>John Nguyen</author>
-      <guid>https://johnstechlogs.com/en/categories/camera/</guid>
+      <guid>http://localhost:1313/en/categories/camera/</guid>
       <description></description>
       <enclosure url="/image/camera_icon.png" length="0" type="image/jpeg" />
     </item>
     <item>
       <title>Automation</title>
-      <link>https://johnstechlogs.com/en/categories/automation/</link>
+      <link>http://localhost:1313/en/categories/automation/</link>
       <pubDate>Tue, 21 Jan 2025 00:00:00 +0000</pubDate>
       <author>John Nguyen</author>
-      <guid>https://johnstechlogs.com/en/categories/automation/</guid>
+      <guid>http://localhost:1313/en/categories/automation/</guid>
       <description></description>
       <enclosure url="/image/automation_icon.png" length="0" type="image/jpeg" />
     </item>
     <item>
       <title>Deployment</title>
-      <link>https://johnstechlogs.com/en/categories/deployment/</link>
+      <link>http://localhost:1313/en/categories/deployment/</link>
       <pubDate>Tue, 21 Jan 2025 00:00:00 +0000</pubDate>
       <author>John Nguyen</author>
-      <guid>https://johnstechlogs.com/en/categories/deployment/</guid>
+      <guid>http://localhost:1313/en/categories/deployment/</guid>
       <description></description>
       <enclosure url="/image/deployment_icon.png" length="0" type="image/jpeg" />
     </item>
     <item>
       <title>Education</title>
-      <link>https://johnstechlogs.com/en/categories/education/</link>
+      <link>http://localhost:1313/en/categories/education/</link>
       <pubDate>Fri, 03 Jan 2025 00:00:00 +0000</pubDate>
       <author>John Nguyen</author>
-      <guid>https://johnstechlogs.com/en/categories/education/</guid>
+      <guid>http://localhost:1313/en/categories/education/</guid>
       <description></description>
       <enclosure url="/image/school_icon.png" length="0" type="image/jpeg" />
     </item>
     <item>
       <title>Study</title>
-      <link>https://johnstechlogs.com/en/categories/study/</link>
+      <link>http://localhost:1313/en/categories/study/</link>
       <pubDate>Fri, 03 Jan 2025 00:00:00 +0000</pubDate>
       <author>John Nguyen</author>
-      <guid>https://johnstechlogs.com/en/categories/study/</guid>
+      <guid>http://localhost:1313/en/categories/study/</guid>
       <description></description>
       <enclosure url="/image/study_icon.png" length="0" type="image/jpeg" />
     </item>
     <item>
       <title>AI</title>
-      <link>https://johnstechlogs.com/en/categories/ai/</link>
+      <link>http://localhost:1313/en/categories/ai/</link>
       <pubDate>Tue, 24 Dec 2024 00:00:00 +0000</pubDate>
       <author>John Nguyen</author>
-      <guid>https://johnstechlogs.com/en/categories/ai/</guid>
+      <guid>http://localhost:1313/en/categories/ai/</guid>
       <description></description>
       <enclosure url="/image/ai_icon.png" length="0" type="image/jpeg" />
     </item>
     <item>
       <title>Bot</title>
-      <link>https://johnstechlogs.com/en/categories/bot/</link>
+      <link>http://localhost:1313/en/categories/bot/</link>
       <pubDate>Tue, 24 Dec 2024 00:00:00 +0000</pubDate>
       <author>John Nguyen</author>
-      <guid>https://johnstechlogs.com/en/categories/bot/</guid>
+      <guid>http://localhost:1313/en/categories/bot/</guid>
       <description></description>
       <enclosure url="/image/bot_icon.png" length="0" type="image/jpeg" />
     </item>
     <item>
       <title>Life</title>
-      <link>https://johnstechlogs.com/en/categories/life/</link>
+      <link>http://localhost:1313/en/categories/life/</link>
       <pubDate>Sun, 15 Dec 2024 00:00:00 +0000</pubDate>
       <author>John Nguyen</author>
-      <guid>https://johnstechlogs.com/en/categories/life/</guid>
+      <guid>http://localhost:1313/en/categories/life/</guid>
       <description></description>
       <enclosure url="/image/life_icon.png" length="0" type="image/jpeg" />
     </item>

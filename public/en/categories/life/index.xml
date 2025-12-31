@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Life on John&#39;s Tech Logs</title>
-    <link>https://johnstechlogs.com/en/categories/life/</link>
+    <link>http://localhost:1313/en/categories/life/</link>
     <description>Recent Posts in Life on John&#39;s Tech Logs</description>
     <generator>Hugo 0.148.2</generator>
     <language>en</language>
     <managingEditor>John Nguyen</managingEditor>
     
       <webMaster>John Nguyen</webMaster>
-    <lastBuildDate>Wed, 17 Dec 2025 00:55:30 -0600</lastBuildDate>
-    <atom:link href="https://johnstechlogs.com/en/categories/life/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 31 Dec 2025 11:05:07 -0600</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/categories/life/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A Review of the Backfire G2 Black Electric Skateboard</title>
-      <link>https://johnstechlogs.com/en/post/backfire-g2-black-review/</link>
+      <link>http://localhost:1313/en/post/backfire-g2-black-review/</link>
       <pubDate>Sun, 15 Dec 2024 00:00:00 +0000</pubDate>
       <author>John Nguyen</author>
-      <guid>https://johnstechlogs.com/en/post/backfire-g2-black-review/</guid>
+      <guid>http://localhost:1313/en/post/backfire-g2-black-review/</guid>
       <description></description>
       <enclosure url="/images/g2black.png" length="0" type="image/jpeg" />
     </item>
     <item>
       <title>Tech Bro with a GF??</title>
-      <link>https://johnstechlogs.com/en/post/tech-bro-with-gf/</link>
+      <link>http://localhost:1313/en/post/tech-bro-with-gf/</link>
       <pubDate>Thu, 12 Dec 2024 00:00:00 +0000</pubDate>
       <author>John Nguyen</author>
-      <guid>https://johnstechlogs.com/en/post/tech-bro-with-gf/</guid>
+      <guid>http://localhost:1313/en/post/tech-bro-with-gf/</guid>
       <description></description>
       <enclosure url="/images/laptopheart.png" length="0" type="image/jpeg" />
     </item>
