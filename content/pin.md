@@ -25,7 +25,7 @@ Thanks for stopping by—hope you find something helpful or inspiring!
 {{< pin img="/images/Pasted%20image%2020241224160751.png" label="AI Discord Bot of a Fallen Friend" url="https://johnstechlogs.com/en/post/ai-discord-bot-friend/" quote="Have I gone mad?" >}}
 {{< pin img="/images/symposium.png" label="The Tools I used to Maintain a 3.9" url="https://johnstechlogs.com/en/post/tools-to-maintain-gpa/" quote="Work Smarter" >}}
 {{< pin img="/images/g2black.png" label="Backfire G2 Black Review" url="https://johnstechlogs.com/en/post/backfire-g2-black-review" quote="Zooming on an electric board" >}}
-{{< pin img="/images/anytypeicon.png" label="Anytype Note Taking App Review" url="https://johnstechlogs.com/en/post/anytype-review/" quote="The birthchild of Notion and Obsidian" >}}
+{{< pin img="/images/n8npi.png" label="Self-hosting n8n on a Pi" url="https://johnstechlogs.com/en/post/n8n-self-hosting-on-a-pi/" quote="Automate Freely Forever" >}}
 {{< pin "end" >}}
 
 ## CS Quotes

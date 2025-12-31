@@ -9,14 +9,23 @@
     <managingEditor>John Nguyen</managingEditor>
     
       <webMaster>John Nguyen</webMaster>
-    <lastBuildDate>Wed, 31 Dec 2025 12:19:52 -0600</lastBuildDate>
+    <lastBuildDate>Wed, 31 Dec 2025 17:05:31 -0600</lastBuildDate>
     <atom:link href="https://johnstechlogs.com/en/tags/coolify/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Self-Hosting n8n on a Raspberry Pi</title>
+      <link>https://johnstechlogs.com/en/post/n8n-self-hosting-on-a-pi/</link>
+      <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
+      <author>John Nguyen</author>
+      <guid>https://johnstechlogs.com/en/post/n8n-self-hosting-on-a-pi/</guid>
+      <description></description>
+      <enclosure url="/images/n8npi.png" length="0" type="image/jpeg" />
+    </item>
+    <item>
       <title>Self Hosting Discord Bots and Other Apps with Coolify</title>
-      <link>https://johnstechlogs.com/en/post/self-hosting-discord-bots/</link>
+      <link>https://johnstechlogs.com/en/post/self-hosting-coolify/</link>
       <pubDate>Tue, 21 Jan 2025 00:00:00 +0000</pubDate>
       <author>John Nguyen</author>
-      <guid>https://johnstechlogs.com/en/post/self-hosting-discord-bots/</guid>
+      <guid>https://johnstechlogs.com/en/post/self-hosting-coolify/</guid>
       <description></description>
       <enclosure url="/images/CoolifyLogo.png" length="0" type="image/jpeg" />
     </item>

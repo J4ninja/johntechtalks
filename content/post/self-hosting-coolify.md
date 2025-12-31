@@ -38,6 +38,10 @@ Check [Coolify.io](https://coolify.io/) for the latest information.
 
 One of the most money-saving things I've invested in was a Raspberry Pi. It's a tiny computer that can be used for numerous small projects. Here I've decided to treat it as an Ubuntu Server. The only cost I will have to worry about is my electricity bill for keeping it plugged in. Coolify fortunately supports installing on the Raspberry Pi with slightly different steps. In the future, I may consider moving to a VPS so that I can reuse my Raspberry Pi for more hardware intensive projects but for now this saves me money. With Coolify backup configurations, transferring in the future should be no issue. I SSHed into my Pi, ran through the single install script, created an account, and accessed the web portal through my Pi's IP address and port on my main Windows machine. 
 
+Here is the install script
+
+    curl -fsSL https://cdn.coollabs.io/coolify/install.sh | sudo bash
+
 ![Image Description](/images/coolifydash.png)
 
 ## Deploying Discord Bots

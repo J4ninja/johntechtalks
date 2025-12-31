@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <!-- head.html --><!-- meta.html -->
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Self-Hosting n8n on a Raspberry Pi | John&#39;s Tech Logs</title>
+<meta name="author" content="[John Nguyen]">
+<meta name="description" content="A tutorial on hosting an n8n server locally on a Raspberry Pi." >
+<meta name="keywords" content="coolify,self-hosting,docker,raspberry pi,n8n">
+<link rel="canonical" href="https://johnstechlogs.com/en/post/n8n-self-hosting-on-a-pi/">
+<link rel="alternate" hreflang="en" href="https://johnstechlogs.com/en/post/dual-boot-arch-windows/" title=""><link rel="alternate" hreflang="en" href="https://johnstechlogs.com/en/post/piholeunboundtailscale/" title=""><link rel="alternate" hreflang="en" href="https://johnstechlogs.com/en/post/disable-ad-tracking/" title=""><link rel="alternate" hreflang="en" href="https://johnstechlogs.com/en/post/anytype-review/" title=""><link rel="alternate" hreflang="en" href="https://johnstechlogs.com/en/post/ai-discord-bot-friend/" title="">
+
+
+    
+    <!-- twitterCard -->
+    
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Self-Hosting n8n on a Raspberry Pi | John&#39;s Tech Logs" />
+    <meta name="twitter:description" content="A tutorial on hosting an n8n server locally on a Raspberry Pi." />
+        <meta name="twitter:image" content="/images/n8npi.png" />
+    
+    <!-- openGraph -->
+    <meta property="og:title" content="Self-Hosting n8n on a Raspberry Pi | John&#39;s Tech Logs" />
+    <meta property="og:description" content="A tutorial on hosting an n8n server locally on a Raspberry Pi." />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://johnstechlogs.com/en/post/n8n-self-hosting-on-a-pi/" />
+        <meta property="og:image" content="/images/n8npi.png" />
+    <meta property="og:site_name" content="John&#39;s Tech Logs" /><!-- js.html -->
+
+<script src="https://johnstechlogs.com/js/hugo-brewm.min.js"
+            integrity="sha384-zouA7CpmNb/gx3lz2G4azvKsS1ZKJnHvV72/9lqO2hHiOsQfsgpB96wv47H43h8o" crossorigin="anonymous"
+            defer></script><!-- css.html -->
+
+
+        <link rel="stylesheet" href="https://johnstechlogs.com/css/hugo-brewm.min.css" integrity="sha256-U5qCi7Pv3udispVRlyc5QplbJdcbyRpeLutjTzse6gg=" crossorigin="anonymous">
+
+    <!-- css/inline.html -->
+    <style>
+         
+        body {max-width: 786px; margin: auto; padding: 2rem;}
+        img {max-width: 86vw;}
+            article p {text-align: justify;}
+    </style>
+    
+        
+    <!-- css/verbatim.html -->
+            <link href="https://johnstechlogs.com/css/verbatim.min.css" rel="stylesheet" type="text/css" integrity="sha256-FLh1JxSbDASj5xtFRFy6WSupXphCIYZ5XgTMr&#43;eZ&#43;z4=" crossorigin="anonymous">
+    
+</head>
+<body  id="post" >
+    <!-- header.html -->
+<header class="pagewidth">
+    <div id="background-header" class="background" aria-hidden="true">
+        <div class="grain" hidden></div>
+    </div>
+    
+    <nav aria-label="Bypass">
+        <a id="to-content" href="#content" aria-label="Skip to Main Content">
+            <span>Skip to Main Content</span>
+            <kbd class="key" aria-hidden="true">c</kbd>
+            <span class="screening" aria-hidden="true"></span>
+        </a>
+    </nav>
+    
+        <a id="logo" href="https://johnstechlogs.com/en/" aria-label="John&#39;s Tech Logs" aria-description="Homepage">
+                <!-- logotype.html --><svg id="logotype" xmlns="http://www.w3.org/2000/svg" version="1.1" width="448pt" aria-label="John&#39;s Tech Logs">
+            <text id="logotype__text" y="19.5pt" x="0">John&#39;s Tech Logs</text>
+        </svg>
+        </a>
+    
+    <details class="presentation" id="top-nav">
+        <summary class="on-deck">
+            <span class="t t2">Navigation</span>
+            <span class="menu-icon" role="presentation"></span>
+        </summary>
+        <nav tabindex="-1" aria-label="Top">
+            <!-- menu.html -->
+    <details id="has-main-menu" class="presentation" open>
+        <summary  class="hide"  aria-label="Main Menu">
+            <span>Main Menu</span>
+        </summary>
+            
+            <nav id="main-menu" aria-label="Main Menu">
+                <ul class="l1   has-childfree " role="presentation" tabindex="-1" >
+                    
+    
+        <li role="presentation" >
+    <a   class=on-deck href=https://johnstechlogs.com/en/author/john-nguyen/>
+        
+            <span>
+                About</span>
+    </a>
+        </li>
+        <li role="presentation" >
+    <a   class=on-deck href=https://johnstechlogs.com/en/categories/>
+        
+            <span>
+                Categories</span>
+    </a>
+        </li>
+        <li role="presentation" >
+    <a   aria-current=true class=on-deck href=https://johnstechlogs.com/en/post/>
+        
+            <span>
+                Posts</span>
+    </a>
+        </li>
+        <li role="presentation" >
+    <a   class=on-deck href=https://johnstechlogs.com/en/tags/>
+        
+            <span>
+                Tags</span>
+    </a>
+        </li>
+                </ul>
+            </nav>
+    </details>
+            
+            <!-- menu.html -->
+            <!-- i18n.html -->
+
+
+        </nav>
+        <div id="top-nav-screen" class="screening js-cpn" role="presentation" aria-hidden="true"></div>
+    </details>
+</header>
+    
+    <!-- [main] baseof.html -->
+    <main id="page">
+        <!-- main/header.html -->
+        <header class="pagewidth">
+            
+                <!-- menu.html -->
+    <menu class="srm">
+        <a id="print-button" class="hide" href="javascript:window.print()" role="button" aria-label="Print">
+            <span class="t srt" role="tooltip">Print</span>
+        </a>
+        <a id="navigatorShare" href="#share" role="button" aria-label="Share">
+            <span class="t srt" role="tooltip">Share</span>
+        </a>
+        <a id="copyPermalink" class="hide" href="javascript:navigator.clipboard.writeText(window.location.href)" role="button" aria-label="Copy URL">
+            <span id="copy" class="t srt" role="tooltip">Copy URL</span>
+            <span id="isCopying" style="display: none;">Copying...</span>
+            <span id="copyText" style="display: none;">Copy URL</span>
+        </a>
+    </menu>
+    <button id="back" class="hide" type="button" onclick="history.back();" aria-label="Go Back">
+        <span class="t srt" role="tooltip">Go Back</span>
+    </button>
+            
+                <!-- nav.html -->
+<details class="presentation" aria-expanded="true" id="has-breadcrumb" open>
+    <summary id="breadcrumb" tabindex="-1">
+        <span>Breadcrumb</span>
+    </summary>
+        <nav aria-labelledby="breadcrumb">
+            <ul role="presentation" class="breadcrumb ">
+                    <!-- breadcrumb.html -->
+        <li id="is-translated">
+            
+    <!-- l10n.html -->
+    <details id="has-l10n" class="presentation">
+        <summary aria-label="Language Selections" aria-description="Current Language is ">
+            <span>EN</span>
+        </summary>
+        <nav aria-label="Language Selections">
+            <ul class="on-plank" role="presentation">
+                <li>
+                    <a href="https://johnstechlogs.com/en/post/dual-boot-arch-windows/" aria-label="Switch Language to " aria-description="Dual Booting Arch Linux with Windows"
+                        style="--flag: url(https://raw.githubusercontent.com/lipis/flag-icons/c95b262e5ee2366cad4c5aecc4a5ad86220c9ab9/flags/4x3/.svg)">
+                        Dual Booting Arch Linux with Windows
+                    </a>
+                </li>
+                <li>
+                    <a href="https://johnstechlogs.com/en/post/piholeunboundtailscale/" aria-label="Switch Language to " aria-description="Blocking Ads Anywhere using Pi Hole, Unbound, and Tailscale"
+                        style="--flag: url(https://raw.githubusercontent.com/lipis/flag-icons/c95b262e5ee2366cad4c5aecc4a5ad86220c9ab9/flags/4x3/.svg)">
+                        Blocking Ads Anywhere using Pi Hole, Unbound, and Tailscale
+                    </a>
+                </li>
+                <li>
+                    <a href="https://johnstechlogs.com/en/post/disable-ad-tracking/" aria-label="Switch Language to " aria-description="Disabling Ad tracking in Meta and Google Apps"
+                        style="--flag: url(https://raw.githubusercontent.com/lipis/flag-icons/c95b262e5ee2366cad4c5aecc4a5ad86220c9ab9/flags/4x3/.svg)">
+                        Disabling Ad tracking in Meta and Google Apps
+                    </a>
+                </li>
+                <li>
+                    <a href="https://johnstechlogs.com/en/post/anytype-review/" aria-label="Switch Language to " aria-description="The Child of Notion and Obsidian - AnyType"
+                        style="--flag: url(https://raw.githubusercontent.com/lipis/flag-icons/c95b262e5ee2366cad4c5aecc4a5ad86220c9ab9/flags/4x3/.svg)">
+                        The Child of Notion and Obsidian - AnyType
+                    </a>
+                </li>
+                <li>
+                    <a href="https://johnstechlogs.com/en/post/ai-discord-bot-friend/" aria-label="Switch Language to " aria-description="I created an AI Bot of my Fallen Best Friend. Have I gone mad?"
+                        style="--flag: url(https://raw.githubusercontent.com/lipis/flag-icons/c95b262e5ee2366cad4c5aecc4a5ad86220c9ab9/flags/4x3/.svg)">
+                        I created an AI Bot of my Fallen Best Friend. Have I gone mad?
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </details>
+        </li>
+        <li>
+            <a href="https://johnstechlogs.com/en/post/" aria-current="true">Post
+            </a>
+        </li>
+    <li>
+        <a href="" aria-current="page" tabindex="-1">Self-Hosting n8n on a Raspberry Pi
+        </a>
+    </li>
+            </ul>
+        </nav>
+</details>
+        </header>
+        <div id="top" role="presentation">
+            
+        </div>
+        
+    <article id="main-article" class="pagewidth rm"
+        role="document" aria-labelledby="title"
+            data-pagefind-body>
+        <header aria-labelledby="title">
+            
+            <!-- title.html -->
+        <hgroup data-bionRead-safe>
+            <h1 id="title"
+                    data-pagefind-meta="title"
+                >Self-Hosting n8n on a Raspberry Pi</h1>
+            <p  class="subtitle"
+                role="doc-subtitle">A tutorial on hosting an n8n server locally on a Raspberry Pi.</p>
+        </hgroup>
+            <div id="doc-author" class="textsw author">
+                            
+                            <a href="https://johnstechlogs.com/en/author/john-nguyen/">John Nguyen</a>
+            </div>
+            <!-- timestamp.html-->
+    <div >
+        <time class="doc-publish-date" datetime="2025-10-20T00:00:00&#43;00:00" data-time-label="Published on">October 20, 2025</time>
+    </div>
+        </header>
+        <!-- audio.html -->
+        <section aria-labelledby="title" id="content" data-bionRead-safe>
+                <p><img src="https://johnstechlogs.com/images/n8npi.png" alt="alt text"></p>
+<h1 id="what-is-n8n">What is n8n</h1>
+<p><a href="https://n8n.io/">n8n</a> is a free and open workflow automation tool that lets you orchestrate workflows, connect APIs and apps, and build intelligent AI agents.</p>
+<h1 id="what-is-coolify">What is Coolify</h1>
+<p><img src="https://johnstechlogs.com/images/CoolifyLogo.png" alt="Image Description">
+<a href="https://coolify.io/">Coolify</a> is a free self-hosted drop in replacement to Heroku, Netlify, and other cloud services. It provides a frontend and allows you to deploy apps and services. As stated from their website, some benefits include:</p>
+<ul>
+<li>No Hidden Costs</li>
+<li>Cost Efficient (only pay for server)</li>
+<li>Data Privacy (controlled by you)</li>
+<li>Easy and nice UI</li>
+<li>Open Source</li>
+<li>Free SSL Certs</li>
+<li>Any Server</li>
+<li>Any Language</li>
+<li>Any Use Case</li>
+<li>Automation and Integration</li>
+</ul>
+<h1 id="installing-coolify">Installing Coolify</h1>
+<ol>
+<li>
+<p>SSH or login to your Raspberry Pi terminal.</p>
+</li>
+<li>
+<p>Run the installation script (verify the latest on the <a href="https://coolify.io/self-hosted/">Coolify Website</a>)</p>
+<pre><code> curl -fsSL https://cdn.coollabs.io/coolify/install.sh | sudo bash
+</code></pre>
+</li>
+<li>
+<p>The installation will output a Coolify admin URL. Use the RaspberryPi hostname/IP to open it on your browser (e.g. raspberrypi:8000)</p>
+</li>
+<li>
+<p>Create an account to view your Dashboard</p>
+</li>
+</ol>
+<h1 id="self-hosting-n8n-with-coolify">Self-Hosting n8n with Coolify</h1>
+<p>In my previous blog, I self-hosted Discord bots using Coolify running on my Raspberry Pi. Since Coolify can host anything that can be containerized, there&rsquo;s no reason it wouldn&rsquo;t be able to host n8n. In fact, Coolify already has a n8n resource option whenever you create a new project. Self-hosting n8n lets you skip the cost of paying for a cloud service to start working with n8n.</p>
+<p><img src="https://johnstechlogs.com/images/n8nresource.png" alt="alt text"></p>
+<h2 id="building-a-n8n-service">Building a n8n service</h2>
+<ol>
+<li>Create a new project on Coolify</li>
+<li>Add a resource</li>
+<li>Search for n8n and use that as the template</li>
+<li>Use docker-compose.</li>
+<li>Create a service (you can call it n8n)</li>
+<li>Under the service configuration, Edit the Compose File</li>
+</ol>
+<h3 id="n8n-compose-file">n8n Compose File</h3>
+<ol>
+<li>Paste the following docker-compose file and update the timezone</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">services:
+</span></span><span class="line"><span class="cl">  n8n:
+</span></span><span class="line"><span class="cl">    image: docker.n8n.io/n8nio/n8n
+</span></span><span class="line"><span class="cl">    environment:
+</span></span><span class="line"><span class="cl">      - <span class="s2">&#34;GENERIC_TIMEZONE=&#39;America/Chicago&#39;&#34;</span>
+</span></span><span class="line"><span class="cl">      - <span class="s2">&#34;TZ=&#39;America/Chicago&#39;&#34;</span>
+</span></span><span class="line"><span class="cl">      - <span class="s1">&#39;DB_SQLITE_POOL_SIZE=${DB_SQLITE_POOL_SIZE:-3}&#39;</span>
+</span></span><span class="line"><span class="cl">      - <span class="s1">&#39;N8N_RUNNERS_ENABLED=${N8N_RUNNERS_ENABLED:-true}&#39;</span>
+</span></span><span class="line"><span class="cl">      - <span class="s1">&#39;N8N_BLOCK_ENV_ACCESS_IN_NODE=${N8N_BLOCK_ENV_ACCESS_IN_NODE:-true}&#39;</span>
+</span></span><span class="line"><span class="cl">      - <span class="s1">&#39;N8N_GIT_NODE_DISABLE_BARE_REPOS=${N8N_GIT_NODE_DISABLE_BARE_REPOS:-true}&#39;</span>
+</span></span><span class="line"><span class="cl">      - <span class="s1">&#39;N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=${N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS:-true}&#39;</span>
+</span></span><span class="line"><span class="cl">      - <span class="s1">&#39;N8N_PROXY_HOPS=${N8N_PROXY_HOPS:-1}&#39;</span>
+</span></span><span class="line"><span class="cl">      - <span class="nv">N8N_SECURE_COOKIE</span><span class="o">=</span><span class="nb">false</span>
+</span></span><span class="line"><span class="cl">      - <span class="nv">N8N_TELEMETRY_DISABLED</span><span class="o">=</span><span class="nb">true</span>
+</span></span><span class="line"><span class="cl">      - <span class="s1">&#39;NODES_EXCLUDE=&#34;[]&#34;&#39;</span>
+</span></span><span class="line"><span class="cl">    volumes:
+</span></span><span class="line"><span class="cl">      - <span class="s1">&#39;n8n-data:/home/node/.n8n&#39;</span>
+</span></span><span class="line"><span class="cl">    ports:
+</span></span><span class="line"><span class="cl">      - <span class="s1">&#39;0.0.0.0:5678:5678&#39;</span>
+</span></span><span class="line"><span class="cl">    healthcheck:
+</span></span><span class="line"><span class="cl">      test:
+</span></span><span class="line"><span class="cl">        - CMD-SHELL
+</span></span><span class="line"><span class="cl">        - <span class="s1">&#39;wget -qO- http://127.0.0.1:5678/&#39;</span>
+</span></span><span class="line"><span class="cl">      interval: 5s
+</span></span><span class="line"><span class="cl">      timeout: 20s
+</span></span><span class="line"><span class="cl">      retries: <span class="m">10</span>
+</span></span><span class="line"><span class="cl">volumes:
+</span></span><span class="line"><span class="cl">  n8n-data: null
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ol start="2">
+<li>Start the service on Coolify. Navigate to the URL Pi http://&laquo;IP/hostname&raquo;:5678 to open the n8n login.</li>
+<li>Create an account and activate the free license key</li>
+</ol>
+<h2 id="raspberry-pi-caveats">Raspberry Pi Caveats</h2>
+<p>Hosting n8n on a Pi is slightly different than on a VPS. Since it&rsquo;s running locally, the n8n instance isn&rsquo;t accessible outside your network. You can get around this by using a VPN or creating a tunnel. I opted to use <a href="https://tailscale.com/">Tailscale</a>, a VPN service to connect my Pi and external devices. This allows me to use my Macbook away from home and still open n8n dashboard to edit my workflows. Additionally, Tailscale lets you connect to devices through SSH and already designates the hostname to the new internal IP on the VPN. Don&rsquo;t forget your Pi must be online 24/7 to keep the server online, of course. Since it is all running locally, you don&rsquo;t need to worry about the instance being exposed to the internet. However, this means any n8n generated public link forms may need to be modified to work.</p>
+<h3 id="oauth-caveat">OAuth Caveat</h3>
+<p>When connecting n8n to other services like Google Cloud, you will need to create credentials that may use OAuth. By default, n8n will create a URL to launch the OAuth popup window to the ip that hosts it (which will be localhost on the Pi). If you are not using the Pi&rsquo;s browser, then you&rsquo;ll have to copy the generated link and change localhost to the Raspberry Pi IP address or hostname. With Tailscale active, using the hostname is all we&rsquo;ll need.</p>
+<h1 id="conclusion">Conclusion</h1>
+<p>With Tailscale or some network tunnel, you&rsquo;ll be able to access your n8n instance from anywhere as if it were hosted on a VPS. Now you&rsquo;ll be able to build automation workflows with n8n and easily update the service using Coolify!</p>
+
+        </section>
+            <footer>
+                
+    <nav id="keywords" aria-label="Tags">
+        <span>Tags:&nbsp;</span>
+        
+        <!-- terms.html -->
+    <ul class="delimiter" role="presentation">
+            <li><a href="https://johnstechlogs.com/en/tags/coolify/" >Coolify</a></li>
+            <li><a href="https://johnstechlogs.com/en/tags/self-hosting/" >Self-Hosting</a></li>
+            <li><a href="https://johnstechlogs.com/en/tags/docker/" >Docker</a></li>
+            <li><a href="https://johnstechlogs.com/en/tags/raspberry-pi/" >Raspberry Pi</a></li>
+            <li><a href="https://johnstechlogs.com/en/tags/n8n/" >N8n</a></li>
+    </ul>
+    </nav>
+            </footer>
+    </article>
+    <hr class="hide" style="margin: 1in 0;">
+    <div id="contentinfo" class="pagewidth" role="contentinfo" data-pagefind-ignore="all">
+                <!-- related.html -->
+    <nav id="related" aria-label="You might also like">
+        <strong class="section-title">You might also like</strong><ol>
+                    <li><a href="https://johnstechlogs.com/en/post/self-hosting-coolify/">Self Hosting Discord Bots and Other Apps with Coolify</a></li>
+                    <li><a href="https://johnstechlogs.com/en/post/piholeunboundtailscale/">Blocking Ads Anywhere using Pi Hole, Unbound, and Tailscale</a></li>
+                </ol>
+    </nav>
+                <!-- colophon.html -->
+    <div id="colophon" style="display: none;" aria-live="polite">
+        <strong class="section-title">Colophon</strong>
+        <div>
+            <div id="qr" role="img" aria-label="QR code"></div>
+            <div class="verbose">
+                <div class="has-aria-label-top" aria-label="Self-Hosting n8n on a Raspberry Pi"><span>https://johnstechlogs.com/en/post/n8n-self-hosting-on-a-pi/</span></div>
+            </div>
+        </div>
+    </div>
+                <!-- history.html -->
+            
+            <!-- nav.html -->
+<details class="presentation" aria-expanded="true" id="has-share" open>
+    <summary id="share" tabindex="-1">
+        <span>Share</span>
+    </summary>
+        <nav aria-labelledby="share">
+            <ul role="presentation" class="share srm">
+                    <!-- share.html -->
+    <li id="has-mastodon">
+        <!-- mastodon.html -->
+    <form class="form" id="mastodon" action="//sharetomastodon.github.io/" target="_blank" rel="noopener noreferrer">
+        <input id="mastodonTitle" type="hidden" name="title" value="Self-Hosting n8n on a Raspberry Pi">
+        <input id="mastodonPermalink" type="hidden" name="url" value="https://johnstechlogs.com/en/post/n8n-self-hosting-on-a-pi/">
+        <input id="mastodonText" type="hidden" name="text" value="Self-Hosting n8n on a Raspberry Pi https://johnstechlogs.com/en/post/n8n-self-hosting-on-a-pi/" disabled>
+        <input id="mastodonInstance" type="url" class="ldots form__input" placeholder="Enter Mastodon instance (https://www.example.com)" aria-label="Mastodon instance URL">
+        <button class="form__button" type="submit" aria-label="Share on Mastodon">
+            <i class="icon mastodon sri" aria-hidden="true"></i>
+            <span class="t srt" role="tooltip">Share on Mastodon</span>
+        </button>
+    </form>
+    </li>
+    <li>
+        <a href="mailto:?subject=Self-Hosting%20n8n%20on%20a%20Raspberry%20Pi&body=https%3a%2f%2fjohnstechlogs.com%2fen%2fpost%2fn8n-self-hosting-on-a-pi%2f" role="button" aria-label="Share on Email">
+            <i class="email sri" aria-hidden="true"></i>
+            <span class="t srt" role="tooltip">Share on Email</span>
+        </a>
+    </li>
+    <li>
+        <a href="whatsapp://send?text=Self-Hosting%20n8n%20on%20a%20Raspberry%20Pi%20https%3a%2f%2fjohnstechlogs.com%2fen%2fpost%2fn8n-self-hosting-on-a-pi%2f" role="button" aria-label="Share on Whatsapp">
+            <i class="whatsapp sri" aria-hidden="true"></i>
+            <span class="t srt" role="tooltip">Share on Whatsapp</span>
+        </a>
+    </li>
+    <li>
+        <a rel="noopener noreferrer" target="_blank" href="https://telegram.me/share/url?text=Self-Hosting%20n8n%20on%20a%20Raspberry%20Pi&amp;url=https://johnstechlogs.com/en/post/n8n-self-hosting-on-a-pi/" role="button"
+            aria-label="Share on Telegram in new tab">
+            <i class="telegram sri" aria-hidden="true"></i>
+            <span class="t srt" role="tooltip">Share on Telegram</span>
+        </a>
+    </li>
+    <li>
+        <a rel="noopener noreferrer" target="_blank" href="https://bsky.app/intent/compose?text=Self-Hosting%20n8n%20on%20a%20Raspberry%20Pi&amp;url=https://johnstechlogs.com/en/post/n8n-self-hosting-on-a-pi/" role="button"
+            aria-label="Share on Bluesky in new tab">
+            <i class="bluesky sri" aria-hidden="true"></i>
+            <span class="t srt" role="tooltip">Share on Bluesky</span>
+        </a>
+    </li>
+    <li>
+        <a rel="noopener noreferrer" target="_blank" href="https://facebook.com/sharer/sharer.php?u=https://johnstechlogs.com/en/post/n8n-self-hosting-on-a-pi/" role="button"
+            aria-label="Share on Facebook in new tab">
+            <i class="facebook sri" aria-hidden="true"></i>
+            <span class="t srt" role="tooltip">Share on Facebook</span>
+        </a>
+    </li>
+    <li>
+        <a rel="noopener noreferrer" target="_blank" href="https://news.ycombinator.com/submitlink?u=https://johnstechlogs.com/en/post/n8n-self-hosting-on-a-pi/&amp;t=Self-Hosting%20n8n%20on%20a%20Raspberry%20Pi" role="button"
+            aria-label="Share on Hackernews in new tab">
+            <i class="hackernews sri" aria-hidden="true"></i>
+            <span class="t srt" role="tooltip">Share on Hackernews</span>
+        </a>
+    </li>
+    <li>
+        <a rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://johnstechlogs.com/en/post/n8n-self-hosting-on-a-pi/&amp;title=Self-Hosting%20n8n%20on%20a%20Raspberry%20Pi&amp;summary=Self-Hosting%20n8n%20on%20a%20Raspberry%20Pi&amp;source=https://johnstechlogs.com/en/post/n8n-self-hosting-on-a-pi/" role="button"
+            aria-label="Share on Linkedin in new tab">
+            <i class="linkedin sri" aria-hidden="true"></i>
+            <span class="t srt" role="tooltip">Share on Linkedin</span>
+        </a>
+    </li>
+    <li>
+        <a rel="noopener noreferrer" target="_blank" href="https://pinterest.com/pin/create/button/?url=https://johnstechlogs.com/en/post/n8n-self-hosting-on-a-pi/&amp;media=https://johnstechlogs.com/en/post/n8n-self-hosting-on-a-pi/&amp;description=Self-Hosting%20n8n%20on%20a%20Raspberry%20Pi" role="button"
+            aria-label="Share on Pinterest in new tab">
+            <i class="pinterest sri" aria-hidden="true"></i>
+            <span class="t srt" role="tooltip">Share on Pinterest</span>
+        </a>
+    </li>
+    <li>
+        <a rel="noopener noreferrer" target="_blank" href="https://reddit.com/submit/?url=https://johnstechlogs.com/en/post/n8n-self-hosting-on-a-pi/&amp;resubmit=true&amp;title=Self-Hosting%20n8n%20on%20a%20Raspberry%20Pi" role="button"
+            aria-label="Share on Reddit in new tab">
+            <i class="reddit sri" aria-hidden="true"></i>
+            <span class="t srt" role="tooltip">Share on Reddit</span>
+        </a>
+    </li>
+    <li>
+        <a rel="noopener noreferrer" target="_blank" href="https://www.tumblr.com/widgets/share/tool?posttype=link&amp;title=Self-Hosting%20n8n%20on%20a%20Raspberry%20Pi&amp;caption=Self-Hosting%20n8n%20on%20a%20Raspberry%20Pi&amp;content=https://johnstechlogs.com/en/post/n8n-self-hosting-on-a-pi/&amp;canonicalUrl=https://johnstechlogs.com/en/post/n8n-self-hosting-on-a-pi/" role="button"
+            aria-label="Share on Tumblr in new tab">
+            <i class="tumblr sri" aria-hidden="true"></i>
+            <span class="t srt" role="tooltip">Share on Tumblr</span>
+        </a>
+    </li>
+    <li>
+        <a rel="noopener noreferrer" target="_blank" href="http://vk.com/share.php?title=Self-Hosting%20n8n%20on%20a%20Raspberry%20Pi&amp;url=https://johnstechlogs.com/en/post/n8n-self-hosting-on-a-pi/" role="button"
+            aria-label="Share on Vk in new tab">
+            <i class="vk sri" aria-hidden="true"></i>
+            <span class="t srt" role="tooltip">Share on Vk</span>
+        </a>
+    </li>
+    <li>
+        <a rel="noopener noreferrer" target="_blank" href="https://twitter.com/intent/tweet/?text=Self-Hosting%20n8n%20on%20a%20Raspberry%20Pi&amp;url=https://johnstechlogs.com/en/post/n8n-self-hosting-on-a-pi/" role="button"
+            aria-label="Share on Twitter in new tab">
+            <i class="twitter sri" aria-hidden="true"></i>
+            <span class="t srt" role="tooltip">Share on Twitter</span>
+        </a>
+    </li>
+    <li>
+        <a rel="noopener noreferrer" target="_blank" href="https://www.xing.com/app/user?op=share;url=https://johnstechlogs.com/en/post/n8n-self-hosting-on-a-pi/;title=Self-Hosting%20n8n%20on%20a%20Raspberry%20Pi" role="button"
+            aria-label="Share on Xing in new tab">
+            <i class="xing sri" aria-hidden="true"></i>
+            <span class="t srt" role="tooltip">Share on Xing</span>
+        </a>
+    </li>
+            </ul>
+        </nav>
+</details>
+    </div>
+    
+        
+                    <div class="pagewidth">
+<noscript id="noGiscus">
+    <center role="alert">Giscus require Javascript and LocalStorage to be enable.</center>
+</noscript>
+<div id="noDOMGiscus" class="hide">
+    <center role="alert">Giscus require Javascript and LocalStorage to be enable.</center>
+</div>
+<script src="https://giscus.app/client.js"
+    data-repo="J4ninja/johntechtalks"
+    data-repo-id="R_kgDONbXGAA"
+    data-category="General"
+    data-category-id="DIC_kwDONbXGAM4Ctrnb"
+    data-mapping="pathname"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+</div>
+                
+        <!-- main/footer.html -->
+    <hr class="hide">
+    <footer id="main-footer"><div class="column column--multicols pagewidth" style="--multicols: 2"><div id="main-footer-primary">
+                        
+                    </div>
+                <div id="main-footer-secondary"  class="column" style="--col: 10rem">
+                        <div>
+                            <p><strong>Contact</strong></p>
+<ul>
+<li><a href="https://www.johnnguyenportfolio.com">Portfolio</a></li>
+<li><a href="mailto:j4nguyen134@gmail.com">Gmail</a></li>
+<li><a href="https://github.com/j4ninja">GitHub</a></li>
+<li><a href="https://linkedin.com/in/john-4-nguyen">LinkedIn</a></li>
+</ul>
+
+                        </div>
+                        <div>
+                            <p><strong>Nav</strong></p>
+<ul>
+<li><a href="https://johnstechlogs.com/en/author/john-nguyen">About</a></li>
+<li><a href="https://johnstechlogs.com/en/tags">Tags</a></li>
+<li><a href="https://johnstechlogs.com/en/categories">Categories</a></li>
+<li><a href="https://johnstechlogs.com/en/post">Posts</a></li>
+</ul>
+
+                        </div>
+                </div>
+            </div>
+            <div id="unified-footer"><p id="license">JohnsTechLogs©</p>
+                    <!-- menu.html -->
+    <nav id="menu-footer" class="has-aria-label-top" aria-label="Let&#39;s keep in touch!">
+        <ul role="presentation">
+            <li><a href="https://www.instagram.com/j4.nguyen/" aria-label="Facebook">        
+                    <i class="icon">facebook</i>
+                    <span class="t" role="tooltip">Facebook</span>
+                </a>
+            </li>
+            <li><a href="https://github.com/j4ninja" aria-label="GitHub">        
+                    <i class="icon">github</i>
+                    <span class="t" role="tooltip">GitHub</span>
+                </a>
+            </li>
+            <li><a href="https://www.facebook.com/profile.php?id=100065121758952" aria-label="Instagram">        
+                    <i class="icon">instagram</i>
+                    <span class="t" role="tooltip">Instagram</span>
+                </a>
+            </li>
+            <li><a href="https://linkedin.com/in/john-4-nguyen" aria-label="LinkedIn">        
+                    <i class="icon">linkedin</i>
+                    <span class="t" role="tooltip">LinkedIn</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+            </div>
+    </footer>
+    </main>
+    <!-- footer.html -->
+<footer id="body-footer" class="pagewidth" style="display: none;">
+    <div id="background-footer" class="background hide" role="presentation" aria-hidden="true">
+        <div class="grain" hidden></div>
+    </div>
+    <div id="focusMode"></div>
+    <!-- a11y.html --><details id="has-a11y" class="presentation js-details hide" name="on-deck" aria-haspopup="true" aria-labelledby="has-a11y-summary">
+    <summary id="has-a11y-summary" accesskey="a" aria-keyshortcuts="a">
+        <span>&nbsp;Accessibility</span>
+        <kbd class="key" aria-hidden="true">a</kbd>
+    </summary>
+    <!-- a11y console -->
+    <fieldset id="a11y" role="region" aria-label="Accessibility"
+        data-i18n-optimizeSR="Screen Reader Optimization"
+        data-i18n-optimizeSRdesc="Optimize display and resources for screen reader users who navigate with a pointer device."
+        data-i18n-colorSettings="Color Settings"
+        data-i18n-darkMode="Dark Mode"
+        data-i18n-light="Light"
+        data-i18n-dark="Dark"
+        data-i18n-contrast="Contrast"
+        data-i18n-lessContrast="Low"
+        data-i18n-moreContrast="High"
+        data-i18n-defaultContrast="Default"
+        data-i18n-colorPalette="Color Palette"
+        data-i18n-defaultColor="Default"
+        data-i18n-deuteranopia="Deuteranopia"
+        data-i18n-protanopia="Protanopia"
+        data-i18n-tritanopia="Tritanopia"
+        data-i18n-monochrome="Monochrome"
+        data-i18n-fontSize="Font Size"
+        data-i18n-baselineStretch="Baseline Stretch"        
+        data-i18n-OpenDyslexic="Use OpenDyslexic Font"
+        data-i18n-menuControls="Accessibility Menu Controls"
+        data-i18n-save="Save"
+        data-i18n-reset="Reset"
+        data-i18n-close="Close"
+        data-i18n-bionRead="BionRead Mode"
+        data-i18n-focusMode="Focus Mode"
+        data-i18n-noLocalStorage="LocalStorage is not available in your browser. Settings won&#39;t be saved.">
+    </fieldset>
+    <div class="screening js-cpn" role="presentation" aria-hidden="true"></div>
+</details>
+
+
+    <div id="useBionRead" class="sri"></div>
+    <!-- [top] bypass block -->
+    <nav aria-label="Bypass">
+        <a id="to-top" class="srm" href="#top" title="To Content Top" accesskey="c" aria-keyshortcuts="c" aria-label="To Content Top">
+            <span class="t srt">To Content Top</span>
+            <kbd class="key" aria-hidden="true">c</kbd>
+        </a>
+    </nav>
+</footer>
+    
+    <!-- [post] single.html -->
+    <div id="bionReadSnapshot" hidden></div>
+    <!-- [background] baseof.html -->
+    <div id="background-body"
+        role="presentation" aria-hidden="true">
+        <div class="grain" hidden></div>
+        <div id="dwclock" hidden>
+            <div id="min">
+                <div class="hand"></div>
+            </div>
+            <div id="hour">
+                <div class="hand"></div>
+            </div>
+        </div>
+    </div>
+</html>
