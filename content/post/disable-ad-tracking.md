@@ -7,7 +7,7 @@ type: post
 translationKey: pagefind
 draft: false
 tags:  ["privacy"]
-categories: ["tutorials", "tools"]
+categories: ["tutorials"]
 cover: '/images/metaprivacy.png'
 ---
 

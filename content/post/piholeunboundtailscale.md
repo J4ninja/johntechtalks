@@ -7,7 +7,7 @@ type: post
 translationKey: pagefind
 draft: false
 tags:  ["privacy", "raspberry pi", "self-hosting"]
-categories: ["tutorials"]
+categories: ["tutorials", "tools"]
 cover: '/images/squarepihole.png'
 ---
 
