@@ -1,6 +1,11 @@
 
 {
     "nodes": [{
+                "id": "95b7b0ebb63a5fb4f40d8b50db8c12bd",
+                "title": "Self-Hosting n8n on a Raspberry Pi",
+                "permalink": "https://johnstechlogs.com/en/post/n8n-self-hosting-on-a-pi/",
+                "type": "post"
+            },{
                 "id": "0f7ab4d785c04ee71964f48c19f03c68",
                 "title": "Dual Booting Arch Linux with Windows",
                 "permalink": "https://johnstechlogs.com/en/post/dual-boot-arch-windows/",
@@ -31,9 +36,9 @@
                 "permalink": "https://johnstechlogs.com/en/post/kodak-ektar-h35-review/",
                 "type": "post"
             },{
-                "id": "3d9181f196761668bb6ffab27f60008b",
+                "id": "03eda0ec58e88a73efe0fc0db4e59d6c",
                 "title": "Self Hosting Discord Bots and Other Apps with Coolify",
-                "permalink": "https://johnstechlogs.com/en/post/self-hosting-discord-bots/",
+                "permalink": "https://johnstechlogs.com/en/post/self-hosting-coolify/",
                 "type": "post"
             },{
                 "id": "ca8a8e5ea6c88891cef838fecc7c77dd",
@@ -218,6 +223,12 @@
                             "type": "tags"
                         },
                         {
+                            "id": "tags-n8n",
+                            "title": "N8n",
+                            "permalink": "https://johnstechlogs.com/en/tags/n8n/",
+                            "type": "tags"
+                        },
+                        {
                             "id": "tags-notes",
                             "title": "Notes",
                             "permalink": "https://johnstechlogs.com/en/tags/notes/",
@@ -279,6 +290,31 @@
                         },
     ],
     "links": [
+            
+                    {
+                        "source": "95b7b0ebb63a5fb4f40d8b50db8c12bd",
+                        "target": "categories-tutorials",
+                    },
+                    {
+                        "source": "95b7b0ebb63a5fb4f40d8b50db8c12bd",
+                        "target": "tags-coolify",
+                    },
+                    {
+                        "source": "95b7b0ebb63a5fb4f40d8b50db8c12bd",
+                        "target": "tags-self-hosting",
+                    },
+                    {
+                        "source": "95b7b0ebb63a5fb4f40d8b50db8c12bd",
+                        "target": "tags-docker",
+                    },
+                    {
+                        "source": "95b7b0ebb63a5fb4f40d8b50db8c12bd",
+                        "target": "tags-raspberry-pi",
+                    },
+                    {
+                        "source": "95b7b0ebb63a5fb4f40d8b50db8c12bd",
+                        "target": "tags-n8n",
+                    },
             
                     {
                         "source": "0f7ab4d785c04ee71964f48c19f03c68",
@@ -371,31 +407,31 @@
                     },
             
                     {
-                        "source": "3d9181f196761668bb6ffab27f60008b",
+                        "source": "03eda0ec58e88a73efe0fc0db4e59d6c",
                         "target": "categories-automation",
                     },
                     {
-                        "source": "3d9181f196761668bb6ffab27f60008b",
+                        "source": "03eda0ec58e88a73efe0fc0db4e59d6c",
                         "target": "categories-deployment",
                     },
                     {
-                        "source": "3d9181f196761668bb6ffab27f60008b",
+                        "source": "03eda0ec58e88a73efe0fc0db4e59d6c",
                         "target": "tags-coolify",
                     },
                     {
-                        "source": "3d9181f196761668bb6ffab27f60008b",
+                        "source": "03eda0ec58e88a73efe0fc0db4e59d6c",
                         "target": "tags-self-hosting",
                     },
                     {
-                        "source": "3d9181f196761668bb6ffab27f60008b",
+                        "source": "03eda0ec58e88a73efe0fc0db4e59d6c",
                         "target": "tags-docker",
                     },
                     {
-                        "source": "3d9181f196761668bb6ffab27f60008b",
+                        "source": "03eda0ec58e88a73efe0fc0db4e59d6c",
                         "target": "tags-git",
                     },
                     {
-                        "source": "3d9181f196761668bb6ffab27f60008b",
+                        "source": "03eda0ec58e88a73efe0fc0db4e59d6c",
                         "target": "tags-raspberry-pi",
                     },
             
