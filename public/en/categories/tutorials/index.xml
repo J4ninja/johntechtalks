@@ -9,7 +9,6 @@
     <managingEditor>John Nguyen</managingEditor>
     
       <webMaster>John Nguyen</webMaster>
-    <lastBuildDate>Wed, 31 Dec 2025 17:05:31 -0600</lastBuildDate>
     <atom:link href="https://johnstechlogs.com/en/categories/tutorials/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Self-Hosting n8n on a Raspberry Pi</title>
