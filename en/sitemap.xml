@@ -6,7 +6,15 @@
     <lastmod>2025-10-20T00:00:00+00:00</lastmod>
     </url>
   <url>
+    <loc>https://johnstechlogs.com/en/categories/ai/</loc>
+    <lastmod>2025-10-20T00:00:00+00:00</lastmod>
+    </url>
+  <url>
     <loc>https://johnstechlogs.com/en/author/</loc>
+    <lastmod>2025-10-20T00:00:00+00:00</lastmod>
+    </url>
+  <url>
+    <loc>https://johnstechlogs.com/en/categories/automation/</loc>
     <lastmod>2025-10-20T00:00:00+00:00</lastmod>
     </url>
   <url>
@@ -15,6 +23,10 @@
     </url>
   <url>
     <loc>https://johnstechlogs.com/en/tags/coolify/</loc>
+    <lastmod>2025-10-20T00:00:00+00:00</lastmod>
+    </url>
+  <url>
+    <loc>https://johnstechlogs.com/en/categories/deployment/</loc>
     <lastmod>2025-10-20T00:00:00+00:00</lastmod>
     </url>
   <url>
@@ -27,6 +39,10 @@
     </url>
   <url>
     <loc>https://johnstechlogs.com/en/tags/n8n/</loc>
+    <lastmod>2025-10-20T00:00:00+00:00</lastmod>
+    </url>
+  <url>
+    <loc>https://johnstechlogs.com/en/categories/pc/</loc>
     <lastmod>2025-10-20T00:00:00+00:00</lastmod>
     </url>
   <url>
@@ -50,6 +66,10 @@
   </url>
   <url>
     <loc>https://johnstechlogs.com/en/tags/</loc>
+    <lastmod>2025-10-20T00:00:00+00:00</lastmod>
+    </url>
+  <url>
+    <loc>https://johnstechlogs.com/en/categories/tools/</loc>
     <lastmod>2025-10-20T00:00:00+00:00</lastmod>
     </url>
   <url>
@@ -113,19 +133,11 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://johnstechlogs.com/en/post/anytype-review/" />
   </url>
   <url>
-    <loc>https://johnstechlogs.com/en/categories/tools/</loc>
-    <lastmod>2025-08-02T00:00:00+00:00</lastmod>
-    </url>
-  <url>
     <loc>https://johnstechlogs.com/en/post/building-my-first-mini-itx-pc/</loc>
     <lastmod>2025-05-18T00:00:00+00:00</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://johnstechlogs.com/en/rss/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://johnstechlogs.com/en/post/building-my-first-mini-itx-pc/" />
   </url>
-  <url>
-    <loc>https://johnstechlogs.com/en/categories/pc/</loc>
-    <lastmod>2025-05-18T00:00:00+00:00</lastmod>
-    </url>
   <url>
     <loc>https://johnstechlogs.com/en/categories/camera/</loc>
     <lastmod>2025-02-03T00:00:00+00:00</lastmod>
@@ -141,14 +153,6 @@
   <url>
     <loc>https://johnstechlogs.com/en/post/kodak-ektar-h35-review/</loc>
     <lastmod>2025-02-03T00:00:00+00:00</lastmod>
-    </url>
-  <url>
-    <loc>https://johnstechlogs.com/en/categories/automation/</loc>
-    <lastmod>2025-01-21T00:00:00+00:00</lastmod>
-    </url>
-  <url>
-    <loc>https://johnstechlogs.com/en/categories/deployment/</loc>
-    <lastmod>2025-01-21T00:00:00+00:00</lastmod>
     </url>
   <url>
     <loc>https://johnstechlogs.com/en/tags/git/</loc>
@@ -181,10 +185,6 @@
   <url>
     <loc>https://johnstechlogs.com/en/post/tools-to-maintain-gpa/</loc>
     <lastmod>2025-01-03T00:00:00+00:00</lastmod>
-    </url>
-  <url>
-    <loc>https://johnstechlogs.com/en/categories/ai/</loc>
-    <lastmod>2024-12-24T00:00:00+00:00</lastmod>
     </url>
   <url>
     <loc>https://johnstechlogs.com/en/tags/ai/</loc>
