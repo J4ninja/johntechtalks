@@ -2,266 +2,266 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://johnstechlogs.com/en/</loc>
+    <loc>http://localhost:1313/en/</loc>
     <lastmod>2025-09-18T00:00:00+00:00</lastmod>
     </url>
   <url>
-    <loc>https://johnstechlogs.com/en/author/</loc>
+    <loc>http://localhost:1313/en/author/</loc>
     <lastmod>2025-09-18T00:00:00+00:00</lastmod>
     </url>
   <url>
-    <loc>https://johnstechlogs.com/en/post/piholeunboundtailscale/</loc>
+    <loc>http://localhost:1313/en/post/piholeunboundtailscale/</loc>
     <lastmod>2025-09-18T00:00:00+00:00</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://johnstechlogs.com/en/post/disable-ad-tracking/" /><xhtml:link rel="alternate" hreflang="en" href="https://johnstechlogs.com/en/post/anytype-review/" /><xhtml:link rel="alternate" hreflang="en" href="https://johnstechlogs.com/en/post/ai-discord-bot-friend/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://johnstechlogs.com/en/post/piholeunboundtailscale/" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/post/disable-ad-tracking/" /><xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/post/anytype-review/" /><xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/post/ai-discord-bot-friend/" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/post/piholeunboundtailscale/" />
   </url>
   <url>
-    <loc>https://johnstechlogs.com/en/categories/</loc>
+    <loc>http://localhost:1313/en/categories/</loc>
     <lastmod>2025-09-18T00:00:00+00:00</lastmod>
     </url>
   <url>
-    <loc>https://johnstechlogs.com/en/author/john-nguyen/</loc>
+    <loc>http://localhost:1313/en/author/john-nguyen/</loc>
     <lastmod>2025-09-18T00:00:00+00:00</lastmod>
     </url>
   <url>
-    <loc>https://johnstechlogs.com/en/post/</loc>
+    <loc>http://localhost:1313/en/post/</loc>
     <lastmod>2025-09-18T00:00:00+00:00</lastmod>
     <changefreq>always</changefreq>
     </url>
   <url>
-    <loc>https://johnstechlogs.com/en/tags/privacy/</loc>
+    <loc>http://localhost:1313/en/tags/privacy/</loc>
     <lastmod>2025-09-18T00:00:00+00:00</lastmod>
     </url>
   <url>
-    <loc>https://johnstechlogs.com/en/tags/raspberry-pi/</loc>
+    <loc>http://localhost:1313/en/tags/raspberry-pi/</loc>
     <lastmod>2025-09-18T00:00:00+00:00</lastmod>
     </url>
   <url>
-    <loc>https://johnstechlogs.com/en/tags/self-hosting/</loc>
+    <loc>http://localhost:1313/en/tags/self-hosting/</loc>
     <lastmod>2025-09-18T00:00:00+00:00</lastmod>
     </url>
   <url>
-    <loc>https://johnstechlogs.com/en/tags/</loc>
+    <loc>http://localhost:1313/en/tags/</loc>
     <lastmod>2025-09-18T00:00:00+00:00</lastmod>
     </url>
   <url>
-    <loc>https://johnstechlogs.com/en/categories/tutorials/</loc>
+    <loc>http://localhost:1313/en/categories/tutorials/</loc>
     <lastmod>2025-09-18T00:00:00+00:00</lastmod>
     </url>
   <url>
-    <loc>https://johnstechlogs.com/en/post/disable-ad-tracking/</loc>
+    <loc>http://localhost:1313/en/post/disable-ad-tracking/</loc>
     <lastmod>2025-09-04T00:00:00+00:00</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://johnstechlogs.com/en/post/piholeunboundtailscale/" /><xhtml:link rel="alternate" hreflang="en" href="https://johnstechlogs.com/en/post/anytype-review/" /><xhtml:link rel="alternate" hreflang="en" href="https://johnstechlogs.com/en/post/ai-discord-bot-friend/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://johnstechlogs.com/en/post/disable-ad-tracking/" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/post/piholeunboundtailscale/" /><xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/post/anytype-review/" /><xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/post/ai-discord-bot-friend/" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/post/disable-ad-tracking/" />
   </url>
   <url>
-    <loc>https://johnstechlogs.com/en/tags/journaling/</loc>
+    <loc>http://localhost:1313/en/tags/journaling/</loc>
     <lastmod>2025-08-02T00:00:00+00:00</lastmod>
     </url>
   <url>
-    <loc>https://johnstechlogs.com/en/tags/notes/</loc>
+    <loc>http://localhost:1313/en/tags/notes/</loc>
     <lastmod>2025-08-02T00:00:00+00:00</lastmod>
     </url>
   <url>
-    <loc>https://johnstechlogs.com/en/categories/reviews/</loc>
+    <loc>http://localhost:1313/en/categories/reviews/</loc>
     <lastmod>2025-08-02T00:00:00+00:00</lastmod>
     </url>
   <url>
-    <loc>https://johnstechlogs.com/en/post/anytype-review/</loc>
+    <loc>http://localhost:1313/en/post/anytype-review/</loc>
     <lastmod>2025-08-02T00:00:00+00:00</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://johnstechlogs.com/en/post/piholeunboundtailscale/" /><xhtml:link rel="alternate" hreflang="en" href="https://johnstechlogs.com/en/post/disable-ad-tracking/" /><xhtml:link rel="alternate" hreflang="en" href="https://johnstechlogs.com/en/post/ai-discord-bot-friend/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://johnstechlogs.com/en/post/anytype-review/" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/post/piholeunboundtailscale/" /><xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/post/disable-ad-tracking/" /><xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/post/ai-discord-bot-friend/" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/post/anytype-review/" />
   </url>
   <url>
-    <loc>https://johnstechlogs.com/en/categories/tools/</loc>
+    <loc>http://localhost:1313/en/categories/tools/</loc>
     <lastmod>2025-08-02T00:00:00+00:00</lastmod>
     </url>
   <url>
-    <loc>https://johnstechlogs.com/en/post/building-my-first-mini-itx-pc/</loc>
+    <loc>http://localhost:1313/en/post/building-my-first-mini-itx-pc/</loc>
     <lastmod>2025-05-18T00:00:00+00:00</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://johnstechlogs.com/en/rss/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://johnstechlogs.com/en/post/building-my-first-mini-itx-pc/" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/rss/" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/post/building-my-first-mini-itx-pc/" />
   </url>
   <url>
-    <loc>https://johnstechlogs.com/en/tags/pc/</loc>
-    <lastmod>2025-05-18T00:00:00+00:00</lastmod>
-    </url>
-  <url>
-    <loc>https://johnstechlogs.com/en/categories/pc/</loc>
+    <loc>http://localhost:1313/en/tags/pc/</loc>
     <lastmod>2025-05-18T00:00:00+00:00</lastmod>
     </url>
   <url>
-    <loc>https://johnstechlogs.com/en/categories/camera/</loc>
+    <loc>http://localhost:1313/en/categories/pc/</loc>
+    <lastmod>2025-05-18T00:00:00+00:00</lastmod>
+    </url>
+  <url>
+    <loc>http://localhost:1313/en/categories/camera/</loc>
     <lastmod>2025-02-03T00:00:00+00:00</lastmod>
     </url>
   <url>
-    <loc>https://johnstechlogs.com/en/tags/camera/</loc>
+    <loc>http://localhost:1313/en/tags/camera/</loc>
     <lastmod>2025-02-03T00:00:00+00:00</lastmod>
     </url>
   <url>
-    <loc>https://johnstechlogs.com/en/tags/film/</loc>
+    <loc>http://localhost:1313/en/tags/film/</loc>
     <lastmod>2025-02-03T00:00:00+00:00</lastmod>
     </url>
   <url>
-    <loc>https://johnstechlogs.com/en/post/kodak-ektar-h35-review/</loc>
+    <loc>http://localhost:1313/en/post/kodak-ektar-h35-review/</loc>
     <lastmod>2025-02-03T00:00:00+00:00</lastmod>
     </url>
   <url>
-    <loc>https://johnstechlogs.com/en/categories/automation/</loc>
+    <loc>http://localhost:1313/en/categories/automation/</loc>
     <lastmod>2025-01-21T00:00:00+00:00</lastmod>
     </url>
   <url>
-    <loc>https://johnstechlogs.com/en/tags/coolify/</loc>
+    <loc>http://localhost:1313/en/tags/coolify/</loc>
     <lastmod>2025-01-21T00:00:00+00:00</lastmod>
     </url>
   <url>
-    <loc>https://johnstechlogs.com/en/categories/deployment/</loc>
+    <loc>http://localhost:1313/en/categories/deployment/</loc>
     <lastmod>2025-01-21T00:00:00+00:00</lastmod>
     </url>
   <url>
-    <loc>https://johnstechlogs.com/en/tags/docker/</loc>
+    <loc>http://localhost:1313/en/tags/docker/</loc>
     <lastmod>2025-01-21T00:00:00+00:00</lastmod>
     </url>
   <url>
-    <loc>https://johnstechlogs.com/en/tags/git/</loc>
+    <loc>http://localhost:1313/en/tags/git/</loc>
     <lastmod>2025-01-21T00:00:00+00:00</lastmod>
     </url>
   <url>
-    <loc>https://johnstechlogs.com/en/post/self-hosting-discord-bots/</loc>
+    <loc>http://localhost:1313/en/post/self-hosting-discord-bots/</loc>
     <lastmod>2025-01-21T00:00:00+00:00</lastmod>
     </url>
   <url>
-    <loc>https://johnstechlogs.com/en/tags/apple/</loc>
+    <loc>http://localhost:1313/en/tags/apple/</loc>
     <lastmod>2025-01-03T00:00:00+00:00</lastmod>
     </url>
   <url>
-    <loc>https://johnstechlogs.com/en/categories/education/</loc>
+    <loc>http://localhost:1313/en/categories/education/</loc>
     <lastmod>2025-01-03T00:00:00+00:00</lastmod>
     </url>
   <url>
-    <loc>https://johnstechlogs.com/en/tags/school/</loc>
+    <loc>http://localhost:1313/en/tags/school/</loc>
     <lastmod>2025-01-03T00:00:00+00:00</lastmod>
     </url>
   <url>
-    <loc>https://johnstechlogs.com/en/categories/study/</loc>
+    <loc>http://localhost:1313/en/categories/study/</loc>
     <lastmod>2025-01-03T00:00:00+00:00</lastmod>
     </url>
   <url>
-    <loc>https://johnstechlogs.com/en/tags/study/</loc>
+    <loc>http://localhost:1313/en/tags/study/</loc>
     <lastmod>2025-01-03T00:00:00+00:00</lastmod>
     </url>
   <url>
-    <loc>https://johnstechlogs.com/en/post/tools-to-maintain-gpa/</loc>
+    <loc>http://localhost:1313/en/post/tools-to-maintain-gpa/</loc>
     <lastmod>2025-01-03T00:00:00+00:00</lastmod>
     </url>
   <url>
-    <loc>https://johnstechlogs.com/en/categories/ai/</loc>
+    <loc>http://localhost:1313/en/categories/ai/</loc>
     <lastmod>2024-12-24T00:00:00+00:00</lastmod>
     </url>
   <url>
-    <loc>https://johnstechlogs.com/en/tags/ai/</loc>
+    <loc>http://localhost:1313/en/tags/ai/</loc>
     <lastmod>2024-12-24T00:00:00+00:00</lastmod>
     </url>
   <url>
-    <loc>https://johnstechlogs.com/en/categories/bot/</loc>
+    <loc>http://localhost:1313/en/categories/bot/</loc>
     <lastmod>2024-12-24T00:00:00+00:00</lastmod>
     </url>
   <url>
-    <loc>https://johnstechlogs.com/en/tags/bot/</loc>
+    <loc>http://localhost:1313/en/tags/bot/</loc>
     <lastmod>2024-12-24T00:00:00+00:00</lastmod>
     </url>
   <url>
-    <loc>https://johnstechlogs.com/en/tags/discord/</loc>
+    <loc>http://localhost:1313/en/tags/discord/</loc>
     <lastmod>2024-12-24T00:00:00+00:00</lastmod>
     </url>
   <url>
-    <loc>https://johnstechlogs.com/en/post/ai-discord-bot-friend/</loc>
+    <loc>http://localhost:1313/en/post/ai-discord-bot-friend/</loc>
     <lastmod>2024-12-24T00:00:00+00:00</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://johnstechlogs.com/en/post/piholeunboundtailscale/" /><xhtml:link rel="alternate" hreflang="en" href="https://johnstechlogs.com/en/post/disable-ad-tracking/" /><xhtml:link rel="alternate" hreflang="en" href="https://johnstechlogs.com/en/post/anytype-review/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://johnstechlogs.com/en/post/ai-discord-bot-friend/" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/post/piholeunboundtailscale/" /><xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/post/disable-ad-tracking/" /><xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/post/anytype-review/" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/post/ai-discord-bot-friend/" />
   </url>
   <url>
-    <loc>https://johnstechlogs.com/en/tags/hostinger/</loc>
+    <loc>http://localhost:1313/en/tags/hostinger/</loc>
     <lastmod>2024-12-20T00:00:00+00:00</lastmod>
     </url>
   <url>
-    <loc>https://johnstechlogs.com/en/post/howtoautomatehostinger/</loc>
+    <loc>http://localhost:1313/en/post/howtoautomatehostinger/</loc>
     <lastmod>2024-12-20T00:00:00+00:00</lastmod>
     </url>
   <url>
-    <loc>https://johnstechlogs.com/en/tags/webhook/</loc>
+    <loc>http://localhost:1313/en/tags/webhook/</loc>
     <lastmod>2024-12-20T00:00:00+00:00</lastmod>
     </url>
   <url>
-    <loc>https://johnstechlogs.com/en/post/backfire-g2-black-review/</loc>
+    <loc>http://localhost:1313/en/post/backfire-g2-black-review/</loc>
     <lastmod>2024-12-15T00:00:00+00:00</lastmod>
     </url>
   <url>
-    <loc>https://johnstechlogs.com/en/tags/electric/</loc>
+    <loc>http://localhost:1313/en/tags/electric/</loc>
     <lastmod>2024-12-15T00:00:00+00:00</lastmod>
     </url>
   <url>
-    <loc>https://johnstechlogs.com/en/categories/life/</loc>
+    <loc>http://localhost:1313/en/categories/life/</loc>
     <lastmod>2024-12-15T00:00:00+00:00</lastmod>
     </url>
   <url>
-    <loc>https://johnstechlogs.com/en/tags/vehicle/</loc>
+    <loc>http://localhost:1313/en/tags/vehicle/</loc>
     <lastmod>2024-12-15T00:00:00+00:00</lastmod>
     </url>
   <url>
-    <loc>https://johnstechlogs.com/en/post/tech-bro-with-gf/</loc>
+    <loc>http://localhost:1313/en/post/tech-bro-with-gf/</loc>
     <lastmod>2024-12-12T00:00:00+00:00</lastmod>
     </url>
   <url>
-    <loc>https://johnstechlogs.com/en/stage/budding/</loc>
+    <loc>http://localhost:1313/en/stage/budding/</loc>
     
-    <xhtml:link rel="alternate" hreflang="en" href="https://johnstechlogs.com/en/stage/budding/_index.id/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://johnstechlogs.com/en/stage/budding/" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/stage/budding/_index.id/" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/stage/budding/" />
   </url>
   <url>
-    <loc>https://johnstechlogs.com/en/stage/evergreen/</loc>
+    <loc>http://localhost:1313/en/stage/evergreen/</loc>
     
-    <xhtml:link rel="alternate" hreflang="en" href="https://johnstechlogs.com/en/stage/evergreen/_index.id/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://johnstechlogs.com/en/stage/evergreen/" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/stage/evergreen/_index.id/" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/stage/evergreen/" />
   </url>
   <url>
-    <loc>https://johnstechlogs.com/en/stage/evergreen/_index.id/</loc>
+    <loc>http://localhost:1313/en/stage/evergreen/_index.id/</loc>
     
-    <xhtml:link rel="alternate" hreflang="en" href="https://johnstechlogs.com/en/stage/evergreen/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://johnstechlogs.com/en/stage/evergreen/_index.id/" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/stage/evergreen/" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/stage/evergreen/_index.id/" />
   </url>
   <url>
-    <loc>https://johnstechlogs.com/en/stage/_index.id/</loc>
+    <loc>http://localhost:1313/en/stage/_index.id/</loc>
     
-    <xhtml:link rel="alternate" hreflang="en" href="https://johnstechlogs.com/en/stage/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://johnstechlogs.com/en/stage/_index.id/" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/stage/" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/stage/_index.id/" />
   </url>
   <url>
-    <loc>https://johnstechlogs.com/en/stage/budding/_index.id/</loc>
+    <loc>http://localhost:1313/en/stage/budding/_index.id/</loc>
     
-    <xhtml:link rel="alternate" hreflang="en" href="https://johnstechlogs.com/en/stage/budding/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://johnstechlogs.com/en/stage/budding/_index.id/" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/stage/budding/" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/stage/budding/_index.id/" />
   </url>
   <url>
-    <loc>https://johnstechlogs.com/en/stage/seedling/</loc>
+    <loc>http://localhost:1313/en/stage/seedling/</loc>
     
-    <xhtml:link rel="alternate" hreflang="en" href="https://johnstechlogs.com/en/stage/seedling/_index.id/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://johnstechlogs.com/en/stage/seedling/" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/stage/seedling/_index.id/" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/stage/seedling/" />
   </url>
   <url>
-    <loc>https://johnstechlogs.com/en/stage/seedling/_index.id/</loc>
+    <loc>http://localhost:1313/en/stage/seedling/_index.id/</loc>
     
-    <xhtml:link rel="alternate" hreflang="en" href="https://johnstechlogs.com/en/stage/seedling/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://johnstechlogs.com/en/stage/seedling/_index.id/" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/stage/seedling/" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/stage/seedling/_index.id/" />
   </url>
   <url>
-    <loc>https://johnstechlogs.com/en/series/</loc>
+    <loc>http://localhost:1313/en/series/</loc>
     
     </url>
   <url>
-    <loc>https://johnstechlogs.com/en/stage/</loc>
+    <loc>http://localhost:1313/en/stage/</loc>
     
-    <xhtml:link rel="alternate" hreflang="en" href="https://johnstechlogs.com/en/stage/_index.id/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://johnstechlogs.com/en/stage/" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/stage/_index.id/" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/stage/" />
   </url>
 </urlset>

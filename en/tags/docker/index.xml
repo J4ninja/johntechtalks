@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Docker on John&#39;s Tech Logs</title>
-    <link>https://johnstechlogs.com/en/tags/docker/</link>
+    <link>http://localhost:1313/en/tags/docker/</link>
     <description>Recent Posts in Docker on John&#39;s Tech Logs</description>
     <generator>Hugo 0.148.2</generator>
     <language>en</language>
     <managingEditor>John Nguyen</managingEditor>
     
       <webMaster>John Nguyen</webMaster>
-    <lastBuildDate>Wed, 17 Dec 2025 00:55:30 -0600</lastBuildDate>
-    <atom:link href="https://johnstechlogs.com/en/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 31 Dec 2025 11:05:07 -0600</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/tags/docker/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Self Hosting Discord Bots and Other Apps with Coolify</title>
-      <link>https://johnstechlogs.com/en/post/self-hosting-discord-bots/</link>
+      <link>http://localhost:1313/en/post/self-hosting-discord-bots/</link>
       <pubDate>Tue, 21 Jan 2025 00:00:00 +0000</pubDate>
       <author>John Nguyen</author>
-      <guid>https://johnstechlogs.com/en/post/self-hosting-discord-bots/</guid>
+      <guid>http://localhost:1313/en/post/self-hosting-discord-bots/</guid>
       <description></description>
       <enclosure url="/images/CoolifyLogo.png" length="0" type="image/jpeg" />
     </item>

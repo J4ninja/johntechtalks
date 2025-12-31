@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <!-- head.html --><!-- meta.html -->
 
 <meta charset="utf-8">
@@ -10,7 +10,7 @@
 <meta name="author" content="John Nguyen">
 <meta name="description" content="Deploy your static site straight from the command line using Webhooks and connecting Git to Hostinger!" >
 <meta name="keywords" content="git,hostinger,webhook">
-<link rel="canonical" href="https://johnstechlogs.com/en/post/howtoautomatehostinger/">
+<link rel="canonical" href="http://localhost:1313/en/post/howtoautomatehostinger/">
 
 
 
@@ -26,16 +26,15 @@
     <meta property="og:title" content="How to Automate Hostinger Deployments with Git Subtree and Webhooks | John&#39;s Tech Logs" />
     <meta property="og:description" content="Deploy your static site straight from the command line using Webhooks and connecting Git to Hostinger!" />
     <meta property="og:type" content="article" />
-    <meta property="og:url" content="https://johnstechlogs.com/en/post/howtoautomatehostinger/" />
+    <meta property="og:url" content="http://localhost:1313/en/post/howtoautomatehostinger/" />
         <meta property="og:image" content="/images/hostingerlogo.png" />
     <meta property="og:site_name" content="John&#39;s Tech Logs" /><!-- js.html -->
 
-<script src="https://johnstechlogs.com/js/hugo-brewm.min.js"
-            integrity="sha384-A3Hx6la9n0zKJIlAhZtB6r&#43;d5kHOkK6z9bVOv2kntDdY1JB2ap8T0du8poDQVgUM" crossorigin="anonymous"
-            defer></script><!-- css.html -->
+
+    <script src="http://localhost:1313/js/hugo-brewm.min.js" defer></script><!-- css.html -->
 
 
-        <link rel="stylesheet" href="https://johnstechlogs.com/css/hugo-brewm.min.css" integrity="sha256-7ckF/WzfHKilfG2KnLCzFf6qGrc2o1cT/TidKKrs9xY=" crossorigin="anonymous">
+    <link rel="stylesheet" href="http://localhost:1313/css/hugo-brewm.min.css">
 
     <!-- css/inline.html -->
     <style>
@@ -47,7 +46,7 @@
     
         
     <!-- css/verbatim.html -->
-            <link href="https://johnstechlogs.com/css/verbatim.min.css" rel="stylesheet" type="text/css" integrity="sha256-4sKWwN6b3w4gsR2axG8fqIGMCFurcWNUx2f6ChBKxVU=" crossorigin="anonymous">
+        <link href="http://localhost:1313/css/verbatim.min.css" rel="stylesheet" type="text/css">
     
 </head>
 <body  id="post" >
@@ -65,7 +64,7 @@
         </a>
     </nav>
     
-        <a id="logo" href="https://johnstechlogs.com/en/" aria-label="John&#39;s Tech Logs" aria-description="Homepage">
+        <a id="logo" href="http://localhost:1313/en/" aria-label="John&#39;s Tech Logs" aria-description="Homepage">
                 <!-- logotype.html --><svg id="logotype" xmlns="http://www.w3.org/2000/svg" version="1.1" width="448pt" aria-label="John&#39;s Tech Logs">
             <text id="logotype__text" y="19.5pt" x="0">John&#39;s Tech Logs</text>
         </svg>
@@ -88,28 +87,28 @@
                     
     
         <li role="presentation" >
-    <a   class=on-deck href=https://johnstechlogs.com/en/author/john-nguyen/>
+    <a   class=on-deck href=http://localhost:1313/en/author/john-nguyen/>
         
             <span>
                 About</span>
     </a>
         </li>
         <li role="presentation" >
-    <a   class=on-deck href=https://johnstechlogs.com/en/categories/>
+    <a   class=on-deck href=http://localhost:1313/en/categories/>
         
             <span>
                 Categories</span>
     </a>
         </li>
         <li role="presentation" >
-    <a   aria-current=true class=on-deck href=https://johnstechlogs.com/en/post/>
+    <a   aria-current=true class=on-deck href=http://localhost:1313/en/post/>
         
             <span>
                 Posts</span>
     </a>
         </li>
         <li role="presentation" >
-    <a   class=on-deck href=https://johnstechlogs.com/en/tags/>
+    <a   class=on-deck href=http://localhost:1313/en/tags/>
         
             <span>
                 Tags</span>
@@ -141,7 +140,7 @@
         <a id="navigatorShare" href="#share" role="button" aria-label="Share">
             <span class="t srt" role="tooltip">Share</span>
         </a>
-        <a id="copyPermalink" class="hide" href="javascript:navigator.clipboard.writeText(window.location.href)" role="button" aria-label="Copy URL">
+        <a id="copyPermalink"  href="javascript:navigator.clipboard.writeText(window.location.href)" role="button" aria-label="Copy URL">
             <span id="copy" class="t srt" role="tooltip">Copy URL</span>
             <span id="isCopying" style="display: none;">Copying...</span>
             <span id="copyText" style="display: none;">Copy URL</span>
@@ -160,7 +159,7 @@
             <ul role="presentation" class="breadcrumb ">
                     <!-- breadcrumb.html -->
         <li>
-            <a href="https://johnstechlogs.com/en/post/" aria-current="true">Post
+            <a href="http://localhost:1313/en/post/" aria-current="true">Post
             </a>
         </li>
     <li>
@@ -190,7 +189,7 @@
         </hgroup>
             <div id="doc-author" class="textsw author">
                             
-                            <a href="https://johnstechlogs.com/en/author/john-nguyen/">John Nguyen</a>
+                            <a href="http://localhost:1313/en/author/john-nguyen/">John Nguyen</a>
             </div>
             <!-- timestamp.html-->
     <div >
@@ -200,16 +199,16 @@
         <!-- audio.html -->
         <section aria-labelledby="title" id="content" data-bionRead-safe>
                 <h2 id="hostinger-automation-with-git">Hostinger Automation with Git</h2>
-<p><img src="https://johnstechlogs.com/images/hostingerlogo.png" alt="Image Description"></p>
+<p><img src="http://localhost:1313/images/hostingerlogo.png" alt="Image Description"></p>
 <p>Hostinger is a great and cheap hosting platform for static websites. I currently use the web hosting plan to host several websites. To deploy my website changes, I export my static content (html, css, js) into a zip and unzip it in the file manager&rsquo;s public_html folder. This is a little cumbersome so I looked for a way to <strong>automate</strong> this.</p>
 <p>Fortunately this can be done easily. Hostinger has an official tutorial for deploying git repos <a href="https://support.hostinger.com/en/articles/1583302-how-to-deploy-a-git-repository">here</a>.
-<img src="https://johnstechlogs.com/images/hostingergitpanel.png" alt="Image Description">
+<img src="http://localhost:1313/images/hostingergitpanel.png" alt="Image Description">
 However, this step alone won&rsquo;t work on my web apps built with frameworks such as React, Next, and Hugo. I need another automation step.</p>
 <h2 id="git-subtree">Git Subtree</h2>
 <p>Git subtree is an interesting feature I discovered which allows you to manage a subset of your main repository as its own repository. In my framework repositories, I often have a folder of generated content that is built. This content would be zipped to the Hostinger. Using git subtree, I can take this folder, treat it like its own repo and deploy to git. I can now leave this new &ldquo;repo&rdquo; in its own branch to isolate the content from the rest of the code. Now all of my generated html and static content is in one place, ready to be deployed to Hostinger. Using the new branch, I can update the Advanced Git settings to use this new branch. In the automation script below, you will see how to isolate the generated folder into its own branch.</p>
 <h2 id="webhooks">Webhooks</h2>
 <p>Clicking on the Auto deployment option on Hostinger, I can acquire the webhook url and navigate to Github repo settings and paste the url. This way, whenever there is a change to my repo, the webhook will tell Hostinger to run a new deployment.
-<img src="https://johnstechlogs.com/images/gitwebhook.png" alt="Image Description"></p>
+<img src="http://localhost:1313/images/gitwebhook.png" alt="Image Description"></p>
 <h2 id="automation-script">Automation Script</h2>
 <p>Now Hostinger and my Github are connected, I just need a way to generate my build content and deploy it to Github. Below is an example script I used to automatically build my project, copy the generated content to the subtree branch and push these commits to the remote repository.</p>
 <div class="highlight"><div class="chroma">
@@ -367,9 +366,9 @@ However, this step alone won&rsquo;t work on my web apps built with frameworks s
         
         <!-- terms.html -->
     <ul class="delimiter" role="presentation">
-            <li><a href="https://johnstechlogs.com/en/tags/git/" >Git</a></li>
-            <li><a href="https://johnstechlogs.com/en/tags/hostinger/" >Hostinger</a></li>
-            <li><a href="https://johnstechlogs.com/en/tags/webhook/" >Webhook</a></li>
+            <li><a href="http://localhost:1313/en/tags/git/" >Git</a></li>
+            <li><a href="http://localhost:1313/en/tags/hostinger/" >Hostinger</a></li>
+            <li><a href="http://localhost:1313/en/tags/webhook/" >Webhook</a></li>
     </ul>
     </nav>
             </footer>
@@ -383,8 +382,8 @@ However, this step alone won&rsquo;t work on my web apps built with frameworks s
         <div>
             <div id="qr" role="img" aria-label="QR code"></div>
             <div class="verbose">
-                <div class="has-aria-label-top" aria-label="How to Automate Hostinger Deployments with Git Subtree and Webhooks"><span>https://johnstechlogs.com/en/post/howtoautomatehostinger/</span></div>
-                <div><span>This page is built on: </span><time datetime="2025-12-17T00:55:30-06:00">2025-12-17 00:55</time></div>
+                <div class="has-aria-label-top" aria-label="How to Automate Hostinger Deployments with Git Subtree and Webhooks"><span>http://localhost:1313/en/post/howtoautomatehostinger/</span></div>
+                <div><span>This page is built on: </span><time datetime="2025-12-31T11:05:07-06:00">2025-12-31 11:05</time></div>
                 <div><span>This page is accessed on: </span><time id="time-stamp"></time></div>
             </div>
         </div>
@@ -403,8 +402,8 @@ However, this step alone won&rsquo;t work on my web apps built with frameworks s
         <!-- mastodon.html -->
     <form class="form" id="mastodon" action="//sharetomastodon.github.io/" target="_blank" rel="noopener noreferrer">
         <input id="mastodonTitle" type="hidden" name="title" value="How to Automate Hostinger Deployments with Git Subtree and Webhooks">
-        <input id="mastodonPermalink" type="hidden" name="url" value="https://johnstechlogs.com/en/post/howtoautomatehostinger/">
-        <input id="mastodonText" type="hidden" name="text" value="How to Automate Hostinger Deployments with Git Subtree and Webhooks https://johnstechlogs.com/en/post/howtoautomatehostinger/" disabled>
+        <input id="mastodonPermalink" type="hidden" name="url" value="http://localhost:1313/en/post/howtoautomatehostinger/">
+        <input id="mastodonText" type="hidden" name="text" value="How to Automate Hostinger Deployments with Git Subtree and Webhooks http://localhost:1313/en/post/howtoautomatehostinger/" disabled>
         <input id="mastodonInstance" type="url" class="ldots form__input" placeholder="Enter Mastodon instance (https://www.example.com)" aria-label="Mastodon instance URL">
         <button class="form__button" type="submit" aria-label="Share on Mastodon">
             <i class="icon mastodon sri" aria-hidden="true"></i>
@@ -413,89 +412,89 @@ However, this step alone won&rsquo;t work on my web apps built with frameworks s
     </form>
     </li>
     <li>
-        <a href="mailto:?subject=How%20to%20Automate%20Hostinger%20Deployments%20with%20Git%20Subtree%20and%20Webhooks&body=https%3a%2f%2fjohnstechlogs.com%2fen%2fpost%2fhowtoautomatehostinger%2f" role="button" aria-label="Share on Email">
+        <a href="mailto:?subject=How%20to%20Automate%20Hostinger%20Deployments%20with%20Git%20Subtree%20and%20Webhooks&body=http%3a%2f%2flocalhost%3a1313%2fen%2fpost%2fhowtoautomatehostinger%2f" role="button" aria-label="Share on Email">
             <i class="email sri" aria-hidden="true"></i>
             <span class="t srt" role="tooltip">Share on Email</span>
         </a>
     </li>
     <li>
-        <a href="whatsapp://send?text=How%20to%20Automate%20Hostinger%20Deployments%20with%20Git%20Subtree%20and%20Webhooks%20https%3a%2f%2fjohnstechlogs.com%2fen%2fpost%2fhowtoautomatehostinger%2f" role="button" aria-label="Share on Whatsapp">
+        <a href="whatsapp://send?text=How%20to%20Automate%20Hostinger%20Deployments%20with%20Git%20Subtree%20and%20Webhooks%20http%3a%2f%2flocalhost%3a1313%2fen%2fpost%2fhowtoautomatehostinger%2f" role="button" aria-label="Share on Whatsapp">
             <i class="whatsapp sri" aria-hidden="true"></i>
             <span class="t srt" role="tooltip">Share on Whatsapp</span>
         </a>
     </li>
     <li>
-        <a rel="noopener noreferrer" target="_blank" href="https://telegram.me/share/url?text=How%20to%20Automate%20Hostinger%20Deployments%20with%20Git%20Subtree%20and%20Webhooks&amp;url=https://johnstechlogs.com/en/post/howtoautomatehostinger/" role="button"
+        <a rel="noopener noreferrer" target="_blank" href="https://telegram.me/share/url?text=How%20to%20Automate%20Hostinger%20Deployments%20with%20Git%20Subtree%20and%20Webhooks&amp;url=http://localhost:1313/en/post/howtoautomatehostinger/" role="button"
             aria-label="Share on Telegram in new tab">
             <i class="telegram sri" aria-hidden="true"></i>
             <span class="t srt" role="tooltip">Share on Telegram</span>
         </a>
     </li>
     <li>
-        <a rel="noopener noreferrer" target="_blank" href="https://bsky.app/intent/compose?text=How%20to%20Automate%20Hostinger%20Deployments%20with%20Git%20Subtree%20and%20Webhooks&amp;url=https://johnstechlogs.com/en/post/howtoautomatehostinger/" role="button"
+        <a rel="noopener noreferrer" target="_blank" href="https://bsky.app/intent/compose?text=How%20to%20Automate%20Hostinger%20Deployments%20with%20Git%20Subtree%20and%20Webhooks&amp;url=http://localhost:1313/en/post/howtoautomatehostinger/" role="button"
             aria-label="Share on Bluesky in new tab">
             <i class="bluesky sri" aria-hidden="true"></i>
             <span class="t srt" role="tooltip">Share on Bluesky</span>
         </a>
     </li>
     <li>
-        <a rel="noopener noreferrer" target="_blank" href="https://facebook.com/sharer/sharer.php?u=https://johnstechlogs.com/en/post/howtoautomatehostinger/" role="button"
+        <a rel="noopener noreferrer" target="_blank" href="https://facebook.com/sharer/sharer.php?u=http://localhost:1313/en/post/howtoautomatehostinger/" role="button"
             aria-label="Share on Facebook in new tab">
             <i class="facebook sri" aria-hidden="true"></i>
             <span class="t srt" role="tooltip">Share on Facebook</span>
         </a>
     </li>
     <li>
-        <a rel="noopener noreferrer" target="_blank" href="https://news.ycombinator.com/submitlink?u=https://johnstechlogs.com/en/post/howtoautomatehostinger/&amp;t=How%20to%20Automate%20Hostinger%20Deployments%20with%20Git%20Subtree%20and%20Webhooks" role="button"
+        <a rel="noopener noreferrer" target="_blank" href="https://news.ycombinator.com/submitlink?u=http://localhost:1313/en/post/howtoautomatehostinger/&amp;t=How%20to%20Automate%20Hostinger%20Deployments%20with%20Git%20Subtree%20and%20Webhooks" role="button"
             aria-label="Share on Hackernews in new tab">
             <i class="hackernews sri" aria-hidden="true"></i>
             <span class="t srt" role="tooltip">Share on Hackernews</span>
         </a>
     </li>
     <li>
-        <a rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://johnstechlogs.com/en/post/howtoautomatehostinger/&amp;title=How%20to%20Automate%20Hostinger%20Deployments%20with%20Git%20Subtree%20and%20Webhooks&amp;summary=How%20to%20Automate%20Hostinger%20Deployments%20with%20Git%20Subtree%20and%20Webhooks&amp;source=https://johnstechlogs.com/en/post/howtoautomatehostinger/" role="button"
+        <a rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://localhost:1313/en/post/howtoautomatehostinger/&amp;title=How%20to%20Automate%20Hostinger%20Deployments%20with%20Git%20Subtree%20and%20Webhooks&amp;summary=How%20to%20Automate%20Hostinger%20Deployments%20with%20Git%20Subtree%20and%20Webhooks&amp;source=http://localhost:1313/en/post/howtoautomatehostinger/" role="button"
             aria-label="Share on Linkedin in new tab">
             <i class="linkedin sri" aria-hidden="true"></i>
             <span class="t srt" role="tooltip">Share on Linkedin</span>
         </a>
     </li>
     <li>
-        <a rel="noopener noreferrer" target="_blank" href="https://pinterest.com/pin/create/button/?url=https://johnstechlogs.com/en/post/howtoautomatehostinger/&amp;media=https://johnstechlogs.com/en/post/howtoautomatehostinger/&amp;description=How%20to%20Automate%20Hostinger%20Deployments%20with%20Git%20Subtree%20and%20Webhooks" role="button"
+        <a rel="noopener noreferrer" target="_blank" href="https://pinterest.com/pin/create/button/?url=http://localhost:1313/en/post/howtoautomatehostinger/&amp;media=http://localhost:1313/en/post/howtoautomatehostinger/&amp;description=How%20to%20Automate%20Hostinger%20Deployments%20with%20Git%20Subtree%20and%20Webhooks" role="button"
             aria-label="Share on Pinterest in new tab">
             <i class="pinterest sri" aria-hidden="true"></i>
             <span class="t srt" role="tooltip">Share on Pinterest</span>
         </a>
     </li>
     <li>
-        <a rel="noopener noreferrer" target="_blank" href="https://reddit.com/submit/?url=https://johnstechlogs.com/en/post/howtoautomatehostinger/&amp;resubmit=true&amp;title=How%20to%20Automate%20Hostinger%20Deployments%20with%20Git%20Subtree%20and%20Webhooks" role="button"
+        <a rel="noopener noreferrer" target="_blank" href="https://reddit.com/submit/?url=http://localhost:1313/en/post/howtoautomatehostinger/&amp;resubmit=true&amp;title=How%20to%20Automate%20Hostinger%20Deployments%20with%20Git%20Subtree%20and%20Webhooks" role="button"
             aria-label="Share on Reddit in new tab">
             <i class="reddit sri" aria-hidden="true"></i>
             <span class="t srt" role="tooltip">Share on Reddit</span>
         </a>
     </li>
     <li>
-        <a rel="noopener noreferrer" target="_blank" href="https://www.tumblr.com/widgets/share/tool?posttype=link&amp;title=How%20to%20Automate%20Hostinger%20Deployments%20with%20Git%20Subtree%20and%20Webhooks&amp;caption=How%20to%20Automate%20Hostinger%20Deployments%20with%20Git%20Subtree%20and%20Webhooks&amp;content=https://johnstechlogs.com/en/post/howtoautomatehostinger/&amp;canonicalUrl=https://johnstechlogs.com/en/post/howtoautomatehostinger/" role="button"
+        <a rel="noopener noreferrer" target="_blank" href="https://www.tumblr.com/widgets/share/tool?posttype=link&amp;title=How%20to%20Automate%20Hostinger%20Deployments%20with%20Git%20Subtree%20and%20Webhooks&amp;caption=How%20to%20Automate%20Hostinger%20Deployments%20with%20Git%20Subtree%20and%20Webhooks&amp;content=http://localhost:1313/en/post/howtoautomatehostinger/&amp;canonicalUrl=http://localhost:1313/en/post/howtoautomatehostinger/" role="button"
             aria-label="Share on Tumblr in new tab">
             <i class="tumblr sri" aria-hidden="true"></i>
             <span class="t srt" role="tooltip">Share on Tumblr</span>
         </a>
     </li>
     <li>
-        <a rel="noopener noreferrer" target="_blank" href="http://vk.com/share.php?title=How%20to%20Automate%20Hostinger%20Deployments%20with%20Git%20Subtree%20and%20Webhooks&amp;url=https://johnstechlogs.com/en/post/howtoautomatehostinger/" role="button"
+        <a rel="noopener noreferrer" target="_blank" href="http://vk.com/share.php?title=How%20to%20Automate%20Hostinger%20Deployments%20with%20Git%20Subtree%20and%20Webhooks&amp;url=http://localhost:1313/en/post/howtoautomatehostinger/" role="button"
             aria-label="Share on Vk in new tab">
             <i class="vk sri" aria-hidden="true"></i>
             <span class="t srt" role="tooltip">Share on Vk</span>
         </a>
     </li>
     <li>
-        <a rel="noopener noreferrer" target="_blank" href="https://twitter.com/intent/tweet/?text=How%20to%20Automate%20Hostinger%20Deployments%20with%20Git%20Subtree%20and%20Webhooks&amp;url=https://johnstechlogs.com/en/post/howtoautomatehostinger/" role="button"
+        <a rel="noopener noreferrer" target="_blank" href="https://twitter.com/intent/tweet/?text=How%20to%20Automate%20Hostinger%20Deployments%20with%20Git%20Subtree%20and%20Webhooks&amp;url=http://localhost:1313/en/post/howtoautomatehostinger/" role="button"
             aria-label="Share on Twitter in new tab">
             <i class="twitter sri" aria-hidden="true"></i>
             <span class="t srt" role="tooltip">Share on Twitter</span>
         </a>
     </li>
     <li>
-        <a rel="noopener noreferrer" target="_blank" href="https://www.xing.com/app/user?op=share;url=https://johnstechlogs.com/en/post/howtoautomatehostinger/;title=How%20to%20Automate%20Hostinger%20Deployments%20with%20Git%20Subtree%20and%20Webhooks" role="button"
+        <a rel="noopener noreferrer" target="_blank" href="https://www.xing.com/app/user?op=share;url=http://localhost:1313/en/post/howtoautomatehostinger/;title=How%20to%20Automate%20Hostinger%20Deployments%20with%20Git%20Subtree%20and%20Webhooks" role="button"
             aria-label="Share on Xing in new tab">
             <i class="xing sri" aria-hidden="true"></i>
             <span class="t srt" role="tooltip">Share on Xing</span>
@@ -550,10 +549,10 @@ However, this step alone won&rsquo;t work on my web apps built with frameworks s
                         <div>
                             <p><strong>Nav</strong></p>
 <ul>
-<li><a href="https://johnstechlogs.com/en/author/john-nguyen">About</a></li>
-<li><a href="https://johnstechlogs.com/en/tags">Tags</a></li>
-<li><a href="https://johnstechlogs.com/en/categories">Categories</a></li>
-<li><a href="https://johnstechlogs.com/en/post">Posts</a></li>
+<li><a href="http://localhost:1313/en/author/john-nguyen">About</a></li>
+<li><a href="http://localhost:1313/en/tags">Tags</a></li>
+<li><a href="http://localhost:1313/en/categories">Categories</a></li>
+<li><a href="http://localhost:1313/en/post">Posts</a></li>
 </ul>
 
                         </div>
