@@ -332,6 +332,10 @@
                         "source": "0f7ab4d785c04ee71964f48c19f03c68",
                         "target": "tags-arch",
                     },
+                    {
+                        "source": "0f7ab4d785c04ee71964f48c19f03c68",
+                        "target": "tags-pc",
+                    },
             
                     {
                         "source": "b3c7e3248e9f712a9ee2b47931b9563d",
