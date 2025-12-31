@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <!-- head.html --><!-- meta.html -->
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dual Booting Arch Linux with Windows | John&#39;s Tech Logs</title>
+<meta name="author" content="[John Nguyen]">
+<meta name="description" content="A simple tutorial on installing Arch Linux using archinstall and dual booting with Windows" >
+<meta name="keywords" content="linux,os,arch">
+<link rel="canonical" href="https://johnstechlogs.com/en/post/dual-boot-arch-windows/">
+<link rel="alternate" hreflang="en" href="https://johnstechlogs.com/en/post/piholeunboundtailscale/" title=""><link rel="alternate" hreflang="en" href="https://johnstechlogs.com/en/post/disable-ad-tracking/" title=""><link rel="alternate" hreflang="en" href="https://johnstechlogs.com/en/post/anytype-review/" title=""><link rel="alternate" hreflang="en" href="https://johnstechlogs.com/en/post/ai-discord-bot-friend/" title="">
+
+
+    
+    <!-- twitterCard -->
+    
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Dual Booting Arch Linux with Windows | John&#39;s Tech Logs" />
+    <meta name="twitter:description" content="A simple tutorial on installing Arch Linux using archinstall and dual booting with Windows" />
+        <meta name="twitter:image" content="/images/archwindows.png" />
+    
+    <!-- openGraph -->
+    <meta property="og:title" content="Dual Booting Arch Linux with Windows | John&#39;s Tech Logs" />
+    <meta property="og:description" content="A simple tutorial on installing Arch Linux using archinstall and dual booting with Windows" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://johnstechlogs.com/en/post/dual-boot-arch-windows/" />
+        <meta property="og:image" content="/images/archwindows.png" />
+    <meta property="og:site_name" content="John&#39;s Tech Logs" /><!-- js.html -->
+
+<script src="https://johnstechlogs.com/js/hugo-brewm.min.js"
+            integrity="sha384-A3Hx6la9n0zKJIlAhZtB6r&#43;d5kHOkK6z9bVOv2kntDdY1JB2ap8T0du8poDQVgUM" crossorigin="anonymous"
+            defer></script><!-- css.html -->
+
+
+        <link rel="stylesheet" href="https://johnstechlogs.com/css/hugo-brewm.min.css" integrity="sha256-7ckF/WzfHKilfG2KnLCzFf6qGrc2o1cT/TidKKrs9xY=" crossorigin="anonymous">
+
+    <!-- css/inline.html -->
+    <style>
+         
+        body {max-width: 786px; margin: auto; padding: 2rem;}
+        img {max-width: 86vw;}
+            article p {text-align: justify;}
+    </style>
+    
+    
+</head>
+<body  id="post" >
+    <!-- header.html -->
+<header class="pagewidth">
+    <div id="background-header" class="background" aria-hidden="true">
+        <div class="grain" hidden></div>
+    </div>
+    
+    <nav aria-label="Bypass">
+        <a id="to-content" href="#content" aria-label="Skip to Main Content">
+            <span>Skip to Main Content</span>
+            <kbd class="key" aria-hidden="true">c</kbd>
+            <span class="screening" aria-hidden="true"></span>
+        </a>
+    </nav>
+    
+        <a id="logo" href="https://johnstechlogs.com/en/" aria-label="John&#39;s Tech Logs" aria-description="Homepage">
+                <!-- logotype.html --><svg id="logotype" xmlns="http://www.w3.org/2000/svg" version="1.1" width="448pt" aria-label="John&#39;s Tech Logs">
+            <text id="logotype__text" y="19.5pt" x="0">John&#39;s Tech Logs</text>
+        </svg>
+        </a>
+    
+    <details class="presentation" id="top-nav">
+        <summary class="on-deck">
+            <span class="t t2">Navigation</span>
+            <span class="menu-icon" role="presentation"></span>
+        </summary>
+        <nav tabindex="-1" aria-label="Top">
+            <!-- menu.html -->
+    <details id="has-main-menu" class="presentation" open>
+        <summary  class="hide"  aria-label="Main Menu">
+            <span>Main Menu</span>
+        </summary>
+            
+            <nav id="main-menu" aria-label="Main Menu">
+                <ul class="l1   has-childfree " role="presentation" tabindex="-1" >
+                    
+    
+        <li role="presentation" >
+    <a   class=on-deck href=https://johnstechlogs.com/en/author/john-nguyen/>
+        
+            <span>
+                About</span>
+    </a>
+        </li>
+        <li role="presentation" >
+    <a   class=on-deck href=https://johnstechlogs.com/en/categories/>
+        
+            <span>
+                Categories</span>
+    </a>
+        </li>
+        <li role="presentation" >
+    <a   aria-current=true class=on-deck href=https://johnstechlogs.com/en/post/>
+        
+            <span>
+                Posts</span>
+    </a>
+        </li>
+        <li role="presentation" >
+    <a   class=on-deck href=https://johnstechlogs.com/en/tags/>
+        
+            <span>
+                Tags</span>
+    </a>
+        </li>
+                </ul>
+            </nav>
+    </details>
+            
+            <!-- menu.html -->
+            <!-- i18n.html -->
+
+
+        </nav>
+        <div id="top-nav-screen" class="screening js-cpn" role="presentation" aria-hidden="true"></div>
+    </details>
+</header>
+    
+    <!-- [main] baseof.html -->
+    <main id="page">
+        <!-- main/header.html -->
+        <header class="pagewidth">
+            
+                <!-- menu.html -->
+    <menu class="srm">
+        <a id="print-button" class="hide" href="javascript:window.print()" role="button" aria-label="Print">
+            <span class="t srt" role="tooltip">Print</span>
+        </a>
+        <a id="navigatorShare" href="#share" role="button" aria-label="Share">
+            <span class="t srt" role="tooltip">Share</span>
+        </a>
+        <a id="copyPermalink" class="hide" href="javascript:navigator.clipboard.writeText(window.location.href)" role="button" aria-label="Copy URL">
+            <span id="copy" class="t srt" role="tooltip">Copy URL</span>
+            <span id="isCopying" style="display: none;">Copying...</span>
+            <span id="copyText" style="display: none;">Copy URL</span>
+        </a>
+    </menu>
+    <button id="back" class="hide" type="button" onclick="history.back();" aria-label="Go Back">
+        <span class="t srt" role="tooltip">Go Back</span>
+    </button>
+            
+                <!-- nav.html -->
+<details class="presentation" aria-expanded="true" id="has-breadcrumb" open>
+    <summary id="breadcrumb" tabindex="-1">
+        <span>Breadcrumb</span>
+    </summary>
+        <nav aria-labelledby="breadcrumb">
+            <ul role="presentation" class="breadcrumb ">
+                    <!-- breadcrumb.html -->
+        <li id="is-translated">
+            
+    <!-- l10n.html -->
+    <details id="has-l10n" class="presentation">
+        <summary aria-label="Language Selections" aria-description="Current Language is ">
+            <span>EN</span>
+        </summary>
+        <nav aria-label="Language Selections">
+            <ul class="on-plank" role="presentation">
+                <li>
+                    <a href="https://johnstechlogs.com/en/post/piholeunboundtailscale/" aria-label="Switch Language to " aria-description="Blocking Ads Anywhere using Pi Hole, Unbound, and Tailscale"
+                        style="--flag: url(https://raw.githubusercontent.com/lipis/flag-icons/c95b262e5ee2366cad4c5aecc4a5ad86220c9ab9/flags/4x3/.svg)">
+                        Blocking Ads Anywhere using Pi Hole, Unbound, and Tailscale
+                    </a>
+                </li>
+                <li>
+                    <a href="https://johnstechlogs.com/en/post/disable-ad-tracking/" aria-label="Switch Language to " aria-description="Disabling Ad tracking in Meta and Google Apps"
+                        style="--flag: url(https://raw.githubusercontent.com/lipis/flag-icons/c95b262e5ee2366cad4c5aecc4a5ad86220c9ab9/flags/4x3/.svg)">
+                        Disabling Ad tracking in Meta and Google Apps
+                    </a>
+                </li>
+                <li>
+                    <a href="https://johnstechlogs.com/en/post/anytype-review/" aria-label="Switch Language to " aria-description="The Child of Notion and Obsidian - AnyType"
+                        style="--flag: url(https://raw.githubusercontent.com/lipis/flag-icons/c95b262e5ee2366cad4c5aecc4a5ad86220c9ab9/flags/4x3/.svg)">
+                        The Child of Notion and Obsidian - AnyType
+                    </a>
+                </li>
+                <li>
+                    <a href="https://johnstechlogs.com/en/post/ai-discord-bot-friend/" aria-label="Switch Language to " aria-description="I created an AI Bot of my Fallen Best Friend. Have I gone mad?"
+                        style="--flag: url(https://raw.githubusercontent.com/lipis/flag-icons/c95b262e5ee2366cad4c5aecc4a5ad86220c9ab9/flags/4x3/.svg)">
+                        I created an AI Bot of my Fallen Best Friend. Have I gone mad?
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </details>
+        </li>
+        <li>
+            <a href="https://johnstechlogs.com/en/post/" aria-current="true">Post
+            </a>
+        </li>
+    <li>
+        <a href="" aria-current="page" tabindex="-1">Dual Booting Arch Linux with Windows
+        </a>
+    </li>
+            </ul>
+        </nav>
+</details>
+        </header>
+        <div id="top" role="presentation">
+            
+        </div>
+        
+    <article id="main-article" class="pagewidth rm"
+        role="document" aria-labelledby="title"
+            data-pagefind-body>
+        <header aria-labelledby="title">
+            
+            <!-- title.html -->
+        <hgroup data-bionRead-safe>
+            <h1 id="title"
+                    data-pagefind-meta="title"
+                >Dual Booting Arch Linux with Windows</h1>
+            <p  class="subtitle"
+                role="doc-subtitle">A simple tutorial on installing Arch Linux using archinstall and dual booting with Windows</p>
+        </hgroup>
+            <div id="doc-author" class="textsw author">
+                            
+                            <a href="https://johnstechlogs.com/en/author/john-nguyen/">John Nguyen</a>
+            </div>
+            <!-- timestamp.html-->
+    <div >
+        <time class="doc-publish-date" datetime="2025-10-07T00:00:00&#43;00:00" data-time-label="Published on">October 7, 2025</time>
+    </div>
+        </header>
+        <!-- audio.html -->
+        <section aria-labelledby="title" id="content" data-bionRead-safe>
+                <p><img src="https://johnstechlogs.com/images/archwindows.png" alt="alt text"></p>
+<h1 id="why-dual-boot">Why Dual Boot?</h1>
+<p>Dual booting lets you have two operating systems (OS) on the same machine. This differs from a Virtual Machine which nests an operating system on a host machine. Virtual machines often don&rsquo;t have GPU acceleration and are more restricted on hardware resources since they have to share with the host system. Virtualization can also be buggy and fall short of the full OS experience. Dual booting lets you pick between which OS you want to use and take full advantage of your PC hardware. People often dual boot Linux and Windows so they can use the benefits of Linux such as privacy and having full control of the OS, while keeping Windows as a fallback for exclusive software.</p>
+<h2 id="two-ssds">Two SSDs</h2>
+<p>To dual boot, I recommend obtaining a second SSD to install your second operating system. This way, you can avoid changing partitions on your existing SSD and avoid risking the loss of your data. A separate SSD ensures your new OS won&rsquo;t touch the existing data.</p>
+<h2 id="obtain-and-flash-your-iso">Obtain and flash your ISO</h2>
+<p>For my dual boot system, I chose Arch Linux. This provides a minimal OS and opens the door fully to customization. Any apps and services are on the OS because I installed them myself. This means there won&rsquo;t be any bloat like the ones that come with Windows. Arch also is the underlying kernel on the SteamDeck, which is able to run Windows games on Linux. Heading to the arch wiki page <a href="https://archlinux.org/download/">https://archlinux.org/download/</a>, you can find a mirror to download the arch .iso file. Then you can flash a separate USB with this .iso as your installation media. You will need a USB that you are okay with wiping its data. Plug in your USB. To flash the USB, you can use Rufus if you are on Windows <a href="https://rufus.ie/en/">https://rufus.ie/en/</a> or Balena Etcher if you are on Linux. Select your .sio file, and USB drive. You can usually leave the defaults and start.</p>
+<p><img src="https://johnstechlogs.com/images/rufus.png" alt="alt text"></p>
+<h2 id="bios">BIOS</h2>
+<p>To select your USB to boot, reboot your machine and boot into BIOS. This can be done by pressing F12, Delete, or ESC or some other key depending on your motherboard manufacturer. Once you are in the BIOS, navigate to the boot menu and select your USB to boot in. I recommend disabling Secure Boot if you are installing Arch.</p>
+<h2 id="installing-arch-with-archinstall">Installing Arch with archinstall</h2>
+<p>Newer arch iso files come with archinstall pre-installed. archinstall is a utility tool that automates the installation of Arch so you don&rsquo;t have to manually type out the commands. Before using it, I recommmend updating the program. You will want to setup your WiFi first. Follow the steps from the Arch wiki using iwctl: <a href="https://wiki.archlinux.org/title/Iwd#iwctl">https://wiki.archlinux.org/title/Iwd#iwctl</a>. Then perform an upgrade command to your packages and then run archinstall:</p>
+<pre><code>    sudo pacman -Syu
+    
+    archinstall
+</code></pre>
+<h2 id="archinstall">Archinstall</h2>
+<p>Archinstall tends to get updated so the settings may be reordered. In this utility, you&rsquo;ll want to setup your time, language, mirror region, keyboard layout, user account, audio drivers, initial packages, partitions, bootloader, and desktop environment. For dual booting, you can use GRUB or systemd-boot in the bootloader. I selected systemd-boot though, GRUB may be easier.
+As of now, the settings I kept my language to english, mirror region to United States, audio drivers to pulse audio, set my desktop environment to Hyprland with sddm as the greeter, and let the archinstall do the best partitions. Make sure to select the SSD that doesn&rsquo;t have your existing OS, otherwise you will overwrite the SSD and lose all your data!</p>
+<h2 id="bios-boot-order">BIOS Boot order</h2>
+<p>Once you install arch linux, reboot into BIOS. Change the boot option #1 to the SSD with Linux Boot Manager or whichever OS you would like to be default. Then boot into Linux. You will want to add the Windows efi to your systemd-boot to be able to see Windows as an option.</p>
+<h2 id="adding-windows-to-systemd-boot">Adding Windows to systemd-boot</h2>
+<p>Boot into arch linux and run the following</p>
+<ol>
+<li>
+<p>Run lsblk -f to see your SSDs</p>
+<pre><code> lsblk -f
+</code></pre>
+</li>
+<li>
+<p>Find the SSD device name for Windows. It usually will have a file system NTFS.</p>
+</li>
+<li>
+<p>Mount the Windows EFI partition</p>
+<pre><code> sudo mount /dev/&lt;&lt;devicename&gt;&gt;  /mnt/win_efi
+</code></pre>
+</li>
+<li>
+<p>Copy the EFI partition to the Linux EFI partition.</p>
+<pre><code> sudo cp -rv /mnt/win_efi/EFI/Microsoft /boot/EFI/
+</code></pre>
+</li>
+<li>
+<p>On next reboot, you should see two options.</p>
+</li>
+</ol>
+<p><img src="https://johnstechlogs.com/images/dualboot.png" alt="alt text"></p>
+<h1 id="conclusion">Conclusion</h1>
+<p>Now I am able to boot into Arch Linux as my default or select Windows 11 whenever I want to run specific software like MS office or Adobe. There are other ways to get around ditching Windows itself. Proton lets you play Windows game from Steam almost natively. Using Docker and remote desktops lets you run Virtual Machines to run Windows apps with tools like WinBoat and WinApps. For me, I like to have Windows as backup for some games and other apps. Multiplayer games that have anti-cheats or require Secure Boot (like Battlefield 6) won&rsquo;t work on Arch, so I have to boot into Windows to play them. Arch Linux can break or not work out of the box, so I would have to be ready to fix these issues myself but having a backup OS can come in clutch if I am in an emergency. Additionally, if I ever want to distro hop, I can leave my Windows OS as a stable backup while I mess around with different Linux distros.</p>
+
+        </section>
+            <footer>
+                
+    <nav id="keywords" aria-label="Tags">
+        <span>Tags:&nbsp;</span>
+        
+        <!-- terms.html -->
+    <ul class="delimiter" role="presentation">
+            <li><a href="https://johnstechlogs.com/en/tags/linux/" >Linux</a></li>
+            <li><a href="https://johnstechlogs.com/en/tags/os/" >Os</a></li>
+            <li><a href="https://johnstechlogs.com/en/tags/arch/" >Arch</a></li>
+    </ul>
+    </nav>
+            </footer>
+    </article>
+    <hr class="hide" style="margin: 1in 0;">
+    <div id="contentinfo" class="pagewidth" role="contentinfo" data-pagefind-ignore="all">
+                <!-- related.html -->
+                <!-- colophon.html -->
+    <div id="colophon" style="display: none;" aria-live="polite">
+        <strong class="section-title">Colophon</strong>
+        <div>
+            <div id="qr" role="img" aria-label="QR code"></div>
+            <div class="verbose">
+                <div class="has-aria-label-top" aria-label="Dual Booting Arch Linux with Windows"><span>https://johnstechlogs.com/en/post/dual-boot-arch-windows/</span></div>
+                <div><span>This page is built on: </span><time datetime="2025-12-31T12:03:14-06:00">2025-12-31 12:03</time></div>
+                <div><span>This page is accessed on: </span><time id="time-stamp"></time></div>
+            </div>
+        </div>
+    </div>
+                <!-- history.html -->
+            
+            <!-- nav.html -->
+<details class="presentation" aria-expanded="true" id="has-share" open>
+    <summary id="share" tabindex="-1">
+        <span>Share</span>
+    </summary>
+        <nav aria-labelledby="share">
+            <ul role="presentation" class="share srm">
+                    <!-- share.html -->
+    <li id="has-mastodon">
+        <!-- mastodon.html -->
+    <form class="form" id="mastodon" action="//sharetomastodon.github.io/" target="_blank" rel="noopener noreferrer">
+        <input id="mastodonTitle" type="hidden" name="title" value="Dual Booting Arch Linux with Windows">
+        <input id="mastodonPermalink" type="hidden" name="url" value="https://johnstechlogs.com/en/post/dual-boot-arch-windows/">
+        <input id="mastodonText" type="hidden" name="text" value="Dual Booting Arch Linux with Windows https://johnstechlogs.com/en/post/dual-boot-arch-windows/" disabled>
+        <input id="mastodonInstance" type="url" class="ldots form__input" placeholder="Enter Mastodon instance (https://www.example.com)" aria-label="Mastodon instance URL">
+        <button class="form__button" type="submit" aria-label="Share on Mastodon">
+            <i class="icon mastodon sri" aria-hidden="true"></i>
+            <span class="t srt" role="tooltip">Share on Mastodon</span>
+        </button>
+    </form>
+    </li>
+    <li>
+        <a href="mailto:?subject=Dual%20Booting%20Arch%20Linux%20with%20Windows&body=https%3a%2f%2fjohnstechlogs.com%2fen%2fpost%2fdual-boot-arch-windows%2f" role="button" aria-label="Share on Email">
+            <i class="email sri" aria-hidden="true"></i>
+            <span class="t srt" role="tooltip">Share on Email</span>
+        </a>
+    </li>
+    <li>
+        <a href="whatsapp://send?text=Dual%20Booting%20Arch%20Linux%20with%20Windows%20https%3a%2f%2fjohnstechlogs.com%2fen%2fpost%2fdual-boot-arch-windows%2f" role="button" aria-label="Share on Whatsapp">
+            <i class="whatsapp sri" aria-hidden="true"></i>
+            <span class="t srt" role="tooltip">Share on Whatsapp</span>
+        </a>
+    </li>
+    <li>
+        <a rel="noopener noreferrer" target="_blank" href="https://telegram.me/share/url?text=Dual%20Booting%20Arch%20Linux%20with%20Windows&amp;url=https://johnstechlogs.com/en/post/dual-boot-arch-windows/" role="button"
+            aria-label="Share on Telegram in new tab">
+            <i class="telegram sri" aria-hidden="true"></i>
+            <span class="t srt" role="tooltip">Share on Telegram</span>
+        </a>
+    </li>
+    <li>
+        <a rel="noopener noreferrer" target="_blank" href="https://bsky.app/intent/compose?text=Dual%20Booting%20Arch%20Linux%20with%20Windows&amp;url=https://johnstechlogs.com/en/post/dual-boot-arch-windows/" role="button"
+            aria-label="Share on Bluesky in new tab">
+            <i class="bluesky sri" aria-hidden="true"></i>
+            <span class="t srt" role="tooltip">Share on Bluesky</span>
+        </a>
+    </li>
+    <li>
+        <a rel="noopener noreferrer" target="_blank" href="https://facebook.com/sharer/sharer.php?u=https://johnstechlogs.com/en/post/dual-boot-arch-windows/" role="button"
+            aria-label="Share on Facebook in new tab">
+            <i class="facebook sri" aria-hidden="true"></i>
+            <span class="t srt" role="tooltip">Share on Facebook</span>
+        </a>
+    </li>
+    <li>
+        <a rel="noopener noreferrer" target="_blank" href="https://news.ycombinator.com/submitlink?u=https://johnstechlogs.com/en/post/dual-boot-arch-windows/&amp;t=Dual%20Booting%20Arch%20Linux%20with%20Windows" role="button"
+            aria-label="Share on Hackernews in new tab">
+            <i class="hackernews sri" aria-hidden="true"></i>
+            <span class="t srt" role="tooltip">Share on Hackernews</span>
+        </a>
+    </li>
+    <li>
+        <a rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://johnstechlogs.com/en/post/dual-boot-arch-windows/&amp;title=Dual%20Booting%20Arch%20Linux%20with%20Windows&amp;summary=Dual%20Booting%20Arch%20Linux%20with%20Windows&amp;source=https://johnstechlogs.com/en/post/dual-boot-arch-windows/" role="button"
+            aria-label="Share on Linkedin in new tab">
+            <i class="linkedin sri" aria-hidden="true"></i>
+            <span class="t srt" role="tooltip">Share on Linkedin</span>
+        </a>
+    </li>
+    <li>
+        <a rel="noopener noreferrer" target="_blank" href="https://pinterest.com/pin/create/button/?url=https://johnstechlogs.com/en/post/dual-boot-arch-windows/&amp;media=https://johnstechlogs.com/en/post/dual-boot-arch-windows/&amp;description=Dual%20Booting%20Arch%20Linux%20with%20Windows" role="button"
+            aria-label="Share on Pinterest in new tab">
+            <i class="pinterest sri" aria-hidden="true"></i>
+            <span class="t srt" role="tooltip">Share on Pinterest</span>
+        </a>
+    </li>
+    <li>
+        <a rel="noopener noreferrer" target="_blank" href="https://reddit.com/submit/?url=https://johnstechlogs.com/en/post/dual-boot-arch-windows/&amp;resubmit=true&amp;title=Dual%20Booting%20Arch%20Linux%20with%20Windows" role="button"
+            aria-label="Share on Reddit in new tab">
+            <i class="reddit sri" aria-hidden="true"></i>
+            <span class="t srt" role="tooltip">Share on Reddit</span>
+        </a>
+    </li>
+    <li>
+        <a rel="noopener noreferrer" target="_blank" href="https://www.tumblr.com/widgets/share/tool?posttype=link&amp;title=Dual%20Booting%20Arch%20Linux%20with%20Windows&amp;caption=Dual%20Booting%20Arch%20Linux%20with%20Windows&amp;content=https://johnstechlogs.com/en/post/dual-boot-arch-windows/&amp;canonicalUrl=https://johnstechlogs.com/en/post/dual-boot-arch-windows/" role="button"
+            aria-label="Share on Tumblr in new tab">
+            <i class="tumblr sri" aria-hidden="true"></i>
+            <span class="t srt" role="tooltip">Share on Tumblr</span>
+        </a>
+    </li>
+    <li>
+        <a rel="noopener noreferrer" target="_blank" href="http://vk.com/share.php?title=Dual%20Booting%20Arch%20Linux%20with%20Windows&amp;url=https://johnstechlogs.com/en/post/dual-boot-arch-windows/" role="button"
+            aria-label="Share on Vk in new tab">
+            <i class="vk sri" aria-hidden="true"></i>
+            <span class="t srt" role="tooltip">Share on Vk</span>
+        </a>
+    </li>
+    <li>
+        <a rel="noopener noreferrer" target="_blank" href="https://twitter.com/intent/tweet/?text=Dual%20Booting%20Arch%20Linux%20with%20Windows&amp;url=https://johnstechlogs.com/en/post/dual-boot-arch-windows/" role="button"
+            aria-label="Share on Twitter in new tab">
+            <i class="twitter sri" aria-hidden="true"></i>
+            <span class="t srt" role="tooltip">Share on Twitter</span>
+        </a>
+    </li>
+    <li>
+        <a rel="noopener noreferrer" target="_blank" href="https://www.xing.com/app/user?op=share;url=https://johnstechlogs.com/en/post/dual-boot-arch-windows/;title=Dual%20Booting%20Arch%20Linux%20with%20Windows" role="button"
+            aria-label="Share on Xing in new tab">
+            <i class="xing sri" aria-hidden="true"></i>
+            <span class="t srt" role="tooltip">Share on Xing</span>
+        </a>
+    </li>
+            </ul>
+        </nav>
+</details>
+    </div>
+    
+        
+                    <div class="pagewidth">
+<noscript id="noGiscus">
+    <center role="alert">Giscus require Javascript and LocalStorage to be enable.</center>
+</noscript>
+<div id="noDOMGiscus" class="hide">
+    <center role="alert">Giscus require Javascript and LocalStorage to be enable.</center>
+</div>
+<script src="https://giscus.app/client.js"
+    data-repo="J4ninja/johntechtalks"
+    data-repo-id="R_kgDONbXGAA"
+    data-category="General"
+    data-category-id="DIC_kwDONbXGAM4Ctrnb"
+    data-mapping="pathname"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+</div>
+                
+        <!-- main/footer.html -->
+    <hr class="hide">
+    <footer id="main-footer"><div class="column column--multicols pagewidth" style="--multicols: 2"><div id="main-footer-primary">
+                        
+                    </div>
+                <div id="main-footer-secondary"  class="column" style="--col: 10rem">
+                        <div>
+                            <p><strong>Contact</strong></p>
+<ul>
+<li><a href="https://www.johnnguyenportfolio.com">Portfolio</a></li>
+<li><a href="mailto:j4nguyen134@gmail.com">Gmail</a></li>
+<li><a href="https://github.com/j4ninja">GitHub</a></li>
+<li><a href="https://linkedin.com/in/john-4-nguyen">LinkedIn</a></li>
+</ul>
+
+                        </div>
+                        <div>
+                            <p><strong>Nav</strong></p>
+<ul>
+<li><a href="https://johnstechlogs.com/en/author/john-nguyen">About</a></li>
+<li><a href="https://johnstechlogs.com/en/tags">Tags</a></li>
+<li><a href="https://johnstechlogs.com/en/categories">Categories</a></li>
+<li><a href="https://johnstechlogs.com/en/post">Posts</a></li>
+</ul>
+
+                        </div>
+                </div>
+            </div>
+            <div id="unified-footer"><p id="license">JohnsTechLogs©</p>
+                    <!-- menu.html -->
+    <nav id="menu-footer" class="has-aria-label-top" aria-label="Let&#39;s keep in touch!">
+        <ul role="presentation">
+            <li><a href="https://www.instagram.com/j4.nguyen/" aria-label="Facebook">        
+                    <i class="icon">facebook</i>
+                    <span class="t" role="tooltip">Facebook</span>
+                </a>
+            </li>
+            <li><a href="https://github.com/j4ninja" aria-label="GitHub">        
+                    <i class="icon">github</i>
+                    <span class="t" role="tooltip">GitHub</span>
+                </a>
+            </li>
+            <li><a href="https://www.facebook.com/profile.php?id=100065121758952" aria-label="Instagram">        
+                    <i class="icon">instagram</i>
+                    <span class="t" role="tooltip">Instagram</span>
+                </a>
+            </li>
+            <li><a href="https://linkedin.com/in/john-4-nguyen" aria-label="LinkedIn">        
+                    <i class="icon">linkedin</i>
+                    <span class="t" role="tooltip">LinkedIn</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+            </div>
+    </footer>
+    </main>
+    <!-- footer.html -->
+<footer id="body-footer" class="pagewidth" style="display: none;">
+    <div id="background-footer" class="background hide" role="presentation" aria-hidden="true">
+        <div class="grain" hidden></div>
+    </div>
+    <div id="focusMode"></div>
+    <!-- a11y.html --><details id="has-a11y" class="presentation js-details hide" name="on-deck" aria-haspopup="true" aria-labelledby="has-a11y-summary">
+    <summary id="has-a11y-summary" accesskey="a" aria-keyshortcuts="a">
+        <span>&nbsp;Accessibility</span>
+        <kbd class="key" aria-hidden="true">a</kbd>
+    </summary>
+    <!-- a11y console -->
+    <fieldset id="a11y" role="region" aria-label="Accessibility"
+        data-i18n-optimizeSR="Screen Reader Optimization"
+        data-i18n-optimizeSRdesc="Optimize display and resources for screen reader users who navigate with a pointer device."
+        data-i18n-colorSettings="Color Settings"
+        data-i18n-darkMode="Dark Mode"
+        data-i18n-light="Light"
+        data-i18n-dark="Dark"
+        data-i18n-contrast="Contrast"
+        data-i18n-lessContrast="Low"
+        data-i18n-moreContrast="High"
+        data-i18n-defaultContrast="Default"
+        data-i18n-colorPalette="Color Palette"
+        data-i18n-defaultColor="Default"
+        data-i18n-deuteranopia="Deuteranopia"
+        data-i18n-protanopia="Protanopia"
+        data-i18n-tritanopia="Tritanopia"
+        data-i18n-monochrome="Monochrome"
+        data-i18n-fontSize="Font Size"
+        data-i18n-baselineStretch="Baseline Stretch"        
+        data-i18n-OpenDyslexic="Use OpenDyslexic Font"
+        data-i18n-menuControls="Accessibility Menu Controls"
+        data-i18n-save="Save"
+        data-i18n-reset="Reset"
+        data-i18n-close="Close"
+        data-i18n-bionRead="BionRead Mode"
+        data-i18n-focusMode="Focus Mode"
+        data-i18n-noLocalStorage="LocalStorage is not available in your browser. Settings won&#39;t be saved.">
+    </fieldset>
+    <div class="screening js-cpn" role="presentation" aria-hidden="true"></div>
+</details>
+
+
+    <div id="useBionRead" class="sri"></div>
+    <!-- [top] bypass block -->
+    <nav aria-label="Bypass">
+        <a id="to-top" class="srm" href="#top" title="To Content Top" accesskey="c" aria-keyshortcuts="c" aria-label="To Content Top">
+            <span class="t srt">To Content Top</span>
+            <kbd class="key" aria-hidden="true">c</kbd>
+        </a>
+    </nav>
+</footer>
+    
+    <!-- [post] single.html -->
+    <div id="bionReadSnapshot" hidden></div>
+    <!-- [background] baseof.html -->
+    <div id="background-body"
+        role="presentation" aria-hidden="true">
+        <div class="grain" hidden></div>
+        <div id="dwclock" hidden>
+            <div id="min">
+                <div class="hand"></div>
+            </div>
+            <div id="hour">
+                <div class="hand"></div>
+            </div>
+        </div>
+    </div>
+</html>
