@@ -1,6 +1,11 @@
 
 {
     "nodes": [{
+                "id": "0f7ab4d785c04ee71964f48c19f03c68",
+                "title": "Dual Booting Arch Linux with Windows",
+                "permalink": "https://johnstechlogs.com/en/post/dual-boot-arch-windows/",
+                "type": "post"
+            },{
                 "id": "b3c7e3248e9f712a9ee2b47931b9563d",
                 "title": "Blocking Ads Anywhere using Pi Hole, Unbound, and Tailscale",
                 "permalink": "https://johnstechlogs.com/en/post/piholeunboundtailscale/",
@@ -141,6 +146,12 @@
                             "type": "tags"
                         },
                         {
+                            "id": "tags-arch",
+                            "title": "Arch",
+                            "permalink": "https://johnstechlogs.com/en/tags/arch/",
+                            "type": "tags"
+                        },
+                        {
                             "id": "tags-bot",
                             "title": "Bot",
                             "permalink": "https://johnstechlogs.com/en/tags/bot/",
@@ -201,9 +212,21 @@
                             "type": "tags"
                         },
                         {
+                            "id": "tags-linux",
+                            "title": "Linux",
+                            "permalink": "https://johnstechlogs.com/en/tags/linux/",
+                            "type": "tags"
+                        },
+                        {
                             "id": "tags-notes",
                             "title": "Notes",
                             "permalink": "https://johnstechlogs.com/en/tags/notes/",
+                            "type": "tags"
+                        },
+                        {
+                            "id": "tags-os",
+                            "title": "Os",
+                            "permalink": "https://johnstechlogs.com/en/tags/os/",
                             "type": "tags"
                         },
                         {
@@ -256,6 +279,23 @@
                         },
     ],
     "links": [
+            
+                    {
+                        "source": "0f7ab4d785c04ee71964f48c19f03c68",
+                        "target": "categories-tutorials",
+                    },
+                    {
+                        "source": "0f7ab4d785c04ee71964f48c19f03c68",
+                        "target": "tags-linux",
+                    },
+                    {
+                        "source": "0f7ab4d785c04ee71964f48c19f03c68",
+                        "target": "tags-os",
+                    },
+                    {
+                        "source": "0f7ab4d785c04ee71964f48c19f03c68",
+                        "target": "tags-arch",
+                    },
             
                     {
                         "source": "b3c7e3248e9f712a9ee2b47931b9563d",

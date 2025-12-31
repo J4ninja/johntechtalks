@@ -9,8 +9,17 @@
     <managingEditor>John Nguyen</managingEditor>
     
       <webMaster>John Nguyen</webMaster>
-    <lastBuildDate>Wed, 31 Dec 2025 11:10:50 -0600</lastBuildDate>
+    <lastBuildDate>Wed, 31 Dec 2025 12:03:15 -0600</lastBuildDate>
     <atom:link href="https://johnstechlogs.com/en/author/john-nguyen/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dual Booting Arch Linux with Windows</title>
+      <link>https://johnstechlogs.com/en/post/dual-boot-arch-windows/</link>
+      <pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate>
+      <author>John Nguyen</author>
+      <guid>https://johnstechlogs.com/en/post/dual-boot-arch-windows/</guid>
+      <description>&lt;h2 id=&#34;about-me&#34;&gt;About Me&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Masters in Computer Science Student at Georgia Tech&lt;/li&gt;&#xA;&lt;li&gt;Texas Christian University Alumnus 2024&lt;/li&gt;&#xA;&lt;li&gt;B.S. in Computer Science and Double Minor in Mathematics and Astronomy&lt;/li&gt;&#xA;&lt;li&gt;Honors Laureate with Departmental Honors in Astronomy&lt;/li&gt;&#xA;&lt;li&gt;Undergrad GPA: 3.9/4.0&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;hobbies&#34;&gt;Hobbies&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Gym&lt;/li&gt;&#xA;&lt;li&gt;Gaming&lt;/li&gt;&#xA;&lt;li&gt;Hiking&lt;/li&gt;&#xA;&lt;li&gt;Archery&lt;/li&gt;&#xA;&lt;li&gt;Anime&lt;/li&gt;&#xA;&lt;li&gt;Traveling&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;contact&#34;&gt;Contact&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Portfolio: &lt;a href=&#34;https://www.johnnguyenportfolio.com&#34;&gt;johnnguyenportfolio.com&lt;/a&gt;  · &lt;/li&gt;&#xA;&lt;li&gt;Gmail: &lt;a href=&#34;mailto:j4nguyen134@gmail.com&#34;&gt;j4nguyen134@gmail.com&lt;/a&gt;  · &lt;/li&gt;&#xA;&lt;li&gt;GitHub: &lt;a href=&#34;https://github.com/j4ninja&#34;&gt;@j4ninja&lt;/a&gt;  · &lt;/li&gt;&#xA;&lt;li&gt;LinkedIn: &lt;a href=&#34;https://linkedin.com/in/john-4-nguyen&#34;&gt;@john-4-nguyen&lt;/a&gt;  · &lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <enclosure url="/images/archwindows.png" length="0" type="image/jpeg" />
+    </item>
     <item>
       <title>Blocking Ads Anywhere using Pi Hole, Unbound, and Tailscale</title>
       <link>https://johnstechlogs.com/en/post/piholeunboundtailscale/</link>
