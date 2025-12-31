@@ -63,4 +63,8 @@ Boot into arch linux and run the following
 ![alt text](/images/dualboot.png)
 
 # Conclusion
+
+![alt text](/images/archdesktop.png)
+
+
 Now I am able to boot into Arch Linux as my default or select Windows 11 whenever I want to run specific software like MS office or Adobe. There are other ways to get around ditching Windows itself. Proton lets you play Windows game from Steam almost natively. Using Docker and remote desktops lets you run Virtual Machines to run Windows apps with tools like WinBoat and WinApps. For me, I like to have Windows as backup for some games and other apps. Multiplayer games that have anti-cheats or require Secure Boot (like Battlefield 6) won't work on Arch, so I have to boot into Windows to play them. Arch Linux can break or not work out of the box, so I would have to be ready to fix these issues myself but having a backup OS can come in clutch if I am in an emergency. Additionally, if I ever want to distro hop, I can leave my Windows OS as a stable backup while I mess around with different Linux distros.
