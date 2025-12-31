@@ -6,7 +6,7 @@ date: "2025-10-07"
 type: post
 translationKey: pagefind
 draft: false
-tags:  ["linux", "os", "arch"]
+tags:  ["linux", "os", "arch", "pc"]
 categories: ["tutorials"]
 cover: '/images/archwindows.png'
 ---
