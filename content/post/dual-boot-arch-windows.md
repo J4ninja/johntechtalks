@@ -7,7 +7,7 @@ type: post
 translationKey: pagefind
 draft: false
 tags:  ["linux", "os", "arch", "pc"]
-categories: ["tutorials"]
+categories: ["tutorials", "pc"]
 cover: '/images/archwindows.png'
 ---
 

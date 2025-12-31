@@ -7,7 +7,7 @@ type: post
 translationKey: pagefind
 draft: false
 tags: ["coolify", "self-hosting", "docker", "raspberry pi", "n8n"]
-categories: ["tutorials"]
+categories: ["tutorials", "automation", "deployment", "ai", "pc", "tools"]
 cover: '/images/n8npi.png'
 ---
 

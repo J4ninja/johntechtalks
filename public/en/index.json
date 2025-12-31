@@ -297,6 +297,26 @@
                     },
                     {
                         "source": "95b7b0ebb63a5fb4f40d8b50db8c12bd",
+                        "target": "categories-automation",
+                    },
+                    {
+                        "source": "95b7b0ebb63a5fb4f40d8b50db8c12bd",
+                        "target": "categories-deployment",
+                    },
+                    {
+                        "source": "95b7b0ebb63a5fb4f40d8b50db8c12bd",
+                        "target": "categories-ai",
+                    },
+                    {
+                        "source": "95b7b0ebb63a5fb4f40d8b50db8c12bd",
+                        "target": "categories-pc",
+                    },
+                    {
+                        "source": "95b7b0ebb63a5fb4f40d8b50db8c12bd",
+                        "target": "categories-tools",
+                    },
+                    {
+                        "source": "95b7b0ebb63a5fb4f40d8b50db8c12bd",
                         "target": "tags-coolify",
                     },
                     {
@@ -319,6 +339,10 @@
                     {
                         "source": "0f7ab4d785c04ee71964f48c19f03c68",
                         "target": "categories-tutorials",
+                    },
+                    {
+                        "source": "0f7ab4d785c04ee71964f48c19f03c68",
+                        "target": "categories-pc",
                     },
                     {
                         "source": "0f7ab4d785c04ee71964f48c19f03c68",
@@ -357,6 +381,10 @@
                     {
                         "source": "a55ab32584530abfb22b62456c2ee5c5",
                         "target": "categories-tutorials",
+                    },
+                    {
+                        "source": "a55ab32584530abfb22b62456c2ee5c5",
+                        "target": "categories-tools",
                     },
                     {
                         "source": "a55ab32584530abfb22b62456c2ee5c5",
